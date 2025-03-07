@@ -7,10 +7,10 @@ A gestão ineficiente do estoque na loja de suvenires tem gerado desafios operac
 
 ## Impacto nos Usuários
 João (Proprietário): Tem dificuldades para monitorar o estoque e tomar decisões estratégicas devido à falta de informações precisas.
-Ana (Funcionária do Estoque): Enfrenta erros na contagem manual e demora para atualizar planilhas, comprometendo a organização do estoque.
-Lucas (Vendedor): Perde tempo verificando a disponibilidade de produtos e pode frustrar clientes ao não ter informações rápidas sobre o estoque.
 
-Nesse momento, o grupo pode optar por fazer uso  de ferramentas como Design Thinking, que permite um olhar de ponta a ponta para o problema.
+Ana (Funcionária do Estoque): Enfrenta erros na contagem manual e demora para atualizar planilhas, comprometendo a organização do estoque.
+
+Lucas (Vendedor): Perde tempo verificando a disponibilidade de produtos e pode frustrar clientes ao não ter informações rápidas sobre o estoque.
 
 ## Objetivos
 
