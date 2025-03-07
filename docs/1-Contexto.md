@@ -16,10 +16,10 @@ Lucas (Vendedor): Perde tempo verificando a disponibilidade de produtos e pode f
 
 ## Objetivos
 
-OBJETIVO GERAL<br>
+<strong>OBJETIVO GERAL</strong><br>
 	Desenvolver um aplicativo para a automação da gestão de estoques de uma pequena loja de suvenires, que possui recursos limitados e depende de processos manuais para controle de mercadorias. O sistema visa proporcionar maior eficiência, reduzir erros operacionais e otimizar a reposição de produtos, garantindo que o negócio possa crescer de forma sustentável sem comprometer sua organização.
 
-OBJETIVOS ESPECIFICOS<br>
+<strong>OBJETIVOS ESPECIFICOS</strong><br>
 	Criar uma interface intuitiva e acessível, permitindo que os usuários cadastrem, visualizem e organizem informações detalhadas sobre os produtos em estoque, como quantidade disponível, categoria, fornecedor e prazo de validade.
 
 •Implementar funcionalidades de notificação automática, alertando sobre produtos em baixa quantidade, próximos do vencimento ou que tenham pouca saída, facilitando a reposição e evitando desperdícios.
