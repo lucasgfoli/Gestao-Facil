@@ -11,9 +11,21 @@ Nesse momento, o grupo pode optar por fazer uso  de ferramentas como Design Thin
 
 ## Objetivos
 
-Aqui você deve descrever os objetivos do trabalho indicando que o objetivo geral é desenvolver um software para solucionar o problema apresentado acima. 
+OBJETIVO GERAL
+	Desenvolver um aplicativo para a automação da gestão de estoques de uma pequena loja de suvenires, que possui recursos limitados e depende de processos manuais para controle de mercadorias. O sistema visa proporcionar maior eficiência, reduzir erros operacionais e otimizar a reposição de produtos, garantindo que o negócio possa crescer de forma sustentável sem comprometer sua organização.
 
-Apresente também alguns (pelo menos 2) objetivos específicos dependendo de onde você vai querer concentrar a sua prática investigativa, ou como você vai aprofundar no seu trabalho.
+1.3.1 Objetivos Específicos
+
+Criar uma interface intuitiva e acessível, permitindo que os usuários cadastrem, visualizem e organizem informações detalhadas sobre os produtos em estoque, como quantidade disponível, categoria, fornecedor e prazo de validade.
+
+Implementar funcionalidades de notificação automática, alertando sobre produtos em baixa quantidade, próximos do vencimento ou que tenham pouca saída, facilitando a reposição e evitando desperdícios.
+
+Integrar um sistema de registro de entrada e saída de produtos, permitindo um controle preciso do inventário, rastreando movimentações em tempo real e gerando relatórios para embasar decisões estratégicas.
+
+Desenvolver um painel de relatórios e análises, fornecendo dados sobre vendas, tendências de consumo e desempenho de produtos, ajudando na tomada de decisões para otimizar o estoque e aumentar a lucratividade.
+
+Garantir acessibilidade e segurança no armazenamento de dados, permitindo que diferentes perfis de usuários acessem o sistema com permissões específicas, protegendo informações sensíveis e evitando alterações indevidas.
+
  
 > **Links Úteis**:
 > - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
