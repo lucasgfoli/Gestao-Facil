@@ -1,6 +1,6 @@
 # Introdução
 
-Texto descritivo com a visão geral do projeto abordado. Inclui o contexto, o problema, os objetivos, a justificativa e o público-alvo do projeto.
+A gestão eficiente de estoques é fundamental para o sucesso de qualquer empreendimento comercial. Este trabalho apresenta o desenvolvimento de um aplicativo para a gestão de estoques de uma loja de suvenires, proporcionando automação e praticidade no controle de produtos e reposição de mercadorias.
 
 ## Problema
 Nesse momento você deve apresentar o problema que a sua aplicação deve  resolver. No entanto, não é a hora de comentar sobre a aplicação.
@@ -20,9 +20,7 @@ Apresente também alguns (pelo menos 2) objetivos específicos dependendo de ond
 
 ## Justificativa
 
-Descreva a importância ou a motivação para trabalhar com esta aplicação que você escolheu. Indique as razões pelas quais você escolheu seus objetivos específicos ou as razões para aprofundar em certos aspectos do software.
-
-O grupo de trabalho pode fazer uso de questionários, entrevistas e dados estatísticos, que podem ser apresentados, com o objetivo de esclarecer detalhes do problema que será abordado pelo grupo.
+O que leva a justificar o projeto se dá conta da gestão inadequada de estoques que pode levar a perdas financeiras significativas e à insatisfação dos clientes devido à falta de produtos disponíveis. A implementação de um aplicativo especializado visa solucionar esses problemas ao oferecer uma ferramenta.
 
 > **Links Úteis**:
 > - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
