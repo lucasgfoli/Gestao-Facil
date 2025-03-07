@@ -4,7 +4,7 @@ A gestão eficiente de estoques é fundamental para o sucesso de qualquer empree
 
 ## Problema
 A gestão ineficiente do estoque na loja de suvenires tem gerado desafios operacionais que afetam tanto a administração quanto o atendimento ao cliente. Atualmente, o controle é realizado por meio de anotações manuais e planilhas simples, o que leva a erros na contagem de produtos, dificuldades na reposição e falta de previsibilidade sobre a demanda. 
-	A ausência de um sistema automatizado resulta em desperdícios, como mercadorias vencidas ou excesso de produtos de baixa saída, além de dificuldades em identificar quais itens precisam ser repostos com urgência. Esses problemas impactam diretamente o dia a dia dos funcionários, tornando o trabalho mais demorado e propenso a falhas.
+	<br>A ausência de um sistema automatizado resulta em desperdícios, como mercadorias vencidas ou excesso de produtos de baixa saída, além de dificuldades em identificar quais itens precisam ser repostos com urgência. Esses problemas impactam diretamente o dia a dia dos funcionários, tornando o trabalho mais demorado e propenso a falhas.
 
 ## Impacto nos Usuários
 João (Proprietário): Tem dificuldades para monitorar o estoque e tomar decisões estratégicas devido à falta de informações precisas.
