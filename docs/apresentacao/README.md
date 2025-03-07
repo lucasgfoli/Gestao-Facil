@@ -17,7 +17,7 @@
 
 ## Slides
 
-Coloque aqui os slides da apresentação
+Link do Slide: https://www.canva.com/design/DAGgNxmyjis/VNODC1z30jKyJKYc-sRCaA/edit?utm_content=DAGgNxmyjis&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
 
 ## Vídeo
 
