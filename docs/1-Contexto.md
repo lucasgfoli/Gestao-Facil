@@ -40,12 +40,8 @@ O Gestão Fácil é um sistema de gestão de estoque voltado para pequenos comé
 
 O público-alvo são pequenos comerciantes que possuem esse tipo de negócio na Serra da Canastra. Muitos desses empreendedores administram suas lojas sozinhos ou com uma equipe reduzida e precisam de uma solução prática para organizar o estoque sem depender de sistemas complexos.
 
-O perfil desses comerciantes pode ser descrito da seguinte forma:
-O Gestão Fácil é um sistema de gestão de estoque voltado para pequenos comércios locais, especialmente lojas de souvenirs e artigos para presente.
-
-O público-alvo são pequenos comerciantes que possuem esse tipo de negócio na Serra da Canastra. Muitos desses empreendedores administram suas lojas sozinhos ou com uma equipe reduzida e precisam de uma solução prática para organizar o estoque sem depender de sistemas complexos.
-
 O perfil desses comerciantes pode ser descrito da seguinte forma: 
+
 •	Idade: Entre 30 e 50 anos, sendo, na maioria, proprietários de pequenas lojas familiares ou tradicionais já estabelecidas na Serra da Canastra.	
 
 •	Localização:  Serra da Canastra, uma região ecoturística, onde há um fluxo constante de turistas e clientes casuais.	
