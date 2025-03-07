@@ -7,7 +7,7 @@ A gestão ineficiente do estoque na loja de suvenires tem gerado desafios operac
 <br>
 	<br>A ausência de um sistema automatizado resulta em desperdícios, como mercadorias vencidas ou excesso de produtos de baixa saída, além de dificuldades em identificar quais itens precisam ser repostos com urgência. Esses problemas impactam diretamente o dia a dia dos funcionários, tornando o trabalho mais demorado e propenso a falhas.
 
-## Impacto nos Usuários 
+## Impacto nos Usuários 👩‍💻
 João (Proprietário): Tem dificuldades para monitorar o estoque e tomar decisões estratégicas devido à falta de informações precisas.
 
 Ana (Funcionária do Estoque): Enfrenta erros na contagem manual e demora para atualizar planilhas, comprometendo a organização do estoque.
