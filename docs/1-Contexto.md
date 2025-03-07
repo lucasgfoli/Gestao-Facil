@@ -36,9 +36,17 @@ O que leva a justificar o projeto se dá conta da gestão inadequada de estoques
 
 ## Público-Alvo 👨‍👨‍👧
  
-Descreva quem serão as pessoas que usarão a sua aplicação indicando os diferentes perfis. O objetivo aqui não é definir quem serão os clientes ou quais serão os papéis dos usuários na aplicação. A ideia é, dentro do possível, conhecer um pouco mais sobre o perfil dos usuários: conhecimentos prévios, relação com a tecnologia, relações
-hierárquicas, etc.
+O Gestão Fácil é um sistema de gestão de estoque voltado para pequenos comércios locais, especialmente lojas de souvenirs e artigos para presente.
 
+O público-alvo são pequenos comerciantes que possuem esse tipo de negócio na Serra da Canastra. Muitos desses empreendedores administram suas lojas sozinhos ou com uma equipe reduzida e precisam de uma solução prática para organizar o estoque sem depender de sistemas complexos.
+
+O perfil desses comerciantes pode ser descrito da seguinte forma:
+	•	Idade: Entre 30 e 50 anos, sendo, na maioria, proprietários de pequenas lojas familiares ou tradicionais já estabelecidas na Serra da Canastra.
+	•	Localização:  Serra da Canastra, uma região ecoturística, onde há um fluxo constante de turistas e clientes casuais.
+	•	Nível de conhecimento tecnológico: Básico. Embora não sejam totalmente ligados à tecnologia, preferem soluções simples e fáceis de usar, evitando sistemas muito burocráticos ou que exijam um longo período de adaptação.
+	•	Principais dificuldades: Controle de estoque, evitando desperdícios e falta de mercadorias, além da necessidade de otimizar o fluxo de vendas sem comprometer muito tempo com processos administrativos.
+
+Dessa forma, o projeto busca oferecer uma ferramenta intuitiva e acessível, garantindo que o usuário possa gerenciar seu estoque de maneira eficiente, sem necessidade de treinamentos avançados ou configurações complexas. O foco está em atender pequenos negócios que precisam otimizar tempo e evitar prejuízos decorrentes da falta ou excesso de produtos.
 Adicione informações sobre o público-alvo por meio de uma descrição textual, diagramas de personas e mapa de stakeholders.
 
 > **Links Úteis**:
