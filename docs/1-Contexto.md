@@ -3,9 +3,14 @@
 A gestão eficiente de estoques é fundamental para o sucesso de qualquer empreendimento comercial. Este trabalho apresenta o desenvolvimento de um aplicativo para a gestão de estoques de uma loja de suvenires, proporcionando automação e praticidade no controle de produtos e reposição de mercadorias.
 
 ## Problema
-Nesse momento você deve apresentar o problema que a sua aplicação deve  resolver. No entanto, não é a hora de comentar sobre a aplicação.
+A gestão ineficiente do estoque na loja de suvenires tem gerado desafios operacionais que afetam tanto a administração quanto o atendimento ao cliente. Atualmente, o controle é realizado por meio de anotações manuais e planilhas simples, o que leva a erros na contagem de produtos, dificuldades na reposição e falta de previsibilidade sobre a demanda. A ausência de um sistema automatizado resulta em desperdícios, como mercadorias vencidas ou excesso de produtos de baixa saída, além de dificuldades em identificar quais itens precisam ser repostos com urgência. Esses problemas impactam diretamente o dia a dia dos funcionários, tornando o trabalho mais demorado e propenso a falhas.
 
-Descreva também o contexto em que essa aplicação será usada, se  houver: empresa, tecnologias, etc. Novamente, descreva apenas o que de  fato existir, pois ainda não é a hora de apresentar requisitos  detalhados ou projetos.
+1.2.1 Impacto nos Usuários
+João (Proprietário): Tem dificuldades para monitorar o estoque e tomar decisões estratégicas devido à falta de informações precisas.
+Ana (Funcionária do Estoque): Enfrenta erros na contagem manual e demora para atualizar planilhas, comprometendo a organização do estoque.
+Lucas (Vendedor): Perde tempo verificando a disponibilidade de produtos e pode frustrar clientes ao não ter informações rápidas sobre o estoque.
+
+
 
 Nesse momento, o grupo pode optar por fazer uso  de ferramentas como Design Thinking, que permite um olhar de ponta a ponta para o problema.
 
