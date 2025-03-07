@@ -5,40 +5,32 @@ A gestão eficiente de estoques é fundamental para o sucesso de qualquer empree
 ## Problema
 A gestão ineficiente do estoque na loja de suvenires tem gerado desafios operacionais que afetam tanto a administração quanto o atendimento ao cliente. Atualmente, o controle é realizado por meio de anotações manuais e planilhas simples, o que leva a erros na contagem de produtos, dificuldades na reposição e falta de previsibilidade sobre a demanda. A ausência de um sistema automatizado resulta em desperdícios, como mercadorias vencidas ou excesso de produtos de baixa saída, além de dificuldades em identificar quais itens precisam ser repostos com urgência. Esses problemas impactam diretamente o dia a dia dos funcionários, tornando o trabalho mais demorado e propenso a falhas.
 
-1.2.1 Impacto nos Usuários
+## Impacto nos Usuários
 João (Proprietário): Tem dificuldades para monitorar o estoque e tomar decisões estratégicas devido à falta de informações precisas.
 Ana (Funcionária do Estoque): Enfrenta erros na contagem manual e demora para atualizar planilhas, comprometendo a organização do estoque.
 Lucas (Vendedor): Perde tempo verificando a disponibilidade de produtos e pode frustrar clientes ao não ter informações rápidas sobre o estoque.
-
-
 
 Nesse momento, o grupo pode optar por fazer uso  de ferramentas como Design Thinking, que permite um olhar de ponta a ponta para o problema.
 
 ## Objetivos
 
-OBJETIVO GERAL
+OBJETIVO GERAL<br>
 	Desenvolver um aplicativo para a automação da gestão de estoques de uma pequena loja de suvenires, que possui recursos limitados e depende de processos manuais para controle de mercadorias. O sistema visa proporcionar maior eficiência, reduzir erros operacionais e otimizar a reposição de produtos, garantindo que o negócio possa crescer de forma sustentável sem comprometer sua organização.
 
-1.3.1 Objetivos Específicos
+OBJETIVOS ESPECIFICOS<br>
+	Criar uma interface intuitiva e acessível, permitindo que os usuários cadastrem, visualizem e organizem informações detalhadas sobre os produtos em estoque, como quantidade disponível, categoria, fornecedor e prazo de validade.
 
-Criar uma interface intuitiva e acessível, permitindo que os usuários cadastrem, visualizem e organizem informações detalhadas sobre os produtos em estoque, como quantidade disponível, categoria, fornecedor e prazo de validade.
+•Implementar funcionalidades de notificação automática, alertando sobre produtos em baixa quantidade, próximos do vencimento ou que tenham pouca saída, facilitando a reposição e evitando desperdícios.
 
-Implementar funcionalidades de notificação automática, alertando sobre produtos em baixa quantidade, próximos do vencimento ou que tenham pouca saída, facilitando a reposição e evitando desperdícios.
+•Integrar um sistema de registro de entrada e saída de produtos, permitindo um controle preciso do inventário, rastreando movimentações em tempo real e gerando relatórios para embasar decisões estratégicas.
 
-Integrar um sistema de registro de entrada e saída de produtos, permitindo um controle preciso do inventário, rastreando movimentações em tempo real e gerando relatórios para embasar decisões estratégicas.
+•Desenvolver um painel de relatórios e análises, fornecendo dados sobre vendas, tendências de consumo e desempenho de produtos, ajudando na tomada de decisões para otimizar o estoque e aumentar a lucratividade.
 
-Desenvolver um painel de relatórios e análises, fornecendo dados sobre vendas, tendências de consumo e desempenho de produtos, ajudando na tomada de decisões para otimizar o estoque e aumentar a lucratividade.
-
-Garantir acessibilidade e segurança no armazenamento de dados, permitindo que diferentes perfis de usuários acessem o sistema com permissões específicas, protegendo informações sensíveis e evitando alterações indevidas.
-
- 
-> **Links Úteis**:
-> - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
+•Garantir acessibilidade e segurança no armazenamento de dados, permitindo que diferentes perfis de usuários acessem o sistema com permissões específicas, protegendo informações sensíveis e evitando alterações indevidas.
 
 ## Justificativa
 
 O que leva a justificar o projeto se dá conta da gestão inadequada de estoques que pode levar a perdas financeiras significativas e à insatisfação dos clientes devido à falta de produtos disponíveis. A implementação de um aplicativo especializado visa solucionar esses problemas ao oferecer uma ferramenta..
-
 
 ## Público-Alvo
 
