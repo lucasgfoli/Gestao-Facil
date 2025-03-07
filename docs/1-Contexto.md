@@ -20,10 +20,8 @@ Apresente também alguns (pelo menos 2) objetivos específicos dependendo de ond
 
 ## Justificativa
 
-O que leva a justificar o projeto se dá conta da gestão inadequada de estoques que pode levar a perdas financeiras significativas e à insatisfação dos clientes devido à falta de produtos disponíveis. A implementação de um aplicativo especializado visa solucionar esses problemas ao oferecer uma ferramenta.
+O que leva a justificar o projeto se dá conta da gestão inadequada de estoques que pode levar a perdas financeiras significativas e à insatisfação dos clientes devido à falta de produtos disponíveis. A implementação de um aplicativo especializado visa solucionar esses problemas ao oferecer uma ferramenta..
 
-> **Links Úteis**:
-> - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
 
 ## Público-Alvo
 
