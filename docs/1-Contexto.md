@@ -46,7 +46,8 @@ O perfil desses comerciantes pode ser descrito da seguinte forma:
 
 •	Localização:  Serra da Canastra, uma região ecoturística, onde há um fluxo constante de turistas e clientes casuais.	
 
-•	Nível de conhecimento tecnológico: Básico. Embora não sejam totalmente ligados à tecnologia, preferem soluções simples e fáceis de usar, evitando sistemas muito burocráticos ou que exijam um longo período de adaptação. 																											
+•	Nível de conhecimento tecnológico: Básico. Embora não sejam totalmente ligados à tecnologia, preferem soluções simples e fáceis de usar, evitando sistemas muito burocráticos ou que exijam um longo período de adaptação. 																	
+
 •	Principais dificuldades: Controle de estoque, evitando desperdícios e falta de mercadorias, além da necessidade de otimizar o fluxo de vendas sem comprometer muito tempo com processos administrativos.
 
 
