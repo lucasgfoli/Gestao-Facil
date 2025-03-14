@@ -7,34 +7,57 @@ Nesta seção do documento, foram exploradas especificações detalhadas do proj
 ## Personas
 
 Nome: João (Proprietário)
+
 Idade: 42 anos
+
 Profissão: Empresário, dono de uma loja de eletrônicos
+
 Objetivo Profissional: Melhorar a eficácia da sua loja e expandir seus negócios sem complicações na gestão
+
 Personalidade: Pragmático e focado em resultados, mas sente dificuldade com ferramentas tecnológicas complexas
+
 Interesses e Hobbies: Gotsa de acompanhar tendências de mercado, jogar futebol aos fins de semana e passar o tempo com a familia
+
 Necessidades: Ter uma visão clara do desempenho da loja, controlar o estoque e acompanhar as vendas de foram simples e intuitiva
+
 Motivações: Busca uma solução que facilite a administração do negócio, forneça relatórios práticos e ajude a evitar perdas financeiras
+
 
 |---------------------------------------------------------------------------------------------------|
 
 Nome: Ana (Funcionária do Estoque)
+
 Idade: 28 anos
+
 Profissão: Assistente de Estoque em uma loja de roupas
+
 Objetivo Profissional: Melhorar sua produtivdade no trabalho e reudizr erros na contagem de produtos
+
 Personalidade: Organizada e responsável, mas se sente sobrecarregada com a conferência manual de estoques
+
 Interesses e Hobbies: Gosta de cozinhar, asssistir a séries e aprender novas técnicas de organização
+
 Necessidades: Ter um sistema que agilize a atualização do estoque, evitando erros de contagem e retrabalho
+
 Motivações: Deseja ferramentas que simplifiquem seu trabalho, reduzam a necessiade de planilhas manuais e tornem o controle mais eficiente.
+
 
 |---------------------------------------------------------------------------------------------------|
 
 Nome: Lucas (Vendedor)
+
 Idade: 24 anos
+
 Profissão: Vendedor de uma loja de calçados
+
 Objetivo Profissional: Oferecer um atendimento rápido e eficiente aos clientes, garantindo boas vendas
+
 Personalidade: Comunicativo e proativo, mas frustado qaundo não consegue acessar informações do estoque rapidamente
+
 Interesses e Hobbies: Gosta de assistir futebol, sair com os amigos e acompanhar nvoidades sobre tecnologia
+
 Necessidade: Consultar rapidamente a disponibilidade de produtos para evitar perder vendas
+
 Motivações: Busca uma ferramenta que facilite seu atendimento, melhore sua perfomance e ajude a manter os clientes satisfeitos
 
 ## Histórias de Usuários
