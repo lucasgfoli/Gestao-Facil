@@ -1,7 +1,6 @@
 
 # Apresentação
-
-[PDF Apresentacao](https://github.com/ICEI-PUC-Minas-PBR-ADS/pbr-ads-2025-1-p2-tiapn-t1-1053100-gestao-facil/commit/65857ac81354c994d105d4bcda1dd2c08e9ebc05)
+(Apresentacao-GestaoFacil.pdf)
 
 ## Slides
 
