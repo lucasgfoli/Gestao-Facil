@@ -43,8 +43,7 @@ Assim que a primeira versão do sistema estiver disponível, deverá complementa
 
 # Apresentação
 
-<li><a href="presentation/README.md"> Apresentação da solução</a></li>
-
+<li><a href="[presentation/README.md](https://github.com/ICEI-PUC-Minas-PBR-ADS/pbr-ads-2025-1-p2-tiapn-t1-1053100-gestao-facil/blob/c0cfb905cbe3984a3035be02c14f4c71fcecdab0/docs/Apresentacao-GestaoFacil.pdf)"> Apresentação da solução</a></li>
 
 ## Histórico de versões
 
