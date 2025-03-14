@@ -54,7 +54,7 @@ Objetivo Profissional: Oferecer um atendimento rápido e eficiente aos clientes,
 
 Personalidade: Comunicativo e proativo, mas frustado qaundo não consegue acessar informações do estoque rapidamente
 
-Interesses e Hobbies: Gosta de assistir futebol, sair com os amigos e acompanhar nvoidades sobre tecnologia
+Interesses e Hobbies: Gosta de assistir futebol, sair com os amigos e acompanhar novidades sobre tecnologia
 
 Necessidade: Consultar rapidamente a disponibilidade de produtos para evitar perder vendas
 
@@ -72,7 +72,7 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 |Ana (Funcionária do estoque | Atualizar o estoque de forma rápida e prática| Reduzir erros e evitar retrabalho na contagem manual |
 |Ana (Funcionária do estoque | Receber alertas de produtos em baixa quantidade | Garantir reposição eficiente e evitar rupturas|
 |Lucas (Vendedor) | Consultar a disponibilidade de produtos rapidamente | Oferecer um atendimento ágil e eficiente aos clientes |
-|Lucas (Vendedor) | Registrar pedidos de clientes ao sistema | Agilizar o rpocesso de venda e evitar confusões|
+|Lucas (Vendedor) | Registrar pedidos de clientes ao sistema | Agilizar o processo de venda e evitar confusões|
 |Administrador do Sistema | Gerenciar permissões de usuários | Controlar o acesso às funcionalidades de acordo com o cargo |
 
 Apresente aqui as histórias de usuário que são relevantes para o projeto de sua solução. As Histórias de Usuário consistem em uma ferramenta poderosa para a compreensão e elicitação dos requisitos funcionais e não funcionais da sua aplicação. Se possível, agrupe as histórias de usuário por contexto, para facilitar consultas recorrentes à essa parte do documento.
