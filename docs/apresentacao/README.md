@@ -1,7 +1,7 @@
 
 # Apresentação
 
-<span style="color:red">Pré-requisitos: Todos os demais artefatos</span>
+[PDF Apresentacao](https://github.com/ICEI-PUC-Minas-PBR-ADS/pbr-ads-2025-1-p2-tiapn-t1-1053100-gestao-facil/commit/65857ac81354c994d105d4bcda1dd2c08e9ebc05)
 
 
 > Conjunto de slides em um arquivo PowerPoint ou PDF
