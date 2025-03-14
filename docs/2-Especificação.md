@@ -83,7 +83,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
 |RF-001| Permitir que o usuário cadastre de itens do estoque. | ALTA | 
-|RF-002| Emitir um relatório de tarefas no mês. | ALTA |
+|RF-002| Permitir um relatório de vendas por período. | ALTA |
 |RF-003|	Enviar notificações automáticas quando o estoque de um produto estiver baixo ou quando o produto estiver perto do vencimento. | ALTA | 
 |RF-004|	Gerar relatórios detalhados sobre desempenho de estoque, vendas realizadas, tendência de consumo e histórico de movimentações.	| ALTA |
 |RF-005|	Implementar um sistema de permissões para diferentes tipos de usuários (proprietário, funcionário, vendedor). | ALTA | 
