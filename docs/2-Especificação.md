@@ -2,25 +2,40 @@
 
 <span style="color:red">Pré-requisitos: <a href="01-Documentação de Contexto.md"> Documentação de Contexto</a></span>
 
-Definição do problema e ideia de solução a partir da perspectiva do usuário. É composta pela definição do  diagrama de personas, histórias de usuários, requisitos funcionais e não funcionais além das restrições do projeto.
-
-Apresente uma visão geral do que será abordado nesta parte do documento, enumerando as técnicas e/ou ferramentas utilizadas para realizar a especificações do projeto
+Nesta seção do documento, foram exploradas especificações detalhadas do projeto Gestão Fácil para proporcionar uma compreensão aprofundada dos usuários finais. Isso foi realizado por meio de três abordagens interligadas: a criação de perfis fictícios representando os lojistas, a definição clara e objetiva de cenários de uso da plataforma e, por fim, a especificação precisa dos requisitos e funcionalidades essenciais para atender às necessidades da gestão de lojas físicas de pequeno e médio porte.
 
 ## Personas
 
-Pedro Paulo tem 26 anos, é arquiteto recém-formado e autônomo. Pensa em se desenvolver profissionalmente através de um mestrado fora do país, pois adora viajar, é solteiro e sempre quis fazer um intercâmbio. Está buscando uma agência que o ajude a encontrar universidades na Europa que aceitem alunos estrangeiros.
+Nome: João (Proprietário)
+Idade: 42 anos
+Profissão: Empresário, dono de uma loja de eletrônicos
+Objetivo Profissional: Melhorar a eficácia da sua loja e expandir seus negócios sem complicações na gestão
+Personalidade: Pragmático e focado em resultados, mas sente dificuldade com ferramentas tecnológicas complexas
+Interesses e Hobbies: Gotsa de acompanhar tendências de mercado, jogar futebol aos fins de semana e passar o tempo com a familia
+Necessidades: Ter uma visão clara do desempenho da loja, controlar o estoque e acompanhar as vendas de foram simples e intuitiva
+Motivações: Busca uma solução que facilite a administração do negócio, forneça relatórios práticos e ajude a evitar perdas financeiras
 
-Enumere e detalhe as personas da sua solução. Para tanto, baseie-se tanto nos documentos disponibilizados na disciplina e/ou nos seguintes links:
+|---------------------------------------------------------------------------------------------------|
 
-> **Links Úteis**:
-> - [Rock Content](https://rockcontent.com/blog/personas/)
-> - [Hotmart](https://blog.hotmart.com/pt-br/como-criar-persona-negocio/)
-> - [O que é persona?](https://resultadosdigitais.com.br/blog/persona-o-que-e/)
-> - [Persona x Público-alvo](https://flammo.com.br/blog/persona-e-publico-alvo-qual-a-diferenca/)
-> - [Mapa de Empatia](https://resultadosdigitais.com.br/blog/mapa-da-empatia/)
-> - [Mapa de Stalkeholders](https://www.racecomunicacao.com.br/blog/como-fazer-o-mapeamento-de-stakeholders/)
->
-Lembre-se que você deve ser enumerar e descrever precisamente e personalizada todos os clientes ideais que sua solução almeja.
+Nome: Ana (Funcionária do Estoque)
+Idade: 28 anos
+Profissão: Assistente de Estoque em uma loja de roupas
+Objetivo Profissional: Melhorar sua produtivdade no trabalho e reudizr erros na contagem de produtos
+Personalidade: Organizada e responsável, mas se sente sobrecarregada com a conferência manual de estoques
+Interesses e Hobbies: Gosta de cozinhar, asssistir a séries e aprender novas técnicas de organização
+Necessidades: Ter um sistema que agilize a atualização do estoque, evitando erros de contagem e retrabalho
+Motivações: Deseja ferramentas que simplifiquem seu trabalho, reduzam a necessiade de planilhas manuais e tornem o controle mais eficiente.
+
+|---------------------------------------------------------------------------------------------------|
+
+Nome: Lucas (Vendedor)
+Idade: 24 anos
+Profissão: Vendedor de uma loja de calçados
+Objetivo Profissional: Oferecer um atendimento rápido e eficiente aos clientes, garantindo boas vendas
+Personalidade: Comunicativo e proativo, mas frustado qaundo não consegue acessar informações do estoque rapidamente
+Interesses e Hobbies: Gosta de assistir futebol, sair com os amigos e acompanhar nvoidades sobre tecnologia
+Necessidade: Consultar rapidamente a disponibilidade de produtos para evitar perder vendas
+Motivações: Busca uma ferramenta que facilite seu atendimento, melhore sua perfomance e ajude a manter os clientes satisfeitos
 
 ## Histórias de Usuários
 
