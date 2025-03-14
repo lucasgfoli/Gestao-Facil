@@ -6,7 +6,7 @@
 
 `2º SEMESTRE`
 
-Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
+O Gestão Fácil é uma plataforma web desenvolvida para simplificar e otimizar a administração de lojas físicas de pequeno e médio porte. O sistema oferece funcionalidades que auxiliam na gestão de produtos, controle de estoque, vendas e relatórios financeiros, proporcionando aos comerciantes uma solução acessível e eficiente para o gerenciamento do seu negócio.
 
 ## Integrantes
 
