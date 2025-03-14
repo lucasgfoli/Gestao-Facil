@@ -73,7 +73,6 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 |Ana (Funcionária do estoque | Receber alertas de produtos em baixa quantidade | Garantir reposição eficiente e evitar rupturas|
 |Lucas (Vendedor) | Consultar a disponibilidade de produtos rapidamente | Oferecer um atendimento ágil e eficiente aos clientes |
 |Lucas (Vendedor) | Registrar pedidos de clientes ao sistema | Agilizar o processo de venda e evitar confusões|
-|Administrador do Sistema | Gerenciar permissões de usuários | Controlar o acesso às funcionalidades de acordo com o cargo |
 
 ## Requisitos
 
