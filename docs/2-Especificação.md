@@ -68,6 +68,12 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 |--------------------|------------------------------------|----------------------------------------|
 |João (Proprietario) | Acompanhar em estoque real         | Evitar falta ou excesso de produtos    |
 |Joao (Proprietario) | Gerar relatórios de vendas e estoque| Tomar decisões estratégicas com base em dados|
+|João(Proprietario)  | Controlar o fluxo de caixa          |   Monitorar entradase a saídas financeiras com mais precisão |
+|Ana (Funcionária do estoque | Atualizar o estoque de forma rápida e prática| Reduzir erros e evitar retrabalho na contagem manual |
+|Ana (Funcionária do estoque | Receber alertas de produtos em baixa quantidade | Garantir reposição eficiente e evitar rupturas|
+|Lucas (Vendedor) | Consultar a disponibilidade de produtos rapidamente | Oferecer um atendimento ágil e eficiente aos clientes |
+|Lucas (Vendedor) | Registrar pedidos de clientes ao sistema | Agilizar o rpocesso de venda e evitar confusões|
+|Administrador do Sistema | Gerenciar permissões de usuários | Controlar o acesso às funcionalidades de acordo com o cargo |
 
 Apresente aqui as histórias de usuário que são relevantes para o projeto de sua solução. As Histórias de Usuário consistem em uma ferramenta poderosa para a compreensão e elicitação dos requisitos funcionais e não funcionais da sua aplicação. Se possível, agrupe as histórias de usuário por contexto, para facilitar consultas recorrentes à essa parte do documento.
 
