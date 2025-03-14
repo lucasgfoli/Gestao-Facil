@@ -88,8 +88,13 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
-|RF-001| Permitir que o usuário cadastre tarefas | ALTA | 
-|RF-002| Emitir um relatório de tarefas no mês   | MÉDIA |
+|RF-001| Permitir que o usuário cadastre tarefas. | ALTA | 
+|RF-002| Emitir um relatório de tarefas no mês. | MÉDIA |
+|RF-003|	Enviar notificações automáticas quando o estoque de um produto estiver baixo ou quando o produto estiver perto do vencimento. | ALTA | 
+|RF-004|	Gerar relatórios detalhados sobre desempenho de estoque, vendas realizadas, tendência de consumo e histórico de movimentações.	| MÉDIA |
+|RF-005|	Implementar um sistema de permissões para diferentes tipos de usuários (proprietário, funcionário, vendedor). | ALTA | 
+|RF-006|	Permitir a exportação de relatórios para formatos como Excel ou PDF.	| MÉDIA |
+
 
 ### Requisitos não Funcionais
 
@@ -97,6 +102,9 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |-------|-------------------------|----|
 |RNF-001| O sistema deve ser responsivo para rodar em um dispositivos móvel | MÉDIA | 
 |RNF-002| Deve processar requisições do usuário em no máximo 3s |  BAIXA | 
+|RNF-003|	A interface deve ser simples e intuitiva, com foco na acessibilidade para usuários com baixo conhecimento tecnológico. | ALTA | 
+|RNF-004|	O sistema deve ser seguro, com criptografia de dados sensíveis e autenticação de usuários. | ALTA | 
+|RNF-005|	O sistema deve ter alta disponibilidade, com tempo de inatividade mínimo para manutenção.	| MÉDIA |
 
 Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
 
