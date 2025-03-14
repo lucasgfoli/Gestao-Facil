@@ -52,7 +52,3 @@ O perfil desses comerciantes pode ser descrito da seguinte forma:
 
 
 Dessa forma, o projeto busca oferecer uma ferramenta intuitiva e acessível, garantindo que o usuário possa gerenciar seu estoque de maneira eficiente, sem necessidade de treinamentos avançados ou configurações complexas. O foco está em atender pequenos negócios que precisam otimizar tempo e evitar prejuízos decorrentes da falta ou excesso de produtos.
-
-Dessa forma, o projeto busca oferecer uma ferramenta intuitiva e acessível, garantindo que o usuário possa gerenciar seu estoque de maneira eficiente, sem necessidade de treinamentos avançados ou configurações complexas. O foco está em atender pequenos negócios que precisam otimizar tempo e evitar prejuízos decorrentes da falta ou excesso de produtos.
-Adicione informações sobre o público-alvo por meio de uma descrição textual, diagramas de personas e mapa de stakeholders.
-
