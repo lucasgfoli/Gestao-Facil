@@ -52,6 +52,3 @@ O perfil desses comerciantes pode ser descrito da seguinte forma:
 
 
 Dessa forma, o projeto busca oferecer uma ferramenta intuitiva e acessível, garantindo que o usuário possa gerenciar seu estoque de maneira eficiente, sem necessidade de treinamentos avançados ou configurações complexas. O foco está em atender pequenos negócios que precisam otimizar tempo e evitar prejuízos decorrentes da falta ou excesso de produtos.
-
-## Diagrama de entidade e relacionamento:
-![Diagrama de entidade e relacionamento](https://github.com/user-attachments/assets/fea7105c-00ff-4638-bc42-51eecd987493)
