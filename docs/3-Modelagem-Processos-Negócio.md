@@ -1,28 +1,89 @@
 ## 3. Modelagem dos Processos de Negócio
 
-## Processos Primários
-São os processos diretamente relacionados à entrega de valor ao cliente final. Envolvem as atividades principais da operação do negócio.
+### 1. Processos Primários:
 
-Consulta de Disponibilidade
-Permite aos vendedores verificar em tempo real a disponibilidade de produtos, otimizando o atendimento ao cliente e agilizando a resposta às suas necessidades.
+#### Registro de Movimentações 
 
-Registro de Movimentações
-Envolve o registro preciso das transações de entrada e saída de produtos no estoque, como o recebimento de mercadorias de fornecedores e as vendas realizadas.
+Responsável por registrar de forma precisa todas as entradas e saídas de produtos 
+no estoque, garantindo controle e rastreabilidade das operações. 
+Cadastro de Produto no Estoque 
+● Início: Comerciante acessa o sistema. 
+● Etapa 1: Preenche informações do produto (nome, quantidade, preço, etc.). 
+● Etapa 2: Sistema valida os dados. 
+● Decisão: Se os dados estiverem corretos, o produto é salvo no banco de 
+dados. 
+● Fim: Produto registrado com sucesso. 
 
-## Processos de Suporte
-São os processos que dão suporte aos processos primários, garantindo que a empresa funcione corretamente.
+#### Venda de Produto e Atualização do Estoque 
 
-Gestão de Estoques
-Controle da entrada e saída de mercadorias, mantendo o estoque sempre atualizado para evitar perdas por excesso ou falta de produtos. Apoia diretamente o processo de vendas e atendimento.
+● Início: Cliente compra um produto. 
+● Etapa 1: Comerciante registra a venda no sistema. 
+● Etapa 2: O sistema reduz a quantidade de itens no estoque. 
 
-Notificações e Alertas
-Sistema que gera alertas sobre produtos com baixo estoque, próximos do vencimento ou com baixa saída, auxiliando na reposição e gestão eficiente. Suporta a operação com informações proativas.
+###2. Processos de Suporte:
 
-## Processos de Gestão (Gerenciais)
-São responsáveis por planejar, monitorar e controlar os processos organizacionais, com foco em estratégias e desempenho.
+#### Gestão de Estoques 
 
-Gestão de Relatórios Gerenciais
-Geração de dados analíticos sobre vendas, consumo e desempenho dos produtos. Fornece suporte à tomada de decisões estratégicas por parte da gestão.
+Etapa 1 - Início do Processo 
+● Início do controle de estoque. 
+Etapa 2 - Verificação de Movimentação 
+● Verificar se há entrada ou saída de mercadorias. 
+Etapa 3 - Entrada de Mercadorias (se houver entrada) 
+● Registrar recebimento da mercadoria. 
+● Atualizar estoque com os novos itens. 
+● Armazenar a mercadoria no local adequado. 
+Etapa 4 - Saída de Mercadorias (se houver saída) 
+● Verificar disponibilidade do produto no estoque. 
+● Registrar saída da mercadoria. 
+● Atualizar estoque para refletir a baixa do item. 
+Etapa 5 - Finalização 
+● Encerrar o processo.
+
+#### Suporte ao Usuário 
+
+● Início: Usuário encontra um problema ou tem dúvida sobre o sistema. 
+● Etapa 1: Acessa a seção de suporte no sistema. 
+● Decisão: O problema pode ser resolvido por meio da FAQ ou tutoriais? 
+○ Sim → Usuário consulta a FAQ e resolve o problema. Fim. 
+○ Não → Continua para a próxima etapa. 
+● Etapa 2: Usuário preenche um formulário descrevendo o problema. 
+● Etapa 3: Sistema envia a solicitação para a equipe de suporte. 
+● Etapa 4: Suporte analisa a solicitação e responde com uma solução. 
+● Decisão: O problema foi resolvido? 
+○ Sim → Usuário confirma e o chamado é encerrado. Fim. 
+○ Não → O chamado é escalado para suporte avançado. 
+● Etapa 5: Suporte avançado resolve o problema e retorna a solução ao 
+usuário. 
+● Fim: Chamado encerrado com solução aplicada. 
+
+#### Notificações e Alertas 
+
+● Início: O sistema fica monitorando o estoque o tempo todo. 
+Etapa 1: Início da Verificação 
+● O sistema começa a checar os produtos do estoque em tempo real. 
+Etapa 2: Verificação de Condições 
+O sistema verifica se: 
+● a) Algum produto chegou na quantidade mínima. 
+● b) Algum produto está a 10 dias de vencer. 
+Etapa 3: Decisão – Alguma condição foi detectada? 
+● Não → O sistema continua observando normalmente. 
+● Sim → Vai para a próxima etapa. 
+Etapa 4: Sinal Interno 
+● O sistema registra que tem um produto com problema. 
+Etapa 5: Geração de Notificação 
+● Sempre que o comerciante entra no sistema ou atualiza a página, aparece 
+um alerta na tela. 
+Etapa 6: Ação do Comerciante 
+● O comerciante vê o aviso e decide o que vai fazer. 
+Etapa 7: Decisão – O comerciante vai agir? 
+● Não → O aviso continua aparecendo até ele resolver. 
+● Sim → Ele repõe o produto ou resolve o problema. 
+Etapa 8: Atualização do Sistema 
+● O comerciante informa no sistema que já resolveu o problema. 
+Etapa 9: Encerramento da Notificação 
+● O sistema confirma que está tudo certo e remove o aviso da tela. 
+Fim 
+● O processo termina e o sistema volta a monitorar o estoque normalmente.
 
 ### 3.1. Modelagem da situação atual (Modelagem AS IS)
 
