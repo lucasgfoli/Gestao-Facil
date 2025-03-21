@@ -32,7 +32,7 @@ Atualizado em: 21/03/25
 | AlunaZ        | Objetivos    | 03/02/2024     | 10/02/2024 | 📝    |                 |
 | Lucas        | Contextualização  | 18/02/2025     | 21/02/2025 | ✔️      | 21/02/2025 |
 | Ryan        | Objetivo Geral  |    18/02/2025        | 21/02/2025 | ✔️    |   21/02/2025    |
-|Estevão      | Justificativa, Participantes do Processo e Listagem dos Processos | 18/02/2025 | 21/02/2025/ ✔️ | 21/02/2025|
+|Estevão      | Justificativa, Participantes do Processo e Listagem dos Processos | 18/02/2025 | 21/02/2025 | ✔️ | 21/02/2025|
 
 ## Sprint 2
 
