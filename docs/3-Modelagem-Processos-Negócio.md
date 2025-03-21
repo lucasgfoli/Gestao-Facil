@@ -7,15 +7,15 @@
 
 ### 3.1. Modelagem da situação atual (Modelagem AS IS)
 
-Atualmente, a gestão de estoque é feita de maneira totalmente manual, sem o armazenamento adequado de dados sobre os produtos. O conferimento dos itens é realizado de forma superficial devido à alta demanda, o que dificulta o controle e a precisão. Além disso, os produtos são repostos apenas quando um estoquista percebe a falta e faz a solicitação de reabastecimento, sem um sistema de monitoramento contínuo.
+Atualmente, a gestão de estoque é realizada de maneira totalmente manual, sem o armazenamento adequado de dados sobre os produtos. O conferimento dos itens é realizado de forma superficial devido à alta demanda, o que dificulta o controle e a precisão. Além disso, os produtos são repostos apenas quando um estoquista percebe a falta e faz a solicitação de reabastecimento, sem um sistema de monitoramento contínuo.
 
 Outro grande desafio é a falta de informações sobre a validade dos produtos, o que é controlado apenas diretamente nas embalagens dos itens, e não de forma centralizada e acessível. Como consequência, a empresa enfrenta perdas de produtos, falta de itens essenciais no estoque e uma organização precária.
 
-Proposta de Solução:
+##Proposta de Solução:
 
-A implementação de um software de gestão de estoque que armazena e organiza dados detalhados sobre cada produto. Esse sistema permitirá a notificação automática sobre a validade dos itens e o controle de sua quantidade em tempo real, oferecendo uma visão clara e ampla do estoque. Além disso, o software permitirá o reabastecimento automático ou baseado em alertas configuráveis, evitando a falta de produtos ou o excesso de estoque.
+É de extrema importância a implementação de um software de gestão de estoque que armazena e organiza dados detalhados sobre cada produto. Esse sistema permitirá também a notificação automática sobre a validade dos itens e o controle de sua quantidade em tempo real, oferecendo uma visão clara e ampla do estoque. Dessa forma, evita-se a perda ou excesso de um produto no estoque, promovendo que a empresa lide com um estoque mais equilibrado e organizado. 
 
-Com a automatização do processo, o novo sistema contribuirá significativamente para a gestão eficiente do estoque, reduzindo perdas, melhorando a organização e otimizando o tempo da equipe. A visibilidade ampliada proporcionará uma gestão mais proativa, facilitando a tomada de decisões estratégicas e a manutenção de níveis adequados de produtos.
+Com a automatização desse controle, o novo sistema contribuirá significativamente para a gestão eficiente do estoque, reduzindo perdas, melhorando a organização e otimizando o tempo da equipe. A visibilidade ampliada proporcionará uma gestão mais rápida e eficiente, facilitando a tomada de decisões estratégicas e a manutenção de níveis adequados dos produtos.
 
 ### 3.2. Descrição geral da proposta (Modelagem TO BE)
 
