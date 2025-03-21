@@ -31,7 +31,7 @@ Atualizado em: 21/03/25
 | AlunaX        | Introdução | 01/02/2024     | 07/02/2024 | ✔️    | 05/01/2005      |
 | AlunaZ        | Objetivos    | 03/02/2024     | 10/02/2024 | 📝    |                 |
 | Lucas        | Contextualização  | 18/02/2025     | 21/02/2025 | ✔️      | 21/02/2025 |
-| AlunoK        | Personas 1  |    01/01/2024        | 12/02/2005 | ❌    |       |
+| Ryan        | Objetivo Geral  |    18/02/2025        | 21/02/2025 | ✔️    |   21/02/2025    |
 
 ## Sprint 2
 
@@ -42,7 +42,7 @@ Atualizado em: 21/03/25
 | AlunaX        | Home-Page        | 01/02/2024     | 07/03/2024 | ✔️    | 05/01/2005      |
 | AlunaZ        | CSS Unificado    | 03/02/2024     | 10/03/2024 | 📝    |                 |
 | Lucas        | Apresentação da contextualização | 25/02/2025     | 28/02/2025 | ✔️ | 27/02/2025 |
-| AlunoK        | Script de login  |  01/01/2024    | 12/03/2024 | ❌    |       |
+| Ryan        | Apresentação dos objetivos geraos  |  25/02/2025    | 28/02/2025 | ✔️    |  27/02/2025     |
 
 ## Sprint 2 (Especificações)
 
