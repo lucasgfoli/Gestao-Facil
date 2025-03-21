@@ -25,19 +25,19 @@ Com base na análise da situação atual (AS IS), a proposta de solução visa o
 
 O "Gestão Fácil" será um software intuitivo que oferecerá funcionalidades essenciais para otimizar a gestão de estoque, incluindo:
 
-<strong>1-</strong> Registro e Monitoramento de Produtos:
+<strong>1 - </strong> Registro e Monitoramento de Produtos:
 
 • Cadastro básico de cada item, incluindo descrição, quantidade e preço.
 
 • Consulta rápida via aplicativo ou plataforma web.
 
-<strong>2-</strong> Controle Simplificado de Estoque:
+<strong>2 - </strong> Controle Simplificado de Estoque:
 
 • Notificação automática sobre produtos próximos do vencimento.
 
 • Alertas de estoque baixo para reposição manual.
 
-<strong>3-</strong> Interface Simples e Acessível:
+<strong>3 - </strong> Interface Simples e Acessível:
 
 • Sistema responsivo compatível com dispositivos móveis e desktops.
 
@@ -62,6 +62,8 @@ A solução está alinhada com a necessidade de modernização dos comércios lo
 • Possibilidade de exportar dados do estoque para uma planilha.
 
 • Implementação de um módulo offline para permitir acesso sem internet.
+
+• Sistema de alerta configurável para cada produto.
 
 ### 3.3. Modelagem dos processos
 
