@@ -11,7 +11,7 @@ Atualmente, a gestão de estoque é realizada de maneira totalmente manual, sem 
 
 Outro grande desafio é a falta de informações sobre a validade dos produtos, o que é controlado apenas diretamente nas embalagens dos itens, e não de forma centralizada e acessível. Como consequência, a empresa enfrenta perdas de produtos, falta de itens essenciais no estoque e uma organização precária.
 
-## Proposta de Solução:
+#### Proposta de Solução:
 
 É de extrema importância a implementação de um software de gestão de estoque que armazena e organiza dados detalhados sobre cada produto. Esse sistema permitirá também a notificação automática sobre a validade dos itens e o controle de sua quantidade em tempo real, oferecendo uma visão clara e ampla do estoque. Dessa forma, evita-se a perda ou excesso de um produto no estoque, promovendo que a empresa lide com um estoque mais equilibrado e organizado. 
 
