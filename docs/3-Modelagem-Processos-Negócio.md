@@ -57,9 +57,9 @@ Etapa 5 - Finalização
 
 ● Decisão: O problema pode ser resolvido por meio da FAQ ou tutoriais? 
 
-○ Sim → Usuário consulta a FAQ e resolve o problema. Fim. 
+● Sim → Usuário consulta a FAQ e resolve o problema. Fim. 
 
-○ Não → Continua para a próxima etapa. 
+● Não → Continua para a próxima etapa. 
 
 ● Etapa 2: Usuário preenche um formulário descrevendo o problema. 
 
@@ -69,9 +69,9 @@ Etapa 5 - Finalização
 
 ● Decisão: O problema foi resolvido? 
 
-○ Sim → Usuário confirma e o chamado é encerrado. Fim. 
+● Sim → Usuário confirma e o chamado é encerrado. Fim. 
 
-○ Não → O chamado é escalado para suporte avançado. 
+● Não → O chamado é escalado para suporte avançado. 
 
 ● Etapa 5: Suporte avançado resolve o problema e retorna a solução ao 
 usuário. 
