@@ -19,11 +19,49 @@ Com a automatização desse controle, o novo sistema contribuirá significativam
 
 ### 3.2. Descrição geral da proposta (Modelagem TO BE)
 
-Tendo identificado os gargalos dos modelos AS IS, apresentem uma descrição da proposta de solução, buscando maior eficiência com a introdução da tecnologia. Abordem também os limites dessa solução e o seu alinhamento com as estratégias e objetivos do contexto de negócio escolhido. 
-Colem aqui os modelos da solução proposta (modelo TO BE) elaborados com o apoio da ferramenta baseada em BPMN utilizada na disciplina.
-Cada processo identificado deve ter seu modelo TO-BE específico. Descrevam as oportunidades de melhoria de cada processo da solução proposta.
+Com base na análise da situação atual (AS IS), a proposta de solução visa otimizar o gerenciamento de estoque por meio da digitalização e automação dos processos. A implementação do sistema "Gestão Fácil" permitirá que pequenos e médios comerciantes de cidades históricas, como a Serra da Canastra, administrem seus estoques de forma mais simples e eficiente, garantindo maior controle sobre os produtos e evitando perdas.
 
-_Apresente aqui uma descrição da sua proposta abordando seus limites e suas ligações com as estratégias e objetivos do negócio. Apresente aqui as oportunidades de melhorias._
+<strong> Proposta de Solução </strong><br>
+
+O "Gestão Fácil" será um software intuitivo que oferecerá funcionalidades essenciais para otimizar a gestão de estoque, incluindo:
+
+<strong>1-</strong> Registro e Monitoramento de Produtos:
+
+• Cadastro básico de cada item, incluindo descrição, quantidade e preço.
+
+• Consulta rápida via aplicativo ou plataforma web.
+
+<strong>2-</strong> Controle Simplificado de Estoque:
+
+• Notificação automática sobre produtos próximos do vencimento.
+
+• Alertas de estoque baixo para reposição manual.
+
+<strong>3-</strong> Interface Simples e Acessível:
+
+• Sistema responsivo compatível com dispositivos móveis e desktops.
+
+• Funcionalidades simplificadas para facilitar o uso por comerciantes sem experiência em tecnologia.
+
+<strong> Limites da Solução </strong><br>
+
+Apesar das melhorias, há algumas limitações a serem consideradas:
+
+• Dependência de Conectividade: O sistema pode necessitar de conexão com a internet para atualização em tempo real.
+
+• Necessidade de Capacitação: Alguns usuários podem precisar de um breve treinamento para utilizar as funcionalidades básicas do sistema.
+
+<strong> Alinhamento com Objetivos do Negócio </strong><br>
+
+A solução está alinhada com a necessidade de modernização dos comércios locais, oferecendo maior controle operacional e facilitando o monitoramento dos estoques. Pequenos lojistas de lembranças e memorabilia terão uma ferramenta que ajuda a evitar rupturas de estoque e melhorar a organização dos produtos.
+
+<strong> Oportunidades de Melhoria </strong><br>
+
+<strong> No futuro, o sistema poderá ser aprimorado com funcionalidades adicionais, como: </strong><br>
+
+• Possibilidade de exportar dados do estoque para uma planilha.
+
+• Implementação de um módulo offline para permitir acesso sem internet.
 
 ### 3.3. Modelagem dos processos
 
