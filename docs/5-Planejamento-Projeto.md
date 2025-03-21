@@ -24,7 +24,7 @@
 
 ## Sprint 1
 
-Atualizado em: 21/04/2024
+Atualizado em: 21/03/25
 
 | Responsável   | Tarefa/Requisito | Iniciado em    | Prazo      | Status | Terminado em    |
 | :----         |    :----         |      :----:    | :----:     | :----: | :----:          |
@@ -35,15 +35,36 @@ Atualizado em: 21/04/2024
 
 ## Sprint 2
 
-Atualizado em: 21/04/2024
+Atualizado em: 21/03/25
 
 | Responsável   | Tarefa/Requisito | Iniciado em    | Prazo      | Status | Terminado em    |
 | :----         |    :----         |      :----:    | :----:     | :----: | :----:          |
 | AlunaX        | Home-Page        | 01/02/2024     | 07/03/2024 | ✔️    | 05/01/2005      |
 | AlunaZ        | CSS Unificado    | 03/02/2024     | 10/03/2024 | 📝    |                 |
-| AlunoY        | Página de login  | 01/02/2024     | 07/03/2024 | ⌛     |                 |
+| Lucas        | Apresentação da contextualização | 25/02/2025     | 28/02/2025 | ✔️ | 27/02/2025 |
 | AlunoK        | Script de login  |  01/01/2024    | 12/03/2024 | ❌    |       |
 
+## Sprint 2 (Especificações)
+
+Atualizado em: 21/03/25
+
+| Responsável   | Tarefa/Requisito | Iniciado em    | Prazo      | Status | Terminado em    |
+| :----         |    :----         |      :----:    | :----:     | :----: | :----:          |
+| AlunaX        | Home-Page        | 01/02/2024     | 07/03/2024 | ✔️    | 05/01/2005      |
+| AlunaZ        | CSS Unificado    | 03/02/2024     | 10/03/2024 | 📝    |                 |
+| Lucas        | Requisitos RF e RNF| 11/03/2025     | 14/03/2025 | ✔️ | 13/03/2025 |
+| AlunoK        | Script de login  |  01/01/2024    | 12/03/2024 | ❌    |       |
+
+## Sprint 2 (Modelagem de Processos AS-IS e TO-BE)
+
+Atualizado em: 21/03/25
+
+| Responsável   | Tarefa/Requisito | Iniciado em    | Prazo      | Status | Terminado em    |
+| :----         |    :----         |      :----:    | :----:     | :----: | :----:          |
+| AlunaX        | Home-Page        | 01/02/2024     | 07/03/2024 | ✔️    | 05/01/2005      |
+| AlunaZ        | CSS Unificado    | 03/02/2024     | 10/03/2024 | 📝    |                 |
+| Lucas        | Requisitos funcionais e não funcionais| 11/03/2025     | 14/03/2025 | ✔️ | 13/03/2025 |
+| AlunoK        | Script de login  |  01/01/2024    | 12/03/2024 | ❌    |       |
 
 Legenda:
 - ✔️: terminado
