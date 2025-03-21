@@ -1,9 +1,28 @@
 ## 3. Modelagem dos Processos de Negócio
 
+## Processos Primários
+São os processos diretamente relacionados à entrega de valor ao cliente final. Envolvem as atividades principais da operação do negócio.
 
-> **Links Úteis**:
-> - [Modelagem de Processos AS-IS x TO-BE](https://dheka.com.br/modelagem-as-is-to-be/)
-> - [20 Dicas Práticas de Modelagem de Processos](https://dheka.com.br/20-dicas-praticas-de-modelagem-de-processos/)
+Consulta de Disponibilidade
+Permite aos vendedores verificar em tempo real a disponibilidade de produtos, otimizando o atendimento ao cliente e agilizando a resposta às suas necessidades.
+
+Registro de Movimentações
+Envolve o registro preciso das transações de entrada e saída de produtos no estoque, como o recebimento de mercadorias de fornecedores e as vendas realizadas.
+
+## Processos de Suporte
+São os processos que dão suporte aos processos primários, garantindo que a empresa funcione corretamente.
+
+Gestão de Estoques
+Controle da entrada e saída de mercadorias, mantendo o estoque sempre atualizado para evitar perdas por excesso ou falta de produtos. Apoia diretamente o processo de vendas e atendimento.
+
+Notificações e Alertas
+Sistema que gera alertas sobre produtos com baixo estoque, próximos do vencimento ou com baixa saída, auxiliando na reposição e gestão eficiente. Suporta a operação com informações proativas.
+
+## Processos de Gestão (Gerenciais)
+São responsáveis por planejar, monitorar e controlar os processos organizacionais, com foco em estratégias e desempenho.
+
+Gestão de Relatórios Gerenciais
+Geração de dados analíticos sobre vendas, consumo e desempenho dos produtos. Fornece suporte à tomada de decisões estratégicas por parte da gestão.
 
 ### 3.1. Modelagem da situação atual (Modelagem AS IS)
 
