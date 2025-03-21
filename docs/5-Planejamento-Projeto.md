@@ -63,7 +63,7 @@ Atualizado em: 21/03/25
 | :----         |    :----         |      :----:    | :----:     | :----: | :----:          |
 | AlunaX        | Home-Page        | 01/02/2024     | 07/03/2024 | ✔️    | 05/01/2005      |
 | AlunaZ        | CSS Unificado    | 03/02/2024     | 10/03/2024 | 📝    |                 |
-| Lucas        | Requisitos funcionais e não funcionais| 11/03/2025     | 14/03/2025 | ✔️ | 13/03/2025 |
+| Lucas        | 3.1 AS-IS | 19/03/2025     | 21/03/2025 | ✔️ | 20/03/2025 |
 | AlunoK        | Script de login  |  01/01/2024    | 12/03/2024 | ❌    |       |
 
 Legenda:
