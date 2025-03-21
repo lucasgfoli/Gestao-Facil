@@ -53,7 +53,7 @@ Atualizado em: 21/03/25
 | AlunaX        | Home-Page        | 01/02/2024     | 07/03/2024 | ✔️    | 05/01/2005      |
 | AlunaZ        | CSS Unificado    | 03/02/2024     | 10/03/2024 | 📝    |                 |
 | Lucas        | Requisitos RF e RNF| 11/03/2025     | 14/03/2025 | ✔️ | 13/03/2025 |
-| AlunoK        | Script de login  |  01/01/2024    | 12/03/2024 | ❌    |       |
+| Leon      | StakeHolders Map  |  11/03/2025   | 14/03/20245 | ✔️    |  13/03/2025  |
 
 ## Sprint 2 (Modelagem de Processos AS-IS e TO-BE)
 
@@ -64,7 +64,7 @@ Atualizado em: 21/03/25
 | AlunaX        | Home-Page        | 01/02/2024     | 07/03/2024 | ✔️    | 05/01/2005      |
 | AlunaZ        | CSS Unificado    | 03/02/2024     | 10/03/2024 | 📝    |                 |
 | Lucas        | 3.1 AS-IS | 19/03/2025     | 21/03/2025 | ✔️ | 20/03/2025 |
-| AlunoK        | Script de login  |  01/01/2024    | 12/03/2024 | ❌    |       |
+| Leon       | 3.2 TO_BE  |  18/03/2025    | 21/03/2025 | ✔️    | 20/03/2025  |
 
 Legenda:
 - ✔️: terminado
