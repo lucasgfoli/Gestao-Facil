@@ -57,6 +57,7 @@ Etapa 3: Entrada de Mercadorias (se houver entrada)
 ● Armazenar a mercadoria no local adequado. 
 
 Etapa 4: Saída de Mercadorias (se houver saída) 
+
 ● Verificar disponibilidade do produto no estoque.
 
 ● Registrar saída da mercadoria. 
