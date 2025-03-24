@@ -5,6 +5,7 @@
 #### Registro de Movimentações 
 
 Cadastro de Produto no Estoque 
+
 ● Início: Comerciante acessa o sistema. 
 
 ● Etapa 1: Preenche informações do produto (nome, quantidade, preço, etc.). 
@@ -24,7 +25,7 @@ dados.
 
 ### 2. Processos de Suporte:
 
-#### Gestão de Estoques 
+#### Gestão de Estoques:
 
 Etapa 1 - Início do Processo 
 ● Início do controle de estoque. 
@@ -40,11 +41,42 @@ Etapa 3 - Entrada de Mercadorias (se houver entrada)
 ● Armazenar a mercadoria no local adequado. 
 
 Etapa 4 - Saída de Mercadorias (se houver saída) 
-● Verificar disponibilidade do produto no estoque. 
+● Verificar disponibilidade do produto no estoque.
 
 ● Registrar saída da mercadoria. 
 
-● Atualizar estoque para refletir a baixa do item. 
+● Atualizar estoque para refletir a baixa do item.
+
+● Intermediário: O sistema fica monitorando o estoque o tempo todo. 
+
+Etapa 1: Início da Verificação 
+● O sistema começa a checar os produtos do estoque em tempo real. 
+Etapa 2: Verificação de Condições 
+
+O sistema verifica se: 
+● a) Algum produto chegou na quantidade mínima. 
+
+● b) Algum produto está próximo de de vencer. 
+
+Etapa 3: Decisão – Alguma condição foi detectada? 
+● Não → O sistema continua observando normalmente. 
+
+● Sim → Vai para a próxima etapa. 
+
+Etapa 4: Sinal Interno 
+● O sistema registra que tem um produto abaixo do limite ou está próximo da validade. 
+
+Etapa 5: Geração de Notificação 
+● Sempre que o comerciante entra no sistema ou atualiza a página, aparece 
+um alerta na tela. 
+
+Etapa 6: Decisão – O comerciante vai agir? 
+● Não → O aviso continua aparecendo até ele resolver. 
+
+● Sim → Ele repõe o produto ou coloca o produto próximo da validade em promoção. 
+
+Etapa 9: Encerramento da Notificação 
+● O sistema confirma que o produto foi reposto ou vendido (caso estivesse próximo da validade). 
 
 Etapa 5 - Finalização 
 ● Encerrar o processo.
@@ -78,47 +110,6 @@ usuário.
 
 ● Fim: Chamado encerrado com solução aplicada. 
 
-#### Notificações e Alertas 
-
-● Início: O sistema fica monitorando o estoque o tempo todo. 
-
-Etapa 1: Início da Verificação 
-● O sistema começa a checar os produtos do estoque em tempo real. 
-Etapa 2: Verificação de Condições 
-
-O sistema verifica se: 
-● a) Algum produto chegou na quantidade mínima. 
-
-● b) Algum produto está a 10 dias de vencer. 
-
-Etapa 3: Decisão – Alguma condição foi detectada? 
-● Não → O sistema continua observando normalmente. 
-
-● Sim → Vai para a próxima etapa. 
-
-Etapa 4: Sinal Interno 
-● O sistema registra que tem um produto com problema. 
-
-Etapa 5: Geração de Notificação 
-● Sempre que o comerciante entra no sistema ou atualiza a página, aparece 
-um alerta na tela. 
-
-Etapa 6: Ação do Comerciante 
-● O comerciante vê o aviso e decide o que vai fazer. 
-
-Etapa 7: Decisão – O comerciante vai agir? 
-● Não → O aviso continua aparecendo até ele resolver. 
-
-● Sim → Ele repõe o produto ou resolve o problema. 
-
-Etapa 8: Atualização do Sistema 
-● O comerciante informa no sistema que já resolveu o problema. 
-
-Etapa 9: Encerramento da Notificação 
-● O sistema confirma que está tudo certo e remove o aviso da tela. 
-
-Fim 
-● O processo termina e o sistema volta a monitorar o estoque normalmente.
 
 ### 3.1. Modelagem da situação atual (Modelagem AS IS)
 
