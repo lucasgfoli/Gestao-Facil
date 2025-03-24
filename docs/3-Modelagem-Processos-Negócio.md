@@ -73,6 +73,7 @@ Etapa 1: Início da Verificação
 Etapa 2: Verificação de Condições 
 
 O sistema verifica se: 
+
 ● a) Algum produto chegou na quantidade mínima. 
 
 ● b) Algum produto está próximo de de vencer. 
