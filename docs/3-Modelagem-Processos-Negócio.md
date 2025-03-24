@@ -6,16 +6,26 @@
 
 Cadastro de Produto no Estoque 
 
-● Início: Comerciante acessa o sistema. 
+Início: 
 
-● Etapa 1: Preenche informações do produto (nome, quantidade, preço, etc.). 
+● Comerciante acessa o sistema. 
 
-● Etapa 2: Sistema valida os dados. 
+Etapa 1:
 
-● Decisão: Se os dados estiverem corretos, o produto é salvo no banco de 
+● Preenche informações do produto (nome, quantidade, preço, etc.). 
+
+Etapa 2:
+
+● Sistema valida os dados. 
+
+Decisão:
+
+● Se os dados estiverem corretos, o produto é salvo no banco de 
 dados. 
 
-● Fim: Produto registrado com sucesso. 
+Fim:
+
+● Produto registrado com sucesso. 
 
 #### Venda de Produto e Atualização do Estoque 
 
@@ -29,13 +39,16 @@ dados.
 
 #### Gestão de Estoques:
 
-Etapa 1: Início do Processo 
+Início do Processo:
+
 ● Início do controle de estoque. 
 
 Etapa 2: Verificação de Movimentação 
+
 ● Verificar se há entrada ou saída de mercadorias. 
 
 Etapa 3: Entrada de Mercadorias (se houver entrada) 
+
 ● Registrar recebimento da mercadoria. 
 
 ● Atualizar estoque com os novos itens. 
@@ -52,7 +65,9 @@ Etapa 4: Saída de Mercadorias (se houver saída)
 ● Intermediário: O sistema fica monitorando o estoque o tempo todo. 
 
 Etapa 1: Início da Verificação 
+
 ● O sistema começa a checar os produtos do estoque em tempo real. 
+
 Etapa 2: Verificação de Condições 
 
 O sistema verifica se: 
@@ -61,26 +76,32 @@ O sistema verifica se:
 ● b) Algum produto está próximo de de vencer. 
 
 Etapa 3: Decisão – Alguma condição foi detectada? 
+
 ● Não → O sistema continua observando normalmente. 
 
 ● Sim → Vai para a próxima etapa. 
 
 Etapa 4: Sinal Interno 
+
 ● O sistema registra que tem um produto abaixo do limite ou está próximo da validade. 
 
 Etapa 5: Geração de Notificação 
+
 ● Sempre que o comerciante entra no sistema ou atualiza a página, aparece 
 um alerta na tela. 
 
 Etapa 6: Decisão – O comerciante vai agir? 
+
 ● Não → O aviso continua aparecendo até ele resolver. 
 
 ● Sim → Ele repõe o produto ou coloca o produto próximo da validade em promoção. 
 
 Etapa 9: Encerramento da Notificação 
+
 ● O sistema confirma que o produto foi reposto ou vendido (caso estivesse próximo da validade). 
 
 Fim:
+
 ● Encerrar o processo.
 
 #### Suporte ao Usuário 
@@ -88,6 +109,7 @@ Fim:
 ● Início: Usuário encontra um problema ou tem dúvida sobre o sistema. 
 
 Etapa 1:
+
 ● Acessa a seção de suporte no sistema. 
 
 ● Decisão: O problema pode ser resolvido por meio da FAQ ou tutoriais? 
@@ -97,15 +119,19 @@ Etapa 1:
 ● Não → Continua para a próxima etapa. 
 
 Etapa 2: 
+
 ● Usuário preenche um formulário descrevendo o problema. 
 
 Etapa 3: 
+
 ● Sistema envia a solicitação para a equipe de suporte. 
 
 Etapa 4:
+
 ● Suporte analisa a solicitação e responde com uma solução. 
 
 Decisão:
+
 ● O problema foi resolvido? 
 
 ● Sim → Usuário confirma e o chamado é encerrado. Fim. 
@@ -113,10 +139,12 @@ Decisão:
 ● Não → O chamado é escalado para suporte avançado. 
 
 Etapa 5:
+
 ● Suporte avançado resolve o problema e retorna a solução ao 
 usuário. 
 
 Fim: 
+
 ● Chamado encerrado com solução aplicada. 
 
 
