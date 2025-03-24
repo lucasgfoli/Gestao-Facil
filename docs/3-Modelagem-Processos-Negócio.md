@@ -29,20 +29,20 @@ dados.
 
 #### Gestão de Estoques:
 
-Etapa 1 - Início do Processo 
+Etapa 1: Início do Processo 
 ● Início do controle de estoque. 
 
-Etapa 2 - Verificação de Movimentação 
+Etapa 2: Verificação de Movimentação 
 ● Verificar se há entrada ou saída de mercadorias. 
 
-Etapa 3 - Entrada de Mercadorias (se houver entrada) 
+Etapa 3: Entrada de Mercadorias (se houver entrada) 
 ● Registrar recebimento da mercadoria. 
 
 ● Atualizar estoque com os novos itens. 
 
 ● Armazenar a mercadoria no local adequado. 
 
-Etapa 4 - Saída de Mercadorias (se houver saída) 
+Etapa 4: Saída de Mercadorias (se houver saída) 
 ● Verificar disponibilidade do produto no estoque.
 
 ● Registrar saída da mercadoria. 
@@ -80,14 +80,15 @@ Etapa 6: Decisão – O comerciante vai agir?
 Etapa 9: Encerramento da Notificação 
 ● O sistema confirma que o produto foi reposto ou vendido (caso estivesse próximo da validade). 
 
-Etapa 5 - Finalização 
+Fim:
 ● Encerrar o processo.
 
 #### Suporte ao Usuário 
 
 ● Início: Usuário encontra um problema ou tem dúvida sobre o sistema. 
 
-● Etapa 1: Acessa a seção de suporte no sistema. 
+Etapa 1:
+● Acessa a seção de suporte no sistema. 
 
 ● Decisão: O problema pode ser resolvido por meio da FAQ ou tutoriais? 
 
@@ -95,22 +96,28 @@ Etapa 5 - Finalização
 
 ● Não → Continua para a próxima etapa. 
 
-● Etapa 2: Usuário preenche um formulário descrevendo o problema. 
+Etapa 2: 
+● Usuário preenche um formulário descrevendo o problema. 
 
-● Etapa 3: Sistema envia a solicitação para a equipe de suporte. 
+Etapa 3: 
+● Sistema envia a solicitação para a equipe de suporte. 
 
-● Etapa 4: Suporte analisa a solicitação e responde com uma solução. 
+Etapa 4:
+● Suporte analisa a solicitação e responde com uma solução. 
 
-● Decisão: O problema foi resolvido? 
+Decisão:
+● O problema foi resolvido? 
 
 ● Sim → Usuário confirma e o chamado é encerrado. Fim. 
 
 ● Não → O chamado é escalado para suporte avançado. 
 
-● Etapa 5: Suporte avançado resolve o problema e retorna a solução ao 
+Etapa 5:
+● Suporte avançado resolve o problema e retorna a solução ao 
 usuário. 
 
-● Fim: Chamado encerrado com solução aplicada. 
+Fim: 
+● Chamado encerrado com solução aplicada. 
 
 
 ### 3.1. Modelagem da situação atual (Modelagem AS IS)
