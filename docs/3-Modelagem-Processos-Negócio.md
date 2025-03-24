@@ -20,7 +20,9 @@ dados.
 #### Venda de Produto e Atualização do Estoque 
 
 ● Início: Cliente compra um produto. 
+
 ● Etapa 1: Comerciante registra a venda no sistema. 
+
 ● Etapa 2: O sistema reduz a quantidade de itens no estoque. 
 
 ### 2. Processos de Suporte:
