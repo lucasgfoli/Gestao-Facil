@@ -123,11 +123,11 @@ Etapa 1:
 
 Etapa 2: 
 
-● Usuário preenche um formulário descrevendo o problema. 
+● Usuário preenche um formulário descrevendo o problema e o envia. 
 
 Etapa 3: 
 
-● Sistema envia a solicitação para a equipe de suporte. 
+● Suporte recebe solicitação e abre um chamado. 
 
 Etapa 4:
 
@@ -139,8 +139,7 @@ Decisão:
 
 ● Sim → Usuário confirma e o chamado é encerrado. Fim. 
 
-● Não → O chamado é escalado para suporte avançado. 
-
+● Não → Usuário retorna com feedback do atendimento e inicia uma nova solicitação.
 Etapa 5:
 
 ● Suporte avançado resolve o problema e retorna a solução ao 
