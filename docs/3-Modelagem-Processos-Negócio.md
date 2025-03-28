@@ -214,7 +214,7 @@ A solução está alinhada com a necessidade de modernização dos comércios lo
 
 
 
-### 3.3.1 <strong>GESTÃO DE ESTOQUE</strong>
+### Processo 1: Gerenciar Estoque
 
 O processo de gestão de estoque abordado envolve o controle de entrada e saída de mercadorias, além do monitoramento em tempo real pelo sistema.
 
