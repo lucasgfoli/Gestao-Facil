@@ -212,9 +212,12 @@ A solução está alinhada com a necessidade de modernização dos comércios lo
 
 ### 3.3. Modelagem dos processos
 
+3.3.1 Gestão de Estoque
 
+(Explicação)
 ![processo de estoque](https://github.com/user-attachments/assets/3fb3e3e0-3aeb-45bf-959f-4921d1b014c0)
 
+3.3.2 
 
 [PROCESSO 1 - Nome do Processo](./processos/processo-1-nome-do-processo.md "Detalhamento do Processo 1.")
 
