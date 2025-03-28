@@ -214,25 +214,25 @@ A solução está alinhada com a necessidade de modernização dos comércios lo
 
 
 
-3.3.1 <strong>GESTÃO DE ESTOQUE</strong>
+###3.3.1 <strong>GESTÃO DE ESTOQUE</strong>
 
 O processo de gestão de estoque abordado envolve o controle de entrada e saída de mercadorias, além do monitoramento em tempo real pelo sistema.
 
 ![processo de estoque](https://github.com/user-attachments/assets/3fb3e3e0-3aeb-45bf-959f-4921d1b014c0)
 
-3.3.2 <strong>PROCESSO DE VENDA E ATUALIZAÇÃO DE ESTOQUE</strong>
+###3.3.2 <strong>PROCESSO DE VENDA E ATUALIZAÇÃO DE ESTOQUE</strong>
 
 O processo de venda inclui a atualização do estoque em tempo real, garantindo o armazenamento preciso dos dados de cada produto.
 
 ![processo de venda e atualização](https://github.com/user-attachments/assets/667d619d-233a-4188-9e4f-88b06770d78c)
 
-3.3.3 <strong>PROCESSO DE REGISTRO DE MOVIMENTAÇÕES</strong>
+###3.3.3 <strong>PROCESSO DE REGISTRO DE MOVIMENTAÇÕES</strong>
 
 O processo de gestão de estoque abrange o controle de entrada e saída de produtos, proporcionando ao gestor uma visão ampla e maior organização.
 
 ![Processo de registro de movimentações](https://github.com/user-attachments/assets/38394530-3dd7-49c6-bc09-12bdb5f02ac6)
 
-3.3.4 <strong></strong>
+###3.3.4 <strong></strong>
 
 [PROCESSO 1 - Nome do Processo](./processos/processo-1-nome-do-processo.md "Detalhamento do Processo 1.")
 
