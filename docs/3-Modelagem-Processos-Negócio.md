@@ -2,6 +2,59 @@
 
 ### 1. Processos Primários:
 
+#### Cadastro de usuário - 
+
+Início:
+
+O usuário acessa a plataforma pela primeira vez.
+
+● Etapa 1: Preenchimento de Dados
+
+O usuário preenche um formulário com as seguintes informações: Nome, Email, CNPJ, Número de telefone, Data de nascimento, Senha e confirmação de senha.
+
+● Etapa 2: Validação de Dados
+O sistema verifica se os dados estão preenchidos:
+
+● Decisão:
+
+- Se os dados estiverem corretos:
+O sistema cria uma conta de usuário e armazena os dados no banco de dados.
+
+- Se os dados estiverem incorretos:
+O sistema exibe uma mensagem de erro explicando o que precisa ser corrigido (por exemplo, "E-mail já cadastrado" ou "Senhas não coincidem").
+
+● Fim:
+O usuário é redirecionado para a tela de login.
+
+#### Login de Usuário - 
+
+● Início:
+O usuário acessa a tela de login da plataforma.
+
+● Etapa 1: Preenchimento de Dados de Login
+O usuário insere seu e-mail e senha.
+
+● Etapa 2: Validação de Dados
+O sistema verifica:
+
+- Se o e-mail existe no banco de dados.
+
+- Se a senha informada corresponde à senha cadastrada para aquele e-mail.
+
+● Decisão:
+ - Se os dados estiverem corretos:
+O sistema autentica o usuário e o redireciona para a página inicial.
+
+ - Se os dados estiverem incorretos:
+O sistema exibe uma mensagem de erro, como "E-mail ou senha incorretos". O usuário pode tentar novamente ou solicitar uma recuperação de senha.
+
+● Etapa 3: Recuperação de Senha (se necessário)
+ - Se o usuário clicar em "Esqueci minha senha":
+O sistema envia um e-mail com um link para redefinir a senha. O usuário segue o link, insere uma nova senha, e a conta é atualizada.
+
+● Fim:
+O usuário tem acesso à plataforma, com a conta devidamente autenticada.
+
 #### Registro de Movimentações 
 
 
