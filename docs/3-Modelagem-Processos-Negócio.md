@@ -55,7 +55,7 @@ O sistema envia um e-mail com um link para redefinir a senha. O usuário segue o
 ● Fim:
 O usuário tem acesso à plataforma, com a conta devidamente autenticada.
 
-#### Registro de Movimentações 
+#### Registro de Movimentações - 
 
 
 Cadastro de Produto no Estoque 
@@ -81,7 +81,7 @@ Fim:
 
 ● Produto registrado com sucesso. 
 
-#### Venda de Produto e Atualização do Estoque 
+#### Venda de Produto e Atualização do Estoque - 
 
 ● Início: Cliente compra um produto. 
 
@@ -91,7 +91,7 @@ Fim:
 
 ### 2. Processos de Suporte:
 
-#### Gestão de Estoques:
+#### Gestão de Estoques - 
 
 Início do Processo:
 
@@ -160,7 +160,7 @@ Fim:
 
 ● Encerrar o processo.
 
-#### Suporte ao Usuário 
+#### Suporte ao Usuário - 
 
 ● Início: Usuário encontra um problema ou tem dúvida sobre o sistema. 
 
