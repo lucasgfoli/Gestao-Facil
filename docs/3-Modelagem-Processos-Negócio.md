@@ -90,7 +90,74 @@ O sistema verifica se os dados estão corretos.
 A descrição do produto é alterada no banco de dados.
 
 ---
-
+Etapa 1:
+ ### Início:
+ - Usuário encontra um problema ou tem dúvida sobre o sistema.
+ 
+ ● Acessa a seção de suporte no sistema. 
+ ### Etapa 1:
+ - Acessa a seção de suporte no sistema.
+ 
+ ● Decisão: O problema pode ser resolvido por meio da FAQ ou tutoriais? 
+ ### Decisão: O problema pode ser resolvido por meio da FAQ ou tutoriais?
+ - Sim → Usuário consulta a FAQ e resolve o problema. **Fim.**
+ - Não → Continua para a próxima etapa.
+ 
+ ● Sim → Usuário consulta a FAQ e resolve o problema. Fim. 
+ ### Etapa 2:
+ - Usuário preenche um formulário descrevendo o problema e o envia.
+ 
+ ● Não → Continua para a próxima etapa. 
+ ### Etapa 3:
+ - Suporte recebe solicitação e abre um chamado.
+ 
+ Etapa 2: 
+ ### Etapa 4:
+ - Suporte analisa a solicitação e responde com uma solução.
+ 
+ ● Usuário preenche um formulário descrevendo o problema e o envia. 
+ ### Decisão: O problema foi resolvido?
+ - Sim → Usuário confirma e o chamado é encerrado. **Fim.**
+ - Não → Usuário retorna com feedback do atendimento e inicia uma nova solicitação.
+ 
+ Etapa 3: 
+ ### Etapa 5:
+ - Suporte avançado resolve o problema e retorna a solução ao usuário.
+ 
+ ● Suporte recebe solicitação e abre um chamado. 
+ ## Fim:
+ - Chamado encerrado com solução aplicada.
+ 
+ Etapa 4:
+ ---
+ 
+ ● Suporte analisa a solicitação e responde com uma solução. 
+ # Processos Gerenciais
+ 
+ Decisão:
+ ## Relatório de Vendas de Produtos
+ 
+ ● O problema foi resolvido? 
+ ### Início:
+ - O sistema coleta os dados das vendas realizadas.
+ 
+ ● Sim → Usuário confirma e o chamado é encerrado. Fim. 
+ ### Etapa 1:
+ - O sistema organiza as informações sobre quantidade de produtos vendidos, valores arrecadados e desempenho de cada item.
+ 
+ ● Não → Usuário retorna com feedback do atendimento e inicia uma nova solicitação.
+ Etapa 5:
+ ### Etapa 2:
+ - O comerciante acessa o painel de relatórios e visualiza gráficos e métricas sobre as vendas.
+ 
+ ● Suporte avançado resolve o problema e retorna a solução ao 
+ usuário. 
+ ## Fim:
+ - Relatório gerado e disponível para consulta.
+ 
+ Fim: 
+ ---
+ 
 ### Processos Gerenciais
 
 #### Relatório de Vendas de Produtos
