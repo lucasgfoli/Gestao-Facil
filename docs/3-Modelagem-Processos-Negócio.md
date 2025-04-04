@@ -230,10 +230,11 @@ Login de Usuário → O usuário acessa o sistema inserindo suas credenciais. O 
 
 ![sistema de login e cadastro](https://github.com/user-attachments/assets/6a907558-a7c1-4b76-8bd8-4f6d6e9ffb37)
 
-### Processo 2 <strong>PROCESSO DE GESTÃO DE ESTOQUE</strong>
+### Processo 2 <strong>PROCESSO DE CADASTRAR PRODUTO</strong>
 
 
-### Processo 3 <strong>PROCESSO DE VENDA E ATUALIZAÇÃO DE ESTOQUE</strong>
+### Processo 3 <strong>PROCESSO DE GERSTÃO DE ESTOQUE</strong>
+### Processo 4 <strong>PROCESSO DE VENDA E ATUALIZAÇÃO DE ESTOQUE</strong>
 
 O processo de venda inclui a atualização do estoque em tempo real, garantindo o armazenamento preciso dos dados de cada produto.
 
