@@ -242,7 +242,7 @@ Além disso, quando um produto é vendido ou retirado para uso, é realizado o r
 ### Processo 4: <strong>PROCESSO DE SUPORTE AO USUÁRIO</strong>
 O processo de suporte ao usuário envolve o esclarecimento de dúvidas, a resolução de problemas e o fornecimento de feedback sobre o sistema, garantindo uma experiência eficiente e satisfatória.
 
-![Imagem do WhatsApp de 2025-03-28 à(s) 18 53 30_4cce93a2](https://github.com/user-attachments/assets/b691ea05-3f5d-429b-b746-27e2bc1030d8)
+![Imagem do WhatsApp de 2025-04-04 à(s) 19 03 42_e2cfa813](https://github.com/user-attachments/assets/3146a398-2f29-4738-9748-ca75fefd99ec)
 
 [PROCESSO 1 - Nome do Processo](./processos/processo-1-nome-do-processo.md "Detalhamento do Processo 1.")
 
