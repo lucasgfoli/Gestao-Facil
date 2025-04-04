@@ -222,33 +222,31 @@ A solução está alinhada com a necessidade de modernização dos comércios lo
 
 
 
-### Processo 1: PROCESSO DE CADASTRO E LOGIN
+### Processo 1: <strong>PROCESSO DE CADASTRO E LOGIN</strong>
 O processo de cadastro e login de usuário é o primeiro contato do usuário com o sistema. Isso permite que somente usuários da empresa previamente cadastrados possam ter acesso ás permissões de acesso do sistema. 
 A vantagem de possui um sistema de acesso é garantir que apenas usuários desejáveis tenham permissão de vizualiar e manipular as ferramentas.
 
 ![sistema de login e cadastro](https://github.com/user-attachments/assets/6a907558-a7c1-4b76-8bd8-4f6d6e9ffb37)
 
-### Processo 2 <strong>PROCESSO DE CADASTRAR PRODUTO</strong>
+### Processo 2: <strong>PROCESSO DE CADASTRAR PRODUTO</strong>
 O cadastro de produto é a funcionalidade responsável por registrar todas as informações relevantes de um item que será controlado no estoque. Esse processo é essencial para garantir a organização, rastreabilidade e gerenciamento dos produtos dentro do sistema.
 
 ![registro de produto](https://github.com/user-attachments/assets/2e9c8c66-5068-478a-9689-f836d2c5a402)
 
 
-### Processo 3 <strong>PROCESSO DE GERSTÃO DE ESTOQUE</strong>
-### Processo 4 <strong>PROCESSO DE VENDA E ATUALIZAÇÃO DE ESTOQUE</strong>
+### Processo 3: <strong>PROCESSO DE GESTÃO DE ESTOQUE</strong>
 
+### Processo 4: <strong>PROCESSO DE VENDA E ATUALIZAÇÃO DE ESTOQUE</strong>
 O processo de venda inclui a atualização do estoque em tempo real, garantindo o armazenamento preciso dos dados de cada produto.
 
 ![processo de venda e atualização](https://github.com/user-attachments/assets/667d619d-233a-4188-9e4f-88b06770d78c)
 
-### Processo 4 <strong>PROCESSO DE REGISTRO DE MOVIMENTAÇÕES</strong>
-
+### Processo 5: <strong>PROCESSO DE REGISTRO DE MOVIMENTAÇÕES</strong>
 O processo de gestão de estoque abrange o controle de entrada e saída de produtos, proporcionando ao gestor uma visão ampla e maior organização.
 
 ![Processo de registro de movimentações](https://github.com/user-attachments/assets/38394530-3dd7-49c6-bc09-12bdb5f02ac6)
 
-### Processo 5 <strong>PROCESSO DE SUPORTE AO USUÁRIO</strong>
-
+### Processo 6: <strong>PROCESSO DE SUPORTE AO USUÁRIO</strong>
 O processo de suporte ao usuário envolve o esclarecimento de dúvidas, a resolução de problemas e o fornecimento de feedback sobre o sistema, garantindo uma experiência eficiente e satisfatória.
 
 ![Imagem do WhatsApp de 2025-03-28 à(s) 18 53 30_4cce93a2](https://github.com/user-attachments/assets/b691ea05-3f5d-429b-b746-27e2bc1030d8)
