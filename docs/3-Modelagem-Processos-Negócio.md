@@ -231,8 +231,7 @@ A vantagem de possui um sistema de acesso é garantir que apenas usuários desej
 ### Processo 2: <strong>PROCESSO DE CADASTRAR PRODUTO</strong>
 O cadastro de produto é a funcionalidade responsável por registrar todas as informações relevantes de um item que será controlado no estoque. Esse processo é essencial para garantir a organização, rastreabilidade e gerenciamento dos produtos dentro do sistema.
 
-![registro de produto](https://github.com/user-attachments/assets/2e9c8c66-5068-478a-9689-f836d2c5a402)
-
+![registro de produto](https://github.com/user-attachments/assets/1d5674c3-7748-4d2a-b670-b7f235a04089)
 
 ### Processo 3: <strong>PROCESSO DE GESTÃO DE ESTOQUE</strong>
 
