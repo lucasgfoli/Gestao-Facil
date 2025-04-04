@@ -239,17 +239,7 @@ Além disso, quando um produto é vendido ou retirado para uso, é realizado o r
 
 ![gestao de estoque](https://github.com/user-attachments/assets/ac363eb5-f2d9-4158-b3a9-c936a7301eeb)
 
-### Processo 4: <strong>PROCESSO DE VENDA E ATUALIZAÇÃO DE ESTOQUE</strong>
-O processo de venda inclui a atualização do estoque em tempo real, garantindo o armazenamento preciso dos dados de cada produto.
-
-![processo de venda e atualização](https://github.com/user-attachments/assets/667d619d-233a-4188-9e4f-88b06770d78c)
-
-### Processo 5: <strong>PROCESSO DE REGISTRO DE MOVIMENTAÇÕES</strong>
-O processo de gestão de estoque abrange o controle de entrada e saída de produtos, proporcionando ao gestor uma visão ampla e maior organização.
-
-![Processo de registro de movimentações](https://github.com/user-attachments/assets/38394530-3dd7-49c6-bc09-12bdb5f02ac6)
-
-### Processo 6: <strong>PROCESSO DE SUPORTE AO USUÁRIO</strong>
+### Processo 4: <strong>PROCESSO DE SUPORTE AO USUÁRIO</strong>
 O processo de suporte ao usuário envolve o esclarecimento de dúvidas, a resolução de problemas e o fornecimento de feedback sobre o sistema, garantindo uma experiência eficiente e satisfatória.
 
 ![Imagem do WhatsApp de 2025-03-28 à(s) 18 53 30_4cce93a2](https://github.com/user-attachments/assets/b691ea05-3f5d-429b-b746-27e2bc1030d8)
