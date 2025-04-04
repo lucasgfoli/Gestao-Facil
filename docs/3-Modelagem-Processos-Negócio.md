@@ -58,13 +58,13 @@ O comerciante acessa o painel administrativo.
 O comerciante clica em cadastrar novo produto e preenche informações do produto (nome, quantidade, preço, etc.).
 
 **Etapa 2:**  
-O sistema valida os dados.
+O sistema valida os dados.(Visando se todas as informações estão preenchidas, caso não, não será válidado)
 
 **Decisão:**  
 - **Se os dados estiverem corretos:** O produto é salvo no banco de dados.
 
 **Fim:**  
-O produto é registrado no banco de dados.
+O produto é registrado no banco de dados. e envia uma mensagem de confirmando o processo.
 
 ---
 
