@@ -1,212 +1,118 @@
-# Cadastro de Usuário
+# Modelagem dos Processos de Negócio
 
-## Início:
+## 1. Processos Primários
+
+### Cadastro de Usuário
+
+**Início:**  
 O usuário acessa a plataforma pela primeira vez.
 
-### Etapa 1: Preenchimento de Dados na aplicação web.
+**Etapa 1: Preenchimento de Dados na aplicação web**  
 O usuário preenche um formulário com as seguintes informações: Nome, Email, CNPJ, Número de telefone, Data de nascimento, Senha e confirmação de senha.
 
-### Etapa 2: Validação de Dados
-O sistema verifica se os dados estão preenchidos:
+**Etapa 2: Validação de Dados**  
+O sistema verifica se os dados estão preenchidos corretamente e se há inconsistências.
 
-### Decisão:
-- Se os dados estiverem corretos:
-  O sistema cria uma conta de usuário e armazena os dados no banco de dados.
-- Se os dados estiverem incorretos:
-  O sistema exibe uma mensagem de erro explicando o que precisa ser corrigido (por exemplo, "E-mail já cadastrado" ou "Senhas não coincidem").
+**Decisão:**  
+- **Se os dados estiverem corretos:** O sistema cria uma conta de usuário e armazena os dados no banco de dados.  
+- **Se os dados estiverem incorretos:** O sistema exibe uma mensagem de erro explicando o que precisa ser corrigido (por exemplo, "E-mail já cadastrado" ou "Senhas não coincidem").
 
-## Fim:
+**Fim:**  
 O usuário é redirecionado para a tela de login.
 
 ---
 
-# Login de Usuário
+### Login de Usuário
 
-## Início:
+**Início:**  
 O usuário acessa a tela de login da plataforma.
 
-### Etapa 1: Preenchimento de Dados de Login
+**Etapa 1: Preenchimento de Dados de Login**  
 O usuário insere seu e-mail e senha.
 
-### Etapa 2: Validação de Dados
+**Etapa 2: Validação de Dados**  
 O sistema verifica:
 - Se o e-mail existe no banco de dados.
 - Se a senha informada corresponde à senha cadastrada para aquele e-mail.
 
-### Decisão:
-- Se os dados estiverem corretos:
-  O sistema autentica o usuário e o redireciona para o painel administrativo do comerciante.
-- Se os dados estiverem incorretos:
-  O sistema exibe uma mensagem de erro, como "E-mail ou senha incorretos". O usuário pode tentar novamente ou solicitar uma recuperação de senha.
+**Decisão:**  
+- **Se os dados estiverem corretos:** O sistema autentica o usuário e o redireciona para o painel administrativo do comerciante.  
+- **Se os dados estiverem incorretos:** O sistema exibe uma mensagem de erro, como "E-mail ou senha incorretos". O usuário pode tentar novamente ou solicitar uma recuperação de senha.
 
-### Etapa 3: Recuperação de Senha (se necessário)
-- Se o usuário clicar em "Esqueci minha senha":
-  O sistema envia um e-mail com um link para redefinir a senha. O usuário segue o link, insere uma nova senha, e a conta é atualizada.
+**Etapa 3: Recuperação de Senha (se necessário)**  
+- Se o usuário clicar em "Esqueci minha senha": O sistema envia um e-mail com um link para redefinir a senha. O usuário segue o link, insere uma nova senha e a conta é atualizada.
 
-## Fim:
+**Fim:**  
 O usuário é cadastrado e tem acesso à plataforma, com a conta devidamente autenticada.
 
 ---
 
-# Registro de Movimentações
+### Registro de Movimentações
 
-## Cadastro de Produto no Estoque
+#### Cadastro de Produto no Estoque
 
-### Início:
-- Comerciante acessa o painel administrativo.
+**Início:**  
+O comerciante acessa o painel administrativo.
 
-### Etapa 1:
-- Clica em cadastrar novo produto e preenche informações do produto (nome, quantidade, preço, etc.).
+**Etapa 1:**  
+O comerciante clica em cadastrar novo produto e preenche informações do produto (nome, quantidade, preço, etc.).
 
-### Etapa 2:
-- Sistema valida os dados.
+**Etapa 2:**  
+O sistema valida os dados.
 
-### Decisão:
-- Se os dados estiverem corretos, o produto é salvo no banco de dados.
+**Decisão:**  
+- **Se os dados estiverem corretos:** O produto é salvo no banco de dados.
 
-## Fim:
-- Produto registrado no banco de dados.
-
----
-
-## Edição de Produtos
-
-### Início:
-- Comerciante percebe inconsistência nos dados de um produto.
-
-### Etapa 1:
-- Acessa o painel administrativo.
-
-### Etapa 2:
-- Clica em editar informações do produto.
-
-### Etapa 3:
-- Sistema verifica se os dados estão corretos.
-
-### Decisão:
-- Se os dados estiverem corretos, o produto é salvo.
-- Se os dados apresentarem informações incorretas, o produto não é alterado e o sistema exibe uma mensagem de erro.
-
-## Fim:
-- Descrição do produto é alterada no banco de dados.
+**Fim:**  
+O produto é registrado no banco de dados.
 
 ---
 
-## Venda de Produto e Atualização do Estoque
+#### Edição de Produtos
 
-### Início:
-- Cliente compra um produto.
+**Início:**  
+O comerciante percebe inconsistência nos dados de um produto.
 
-### Etapa 1:
-- Comerciante registra a venda no sistema.
+**Etapa 1:**  
+Acessa o painel administrativo.
 
-### Etapa 2:
-- O sistema reduz a quantidade de itens no estoque.
+**Etapa 2:**  
+Clica em editar informações do produto.
 
----
+**Etapa 3:**  
+O sistema verifica se os dados estão corretos.
 
-# Processos de Suporte
+**Decisão:**  
+- **Se os dados estiverem corretos:** O produto é salvo.
+- **Se os dados apresentarem informações incorretas:** O produto não é alterado e o sistema exibe uma mensagem de erro.
 
-## Gestão de Estoques
-
-### Início do Processo:
-- Início do controle de estoque.
-
-### Etapa 2: Verificação de Movimentação
-- Verificar se há entrada ou saída de mercadorias.
-
-### Etapa 3: Entrada de Mercadorias (se houver entrada)
-- Registrar recebimento da mercadoria.
-- Atualizar estoque com os novos itens.
-- Armazenar a mercadoria no local adequado.
-
-### Etapa 4: Saída de Mercadorias (se houver saída)
-- Verificar disponibilidade do produto no estoque.
-- Registrar saída da mercadoria.
-- Atualizar estoque para refletir a baixa do item.
-
-## Intermediário:
-O sistema fica monitorando o estoque o tempo todo.
-
-### Etapa 1: Início da Verificação
-- O sistema começa a checar os produtos do estoque em tempo real.
-
-### Etapa 2: Verificação de Condições
-O sistema verifica se:
-- Algum produto chegou na quantidade mínima.
-- Algum produto está próximo de vencer.
-
-### Etapa 3: Decisão – Alguma condição foi detectada?
-- Não → O sistema continua observando normalmente.
-- Sim → Vai para a próxima etapa.
-
-### Etapa 4: Sinal Interno
-- O sistema registra que tem um produto abaixo do limite ou está próximo da validade.
-
-### Etapa 5: Geração de Notificação
-- Sempre que o comerciante entra no sistema ou atualiza a página, aparece um alerta na tela.
-
-### Etapa 6: Decisão – O comerciante vai agir?
-- Não → O aviso continua aparecendo até ele resolver.
-- Sim → Ele repõe o produto ou coloca o produto próximo da validade em promoção.
-
-### Etapa 9: Encerramento da Notificação
-- O sistema confirma que o produto foi reposto ou vendido (caso estivesse próximo da validade).
-
-## Fim:
-- Encerrar o processo.
+**Fim:**  
+A descrição do produto é alterada no banco de dados.
 
 ---
 
-## Suporte ao Usuário
+### Processos Gerenciais
 
-### Início:
-- Usuário encontra um problema ou tem dúvida sobre o sistema.
+#### Relatório de Vendas de Produtos
 
-### Etapa 1:
-- Acessa a seção de suporte no sistema.
+**Início:**  
+O comerciante deseja visualizar as vendas realizadas dentro de um determinado período.
 
-### Decisão: O problema pode ser resolvido por meio da FAQ ou tutoriais?
-- Sim → Usuário consulta a FAQ e resolve o problema. **Fim.**
-- Não → Continua para a próxima etapa.
+**Etapa 1:**  
+Acessa o painel administrativo e seleciona a opção "Relatórios de Vendas".
 
-### Etapa 2:
-- Usuário preenche um formulário descrevendo o problema e o envia.
+**Etapa 2:**  
+Define os filtros de pesquisa, como intervalo de datas e categorias de produtos.
 
-### Etapa 3:
-- Suporte recebe solicitação e abre um chamado.
+**Etapa 3:**  
+O sistema processa os dados e gera um relatório detalhado com:
+- Lista de produtos vendidos.
+- Quantidade total de vendas.
 
-### Etapa 4:
-- Suporte analisa a solicitação e responde com uma solução.
-
-### Decisão: O problema foi resolvido?
-- Sim → Usuário confirma e o chamado é encerrado. **Fim.**
-- Não → Usuário retorna com feedback do atendimento e inicia uma nova solicitação.
-
-## Fim:
-- Chamado encerrado com solução aplicada.
+**Fim:**  
+O comerciante pode visualizar, exportar ou imprimir o relatório para futuras análises.
 
 ---
-
-# Processos Gerenciais
-
-## Relatório de Vendas de Produtos
-
-### Início:
-- O sistema coleta os dados das vendas realizadas.
-
-### Etapa 1:
-- O sistema organiza as informações sobre quantidade de produtos vendidos, valores arrecadados e desempenho de cada item.
-
-### Etapa 2:
-- O comerciante acessa o painel de relatórios e visualiza gráficos e métricas sobre as vendas.
-
-## Fim:
-- Relatório gerado e disponível para consulta.
-
----
-
-
 
 ### 3.1. Modelagem da situação atual (Modelagem AS IS)
 
