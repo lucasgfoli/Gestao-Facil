@@ -226,7 +226,7 @@ A solução está alinhada com a necessidade de modernização dos comércios lo
 O processo de cadastro e login de usuário é o primeiro contato do usuário com o sistema. Isso permite que somente usuários da empresa previamente cadastrados possam ter acesso ás permissões de acesso do sistema. 
 A vantagem de possui um sistema de acesso é garantir que apenas usuários desejáveis tenham permissão de vizualiar e manipular as ferramentas.
 
-![sistema de login e cadastro](https://github.com/user-attachments/assets/6a907558-a7c1-4b76-8bd8-4f6d6e9ffb37)
+![sistema de login e cadastro](https://github.com/user-attachments/assets/462b2237-ebc5-4492-bea2-c9a40c76afc8)
 
 ### Processo 2: <strong>PROCESSO DE CADASTRAR PRODUTO</strong>
 O cadastro de produto é a funcionalidade responsável por registrar todas as informações relevantes de um item que será controlado no estoque. Esse processo é essencial para garantir a organização, rastreabilidade e gerenciamento dos produtos dentro do sistema.
