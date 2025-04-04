@@ -47,9 +47,7 @@ O usuário é cadastrado e tem acesso à plataforma, com a conta devidamente aut
 
 ---
 
-### Registro de Movimentações
-
-#### Cadastro de Produto no Estoque
+### Cadastro de Produto no Estoque
 
 **Início:**  
 O comerciante acessa o painel administrativo.
@@ -67,6 +65,7 @@ O sistema valida os dados.(Visando se todas as informações estão preenchidas,
 O produto é registrado no banco de dados. e envia uma mensagem de confirmando o processo.
 
 ---
+### Movimentação de produtos 
 
 #### Edição de Produtos
 
