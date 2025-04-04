@@ -152,8 +152,6 @@ Etapa 1:
  
  ● Suporte avançado resolve o problema e retorna a solução ao 
  usuário. 
- ## Fim:
- - Relatório gerado e disponível para consulta.
  
  Fim: 
  ---
