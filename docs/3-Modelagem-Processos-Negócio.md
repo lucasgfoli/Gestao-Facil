@@ -90,8 +90,10 @@ O sistema verifica se os dados estão corretos.
 A descrição do produto é alterada no banco de dados.
 
 ---
-Etapa 1:
- ### Início:
+
+## Suporte ao usuário
+
+ #### Início:
  - Usuário encontra um problema ou tem dúvida sobre o sistema.
  
  ● Acessa a seção de suporte no sistema. 
