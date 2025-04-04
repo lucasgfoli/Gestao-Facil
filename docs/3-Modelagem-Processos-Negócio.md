@@ -183,9 +183,6 @@ O sistema verifica se:
 - Sim → Usuário confirma e o chamado é encerrado. **Fim.**
 - Não → Usuário retorna com feedback do atendimento e inicia uma nova solicitação.
 
-### Etapa 5:
-- Suporte avançado resolve o problema e retorna a solução ao usuário.
-
 ## Fim:
 - Chamado encerrado com solução aplicada.
 
