@@ -155,29 +155,6 @@ Etapa 1:
  
  Fim: 
  ---
- 
-### Processos Gerenciais
-
-#### Relatório de Vendas de Produtos
-
-**Início:**  
-O comerciante deseja visualizar as vendas realizadas dentro de um determinado período.
-
-**Etapa 1:**  
-Acessa o painel administrativo e seleciona a opção "Relatórios de Vendas".
-
-**Etapa 2:**  
-Define os filtros de pesquisa, como intervalo de datas e categorias de produtos.
-
-**Etapa 3:**  
-O sistema processa os dados e gera um relatório detalhado com:
-- Lista de produtos vendidos.
-- Quantidade total de vendas.
-
-**Fim:**  
-O comerciante pode visualizar, exportar ou imprimir o relatório para futuras análises.
-
----
 
 ### 3.1. Modelagem da situação atual (Modelagem AS IS)
 
