@@ -223,14 +223,15 @@ A solução está alinhada com a necessidade de modernização dos comércios lo
 
 
 ### Processo 1: PROCESSO DE CADASTRO E LOGIN
-
-Cadastro de Usuário → O usuário cria uma conta fornecendo suas informações pessoais. O sistema valida esses dados e, se estiverem corretos, a conta é criada e o usuário recebe uma notificação de sucesso, sendo redirecionado para o login.
-
-Login de Usuário → O usuário acessa o sistema inserindo suas credenciais. O sistema valida as informações e concede acesso caso estejam corretas. Se houver erro, o usuário pode tentar novamente ou redefinir sua senha.
+O processo de cadastro e login de usuário é o primeiro contato do usuário com o sistema. Isso permite que somente usuários da empresa previamente cadastrados possam ter acesso ás permissões de acesso do sistema. 
+A vantagem de possui um sistema de acesso é garantir que apenas usuários desejáveis tenham permissão de vizualiar e manipular as ferramentas.
 
 ![sistema de login e cadastro](https://github.com/user-attachments/assets/6a907558-a7c1-4b76-8bd8-4f6d6e9ffb37)
 
 ### Processo 2 <strong>PROCESSO DE CADASTRAR PRODUTO</strong>
+O cadastro de produto é a funcionalidade responsável por registrar todas as informações relevantes de um item que será controlado no estoque. Esse processo é essencial para garantir a organização, rastreabilidade e gerenciamento dos produtos dentro do sistema.
+
+![registro de produto](https://github.com/user-attachments/assets/2e9c8c66-5068-478a-9689-f836d2c5a402)
 
 
 ### Processo 3 <strong>PROCESSO DE GERSTÃO DE ESTOQUE</strong>
