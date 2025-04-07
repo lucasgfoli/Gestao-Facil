@@ -45,57 +45,7 @@ Outro grande desafio é a falta de informações sobre a validade dos produtos, 
 
 Com a automatização desse controle, o novo sistema contribuirá significativamente para a gestão eficiente do estoque, reduzindo perdas, melhorando a organização e otimizando o tempo da equipe. A visibilidade ampliada proporcionará uma gestão mais rápida e eficiente, facilitando a tomada de decisões estratégicas e a manutenção de níveis adequados dos produtos.
 
-### 3.2. Descrição geral da proposta (Modelagem TO BE)
-
-Com base na análise da situação atual (AS IS), a proposta de solução visa otimizar o gerenciamento de estoque por meio da digitalização e automação dos processos. A implementação do sistema "Gestão Fácil" permitirá que pequenos e médios comerciantes de cidades históricas, como a Serra da Canastra, administrem seus estoques de forma mais simples e eficiente, garantindo maior controle sobre os produtos e evitando perdas.
-
-<strong> Proposta de Solução </strong><br>
-
-O "Gestão Fácil" será um software intuitivo que oferecerá funcionalidades essenciais para otimizar a gestão de estoque, incluindo:
-
-<strong>1 - </strong> Registro e Monitoramento de Produtos:
-
-• Cadastro básico de cada item, incluindo descrição, quantidade e preço.
-
-• Consulta rápida via aplicativo ou plataforma web.
-
-<strong>2 - </strong> Controle Simplificado de Estoque:
-
-• Notificação automática sobre produtos próximos do vencimento.
-
-• Alertas de estoque baixo para reposição manual.
-
-<strong>3 - </strong> Interface Simples e Acessível:
-
-• Sistema responsivo compatível com dispositivos móveis e desktops.
-
-• Funcionalidades simplificadas para facilitar o uso por comerciantes sem experiência em tecnologia.
-
-<strong> Limites da Solução </strong><br>
-
-Apesar das melhorias, há algumas limitações a serem consideradas:
-
-• Dependência de Conectividade: O sistema pode necessitar de conexão com a internet para atualização em tempo real.
-
-• Necessidade de Capacitação: Alguns usuários podem precisar de um breve treinamento para utilizar as funcionalidades básicas do sistema.
-
-<strong> Alinhamento com Objetivos do Negócio </strong><br>
-
-A solução está alinhada com a necessidade de modernização dos comércios locais, oferecendo maior controle operacional e facilitando o monitoramento dos estoques. Pequenos lojistas de lembranças e memorabilia terão uma ferramenta que ajuda a evitar rupturas de estoque e melhorar a organização dos produtos.
-
-<strong> Oportunidades de Melhoria </strong><br>
-
-<strong> No futuro, o sistema poderá ser aprimorado com funcionalidades adicionais, como: </strong><br>
-
-• Possibilidade de exportar dados do estoque para uma planilha.
-
-• Implementação de um módulo offline para permitir acesso sem internet.
-
-• Sistema de alerta configurável para cada produto.
-
-### 3.3. Modelagem dos processos
-
-
+### 3.2 Modelagem dos processos
 
 ### Processo 1: <strong>PROCESSO DE CADASTRO E LOGIN</strong>
 O processo de cadastro e login de usuário é o primeiro contato do usuário com o sistema. Isso permite que somente usuários da empresa previamente cadastrados possam ter acesso ás permissões de acesso do sistema. 
