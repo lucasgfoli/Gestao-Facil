@@ -66,9 +66,19 @@ Atualizado em: 21/03/25
 | :----         |    :----         |      :----:    | :----:     | :----: | :----:          |
 | AlunaX        | Home-Page        | 01/02/2024     | 07/03/2024 | ✔️    | 05/01/2005      |
 | Ryan        | 3.1 AS-IS    | 19/03/2025     | 21/03/2025 | ✔️    |   20/03/2025              |
-| Lucas        | 3.1 AS-IS e Modelagem do Processo Suporte ao usuário(Descrição) | 19/03/2025     | 21/03/2025 | ✔️ | 20/03/2025 |
+| Lucas        | Modelagem do Processo Suporte ao usuário(Descrição) | 19/03/2025     | 21/03/2025 | ✔️ | 20/03/2025 |
 | Leon       | 3.2 TO_BE  |  18/03/2025    | 21/03/2025 | ✔️    | 20/03/2025  |
 
+## Sprint 2 (Desenho dos Processos (TO BE))
+
+Atualizado em: 08/04/25
+
+| Responsável   | Tarefa/Requisito | Iniciado em    | Prazo      | Status | Terminado em    |
+| :----         |    :----         |      :----:    | :----:     | :----: | :----:          |
+| AlunaX        | Home-Page        | 01/02/2024     | 07/03/2024 | ✔️    | 05/01/2005      |
+| Ryan        | 3.1 AS-IS    | 19/03/2025     | 21/03/2025 | ✔️    |   20/03/2025              |
+| Lucas        | Modelagem do Processo Suporte ao usuário | 31/03/2025     | 04/04/2025 | ✔️ | 02/04/2025 |
+| Leon       | 3.2 TO_BE  |  18/03/2025    | 21/03/2025 | ✔️    | 20/03/2025  |
 Legenda:
 - ✔️: terminado
 - 📝: em execução
