@@ -4,17 +4,13 @@ Como proposta de solução, nossa aplicação será desenvolvida como um serviç
 
 ## 4.1.1 Processos x tarefas
 
-### |Processo| |Tarefas|
-
-|Cadastro de Usuário|	|Preencher formulário, Validar dados, Criar conta, Armazenar dados, Exibir mensagens de erro, Redirecionar para a página de login.|
-
-|Login de Usuário|	|Inserir e-mail e senha, Validar dados, Autenticar usuário, Redirecionar para o painel, Exibir mensagens de erro, Solicitar redefinição de senha.|
-
-|Cadastro de Produto|	|Preencher dados do produto, Validar informações, Salvar produto no banco de dados.|
-
-|Movimentação de Produtos|	|Editar informações do produto, Validar alterações, Atualizar dados no banco de dados.|
-
-|Suporte ao Usuário|	|Acessar seção de suporte, Consultar FAQ, Preencher formulário de solicitação, Analisar solicitação, Responder solicitação, Resolver problema, Fechar chamado, Retorno com feedback.|
+| **Processos**               | **Tarefas**                                                                                               |
+|----------------------------|-----------------------------------------------------------------------------------------------------------|
+| **Cadastro de Usuário**     | Preencher formulário, Validar dados, Criar conta, Armazenar dados, Exibir mensagens de erro, Redirecionar para a página de login |
+| **Login de Usuário**        | Inserir e-mail e senha, Validar dados, Autenticar usuário, Redirecionar para o painel, Exibir mensagens de erro, Solicitar redefinição de senha |
+| **Cadastro de Produto**     | Preencher dados do produto, Validar informações, Salvar produto no banco de dados                         |
+| **Movimentação de Produtos**| Editar informações do produto, Validar alterações, Atualizar dados no banco de dados                      |
+| **Suporte ao Usuário**      | Acessar seção de suporte, Consultar FAQ, Preencher formulário de solicitação, Analisar solicitação, Responder solicitação, Resolver problema, Fechar chamado, Retorno com feedback |
 
 ## 4.1. Arquitetura da solução
 
