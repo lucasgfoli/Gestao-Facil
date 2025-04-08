@@ -147,12 +147,15 @@ Este script deverá ser incluído em um arquivo .sql na pasta src\bd.
 _Descreva qual(is) tecnologias você vai usar para resolver o seu problema, ou seja, implementar a sua solução. Liste todas as tecnologias envolvidas, linguagens a serem utilizadas, serviços web, frameworks, bibliotecas, IDEs de desenvolvimento, e ferramentas._
 
 Apresente também uma figura explicando como as tecnologias estão relacionadas ou como uma interação do usuário com o sistema vai ser conduzida, por onde ela passa até retornar uma resposta ao usuário.
+### Tecnologias Utilizadas para a Solução
+### Tecnologias Utilizadas para a Solução
 
-
-| **Dimensão**   | **Tecnologia**  |
-| ---            | ---             |
-| SGBD           | MySQL           |
-| Front end      | HTML+CSS+JS     |
-| Back end       | Java SpringBoot |
-| Deploy         | Github Pages    |
-
+| Dimensão            | Tecnologias                    |
+|---------------------|--------------------------------|
+| **Frontend**         | HTML, CSS, TailwindCSS         |
+| **Frameworks**       | Express.js                     |
+| **Backend**          | Node.js, JavaScript, JWT       |
+| **Banco de Dados**   | MySQLServer, SQLite          |
+| **Hospedagem**       | AWS (EC2, S3)                  |
+| **IDE**              | Visual Studio Code             |
+| **Outras ferramentas**| Git, GitHub                   |
