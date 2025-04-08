@@ -58,7 +58,7 @@ Atualizado em: 21/03/25
 | Lucas        | Requisitos RF e RNF| 11/03/2025     | 14/03/2025 | ✔️ | 13/03/2025 |
 | Leon      | StakeHolders Map  |  11/03/2025   | 14/03/2025 | ✔️    |  13/03/2025  |
 
-## Sprint 2 (Modelagem de Processos AS-IS e TO-BE)
+## Sprint 2 (Modelagem de Processos e AS-IS)
 
 Atualizado em: 21/03/25
 
@@ -66,7 +66,7 @@ Atualizado em: 21/03/25
 | :----         |    :----         |      :----:    | :----:     | :----: | :----:          |
 | AlunaX        | Home-Page        | 01/02/2024     | 07/03/2024 | ✔️    | 05/01/2005      |
 | Ryan        | 3.1 AS-IS    | 19/03/2025     | 21/03/2025 | ✔️    |   20/03/2025              |
-| Lucas        | 3.1 AS-IS | 19/03/2025     | 21/03/2025 | ✔️ | 20/03/2025 |
+| Lucas        | 3.1 AS-IS e Modelagem do Processo Suporte ao usuário(Descrição) | 19/03/2025     | 21/03/2025 | ✔️ | 20/03/2025 |
 | Leon       | 3.2 TO_BE  |  18/03/2025    | 21/03/2025 | ✔️    | 20/03/2025  |
 
 Legenda:
