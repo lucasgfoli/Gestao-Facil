@@ -154,6 +154,6 @@ Apresente também uma figura explicando como as tecnologias estão relacionadas 
 | **Frameworks**       | Express.js                     |
 | **Backend**          | Node.js, JavaScript, JWT       |
 | **Banco de Dados**   | MySQLServer, SQLite          |
-| **Hospedagem**       | AWS (EC2, S3)                  |
+| **Hospedagem**       | AWS                   |
 | **IDE**              | Visual Studio Code             |
 | **Outras ferramentas**| Git, GitHub                   |
