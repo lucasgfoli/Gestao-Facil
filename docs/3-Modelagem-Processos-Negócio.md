@@ -63,7 +63,7 @@ O processo de gestão de estoque envolve o controle das entradas e saídas de pr
 
 Além disso, quando um produto é vendido ou retirado para uso, é realizado o registro de saída, garantindo que o estoque reflita corretamente a quantidade disponível.
 
-![gestao de estoque](https://github.com/user-attachments/assets/ac363eb5-f2d9-4158-b3a9-c936a7301eeb)
+![Controle de gestão de estoque](https://github.com/user-attachments/assets/a1c0cacb-bff7-4302-864d-f943e91f27e8)
 
 ### Processo 4: <strong>PROCESSO DE SUPORTE AO USUÁRIO</strong>
 O processo de suporte ao usuário envolve o esclarecimento de dúvidas, a resolução de problemas e o fornecimento de feedback sobre o sistema, garantindo uma experiência eficiente e satisfatória.
