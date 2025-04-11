@@ -1,8 +1,10 @@
-### 3.3.2 Processo 2 – PROCESSO DE CADASTRO DE PRODUTO
+### 3.3.3 Processo 3 – PROCESSO DE GESTÃO DE ESTOQUE
 
-O processo de cadastro de produto é a funcionalidade responsável por registrar todas as informações relevantes de um item que será controlado no estoque. Esse processo é essencial para garantir a organização, rastreabilidade e gerenciamento dos produtos dentro do sistema.
+O processo de gestão de estoque envolve o controle das entradas e saídas de produtos em uma loja. Ele começa com o recebimento de mercadorias enviadas por fornecedores, momento em que os produtos são registrados como entrada no estoque.
 
-![registro de produto](https://github.com/user-attachments/assets/557155bb-2342-4c21-b840-b4e3f8df270b)
+Além disso, quando um produto é vendido ou retirado para uso, é realizado o registro de saída, garantindo que o estoque reflita corretamente a quantidade disponível.
+
+![gestao de estoque](https://github.com/user-attachments/assets/538f7804-06e1-4145-8554-b91dc5f5b8f6)
 
 #### Detalhamento das atividades
 
