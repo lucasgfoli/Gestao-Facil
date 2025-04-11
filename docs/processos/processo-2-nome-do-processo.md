@@ -1,10 +1,8 @@
-### 3.3.2 Processo 2 – NOME DO PROCESSO
+### 3.3.2 Processo 2 – PROCESSO DE CADASTRAR PRODUTO
 
-_Apresente aqui o nome e as oportunidades de melhoria para o processo 2. 
-Em seguida, apresente o modelo do processo 2, descrito no padrão BPMN._
+O processo de cadastro e login de usuário é o primeiro contato do usuário com o sistema. Isso permite que somente usuários da empresa previamente cadastrados possam ter acesso ás permissões de acesso do sistema. A vantagem de possui um sistema de acesso é garantir que apenas usuários desejáveis tenham permissão de vizualiar e manipular as ferramentas.
 
-![Exemplo de um Modelo BPMN do PROCESSO 2](../images/process.png "Modelo BPMN do Processo 2.")
-
+![432784724-01a27825-dce9-4a72-9ce5-8ccb544c4907](https://github.com/user-attachments/assets/fcf691b8-58cc-4bbb-b70c-a6e162ea8a3d)
 
 #### Detalhamento das atividades
 
