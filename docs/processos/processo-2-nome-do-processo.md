@@ -1,9 +1,8 @@
-### 3.3.3 Processo 3 – PROCESSO DE GESTÃO DE ESTOQUE
+### 3.3.4 Processo 4 – PROCESSO DE SUPORTE AO USUÁRIO
 
-O processo de gestão de estoque envolve o controle das entradas e saídas de produtos em uma loja. Ele começa com o recebimento de mercadorias enviadas por fornecedores, momento em que os produtos são registrados como entrada no estoque.
-Além disso, quando um produto é vendido ou retirado para uso, é realizado o registro de saída, garantindo que o estoque reflita corretamente a quantidade disponível.
+O processo de suporte ao usuário envolve o esclarecimento de dúvidas, a resolução de problemas e o fornecimento de feedback sobre o sistema, garantindo uma experiência eficiente e satisfatória.
 
-![431906184-a1c0cacb-bff7-4302-864d-f943e91f27e8](https://github.com/user-attachments/assets/37e1790d-3a3b-48be-bcfa-0d05ed5d13b7)
+![430557875-3146a398-2f29-4738-9748-ca75fefd99ec (1)](https://github.com/user-attachments/assets/6f8138cf-4f29-43a3-9e6c-d9e78bb70dc3)
 
 #### Detalhamento das atividades
 
