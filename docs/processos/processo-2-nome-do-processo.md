@@ -1,8 +1,9 @@
-### 3.3.2 Processo 2 – PROCESSO DE CADASTRAR PRODUTO
+### 3.3.2 Processo 3 – PROCESSO DE GESTÃO DE ESTOQUE
 
-O processo de cadastro e login de usuário é o primeiro contato do usuário com o sistema. Isso permite que somente usuários da empresa previamente cadastrados possam ter acesso ás permissões de acesso do sistema. A vantagem de possui um sistema de acesso é garantir que apenas usuários desejáveis tenham permissão de vizualiar e manipular as ferramentas.
+O processo de gestão de estoque envolve o controle das entradas e saídas de produtos em uma loja. Ele começa com o recebimento de mercadorias enviadas por fornecedores, momento em que os produtos são registrados como entrada no estoque.
+Além disso, quando um produto é vendido ou retirado para uso, é realizado o registro de saída, garantindo que o estoque reflita corretamente a quantidade disponível.
 
-![432784724-01a27825-dce9-4a72-9ce5-8ccb544c4907](https://github.com/user-attachments/assets/fcf691b8-58cc-4bbb-b70c-a6e162ea8a3d)
+![431906184-a1c0cacb-bff7-4302-864d-f943e91f27e8](https://github.com/user-attachments/assets/42cb625b-5162-4751-bf4f-849d0a9e5f97)
 
 #### Detalhamento das atividades
 
