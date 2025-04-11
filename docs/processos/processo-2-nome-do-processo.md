@@ -1,4 +1,4 @@
-### 3.3.2 Processo 4 – PROCESSO DE SUPORTE AO USUÁRIO
+### 3.3.4 Processo 4 – PROCESSO DE SUPORTE AO USUÁRIO
 
 O processo de suporte ao usuário envolve o esclarecimento de dúvidas, a resolução de problemas e o fornecimento de feedback sobre o sistema, garantindo uma experiência eficiente e satisfatória.
 
