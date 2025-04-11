@@ -81,6 +81,18 @@ Atualizado em: 08/04/25
 | Leon       | 3.2 TO_BE  |  18/03/2025    | 21/03/2025 | ✔️    | 20/03/2025  |
 | Estevão | Modelagem Cadastro e Login - Cadastrar Produto - Gestão de Estoque | 31/03/2025 | 04/04/2025 | ✔️| 04/04/2025 |
 
+## Sprint 3 (Projeto da solução)
+
+Atualizado em: 11/04/25
+
+| Responsável   | Tarefa/Requisito | Iniciado em    | Prazo      | Status | Terminado em    |
+| :----         |    :----         |      :----:    | :----:     | :----: | :----:          |
+|:----   | :----        | 01/02/2024     | 07/03/2024 | ✔️    | 05/01/2005      |
+| :----      | :----     | 19/03/2025     | 21/03/2025 | ✔️    |   20/03/2025              |
+| :----      | :----  | 31/03/2025     | 04/04/2025 | ✔️ | 02/04/2025 |
+| Leon | Criação de Logotipo - modelar paleta de cores  |  11/04/2025 | ✔️   | 10/04/2025  |
+| :---- | :----  | 31/03/2025 | 04/04/2025 | ✔️| 04/04/2025 |
+
 
 Legenda:
 - ✔️: terminado
