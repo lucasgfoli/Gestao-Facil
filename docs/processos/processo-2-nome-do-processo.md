@@ -1,8 +1,8 @@
-### 3.3.4 Processo 4 – PROCESSO DE SUPORTE AO USUÁRIO
+### 3.3.2 Processo 2 – PROCESSO DE CADASTRO DE PRODUTO
 
-O processo de suporte ao usuário envolve o esclarecimento de dúvidas, a resolução de problemas e o fornecimento de feedback sobre o sistema, garantindo uma experiência eficiente e satisfatória.
+O processo de cadastro de produto é a funcionalidade responsável por registrar todas as informações relevantes de um item que será controlado no estoque. Esse processo é essencial para garantir a organização, rastreabilidade e gerenciamento dos produtos dentro do sistema.
 
-![SUPORTE AO USUARIO](https://github.com/user-attachments/assets/94bba389-f90c-4812-aece-ffcb1b75a9db)
+![registro de produto](https://github.com/user-attachments/assets/557155bb-2342-4c21-b840-b4e3f8df270b)
 
 #### Detalhamento das atividades
 
