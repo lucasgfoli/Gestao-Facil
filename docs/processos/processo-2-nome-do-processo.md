@@ -1,10 +1,9 @@
-### 3.3.2 Processo 2 – PROCESSO DE CADASTRAR PRODUTO
+### 3.3.3 Processo 3 – PROCESSO DE GESTÃO DE ESTOQUE
 
 O processo de gestão de estoque envolve o controle das entradas e saídas de produtos em uma loja. Ele começa com o recebimento de mercadorias enviadas por fornecedores, momento em que os produtos são registrados como entrada no estoque.
-
 Além disso, quando um produto é vendido ou retirado para uso, é realizado o registro de saída, garantindo que o estoque reflita corretamente a quantidade disponível.
 
-![registro de produto](https://github.com/user-attachments/assets/7bd56564-6240-4a13-92fe-0c6ac4010418)
+![431906184-a1c0cacb-bff7-4302-864d-f943e91f27e8](https://github.com/user-attachments/assets/37e1790d-3a3b-48be-bcfa-0d05ed5d13b7)
 
 #### Detalhamento das atividades
 
