@@ -155,4 +155,4 @@ Apresente também uma figura explicando como as tecnologias estão relacionadas 
 | **Banco de Dados**   | MySQLServer, SQLite          |
 | **Hospedagem**       | AWS                   |
 | **IDE**              | Visual Studio Code             |
-| **Outras ferramentas**| Git, GitHub, Figam, Miro  |
+| **Outras ferramentas**| Git, GitHub, Figma, Miro  |
