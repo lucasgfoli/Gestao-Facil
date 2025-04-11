@@ -149,10 +149,10 @@ Apresente também uma figura explicando como as tecnologias estão relacionadas 
 
 | Dimensão            | Tecnologias                    |
 |---------------------|--------------------------------|
-| **Frontend**         | HTML, CSS, TailwindCSS         |
-| **Frameworks**       | Express.js                     |
+| **Frontend**         | HTML, CSS       |
+| **Frameworks**       | TailWind, BootStrap, Express.js |
 | **Backend**          | Node.js, JavaScript, JWT       |
 | **Banco de Dados**   | MySQLServer, SQLite          |
 | **Hospedagem**       | AWS                   |
 | **IDE**              | Visual Studio Code             |
-| **Outras ferramentas**| Git, GitHub                   |
+| **Outras ferramentas**| Git, GitHub, Figam, Miro  |
