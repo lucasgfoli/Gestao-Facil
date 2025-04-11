@@ -26,6 +26,38 @@ Como proposta de solução, nossa aplicação será desenvolvida como um serviç
 
 ### 4.2. Protótipos de telas
 
+O protótipo de telas é uma representação visual inicial das interfaces de nosso sistema, com o objetivo de simula a navegação e a interação do usuário com a plataforma antes de sua implementação inicial. No projeto Gestão Fácil, os protótipos foram desenvolvidos para validar o fluxo de navegação e facilitar o entendimento das suas funcionalidades e garantir que esteja claro para cada requisito levantado anteriormente.
+### 1 Tela Principal (Home)
+A tela principal é o ponto de entrada do sistema, oferecendo a proposta inicial do nosso sistema. Nela, o usuário encontra uma breve descrição da aplicação e de suas funcionalidades, além dos botões redirecionais de login e cadastro. 
+Essa interface é essencial para causar uma boa primeira impressão e orientar o usuário sobre o propósito da plataforma.
+
+[imagem].
+
+### 2 Tela de Cadastro
+A tela de cadastro foi desenvolvida para o colaborador inserir suas informações básicas para criar uma conta de acesso á plataforma. 
+
+[imagem].
+
+### 3 Tela de Login
+A tela de  login é responsável para autenticar os usuários já cadastrados. Ele conta com o campo de inserir e-mail e senha, além da opção de recuperar senha e um botão de acesso a tela de cadastro caso não tenha um registro.
+
+![tela de login](https://github.com/user-attachments/assets/49c96cf5-3c21-4444-b8f8-3f34b6ac4a12)
+
+### 4 Tela de Gestão de Estoque
+Essa é uma das principais interfaces do sistema. A tela de gestão de estoque apresenta uma tabela com produtos cadastrados, suas quantidades, categorias e status. O usuário pode pequisar, editar ou excluir registros, além de visualizar rapidamente a situação do estoque.
+
+[imagem].
+
+### 5 Tela de Entrada de Produtos
+A tela de entrada de proutos permite que o usuário registre novas mercadorias que estão chegando ao estoque, permitindo inserir dados como nome do produto, quntidade, data de entrada, fornecedor responsável, num do setor e informações onde for alocada. Ela é essencial para manter o controle atualizado do inventário e evitar perdas por falta de registro ou atrasos.
+
+[imagem].
+
+### 6  Tela de Saida de Produtos
+A tela de saida de produtos é utilizada para registrar todas as retidads do estoque, seja por vendas, trocas, perdas ou por quaisquer outros mótivos. O usuário podde informar o produto, quantidade, motivo de saída e data. Essa tela mantém um histórico de movimentações e garantir o controle de estoque reflita a realidade da loja em tempo real.
+
+[imagem].
+
 Visão geral da interação do usuário pelas telas do sistema e protótipo interativo das telas com as funcionalidades que fazem parte do sistema (wireframes).
 Apresente as principais interfaces da plataforma. Discuta como ela foi elaborada de forma a atender os requisitos funcionais, não funcionais e histórias de usuário abordados nas <a href="02-Especificação do Projeto.md"> Especificação do Projeto</a>.
 A partir das atividades de usuário identificadas na seção anterior, elabore o protótipo de tela de cada uma delas.
