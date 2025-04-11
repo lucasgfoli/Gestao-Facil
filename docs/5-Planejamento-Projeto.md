@@ -80,6 +80,8 @@ Atualizado em: 08/04/25
 | Lucas        | Modelagem do Processo Suporte ao usuário | 31/03/2025     | 04/04/2025 | ✔️ | 02/04/2025 |
 | Leon       | 3.2 TO_BE  |  18/03/2025    | 21/03/2025 | ✔️    | 20/03/2025  |
 | Estevão | Modelagem Cadastro e Login - Cadastrar Produto - Gestão de Estoque | 31/03/2025 | 04/04/2025 | ✔️| 04/04/2025 |
+
+
 Legenda:
 - ✔️: terminado
 - 📝: em execução
