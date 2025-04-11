@@ -2,7 +2,7 @@
 
 O processo de suporte ao usuário envolve o esclarecimento de dúvidas, a resolução de problemas e o fornecimento de feedback sobre o sistema, garantindo uma experiência eficiente e satisfatória.
 
-![430557875-3146a398-2f29-4738-9748-ca75fefd99ec (1)](https://github.com/user-attachments/assets/6f8138cf-4f29-43a3-9e6c-d9e78bb70dc3)
+![SUPORTE AO USUARIO](https://github.com/user-attachments/assets/94bba389-f90c-4812-aece-ffcb1b75a9db)
 
 #### Detalhamento das atividades
 
