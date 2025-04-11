@@ -1,8 +1,10 @@
-### 3.3.4 Processo 4 – PROCESSO DE SUPORTE AO USUÁRIO
+### 3.3.3 Processo 3 – PROCESSO DE CADASTRAR PRODUTO
 
-O processo de suporte ao usuário envolve o esclarecimento de dúvidas, a resolução de problemas e o fornecimento de feedback sobre o sistema, garantindo uma experiência eficiente e satisfatória.
+O processo de gestão de estoque envolve o controle das entradas e saídas de produtos em uma loja. Ele começa com o recebimento de mercadorias enviadas por fornecedores, momento em que os produtos são registrados como entrada no estoque.
 
-![430557875-3146a398-2f29-4738-9748-ca75fefd99ec](https://github.com/user-attachments/assets/05c2f281-79cb-4fa5-b4b7-218fda464f7c)
+Além disso, quando um produto é vendido ou retirado para uso, é realizado o registro de saída, garantindo que o estoque reflita corretamente a quantidade disponível.
+
+![registro de produto](https://github.com/user-attachments/assets/7bd56564-6240-4a13-92fe-0c6ac4010418)
 
 #### Detalhamento das atividades
 
