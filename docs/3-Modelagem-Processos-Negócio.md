@@ -47,31 +47,8 @@ Com a automatização desse controle, o novo sistema contribuirá significativam
 
 ### 3.2 Modelagem dos processos
 
-### Processo 1: <strong>PROCESSO DE CADASTRO E LOGIN</strong>
-O processo de cadastro e login de usuário é o primeiro contato do usuário com o sistema. Isso permite que somente usuários da empresa previamente cadastrados possam ter acesso ás permissões de acesso do sistema. 
-A vantagem de possui um sistema de acesso é garantir que apenas usuários desejáveis tenham permissão de vizualiar e manipular as ferramentas.
-
-![sistema de login e cadastro](https://github.com/user-attachments/assets/462b2237-ebc5-4492-bea2-c9a40c76afc8)
-
-### Processo 2: <strong>PROCESSO DE CADASTRAR PRODUTO</strong>
-O processo de cadastro de produto é a funcionalidade responsável por registrar todas as informações relevantes de um item que será controlado no estoque. Esse processo é essencial para garantir a organização, rastreabilidade e gerenciamento dos produtos dentro do sistema.
-
-![registro de produto](https://github.com/user-attachments/assets/01a27825-dce9-4a72-9ce5-8ccb544c4907)
-
-### Processo 3: <strong>PROCESSO DE GESTÃO DE ESTOQUE</strong>
-O processo de gestão de estoque envolve o controle das entradas e saídas de produtos em uma loja. Ele começa com o recebimento de mercadorias enviadas por fornecedores, momento em que os produtos são registrados como entrada no estoque.
-
-Além disso, quando um produto é vendido ou retirado para uso, é realizado o registro de saída, garantindo que o estoque reflita corretamente a quantidade disponível.
-
-![Controle de gestão de estoque](https://github.com/user-attachments/assets/a1c0cacb-bff7-4302-864d-f943e91f27e8)
-
-### Processo 4: <strong>PROCESSO DE SUPORTE AO USUÁRIO</strong>
-O processo de suporte ao usuário envolve o esclarecimento de dúvidas, a resolução de problemas e o fornecimento de feedback sobre o sistema, garantindo uma experiência eficiente e satisfatória.
-
-![Imagem do WhatsApp de 2025-04-04 à(s) 19 03 42_e2cfa813](https://github.com/user-attachments/assets/3146a398-2f29-4738-9748-ca75fefd99ec)
-
 [PROCESSO 1 - Processo de Autenticação](./processos/processo-1-nome-do-processo.md "Detalhamento do Processo 1.")<br>
-[PROCESSO 2 - Processo de Cadastro de Produto](docs/processos/processo-1-Proceso de Autenticação.md)<br>
+[PROCESSO 2 - Processo de Cadastro de Produto]()<br>
 [PROCESSO 3 - Processo de Gestão de Estoque]()<br>
 [PROCESSO 4 - Processo de Suporte ao Usuário]()<br>
 
