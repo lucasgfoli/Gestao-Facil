@@ -71,6 +71,8 @@ O processo de suporte ao usuário envolve o esclarecimento de dúvidas, a resolu
 ![Imagem do WhatsApp de 2025-04-04 à(s) 19 03 42_e2cfa813](https://github.com/user-attachments/assets/3146a398-2f29-4738-9748-ca75fefd99ec)
 
 [PROCESSO 1 - Processo de Autenticação](./processos/processo-1-nome-do-processo.md "Detalhamento do Processo 1.")
-[PROCESSO 2 - Processo de Cadastro de Produto](./processos/processo-2-processo-de-cadastro.md)
+[PROCESSO 2 - Processo de Cadastro de Produto](docs/processos/processo-2-Processo de Cadastro de Produto.md)
+[PROCESSO 3 - Processo de Gestão de Estoque]()
+[Processo 4 - Processo de Suporte ao Usuário]()
 
 
