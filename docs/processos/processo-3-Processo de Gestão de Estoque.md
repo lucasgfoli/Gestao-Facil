@@ -1,4 +1,4 @@
-### 3.3.3 Processo 3 – Processo de Gestão de Estoque
+### 3.2.3 Processo 3 – Processo de Gestão de Estoque
 
 O processo de gestão de estoque envolve o controle das entradas e saídas de produtos em uma loja. Ele começa com o recebimento de mercadorias enviadas por fornecedores, momento em que os produtos são registrados como entrada no estoque.
 

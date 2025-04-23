@@ -1,4 +1,4 @@
-### 3.3.2 Processo 2 – Processo de Cadastramento de Produto
+### 3.2.2 Processo 2 – Processo de Cadastramento de Produto
 
 O processo de cadastro de produto é a funcionalidade responsável por registrar todas as informações relevantes de um item que será controlado no estoque. Esse processo é essencial para garantir a organização, rastreabilidade e gerenciamento dos produtos dentro do sistema.
 

@@ -1,4 +1,4 @@
-### 3.3.1 Processo 1 – Processo de Autenticação
+### 3.2.1 Processo 1 – Processo de Autenticação
 
 O processo de cadastro e login de usuário é o primeiro contato do usuário com o sistema. Isso permite que somente usuários da empresa previamente cadastrados possam ter acesso ás permissões de acesso do sistema. A vantagem de possui um sistema de acesso é garantir que apenas usuários desejáveis tenham permissão de vizualiar e manipular as ferramentas.
 
