@@ -2,7 +2,7 @@
 
 O processo de cadastro de produto é a funcionalidade responsável por registrar todas as informações relevantes de um item que será controlado no estoque. Esse processo é essencial para garantir a organização, rastreabilidade e gerenciamento dos produtos dentro do sistema.
 
-![gestao de estoque](https://github.com/user-attachments/assets/538f7804-06e1-4145-8554-b91dc5f5b8f6)
+![registro de produto](https://github.com/user-attachments/assets/653a89fc-71a7-493d-b0c7-0873a38f3610)
 
 #### Detalhamento das atividades
 
