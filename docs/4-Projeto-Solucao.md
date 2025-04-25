@@ -86,9 +86,114 @@ As referências abaixo irão auxiliá-lo na geração do artefato “Diagrama de
 
 ## Modelo ER
 
-O Modelo ER representa através de um diagrama como as entidades (coisas, objetos) se relacionam entre si na aplicação interativa.]
+Entidades e Relacionamentos
 
-As referências abaixo irão auxiliá-lo na geração do artefato “Modelo ER”.
+### 1. Produto
+
+Atributos:
+
+ID_Produto (PK)
+
+Nome
+
+Descrição
+
+Quantidade
+
+Preço
+
+Data_Validade
+
+Categoria
+
+
+
+
+### 2. Categoria
+
+Atributos:
+
+ID_Categoria (PK)
+
+Nome
+
+
+
+Relacionamento:
+
+Uma Categoria pode ter vários Produtos (1:N)
+
+
+
+### 3. Movimentação_Estoque
+
+Atributos:
+
+ID_Movimentacao (PK)
+
+Tipo (Entrada/Saída)
+
+Quantidade
+
+Data
+
+ID_Produto (FK)
+
+
+
+Relacionamento:
+
+Um Produto pode ter várias Movimentações (1:N)
+
+
+
+### 4. Usuário (Comerciante)
+
+Atributos:
+
+ID_Usuario (PK)
+
+Nome
+
+Email
+
+Senha
+
+Telefone
+
+
+
+Relacionamento:
+
+Um Usuário pode cadastrar vários Produtos (1:N)
+
+Um Usuário pode realizar várias Movimentações (1:N)
+
+
+
+### 5. Notificação
+
+Atributos:
+
+ID_Notificacao (PK)
+
+Tipo (Estoque Baixo / Validade Próxima)
+
+Mensagem
+
+Data
+
+ID_Produto (FK)
+
+ID_Usuario (FK)
+
+
+
+Relacionamento:
+
+Um Produto pode gerar várias Notificações (1:N)
+
+Um Usuário pode receber várias Notificações (1:N)
 
 > - [Como fazer um diagrama entidade relacionamento | Lucidchart](https://www.lucidchart.com/pages/pt/como-fazer-um-diagrama-entidade-relacionamento)
 
