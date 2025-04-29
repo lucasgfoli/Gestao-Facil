@@ -46,7 +46,7 @@ Outro grande desafio é a falta de informações sobre a validade dos produtos, 
 Com a automatização desse controle, o novo sistema contribuirá significativamente para a gestão eficiente do estoque, reduzindo perdas, melhorando a organização e otimizando o tempo da equipe. A visibilidade ampliada proporcionará uma gestão mais rápida e eficiente, facilitando a tomada de decisões estratégicas e a manutenção de níveis adequados dos produtos.
 
 ### 3.2 Modelagem dos processos
-[PROCESSO 1 - Processo de Autenticação](https://github.com/docs/processos/processo-1-Processo%20de%20Autenticação.md)<br>
+[PROCESSO 1 - Processo de Autenticação](https://github.com/pbr-ads-2025-1-p2-tiapn-t1-1053100-gestao-facil/docs/processos/processo-1-Processo%20de%20Autenticação.md)<br>
 [PROCESSO 2 - Processo de Cadastro de Produto](./processos/processo-2-Processo%20de%20Cadastro%20de%20Produto.md)<br>
 [PROCESSO 3 - Processo de Gestão de Estoque](./processos/processo-3-Processo%20de%20Gestão%20de%20Estoque.md)<br>
 [PROCESSO 4 - Processo de Suporte ao Usuário](./processos/processo-4-Processo%20de%20Suporte%20ao%20Usuário.md)<br>
