@@ -29,7 +29,6 @@ Atualizado em: 21/03/25
 
 | Responsável   | Tarefa/Requisito | Iniciado em    | Prazo      | Status | Terminado em    |
 | :----         |    :----         |      :----:    | :----:     | :----: | :----:          |
-| AlunaX        | Introdução | 01/02/2024     | 07/02/2024 | ✔️    | 05/01/2005      |
 | Leon        | Objetivos    |  18/02/2025      | 21/02/2025  | ✔️     |  21/02/2025  |
 | Lucas        | Contextualização  | 18/02/2025     | 21/02/2025 | ✔️      | 21/02/2025 |
 | Ryan        | Objetivo Geral  |    18/02/2025        | 21/02/2025 | ✔️    |   21/02/2025 |
@@ -41,7 +40,6 @@ Atualizado em: 21/03/25
 
 | Responsável   | Tarefa/Requisito | Iniciado em    | Prazo      | Status | Terminado em    |
 | :----         |    :----         |      :----:    | :----:     | :----: | :----:          |
-| AlunaX | Home-Page        | 01/02/2024     | 07/03/2024 | ✔️    | 05/01/2005      |
 | Leon| StakeHolders Map    | 25/02/2025     | 28/02/2025 | ✔️    | 27/02/2025  |
 | Lucas| Apresentação da contextualização | 25/02/2025     | 28/02/2025 | ✔️ | 27/02/2025 |
 | Ryan| Apresentação dos objetivos gerais  |  25/02/2025    | 28/02/2025 | ✔️    |  27/02/2025     |
@@ -91,8 +89,7 @@ Atualizado em: 11/04/25
 | :----      | :----     | 19/03/2025     | 21/03/2025 | ✔️    |   20/03/2025              |
 | Ryan     | Correção Suporte ao Usuário | 09/04/2025     | 11/04/2025 | ✔️ | 10/04/2025|
 | Leon | Criação de Logotipo - modelar paleta de cores   | 09/04/2025     | 11/04/2025 | ✔️ | 10/04/2025 |
-| Estevão | Prototipagem das telas  | 10/04/2025 | 25/04/2025 | ✔️|  |
-
+| Estevão | Prototipagem das telas Diagramação do Modelo ER   | 10/04/2025 | 25/04/2025 | ✔️|  |
 
 Legenda:
 - ✔️: terminado
