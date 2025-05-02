@@ -13,55 +13,44 @@ Devem estar relacionadas com o modelo de processo apresentado anteriormente._
 
 _Os tipos de dados a serem utilizados são:_
 
-_* **Área de texto** - campo texto de múltiplas linhas_
+_* *** ID do produto** - campo numérico_
 
-_* **Caixa de texto** - campo texto de uma linha_
+_* **Nome do produto** - campo texto de uma linha_
 
-_* **Número** - campo numérico_
+_* **Seleção de quantidade** - campo com várias opções de valores que são mutuamente exclusivas (tradicional radio button ou combobox)_
 
-_* **Data** - campo do tipo data (dd-mm-aaaa)_
+_* **Data da venda** - campo do tipo data (dd-mm-aaaa)_
 
-_* **Hora** - campo do tipo hora (hh:mm:ss)_
+_* **Tipo de pagamento** - campo texto de uma linha_
 
-_* **Data e Hora** - campo do tipo data e hora (dd-mm-aaaa, hh:mm:ss)_
+_* *** Preço do produto** - campo numérico_
 
-_* **Imagem** - campo contendo uma imagem_
+**Registro de Entrada**
 
-_* **Seleção única** - campo com várias opções de valores que são mutuamente exclusivas (tradicional radio button ou combobox)_
+| **Campo**         | **Tipo**                       | **Restrições**                             |
+|-------------------|--------------------------------|--------------------------------------------|
+| Nome              | Caixa de texto (1 linha)       | Nenhuma restrição específica               |
+| Quantidade        | Seleção única (radio/combobox) | Exclusivo, uma opção por vez               |
+| Data de entrega   | Campo de data (dd-mm-aaaa)     | Formato de data: dd-mm-aaaa                |
+| Fornecedor        | Caixa de texto (1 linha)       | Nenhuma restrição específica               |
 
-_* **Seleção múltipla** - campo com várias opções que podem ser selecionadas mutuamente (tradicional checkbox ou listbox)_
-
-_* **Arquivo** - campo de upload de documento_
-
-_* **Link** - campo que armazena uma URL_
-
-_* **Tabela** - campo formado por uma matriz de valores_
-
-**Nome da atividade 1**
-
-| **Campo**       | **Tipo**         | **Restrições** | **Valor default** |
-| ---             | ---              | ---            | ---               |
-| [Nome do campo] | [tipo de dados]  |                |                   |
-| ***Exemplo:***  |                  |                |                   |
-| login           | Caixa de Texto   | formato de e-mail |                |
-| senha           | Caixa de Texto   | mínimo de 8 caracteres |           |
-
-| **Comandos**         |  **Destino**                   | **Tipo** |
-| ---                  | ---                            | ---               |
-| [Nome do botão/link] | Atividade/processo de destino  | (default/cancel/  ) |
-| ***Exemplo:***       |                                |                   |
-| entrar               | Fim do Processo 1              | default           |
-| cadastrar            | Início do proceso de cadastro  |                   |
+| **Comandos** |  **Destino** | **Tipo** |
+| --- | --- | --- |
+| Registrar | Fim do Processo Registro de Entrada | default |
+| Cancelar | Início do proceso de Registro de Entrada | default |
 
 
-**Nome da atividade 2**
+**Registro de Venda**
 
-| **Campo**       | **Tipo**         | **Restrições** | **Valor default** |
-| ---             | ---              | ---            | ---               |
-| [Nome do campo] | [tipo de dados]  |                |                   |
-|                 |                  |                |                   |
+| **Campo**           | **Tipo**                       | **Restrições**                             |
+|---------------------|--------------------------------|--------------------------------------------|
+| ID do produto       | Caixa de texto (1 linha)       | Nenhuma restrição específica               |
+| Nome                | Caixa de texto (1 linha)       | Nenhuma restrição específica               |
+| Preço               | Caixa de texto (1 linha)       | Deve conter valor numérico                 |
+| Tipo de pagamento   | Seleção única (radio/combobox) | Exclusivo, uma opção por vez               |
+| Data de pagamento   | Campo de data (dd-mm-aaaa)     | Formato de data: dd-mm-aaaa                |
 
-| **Comandos**         |  **Destino**                   | **Tipo**          |
-| ---                  | ---                            | ---               |
-| [Nome do botão/link] | Atividade/processo de destino  | (default/cancel/  ) |
-|                      |                                |                   |
+| **Comandos** |  **Destino** | **Tipo** |
+| --- | --- | --- |
+| Registrar Venda | Fim do Processo Registro de Venda | default |
+| Cancelar | Início do proceso de Registro de Venda | default |
