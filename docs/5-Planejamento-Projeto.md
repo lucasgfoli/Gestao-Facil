@@ -8,16 +8,25 @@
 
 ### Sprint 1
 - _Scrum master_: Estevão Antunes.
+- _Product Owner: Estevão Antunes.
 - Documentação: Estevão Antunes, Lucas Gabriel, André D'Ascenção, Ryan Barcelos e Leon Ribeiro.
 - Revisão: Estevão Antunes, Lucas Gabriel.
 - Correção:  André D'Ascenção, Ryan Barcelos e Leon Ribeiro.
 - Apresentação: Estevão Antunes, Lucas Gabriel, André D'Ascenção, Ryan Barcelos e Leon Ribeiro.
 
 ### Sprint 2
-- _Scrum master_: Estevão Antunes
+- _Scrum master_: Estevão Antunes.
+- _Product Owner: Estevão Antunes.
+- Documentação: André D'Ascenção, Estevão Antunes, Lucas Gabriel, Leon Ribeiro, e Ryan Barcelos.
+- Modelagem dos Processos:
+- Revisão: André D'Ascenção, Estevão Antunes, Lucas Gabriel, Leon Ribeiro, e Ryan Barcelos.
 
-- Desenvolvedor _back-end_: AlunoK
-- Testes: AlunaZ
+### Sprint 3 
+- _Scrum master_: Estevão Antunes.
+- _Product Owner: Estevão Antunes.
+- Documentação: André D'Ascenção, Estevão Antunes, Lucas Gabriel, Leon Ribeiro, e Ryan Barcelos.
+- Modelagem dos Diagramas: 
+- Revisão: André D'Ascenção, Estevão Antunes, Lucas Gabriel, Leon Ribeiro, e Ryan Barcelos.
 
 ## 5.1. Quadro de tarefas
 
