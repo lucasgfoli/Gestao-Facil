@@ -44,10 +44,10 @@ _* **Caixa de texto -> Confirmação de Senha** - campo texto de uma linha_
 
 **Seção de Login**
 
-| **Campo**  | **Tipo**             | **Restrições**         | **Valor default** |
-| ---        | ---                  | ---                    | --- |
-| login      | Caixa de Texto       | formato de e-mail      | default |
-| senha      | Caixa de Texto       | mínimo de 8 caracteres | default |
+| **Campo** | **Tipo** | **Restrições** | **Valor default** |
+| --- | --- | --- | --- |
+| login | Caixa de Texto | formato de e-mail | default |
+| senha | Caixa de Texto | mínimo de 8 caracteres | default |
 
 | **Comandos** | **Destino** | **Tipo** |
 | --- | --- | --- |
