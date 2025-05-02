@@ -42,7 +42,7 @@ Essa é uma das principais interfaces do sistema. A tela de gestão de estoque a
 ### 4 Tela de Cadastrar Produto
 Essa é a interface onde se é possivel realizar o cadastro de um novo produto.
 
-![aba_geral](https://github.com/user-attachments/assets/69356090-2a23-46e2-baba-4277cf376e16)
+![cadastro_produtos](https://github.com/user-attachments/assets/32f3c4af-18c2-42e7-8c86-6e3543f58c6a)
 
 ### 5 Tela de cadastro de empresas
 Nessa tela são cadastradas as empresas e suas respectivas informações, tais como CNPJ, Nome, Endereço.
