@@ -103,8 +103,6 @@ _Apresente o modelo de dados por meio de um modelo relacional que contemple todo
 
 ![Diagrama Entidade Relacionamento DER](https://github.com/user-attachments/assets/b4b90ffb-1ee9-466b-822f-8d469ae04cc0)
 
-O Modelo ER representa através de um diagrama como as entidades (coisas, objetos) se relacionam entre si na aplicação interativa.]
-
 As referências abaixo irão auxiliá-lo na geração do artefato “Modelo ER”.
 
 > - [Como fazer um diagrama entidade relacionamento | Lucidchart](https://www.lucidchart.com/pages/pt/como-fazer-um-diagrama-entidade-relacionamento)
