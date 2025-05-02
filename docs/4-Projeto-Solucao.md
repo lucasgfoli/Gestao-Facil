@@ -4,7 +4,7 @@ Como proposta de solução, nossa aplicação será desenvolvida como um serviç
 
 ## 4.1. Arquitetura da solução
 
-A arquitetura dos processos do sistema de gestão de estoques foi projetada para pequenas lojas de suvenires, com foco em praticidade e eficiência. Desenvolvido como uma aplicação web utilizando para FrontEnd o JavaScript, HTML, CSS. Serão utilizados também Javascript, Node JS e JSON para BackEnd. O banco de dados que será utilizado é o SQLite. O sistema permite do projeto Gestão Simples o cadastro de produtos, controle de entradas e saídas, notificações automáticas de itens em nível crítico e gerenciamento de usuários com diferentes níveis de acesso. Dessa forma, a solução busca substituir os controles manuais, otimizando a organização do estoque e auxiliando na tomada de decisões.
+A arquitetura dos processos do sistema de gestão de estoques foi projetada para pequenas lojas de suvenires, com foco em praticidade e eficiência. Desenvolvido como uma aplicação web utilizando para FrontEnd o JavaScript, HTML, CSS. Serão utilizados também Javascript, Node JS e JSON para BackEnd. O banco de dados que será utilizado é o SQLite. O sistema permite do projeto Gestão Simples o cadastro de produtos, controle de entradas e saídas, notificações automáticas de itens em nível crítico e gerenciamento de usuários com diferentes níveis de acesso. Dessa forma, a solução busca substituir os controles manuais, otimizando a organização do estoque.
  
  **Exemplo do diagrama de Arquitetura**:
  
