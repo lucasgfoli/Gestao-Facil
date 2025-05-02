@@ -40,7 +40,7 @@ Essa é uma das principais interfaces do sistema. A tela de gestão de estoque a
 ![produtos_cadastrados](https://github.com/user-attachments/assets/c268a3f6-050f-4d26-af85-14acd440597e)
 
 ### 4 Tela de Cadastrar Produto
-Essa é a interface onde se é possivel realizar o cadastro de um novo produto.
+Essa é a interface onde se é possivel realizar o cadastro de um novo produto, disponibilizando opções para inserir detalhes do mesmo.
 
 ![cadastro_produtos](https://github.com/user-attachments/assets/32f3c4af-18c2-42e7-8c86-6e3543f58c6a)
 
