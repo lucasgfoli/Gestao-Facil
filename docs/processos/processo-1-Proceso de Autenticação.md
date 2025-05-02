@@ -53,15 +53,3 @@ _* **Caixa de texto -> Confirmação de Senha** - campo texto de uma linha_
 | ---          | ---                | ---        |
 | ENTRAR       | Fim do Processo 1  | default    |
 | CADASTRAR    | Seção de cadastro  | default    |
-
-**Nome da atividade 2**
-
-| **Campo**       | **Tipo**         | **Restrições** | **Valor default** |
-| ---             | ---              | ---            | ---               |
-| [Nome do campo] | [tipo de dados]  |                |                   |
-|                 |                  |                |                   |
-
-| **Comandos**         |  **Destino**                   | **Tipo**          |
-| ---                  | ---                            | ---               |
-| [Nome do botão/link] | Atividade/processo de destino  | (default/cancel/  ) |
-|                      |                                |                   |
