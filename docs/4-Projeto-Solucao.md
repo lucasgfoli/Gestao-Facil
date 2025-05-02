@@ -27,7 +27,7 @@ validar o fluxo de navegação e facilitar o entendimento das suas funcionalidad
 ### 1 Tela de Cadastro
 A tela de cadastro foi desenvolvida para o colaborador inserir suas informações básicas para criar uma conta de acesso á plataforma. 
 
-[imagem].
+![tela_cadastro](https://github.com/user-attachments/assets/ac32866f-d050-40fc-8ab1-cf61b6b456fe)
 
 ### 2 Tela de Login
 A tela de  login é responsável para autenticar os usuários já cadastrados. Ele conta com o campo de inserir e-mail e senha, além da opção de recuperar senha e um botão de acesso a tela de cadastro caso não tenha um registro.
