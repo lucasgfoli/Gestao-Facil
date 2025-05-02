@@ -17,7 +17,7 @@ _* **Código do produto** - campo numérico_
 
 _* **Seleção única de categoria** - campo com várias opções de valores que são mutuamente exclusivas (tradicional radio button ou combobox)_
 
-_* **Seleção múltipla Quantidade** - campo com várias opções que podem ser selecionadas mutuamente (tradicional checkbox ou listbox)_
+_* **Seleção única Quantidade** - campo com várias opções que podem ser selecionadas mutuamente (tradicional checkbox ou listbox)_
 
 _* **Preço do produto** - campo numérico_
 
@@ -29,30 +29,32 @@ _* **Data de validade** - campo do tipo data (dd-mm-aaaa)_
 
 | **Campo**            | **Tipo**                 | **Restrições**                             | **Valor default** |
 | -------------------- | ------------------------ | ------------------------------------------ | ----------------- |
-| Código do produto    | Campo numérico           | Nenhuma restrição específica               |                   |
-| Seleção única de categoria | Listbox                | Exclusivo, uma opção por vez               |                   |
-| Seleção múltipla Quantidade | Listbox               | Múltiplas opções podem ser selecionadas    |                   |
-| Preço do produto     | Campo numérico           | Nenhuma restrição específica               |                   |
-| Caixa de texto       | Caixa de texto           | Nenhuma restrição específica               |                   |
-| Data de validade     | Campo de data (dd-mm-aaaa) | Formato de data: dd-mm-aaaa              |                   |
+| Código do produto | Campo numérico | Nenhuma restrição específica | default |
+| Seleção única de categoria | Listbox | Uma opção | default |
+| Seleção única Quantidade | Listbox | Uma opção | default |
+| Preço do produto | Campo numérico | Nenhuma restrição específica | default |
+| Caixa de texto | Caixa de texto | Nenhuma restrição específica | default |
+| Data de validade | Campo de data (dd-mm-aaaa) | Formato de data: dd-mm-aaaa | default |
 
 
-| **Comandos**         |  **Destino**                   | **Tipo** |
-| ---                  | ---                            | ---               |
-| [Nome do botão/link] | Atividade/processo de destino  | (default/cancel/  ) |
-| ***Exemplo:***       |                                |                   |
-| entrar               | Fim do Processo 1              | default           |
-| cadastrar            | Início do proceso de cadastro  |                   |
+| **Comandos** |  **Destino** | **Tipo** |
+| Cadastrar | Fim do Processo 1 | default |
+| Cancelar | Início do proceso de cadastro de produto | default |
 
 
-**Nome da atividade 2**
+**Editar dados**
 
-| **Campo**       | **Tipo**         | **Restrições** | **Valor default** |
-| ---             | ---              | ---            | ---               |
-| [Nome do campo] | [tipo de dados]  |                |                   |
-|                 |                  |                |                   |
+| **Campo**                  | **Tipo**                       | **Restrições**                             |
+|----------------------------|--------------------------------|--------------------------------------------|
+| Código do produto          | Campo numérico                 | Nenhuma restrição específica               |
+| Categoria (seleção única) | Listbox                        | Exclusivo, uma opção por vez               |
+| Quantidade (seleção múltipla) | Listbox                    | Múltiplas opções podem ser selecionadas    |
+| Preço do produto           | Campo numérico                 | Nenhuma restrição específica               |
+| Caixa de texto             | Texto livre (1 linha)          | Nenhuma restrição específica               |
+| Data de validade           | Campo de data (dd-mm-aaaa)     | Formato de data: dd-mm-aaaa                |
 
-| **Comandos**         |  **Destino**                   | **Tipo**          |
-| ---                  | ---                            | ---               |
-| [Nome do botão/link] | Atividade/processo de destino  | (default/cancel/  ) |
-|                      |                                |                   |
+
+| **Comandos** |  **Destino** | **Tipo** |
+| --- | --- | --- |
+| Editar | Fim do Processo 1 | (submit) |
+| Cancelar | Início do proceso de cadastro de produto | (cancel) |
