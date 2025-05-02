@@ -32,6 +32,8 @@ A tela de cadastro foi desenvolvida para o colaborador inserir suas informaçõe
 ### 2 Tela de Login
 A tela de  login é responsável para autenticar os usuários já cadastrados. Ele conta com o campo de inserir e-mail e senha, além da opção de recuperar senha e um botão de acesso a tela de cadastro caso não tenha um registro.
 
+![tela_login](https://github.com/user-attachments/assets/b6486b4e-787a-4d96-9944-e9559304cbd9)
+
 ![tela de login](https://github.com/user-attachments/assets/49c96cf5-3c21-4444-b8f8-3f34b6ac4a12)
 
 ### 3 Tela de produtos disponíveis
