@@ -34,25 +34,38 @@ A tela de  login é responsável para autenticar os usuários já cadastrados. E
 
 ![tela_login](https://github.com/user-attachments/assets/b6486b4e-787a-4d96-9944-e9559304cbd9)
 
-![tela de login](https://github.com/user-attachments/assets/49c96cf5-3c21-4444-b8f8-3f34b6ac4a12)
-
 ### 3 Tela de produtos disponíveis
 Essa é uma das principais interfaces do sistema. A tela de gestão de estoque apresenta uma tabela com produtos cadastrados, suas quantidades, categorias e status. O usuário pode pequisar, editar ou excluir registros, além de visualizar rapidamente a situação do estoque.
 
-### 4 Tela de cadastro de empresas
+![produtos_cadastrados](https://github.com/user-attachments/assets/c268a3f6-050f-4d26-af85-14acd440597e)
+
+### 4 Tela de Cadastrar Produto
+Essa é a interface onde se é possivel realizar o cadastro de um novo produto.
+
+![aba_geral](https://github.com/user-attachments/assets/69356090-2a23-46e2-baba-4277cf376e16)
+
+### 5 Tela de cadastro de empresas
 Nessa tela são cadastradas as empresas e suas respectivas informações, tais como CNPJ, Nome, Endereço.
 
-### 5 Tela de registro de movimentações 
+![cadastro_empresas](https://github.com/user-attachments/assets/9a1565ea-3885-40aa-b400-85dad7636611)
+
+### 6 Tela de registro de movimentações 
 Registro de saída ou entrada de produtos.
 
-### 6 Aba geral ou Menu
+![registro_movimentacoes](https://github.com/user-attachments/assets/fd3f5af2-5806-4dd8-b06a-babca9599b5b)
+
+### 7 Aba geral ou Menu
 Menu para transição das telas.
 
-### 7 Suporte ao usuário 
+![aba_geral](https://github.com/user-attachments/assets/3e9145b5-319f-43d0-b3f9-8c9b35dc8954)
+
+### 8 Suporte ao usuário 
 Tela para solicitação de Ajuda, FAC e tutoriais.
 
-### 8 Perfil
+### 9 Perfil
 Tela que contém os dados do usuário.
+
+![perfil](https://github.com/user-attachments/assets/2d8c6d8e-b1be-41f2-8c7a-9cd79edecf1b)
 
 São protótipos usados em design de interface para sugerir a estrutura de um site web e seu relacionamentos entre suas páginas. Um wireframe web é uma ilustração semelhante do layout de elementos fundamentais na interface.
  
