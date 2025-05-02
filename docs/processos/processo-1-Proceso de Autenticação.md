@@ -35,7 +35,7 @@ _* **Caixa de texto -> Confirmação de Senha** - campo texto de uma linha_
 | telefone | Número de Telefone | apenas números, com DDD | default |
 | data de nascimento | Data (dd-mm-aaaa) | maior de 18 anos | default |
 | senha | Caixa de Texto -> Senha | mínimo de 8 caracteres | default |
-| confirmação de senha | Caixa de Texto -> Confirmação de Senha | igual à senha | |
+| confirmação de senha | Caixa de Texto -> Confirmação de Senha | igual à senha | default |
 
 | **Comandos**   | **Destino**         | **Tipo**   |
 | ---            | ---                 | ---        |
@@ -49,7 +49,7 @@ _* **Caixa de texto -> Confirmação de Senha** - campo texto de uma linha_
 | login      | Caixa de Texto       | formato de e-mail      | default |
 | senha      | Caixa de Texto       | mínimo de 8 caracteres | default |
 
-| **Comandos** | **Destino**        | **Tipo**   |
-| ---          | ---                | ---        |
-| ENTRAR       | Fim do Processo 1  | default    |
-| CADASTRAR    | Seção de cadastro  | default    |
+| **Comandos** | **Destino** | **Tipo** |
+| --- | --- | --- |
+| ENTRAR | Fim do Processo 1 | default |
+| CADASTRAR | Seção de cadastro | default |
