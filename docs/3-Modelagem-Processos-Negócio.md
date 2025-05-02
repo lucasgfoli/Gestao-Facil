@@ -4,7 +4,7 @@
 
 O usuário acessa a plataforma pela primeira vez e começa o processo de cadastro.
 
-Primeiramente, o usuário preenche um formulário na aplicação web com informações como nome, e-mail, CNPJ, número de telefone, data de nascimento, senha e confirmação de senha. Após o preenchimento, o sistema valida os dados inseridos. Ele verifica se os dados estão preenchidos corretamente e se não há inconsistências.
+Primeiramente, o usuário seleciona seu tipo de cadastro: Se vai ser usuário pessoa fisíca ou Empresa como pessoa jurídica. Após isso ele preenche um formulário na aplicação web com informações como nome ou razão social, e-mail, CNPJ ou CPF, número de telefone, data de nascimento, senha e confirmação de senha. Após o preenchimento, o sistema valida os dados inseridos. Ele verifica se os dados estão preenchidos corretamente e se não há inconsistências.
 
 Se os dados estiverem corretos, o sistema cria uma conta de usuário e armazena os dados no banco de dados. Caso contrário, se os dados estiverem incorretos, o sistema exibe uma mensagem de erro explicando o que precisa ser corrigido, como "E-mail já cadastrado" ou "Senhas não coincidem". Após a validação e sucesso no cadastro, o usuário é redirecionado para a tela de login.
 
