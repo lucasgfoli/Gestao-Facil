@@ -30,8 +30,10 @@ _* **Caixa de texto -> Confirmação de Senha** - campo texto de uma linha_
 | **Campo** | **Tipo** | **Restrições** | **Valor default** |
 | --- | --- | --- | --- |
 | nome | Caixa de Texto -> Nome | obrigatório | default |
+| Razão Social | Caixa de Texto -> Nome | obrigatório | default |
 | e-mail | Caixa de Texto -> Email | formato de e-mail válido | default |
 | CNPJ | Número de CNPJ | 14 dígitos numéricos válidos | default |
+| CPF | Número de CNPJ | 11 dígitos numéricos válidos | default |
 | telefone | Número de Telefone | apenas números, com DDD | default |
 | data de nascimento | Data (dd-mm-aaaa) | maior de 18 anos | default |
 | senha | Caixa de Texto -> Senha | mínimo de 8 caracteres | default |
