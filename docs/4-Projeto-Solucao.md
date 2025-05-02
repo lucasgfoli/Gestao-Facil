@@ -4,11 +4,7 @@ Como proposta de solução, nossa aplicação será desenvolvida como um serviç
 
 ## 4.1. Arquitetura da solução
 
-
-......  COLOQUE AQUI O SEU TEXTO E O DIAGRAMA DE ARQUITETURA .......
-
- Inclua um diagrama da solução e descreva os módulos e as tecnologias
- que fazem parte da solução. Discorra sobre o diagrama.
+A arquitetura dos processos do sistema de gestão de estoques foi projetada para pequenas lojas de suvenires, com foco em praticidade e eficiência. Desenvolvido como uma aplicação web utilizando JavaScript, HTML, CSS e banco de dados SQLite, o sistema permite o cadastro de produtos, controle de entradas e saídas, notificações automáticas de itens em nível crítico e gerenciamento de usuários com diferentes níveis de acesso. A hospedagem será feita na plataforma Heroku, devido à sua facilidade de uso e integração com aplicações JavaScript. No entanto, como o Heroku não é ideal para bancos de dados locais como o SQLite, o sistema poderá ser adaptado para utilizar o PostgreSQL, garantindo a persistência e segurança dos dados em produção. Dessa forma, a solução busca substituir os controles manuais, otimizando a organização do estoque e auxiliando na tomada de decisões.
  
  **Exemplo do diagrama de Arquitetura**:
  
