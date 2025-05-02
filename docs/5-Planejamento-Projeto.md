@@ -90,14 +90,14 @@ Atualizado em: 08/04/25
 
 ## Sprint 3 (Projeto da solução)
 
-Atualizado em: 11/04/25
+Atualizado em: 02/05/25
 
 | Responsável   | Tarefa/Requisito | Iniciado em    | Prazo      | Status | Terminado em    |
 | :----         |    :----         |      :----:    | :----:     | :----: | :----:          |
 |:----   | :----        | 01/02/2024     | 07/03/2024 | ✔️    | 05/01/2005      |
-| :----      | :----     | 19/03/2025     | 21/03/2025 | ✔️    |   20/03/2025              |
-| Ryan     | Correção Suporte ao Usuário | 09/04/2025     | 11/04/2025 | ✔️ | 10/04/2025|
-| Leon | Criação de Logotipo - modelar paleta de cores   | 09/04/2025     | 11/04/2025 | ✔️ | 10/04/2025 |
+| Projeto da solução e Tecnologias utilizadas | 30/04/25 | 02/05/2025 | ✔️ | 02/05/2025 |
+| Ryan     | Correção Suporte ao Usuário | 09/04/2025 | 11/04/2025 | ✔️ | 10/04/2025|
+| Leon | Criação de Logotipo - modelar paleta de cores | 09/04/2025 | 11/04/2025 | ✔️ | 10/04/2025 |
 | Estevão | Prototipagem das telas - Diagramação do Modelo ER   | 10/04/2025 | 25/04/2025 | ✔️|  |
 
 Legenda:
