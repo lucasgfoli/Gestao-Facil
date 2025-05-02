@@ -13,7 +13,7 @@ Devem estar relacionadas com o modelo de processo apresentado anteriormente._
 
 _Os tipos de dados a serem utilizados são:_
 
-_* *** ID do produto** - campo numérico_
+_* **ID do produto** - campo numérico_
 
 _* **Nome do produto** - campo texto de uma linha_
 
@@ -23,7 +23,7 @@ _* **Data da venda** - campo do tipo data (dd-mm-aaaa)_
 
 _* **Tipo de pagamento** - campo texto de uma linha_
 
-_* *** Preço do produto** - campo numérico_
+_* **Preço do produto** - campo numérico_
 
 **Registro de Entrada**
 
