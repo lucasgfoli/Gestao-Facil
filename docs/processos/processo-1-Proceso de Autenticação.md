@@ -11,46 +11,47 @@ Devem estar relacionadas com o modelo de processo apresentado anteriormente._
 
 _Os tipos de dados a serem utilizados são:_
 
-_* **Área de texto** - campo texto de múltiplas linhas_
+_* **Caixa de texto -> Nome** - campo texto de uma linha_
 
-_* **Caixa de texto** - campo texto de uma linha_
+_* **Caixa de texto -> Email** - campo texto de uma linha_
 
-_* **Número** - campo numérico_
+_* **Número de CNPJ** - campo numérico_
 
-_* **Data** - campo do tipo data (dd-mm-aaaa)_
+_* **Número de Telefone** - campo numérico_
 
-_* **Hora** - campo do tipo hora (hh:mm:ss)_
+_* **Data de nascimento** - campo do tipo data (dd-mm-aaaa)_
 
-_* **Data e Hora** - campo do tipo data e hora (dd-mm-aaaa, hh:mm:ss)_
+_* **Caixa de texto -> Senha** - campo texto de uma linha_
 
-_* **Imagem** - campo contendo uma imagem_
+_* **Caixa de texto -> Confirmação de Senha** - campo texto de uma linha_
 
-_* **Seleção única** - campo com várias opções de valores que são mutuamente exclusivas (tradicional radio button ou combobox)_
+**Seção de cadastro**
 
-_* **Seleção múltipla** - campo com várias opções que podem ser selecionadas mutuamente (tradicional checkbox ou listbox)_
+| **Campo** | **Tipo** | **Restrições** | **Valor default** |
+| --- | --- | --- | --- |
+| nome | Caixa de Texto -> Nome | obrigatório | |
+| e-mail | Caixa de Texto -> Email | formato de e-mail válido | |
+| CNPJ | Número de CNPJ | 14 dígitos numéricos válidos | |
+| telefone | Número de Telefone | apenas números, com DDD | |
+| data de nascimento | Data (dd-mm-aaaa) | maior de 18 anos | |
+| senha | Caixa de Texto -> Senha | mínimo de 8 caracteres | |
+| confirmação de senha | Caixa de Texto -> Confirmação de Senha | igual à senha | |
 
-_* **Arquivo** - campo de upload de documento_
+| **Comandos**   | **Destino**         | **Tipo**   |
+| ---            | ---                 | ---        |
+| CADASTRAR      | Fim do Processo 1   | default    |
+| ENTRAR       | Seção de login  | default    |
 
-_* **Link** - campo que armazena uma URL_
-
-_* **Tabela** - campo formado por uma matriz de valores_
-
-
-**Nome da atividade 1**
+**Seção de login**
 
 | **Campo**       | **Tipo**         | **Restrições** | **Valor default** |
-| ---             | ---              | ---            | ---               |
-| [Nome do campo] | [tipo de dados]  |                |                   |
-| ***Exemplo:***  |                  |                |                   |
-| login           | Caixa de Texto   | formato de e-mail |                |
-| senha           | Caixa de Texto   | mínimo de 8 caracteres |           |
+| login           | Caixa de Texto   | formato de e-mail | default |
+| senha           | Caixa de Texto   | mínimo de 8 caracteres | default |
 
-| **Comandos**         |  **Destino**                   | **Tipo** |
-| ---                  | ---                            | ---               |
-| [Nome do botão/link] | Atividade/processo de destino  | (default/cancel/  ) |
-| ***Exemplo:***       |                                |                   |
-| entrar               | Fim do Processo 1              | default           |
-| cadastrar            | Início do proceso de cadastro  |                   |
+| **Comandos** | **Destino**        | **Tipo**   |
+| ---          | ---                | ---        |
+| ENTRAR       | Fim do Processo 1  | default |
+| CADASTRAR    | Seção de cadastro | default |
 
 
 **Nome da atividade 2**
