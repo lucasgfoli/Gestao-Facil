@@ -2,7 +2,7 @@
 
 O processo de suporte ao usuário envolve o esclarecimento de dúvidas, a resolução de problemas e o fornecimento de feedback sobre o sistema, garantindo uma experiência eficiente e satisfatória.
 
-![Imagem do WhatsApp de 2025-04-04 à(s) 19 03 42_e2cfa813](https://github.com/user-attachments/assets/4cea447f-fb2b-472d-abb3-02bca970e252)
+![processo de suporte](https://github.com/user-attachments/assets/9bfa16df-bdfe-4afe-b59b-c2d2a88f2a76)
 
 #### Detalhamento das atividades
 
