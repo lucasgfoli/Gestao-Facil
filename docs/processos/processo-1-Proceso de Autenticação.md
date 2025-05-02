@@ -37,10 +37,10 @@ _* **Caixa de texto -> Confirmação de Senha** - campo texto de uma linha_
 | senha | Caixa de Texto -> Senha | mínimo de 8 caracteres | default |
 | confirmação de senha | Caixa de Texto -> Confirmação de Senha | igual à senha | default |
 
-| **Comandos**   | **Destino**         | **Tipo**   |
-| ---            | ---                 | ---        |
-| CADASTRAR      | Fim do Processo 1   | default    |
-| ENTRAR       | Seção de login  | default    |
+| **Comandos** | **Destino** | **Tipo** |
+| --- | --- | --- |
+| CADASTRAR | Fim do Processo 1 | default |
+| ENTRAR | Seção de login | default |
 
 **Seção de Login**
 
