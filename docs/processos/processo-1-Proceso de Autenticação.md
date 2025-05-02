@@ -29,12 +29,12 @@ _* **Caixa de texto -> Confirmação de Senha** - campo texto de uma linha_
 
 | **Campo** | **Tipo** | **Restrições** | **Valor default** |
 | --- | --- | --- | --- |
-| nome | Caixa de Texto -> Nome | obrigatório | |
-| e-mail | Caixa de Texto -> Email | formato de e-mail válido | |
-| CNPJ | Número de CNPJ | 14 dígitos numéricos válidos | |
-| telefone | Número de Telefone | apenas números, com DDD | |
-| data de nascimento | Data (dd-mm-aaaa) | maior de 18 anos | |
-| senha | Caixa de Texto -> Senha | mínimo de 8 caracteres | |
+| nome | Caixa de Texto -> Nome | obrigatório | default |
+| e-mail | Caixa de Texto -> Email | formato de e-mail válido | default |
+| CNPJ | Número de CNPJ | 14 dígitos numéricos válidos | default |
+| telefone | Número de Telefone | apenas números, com DDD | default |
+| data de nascimento | Data (dd-mm-aaaa) | maior de 18 anos | default |
+| senha | Caixa de Texto -> Senha | mínimo de 8 caracteres | default |
 | confirmação de senha | Caixa de Texto -> Confirmação de Senha | igual à senha | |
 
 | **Comandos**   | **Destino**         | **Tipo**   |
@@ -45,9 +45,9 @@ _* **Caixa de texto -> Confirmação de Senha** - campo texto de uma linha_
 **Seção de Login**
 
 | **Campo**  | **Tipo**             | **Restrições**         | **Valor default** |
-| ---        | ---                  | ---                    | ---               |
-| login      | Caixa de Texto       | formato de e-mail      | default           |
-| senha      | Caixa de Texto       | mínimo de 8 caracteres | default           |
+| ---        | ---                  | ---                    | --- |
+| login      | Caixa de Texto       | formato de e-mail      | default |
+| senha      | Caixa de Texto       | mínimo de 8 caracteres | default |
 
 | **Comandos** | **Destino**        | **Tipo**   |
 | ---          | ---                | ---        |
