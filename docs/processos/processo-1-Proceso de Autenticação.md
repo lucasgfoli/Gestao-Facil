@@ -42,17 +42,17 @@ _* **Caixa de texto -> Confirmação de Senha** - campo texto de uma linha_
 | CADASTRAR      | Fim do Processo 1   | default    |
 | ENTRAR       | Seção de login  | default    |
 
-**Seção de login**
+**Seção de Login**
 
-| **Campo**       | **Tipo**         | **Restrições** | **Valor default** |
-| login           | Caixa de Texto   | formato de e-mail | default |
-| senha           | Caixa de Texto   | mínimo de 8 caracteres | default |
+| **Campo**  | **Tipo**             | **Restrições**         | **Valor default** |
+| ---        | ---                  | ---                    | ---               |
+| login      | Caixa de Texto       | formato de e-mail      | default           |
+| senha      | Caixa de Texto       | mínimo de 8 caracteres | default           |
 
 | **Comandos** | **Destino**        | **Tipo**   |
 | ---          | ---                | ---        |
-| ENTRAR       | Fim do Processo 1  | default |
-| CADASTRAR    | Seção de cadastro | default |
-
+| ENTRAR       | Fim do Processo 1  | default    |
+| CADASTRAR    | Seção de cadastro  | default    |
 
 **Nome da atividade 2**
 
