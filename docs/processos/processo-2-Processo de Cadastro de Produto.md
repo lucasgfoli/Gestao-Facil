@@ -11,38 +11,31 @@ Devem estar relacionadas com o modelo de processo apresentado anteriormente._
 
 _Os tipos de dados a serem utilizados são:_
 
-_* **Área de texto** - campo texto de múltiplas linhas_
+_* **Caixa de texto** - campo texto de uma linha_
+
+_* **Código do produto** - campo numérico_
+
+_* **Seleção única de categoria** - campo com várias opções de valores que são mutuamente exclusivas (tradicional radio button ou combobox)_
+
+_* **Seleção múltipla Quantidade** - campo com várias opções que podem ser selecionadas mutuamente (tradicional checkbox ou listbox)_
+
+_* **Preço do produto** - campo numérico_
 
 _* **Caixa de texto** - campo texto de uma linha_
 
-_* **Número** - campo numérico_
+_* **Data de validade** - campo do tipo data (dd-mm-aaaa)_
 
-_* **Data** - campo do tipo data (dd-mm-aaaa)_
+**Cadastro de produto**
 
-_* **Hora** - campo do tipo hora (hh:mm:ss)_
+| **Campo**            | **Tipo**                 | **Restrições**                             | **Valor default** |
+| -------------------- | ------------------------ | ------------------------------------------ | ----------------- |
+| Código do produto    | Campo numérico           | Nenhuma restrição específica               |                   |
+| Seleção única de categoria | Listbox                | Exclusivo, uma opção por vez               |                   |
+| Seleção múltipla Quantidade | Listbox               | Múltiplas opções podem ser selecionadas    |                   |
+| Preço do produto     | Campo numérico           | Nenhuma restrição específica               |                   |
+| Caixa de texto       | Caixa de texto           | Nenhuma restrição específica               |                   |
+| Data de validade     | Campo de data (dd-mm-aaaa) | Formato de data: dd-mm-aaaa              |                   |
 
-_* **Data e Hora** - campo do tipo data e hora (dd-mm-aaaa, hh:mm:ss)_
-
-_* **Imagem** - campo contendo uma imagem_
-
-_* **Seleção única** - campo com várias opções de valores que são mutuamente exclusivas (tradicional radio button ou combobox)_
-
-_* **Seleção múltipla** - campo com várias opções que podem ser selecionadas mutuamente (tradicional checkbox ou listbox)_
-
-_* **Arquivo** - campo de upload de documento_
-
-_* **Link** - campo que armazena uma URL_
-
-_* **Tabela** - campo formado por uma matriz de valores_
-
-**Nome da atividade 1**
-
-| **Campo**       | **Tipo**         | **Restrições** | **Valor default** |
-| ---             | ---              | ---            | ---               |
-| [Nome do campo] | [tipo de dados]  |                |                   |
-| ***Exemplo:***  |                  |                |                   |
-| login           | Caixa de Texto   | formato de e-mail |                |
-| senha           | Caixa de Texto   | mínimo de 8 caracteres |           |
 
 | **Comandos**         |  **Destino**                   | **Tipo** |
 | ---                  | ---                            | ---               |
