@@ -90,8 +90,6 @@ As referências abaixo irão auxiliá-lo na geração do artefato “Diagrama de
 
 ## Modelo ER
 
-![Diagrama Entidade Relacionamento DER](https://github.com/user-attachments/assets/b4b90ffb-1ee9-466b-822f-8d469ae04cc0)
-
 Entidades e Relacionamentos
 
 ### 1. Produto
@@ -211,6 +209,8 @@ Utilizando a notação do DER (Diagrama Entidade e Relacionamento), elaborem um 
 _Apresente o modelo de dados por meio de um modelo relacional que contemple todos os conceitos e atributos apresentados na modelagem dos processos._
 
 #### 4.3.1 Modelo ER
+
+![Diagrama Entidade Relacionamento DER](https://github.com/user-attachments/assets/b4b90ffb-1ee9-466b-822f-8d469ae04cc0)
 
 O Modelo ER representa através de um diagrama como as entidades (coisas, objetos) se relacionam entre si na aplicação interativa.]
 
