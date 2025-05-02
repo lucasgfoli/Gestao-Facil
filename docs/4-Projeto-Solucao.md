@@ -75,6 +75,8 @@ As referências abaixo irão auxiliá-lo na geração do artefato “Diagrama de
 
 ## Modelo ER
 
+![Diagrama Entidade Relacionamento DER](https://github.com/user-attachments/assets/b4b90ffb-1ee9-466b-822f-8d469ae04cc0)
+
 Entidades e Relacionamentos
 
 ### 1. Produto
