@@ -38,6 +38,7 @@ _* **Data de validade** - campo do tipo data (dd-mm-aaaa)_
 
 
 | **Comandos** |  **Destino** | **Tipo** |
+| ------------ | --------------- | --- |
 | Cadastrar | Fim do Processo 1 | default |
 | Cancelar | Início do proceso de cadastro de produto | default |
 
