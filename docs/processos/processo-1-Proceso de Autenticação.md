@@ -11,19 +11,19 @@ Devem estar relacionadas com o modelo de processo apresentado anteriormente._
 
 _Os tipos de dados a serem utilizados são:_
 
-_* **Caixa de texto -> Nome** - campo texto de uma linha_
+_**Caixa de texto -> Nome** - campo texto de uma linha_
 
-_* **Caixa de texto -> Email** - campo texto de uma linha_
+_**Caixa de texto -> Email** - campo texto de uma linha_
 
-_* **Número de CNPJ** - campo numérico_
+_**Número de CNPJ** - campo numérico_
 
-_* **Número de Telefone** - campo numérico_
+_**Número de Telefone** - campo numérico_
 
-_* **Data de nascimento** - campo do tipo data (dd-mm-aaaa)_
+_**Data de nascimento** - campo do tipo data (dd-mm-aaaa)_
 
-_* **Caixa de texto -> Senha** - campo texto de uma linha_
+_**Caixa de texto -> Senha** - campo texto de uma linha_
 
-_* **Caixa de texto -> Confirmação de Senha** - campo texto de uma linha_
+_**Caixa de texto -> Confirmação de Senha** - campo texto de uma linha_
 
 **Seção de cadastro**
 
