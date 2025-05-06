@@ -6,34 +6,57 @@ O processo de suporte ao usuário envolve o esclarecimento de dúvidas, a resolu
 
 #### Detalhamento das atividades
 
-_Descreva aqui cada uma das propriedades das atividades do processo 2. 
-Devem estar relacionadas com o modelo de processo apresentado anteriormente._
+Os tipos de dados a serem utilizados são:
 
-_Os tipos de dados a serem utilizados são:_
+_**Caixa de texto -> Nome** – campo texto de uma linha_  
+_**Caixa de texto -> Email** – campo texto de uma linha_  
+_**Listbox** – seleção de opções em lista_  
+_**Caixa de texto** – campo texto de múltiplas linhas_  
+_**Seleção numérica** – campo de nota (ex: de 1 a 5)_
 
-_**Descrição do problema** - campo texto de múltiplas linhas_
+<br>
 
-**Suporte ao usuário**
+**Atividade 1 - Acessar a seção de suporte**
 
-| **Campo** | **Tipo** | **Restrições** | **Valor default** |
-| --- | --- | --- | --- |
-| Preencher formulário | Caixa de Texto   | formato de texto | default |
+| **Campo**           | **Tipo** | **Restrições**               | **Valor default** |
+|---------------------|----------|-------------------------------|-------------------|
+| botão "Suporte"     | Botão    | | default           |
 
+| **Comandos** | **Destino**         | **Tipo**  |
+|--------------|---------------------|-----------|
+| ACESSAR      | Seção de suporte    | default   |
 
-| **Comandos** | **Destino** | **Tipo** |
-| --- | --- | --- |
-| Solicitar Ajuda | Fim do Processo 1 | default |
+**Atividade 2 - Consultar FAQ ou tutoriais**
 
+| **Campo**              | **Tipo**    | **Restrições**                   | **Valor default** |
+|------------------------|-------------|----------------------------------|-------------------|
+| Lista de tópicos FAQ   | Lista       | itens navegáveis | default           |
+| Links para tutoriais   | Lista   | itens navegáveis | default           |
 
+| **Comandos** | **Destino**                 | **Tipo**  |
+|--------------|-----------------------------|-----------|
+| CONSULTAR    | Conteúdo de ajuda (FAQ/tutorial) | default   |
 
-**Nome da atividade 2**
+**Atividade 3 - Preencher formulário descrevendo o problema**
 
-| **Campo**       | **Tipo**         | **Restrições** | **Valor default** |
-| ---             | ---              | ---            | ---               |
-| [Nome do campo] | [tipo de dados]  |                |                   |
-|                 |                  |                |                   |
+| **Campo**                | **Tipo**            | **Restrições**                                  | **Valor default** |
+|--------------------------|---------------------|-------------------------------------------------|-------------------|
+| Nome do usuário          | Caixa de texto      | obrigatório                                     | default           |
+| E-mail                   | Caixa de texto      | formato de e-mail válido                        | default           |
+| Categoria do problema    | Listbox             | seleção obrigatória                             | default           |
+| Descrição do problema    | Caixa de texto longa| obrigatório, mínimo 20 caracteres               | default           |
 
-| **Comandos**         |  **Destino**                   | **Tipo**          |
-| ---                  | ---                            | ---               |
-| [Nome do botão/link] | Atividade/processo de destino  | (default/cancel/  ) |
-|                      |                                |                   |
+| **Comandos** | **Destino**               | **Tipo**  |
+|--------------|---------------------------|-----------|
+| PREENCHER    | Formulário de suporte     | default   |
+
+**Atividade 4 - Enviar feedback**
+
+| **Campo**           | **Tipo**            | **Restrições**                         | **Valor default** |
+|---------------------|---------------------|----------------------------------------|-------------------|
+| Avaliação (1 a 5)   | Seleção    | obrigatória | default           |
+| Comentário opcional | Caixa de texto      | máximo de 300 caracteres | default           |
+
+| **Comandos** | **Destino**           | **Tipo**  |
+|--------------|-----------------------|-----------|
+| ENVIAR       | Seção de suporte   | default   |
