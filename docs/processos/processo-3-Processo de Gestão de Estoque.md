@@ -4,7 +4,7 @@ O processo de gestão de estoque envolve o controle das entradas e saídas de pr
 
 Além disso, quando um produto é vendido ou retirado para uso, é realizado o registro de saída, garantindo que o estoque reflita corretamente a quantidade disponível.
 
-![Controle de gestão de estoque](https://github.com/user-attachments/assets/ab2ffd97-99db-4198-ad84-dbe4ce06a40f)
+![Controle de Gestão de Estoque](https://github.com/user-attachments/assets/08b1b251-5be9-4cec-a2b5-3497268ed28b)
 
 #### Detalhamento das atividades
 
