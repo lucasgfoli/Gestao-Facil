@@ -11,20 +11,21 @@ Devem estar relacionadas com o modelo de processo apresentado anteriormente._
 
 _Os tipos de dados a serem utilizados são:_
 
-_* **Caixa de texto** - campo texto de uma linha_
+_**Caixa de texto** - campo texto de uma linha_
 
-_* **Código do produto** - campo numérico_
+_**Código do produto** - campo numérico_
 
-_* **Seleção única de categoria** - campo com várias opções de valores que são mutuamente exclusivas (tradicional radio button ou combobox)_
+_**Seleção única de categoria** - campo com várias opções de valores que são mutuamente exclusivas (tradicional radio button ou combobox)_
 
-_* **Seleção única Quantidade** - campo com várias opções que podem ser selecionadas mutuamente (tradicional checkbox ou listbox)_
+_**Seleção única Quantidade** - campo com várias opções que podem ser selecionadas mutuamente (tradicional checkbox ou listbox)_
 
-_* **Preço do produto** - campo numérico_
+_**Preço do produto** - campo numérico_
 
-_* **Caixa de texto** - campo texto de uma linha_
+_**Caixa de texto** - campo texto de uma linha_
 
-_* **Data de validade** - campo do tipo data (dd-mm-aaaa)_
+_**Data de validade** - campo do tipo data (dd-mm-aaaa)_
 
+<br>
 
 **Atividade 1 - Acessar sistema**
 
