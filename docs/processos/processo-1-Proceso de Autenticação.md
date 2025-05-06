@@ -25,7 +25,17 @@ _**Caixa de texto -> Senha** - campo texto de uma linha_
 
 _**Caixa de texto -> Confirmação de Senha** - campo texto de uma linha_
 
-**Seção de cadastro**
+**Atividade 1 - Acessar seção de cadastro**
+
+| **Campo** | **Tipo** | **Restrições** | **Valor default** |
+|----------------------|------------------|----------------------------|-------------------|
+| botão "Cadastre-se" | Botão | obrigatório | default |
+
+| **Comandos** | **Destino** | **Tipo** |
+|--------------|--------------------|-----------|
+| ACESSAR | Seção de cadastro | default |
+
+**Atividade 2 - Preencher formulário**
 
 | **Campo** | **Tipo** | **Restrições** | **Valor default** |
 | --- | --- | --- | --- |
@@ -44,14 +54,38 @@ _**Caixa de texto -> Confirmação de Senha** - campo texto de uma linha_
 | CADASTRAR | Fim do Processo 1 | default |
 | ENTRAR | Seção de login | default |
 
-**Seção de Login**
+**Atividade 3 - Submeter dados**
+
+| **Campo** | **Tipo** | **Restrições** | **Valor default** |
+|----------------------------|---------------------------|--------------------------------------------------------|---------------------------|
+| todos os campos do formulário | Dados do formulário preenchido | devem cumprir todas as restrições de validação individual | preenchidos corretamente  |
+
+| **Comandos** | **Destino** | **Tipo** |
+|----------------|-----------------------------------|-----------|
+| SUBMETER | Validação de dados e cadastro do usuário | default |
+| EXIBIR MENSAGEM | Sucesso ou erro na submissão | default |
+
+
+**Atividade 4 - Acessar Seção de Login**
+
+| **Campo** | **Tipo** | **Restrições** | **Valor default** |
+|----------------------|------------------|----------------------------|-------------------|
+| botão "Entrar" | Botão | visível na tela inicial | default |
+
+| **Comandos** | **Destino** | **Tipo** |
+|--------------|-----------------|-----------|
+| ACESSAR | Seção de login | default |
+
+**Atividade 5 - Digitar credenciais**
 
 | **Campo** | **Tipo** | **Restrições** | **Valor default** |
 | --- | --- | --- | --- |
-| login | Caixa de Texto | formato de e-mail | default |
-| senha | Caixa de Texto | mínimo de 8 caracteres | default |
+| Inserir Email | Caixa de Texto | formato de e-mail | default |
+| Inserir senha | Caixa de Texto | mínimo de 8 caracteres | default |
 
 | **Comandos** | **Destino** | **Tipo** |
 | --- | --- | --- |
 | ENTRAR | Fim do Processo 1 | default |
 | CADASTRAR | Seção de cadastro | default |
+
+
