@@ -25,7 +25,31 @@ _**Tipo de pagamento** - campo texto de uma linha_
 
 _**Preço do produto** - campo numérico_
 
-**Registro de Entrada**
+<br>
+
+**Atividade 1 - Acessar sistema**
+
+| **Campo**       | **Tipo** | **Restrições**               | **Valor default** |
+|-----------------|----------|-------------------------------|-------------------|
+| botão "Acessar" | Botão    | visível na tela inicial       | default           |
+
+| **Comandos** | **Destino**    | **Tipo**  |
+|--------------|----------------|-----------|
+| ACESSAR      | Tela principal | default   |
+
+**Atividade 2 - Selecionar opção de entrada**
+
+| **Campo**               | **Tipo**   | **Restrições**                     | **Valor default** |
+|-------------------------|------------|------------------------------------|-------------------|
+| botão "Entrar no sistema" | Botão    | visível na tela inicial            | default           |
+| botão "Acessar como administrador" | Botão | visível para perfis autorizados | default           |
+
+| **Comandos** | **Destino**                  | **Tipo**  |
+|--------------|------------------------------|-----------|
+| SELECIONAR   | Tela de login ou painel administrativo | default   |
+
+
+**Atividade 3 - Registrar Entrada**
 
 | **Campo**         | **Tipo**                       | **Restrições**                             |
 |-------------------|--------------------------------|--------------------------------------------|
@@ -40,7 +64,7 @@ _**Preço do produto** - campo numérico_
 | Cancelar | Início do proceso de Registro de Entrada | default |
 
 
-**Registro de Venda**
+**Atividade 4 - Registrar Venda**
 
 | **Campo**           | **Tipo**                       | **Restrições**                             |
 |---------------------|--------------------------------|--------------------------------------------|
