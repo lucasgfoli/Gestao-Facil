@@ -26,7 +26,7 @@ _* **Caixa de texto** - campo texto de uma linha_
 _* **Data de validade** - campo do tipo data (dd-mm-aaaa)_
 
 
-### **Atividade 1 - Acessar sistema**
+**Atividade 1 - Acessar sistema**
 
 | **Campo**       | **Tipo** | **Restrições**               | **Valor default** |
 |-----------------|----------|-------------------------------|-------------------|
@@ -36,8 +36,7 @@ _* **Data de validade** - campo do tipo data (dd-mm-aaaa)_
 |--------------|----------------|-----------|
 | ACESSAR      | Tela principal | default   |
 
-
-### **Atividade 2 - Selecionar opção de registro**
+**Atividade 2 - Selecionar opção de registro**
 
 | **Campo**               | **Tipo**   | **Restrições**                   | **Valor default** |
 |-------------------------|------------|----------------------------------|-------------------|
@@ -65,7 +64,7 @@ _* **Data de validade** - campo do tipo data (dd-mm-aaaa)_
 | Cadastrar | Fim do Processo 1 | default |
 | Cancelar | Início do proceso de cadastro de produto | default |
 
-### **Atividade 4 - Acessar painel administrativo**
+**Atividade 4 - Acessar painel administrativo**
 
 | **Campo**                  | **Tipo**                       | **Restrições**                             | **Valor default** |
 |----------------------------|--------------------------------|--------------------------------------------|-------------------|
