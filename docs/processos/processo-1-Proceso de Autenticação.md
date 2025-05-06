@@ -25,6 +25,9 @@ _**Caixa de texto -> Senha** - campo texto de uma linha_
 
 _**Caixa de texto -> Confirmação de Senha** - campo texto de uma linha_
 
+
+
+
 **Atividade 1 - Acessar seção de cadastro**
 
 | **Campo** | **Tipo** | **Restrições** | **Valor default** |
