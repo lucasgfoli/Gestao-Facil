@@ -190,6 +190,8 @@ CREATE TABLE Suporte (
 
 </code>
 
+|-----------------------------------------------|
+
 Insira aqui o script de criação das tabelas do banco de dados.
 
 Veja um exemplo:
