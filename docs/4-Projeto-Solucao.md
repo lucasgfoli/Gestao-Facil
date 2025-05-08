@@ -123,6 +123,8 @@ As referências abaixo irão auxiliá-lo na geração do artefato “Esquema Rel
 
 #### 4.3.3 Modelo Físico
 
+<code>
+ 
 -- Criação da tabela Cliente
 CREATE TABLE Cliente (
     CPF CHAR(11) PRIMARY KEY,
@@ -185,6 +187,8 @@ CREATE TABLE Suporte (
     nivel_suporte VARCHAR(50),
     FOREIGN KEY (id_chamado) REFERENCES Chamado(id_chamado)
 );
+
+</code>
 
 Insira aqui o script de criação das tabelas do banco de dados.
 
