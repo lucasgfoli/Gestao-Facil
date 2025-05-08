@@ -101,13 +101,16 @@ _Apresente o modelo de dados por meio de um modelo relacional que contemple todo
 
 #### 4.3.1 Modelo ER
 
-![Diagrama Entidade Relacionamento DER](https://github.com/user-attachments/assets/b4b90ffb-1ee9-466b-822f-8d469ae04cc0)
+![Diagrama Entidade Relacionamento DER drawio](https://github.com/user-attachments/assets/40a4c960-0a67-40cf-b36e-33a703fd416a)
 
 As referências abaixo irão auxiliá-lo na geração do artefato “Modelo ER”.
 
 > - [Como fazer um diagrama entidade relacionamento | Lucidchart](https://www.lucidchart.com/pages/pt/como-fazer-um-diagrama-entidade-relacionamento)
 
+
 #### 4.3.2 Esquema Relacional
+
+![Diagrama ER de banco de dados (pé de galinha)](https://github.com/user-attachments/assets/1004c342-2d47-4148-9f86-11a154d51070)
 
 O Esquema Relacional corresponde à representação dos dados em tabelas juntamente com as restrições de integridade e chave primária.
  
@@ -117,7 +120,6 @@ As referências abaixo irão auxiliá-lo na geração do artefato “Esquema Rel
 
 ![Exemplo de um modelo relacional](images/modeloRelacional.png "Exemplo de Modelo Relacional.")
 ---
-
 
 #### 4.3.3 Modelo Físico
 
