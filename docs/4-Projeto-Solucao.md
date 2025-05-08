@@ -101,7 +101,7 @@ _Apresente o modelo de dados por meio de um modelo relacional que contemple todo
 
 #### 4.3.1 Modelo ER
 
-![Diagrama Entidade Relacionamento DER drawio](https://github.com/user-attachments/assets/40a4c960-0a67-40cf-b36e-33a703fd416a)
+![Diagrama Entidade Relacionamento DER drawio](https://github.com/user-attachments/assets/3bdaa877-2895-4359-a4f0-b7cf09f8959d)
 
 As referências abaixo irão auxiliá-lo na geração do artefato “Modelo ER”.
 
@@ -110,7 +110,7 @@ As referências abaixo irão auxiliá-lo na geração do artefato “Modelo ER�
 
 #### 4.3.2 Esquema Relacional
 
-![Diagrama ER de banco de dados (pé de galinha)](https://github.com/user-attachments/assets/1004c342-2d47-4148-9f86-11a154d51070)
+![Diagrama ER de banco de dados (pé de galinha) (3)](https://github.com/user-attachments/assets/3a87ea2f-d393-4419-87aa-4ac4b2a3a0c2)
 
 O Esquema Relacional corresponde à representação dos dados em tabelas juntamente com as restrições de integridade e chave primária.
  
@@ -122,6 +122,69 @@ As referências abaixo irão auxiliá-lo na geração do artefato “Esquema Rel
 ---
 
 #### 4.3.3 Modelo Físico
+
+-- Criação da tabela Cliente
+CREATE TABLE Cliente (
+    CPF CHAR(11) PRIMARY KEY,
+    nome VARCHAR(100),
+    data_nascimento DATE
+);
+
+-- Criação da tabela Fornecedor
+CREATE TABLE Fornecedor (
+    id_fornecedor INTEGER PRIMARY KEY,
+    nome_fornecedor VARCHAR(100)
+);
+
+-- Criação da tabela Produto
+CREATE TABLE Produto (
+    id_produto INTEGER PRIMARY KEY,
+    id_fornecedor INTEGER,
+    nome VARCHAR(100),
+    categoria VARCHAR(50),
+    preco DECIMAL(10, 2),
+    quantidade INTEGER,
+    data_validade DATE,
+    FOREIGN KEY (id_fornecedor) REFERENCES Fornecedor(id_fornecedor)
+);
+
+-- Criação da tabela Estoque
+CREATE TABLE Estoque (
+    num_setor INTEGER PRIMARY KEY,
+    coluna INTEGER,
+    corredor INTEGER,
+    prateleira INTEGER
+);
+
+-- Criação da tabela Usuario
+CREATE TABLE Usuario (
+    id_usuario INTEGER PRIMARY KEY,
+    nome VARCHAR(100),
+    data_nascimento DATE,
+    telefone VARCHAR(20),
+    email VARCHAR(100),
+    senha VARCHAR(100),
+    cnpj CHAR(14)
+);
+
+-- Criação da tabela Chamado
+CREATE TABLE Chamado (
+    id_chamado INTEGER PRIMARY KEY,
+    id_usuario INTEGER,
+    data_chamado DATE,
+    categoria VARCHAR(50),
+    nome VARCHAR(100),
+    FOREIGN KEY (id_usuario) REFERENCES Usuario(id_usuario)
+);
+
+-- Criação da tabela Suporte
+CREATE TABLE Suporte (
+    id_suporte INTEGER PRIMARY KEY,
+    id_chamado INTEGER,
+    nome VARCHAR(100),
+    nivel_suporte VARCHAR(50),
+    FOREIGN KEY (id_chamado) REFERENCES Chamado(id_chamado)
+);
 
 Insira aqui o script de criação das tabelas do banco de dados.
 
