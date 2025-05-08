@@ -98,7 +98,7 @@ Atualizado em: 02/05/25
 | Lucas | Projeto da solução e Tecnologias utilizadas | 30/04/25 | 02/05/2025 | ✔️ | 02/05/2025 |
 | Ryan     | Correção Suporte ao Usuário | 09/04/2025 | 11/04/2025 | ✔️ | 10/04/2025|
 | Leon | Criação de Logotipo - modelar paleta de cores | 09/04/2025 | 11/04/2025 | ✔️ | 10/04/2025 |
-| Estevão | Prototipagem das telas - Diagramação do Modelo ER 4.3.1 e 4.3.2 - Modelo Fisico 4.3.3 | 10/04/2025 | 08/05/2025 | ✔️|  |
+| Estevão | Prototipagem das telas - Diagramação do Modelo ER 4.3.1 e 4.3.2 - Modelo Fisico 4.3.3 | 10/04/2025 | 09/05/2025 | ✔️ | 08/05/2025 |
 
 Legenda:
 - ✔️: terminado
