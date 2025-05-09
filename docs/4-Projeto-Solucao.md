@@ -32,7 +32,7 @@ A tela de cadastro foi desenvolvida para o colaborador inserir suas informaçõe
 ### 2 Tela de Login
 A tela de  login é responsável para autenticar os usuários já cadastrados. Ele conta com o campo de inserir e-mail e senha, além da opção de recuperar senha e um botão de acesso a tela de cadastro caso não tenha um registro.
 
-![tela_login]()
+![tela_login](https://github.com/ICEI-PUC-Minas-PBR-ADS/pbr-ads-2025-1-p2-tiapn-t1-1053100-gestao-facil/blob/106a97546241d80826b8a2caedda94da87141582/docs/images/Tela%20de%20Login.jpg)
 
 ### 3 Tela de produtos disponíveis
 Essa é uma das principais interfaces do sistema. A tela de gestão de estoque apresenta uma tabela com produtos cadastrados, suas quantidades, categorias e status. O usuário pode pequisar, editar ou excluir registros, além de visualizar rapidamente a situação do estoque.
