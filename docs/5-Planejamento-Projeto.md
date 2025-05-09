@@ -95,10 +95,10 @@ Atualizado em: 02/05/25
 | Responsável   | Tarefa/Requisito | Iniciado em    | Prazo      | Status | Terminado em    |
 | :----         |    :----         |      :----:    | :----:     | :----: | :----:          |
 |:----   | :----        | 01/02/2024     | 07/03/2024 | ✔️    | 05/01/2005      |
-| Lucas | Projeto da solução e Tecnologias utilizadas | 30/04/25 | 02/05/2025 | ✔️ | 02/05/2025 |
+| Lucas | Projeto da solução, Tecnologias utilizadas, Prototipagem das telas | 10/04/2025 | 09/05/2025 | ✔️ | 09/05/2025 |
 | Ryan     | Correção Suporte ao Usuário | 09/04/2025 | 11/04/2025 | ✔️ | 10/04/2025|
 | Leon | Criação de Logotipo - modelar paleta de cores | 09/04/2025 | 11/04/2025 | ✔️ | 10/04/2025 |
-| Estevão | Prototipagem das telas - Diagramação do Modelo ER 4.3.1 e 4.3.2 - Modelo Fisico 4.3.3 | 10/04/2025 | 09/05/2025 | ✔️ | 08/05/2025 |
+| Estevão | Diagramação do Modelo ER 4.3.1 e 4.3.2 - Modelo Fisico 4.3.3 | 10/04/2025 | 09/05/2025 | ✔️ | 08/05/2025 |
 
 Legenda:
 - ✔️: terminado
