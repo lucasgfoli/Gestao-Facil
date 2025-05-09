@@ -32,44 +32,44 @@ A tela de cadastro foi desenvolvida para o colaborador inserir suas informaçõe
 ### 2 Tela de Login
 A tela de  login é responsável para autenticar os usuários já cadastrados. Ele conta com o campo de inserir e-mail e senha, além da opção de recuperar senha e um botão de acesso a tela de cadastro caso não tenha um registro.
 
-![tela_login](https://github.com/user-attachments/assets/b6486b4e-787a-4d96-9944-e9559304cbd9)
+![tela_login]()
 
 ### 3 Tela de produtos disponíveis
 Essa é uma das principais interfaces do sistema. A tela de gestão de estoque apresenta uma tabela com produtos cadastrados, suas quantidades, categorias e status. O usuário pode pequisar, editar ou excluir registros, além de visualizar rapidamente a situação do estoque.
 
-![produtos_cadastrados](./images/Tela de Produtos Cadastrados.jpg).
+![produtos_cadastrados](https://github.com/ICEI-PUC-Minas-PBR-ADS/pbr-ads-2025-1-p2-tiapn-t1-1053100-gestao-facil/blob/801bd9d0dd9bcd7fe3c3f830ab9f3a4195b57759/docs/images/Tela%20de%20Produtos%20Cadastrados.jpg).
 
 ### 4 Tela de Cadastrar Produto
 Essa é a interface onde se é possivel realizar o cadastro de um novo produto, disponibilizando opções para inserir detalhes do mesmo.
 
-![cadastro_produtos](./images/Tela de Cadastro de Produto.jpg).
+![cadastro_produtos](https://github.com/ICEI-PUC-Minas-PBR-ADS/pbr-ads-2025-1-p2-tiapn-t1-1053100-gestao-facil/blob/801bd9d0dd9bcd7fe3c3f830ab9f3a4195b57759/docs/images/Tela%20de%20Cadastro%20de%20Produto.jpg).
 
 ### 5 Tela de cadastro de empresas
 Nessa tela são cadastradas as empresas e suas respectivas informações, tais como CNPJ, Nome, Endereço.
 
-![cadastro_empresas](./images/Tela Cadastro de Empresa.jpg).
+![cadastro_empresas](https://github.com/ICEI-PUC-Minas-PBR-ADS/pbr-ads-2025-1-p2-tiapn-t1-1053100-gestao-facil/blob/801bd9d0dd9bcd7fe3c3f830ab9f3a4195b57759/docs/images/Tela%20Cadastro%20de%20Empresa.jpg).
 
 ### 6 Tela de registro de movimentações 
 Registro de saída ou entrada de produtos.
 
-![registro_movimentacoes](./images/Tela de Registro de Venda.jpg).
+![registro_movimentacoes](https://github.com/ICEI-PUC-Minas-PBR-ADS/pbr-ads-2025-1-p2-tiapn-t1-1053100-gestao-facil/blob/801bd9d0dd9bcd7fe3c3f830ab9f3a4195b57759/docs/images/Tela%20de%20Registro%20de%20Venda.jpg).
 
 ### 7 Aba geral ou Menu
 Menu para transição das telas.
 
-![aba_geral](./images/Tela de Menu.jpg).
+![aba_geral](https://github.com/ICEI-PUC-Minas-PBR-ADS/pbr-ads-2025-1-p2-tiapn-t1-1053100-gestao-facil/blob/801bd9d0dd9bcd7fe3c3f830ab9f3a4195b57759/docs/images/Tela%20de%20Menu.jpg).
 
 ### 8 Suporte ao usuário 
 Tela para solicitação de Ajuda, FAC e tutoriais.
-![suporte_ao_usuario](./images/Tela de Suporte ao Usuário.jpg).
-![suporte_ao_usuario2](./images/Tela de Suporte ao Usuário 2.jpg).
-![faq](./images/Tela FAQ.jpg).
+![suporte_ao_usuario](https://github.com/ICEI-PUC-Minas-PBR-ADS/pbr-ads-2025-1-p2-tiapn-t1-1053100-gestao-facil/blob/801bd9d0dd9bcd7fe3c3f830ab9f3a4195b57759/docs/images/Tela%20de%20Suporte%20ao%20Usu%C3%A1rio.jpg).
+![suporte_ao_usuario2](https://github.com/ICEI-PUC-Minas-PBR-ADS/pbr-ads-2025-1-p2-tiapn-t1-1053100-gestao-facil/blob/801bd9d0dd9bcd7fe3c3f830ab9f3a4195b57759/docs/images/Tela%20de%20Suporte%20ao%20Usu%C3%A1rio%202.jpg).
+![faq](https://github.com/ICEI-PUC-Minas-PBR-ADS/pbr-ads-2025-1-p2-tiapn-t1-1053100-gestao-facil/blob/801bd9d0dd9bcd7fe3c3f830ab9f3a4195b57759/docs/images/Tela%20FAQ.jpg).
 
 
 ### 9 Perfil
 Tela que contém os dados do usuário.
 
-![perfil](./images/Tela de Perfil do Usuário.jpg).
+![perfil](https://github.com/ICEI-PUC-Minas-PBR-ADS/pbr-ads-2025-1-p2-tiapn-t1-1053100-gestao-facil/blob/801bd9d0dd9bcd7fe3c3f830ab9f3a4195b57759/docs/images/Tela%20de%20Perfil%20do%20Usu%C3%A1rio.jpg).
 
 São protótipos usados em design de interface para sugerir a estrutura de um site web e seu relacionamentos entre suas páginas. Um wireframe web é uma ilustração semelhante do layout de elementos fundamentais na interface.
  
