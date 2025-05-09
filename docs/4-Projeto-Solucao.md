@@ -27,7 +27,7 @@ validar o fluxo de navegação e facilitar o entendimento das suas funcionalidad
 ### 1 Tela de Cadastro
 A tela de cadastro foi desenvolvida para o colaborador inserir suas informações básicas para criar uma conta de acesso á plataforma. 
 
-![tela_cadastro](docs/images/Tela Cadastro de Usuário.jpg)
+![tela_cadastro](docs/images/Tela Cadastro de Usuário.jpg).
 
 ### 2 Tela de Login
 A tela de  login é responsável para autenticar os usuários já cadastrados. Ele conta com o campo de inserir e-mail e senha, além da opção de recuperar senha e um botão de acesso a tela de cadastro caso não tenha um registro.
@@ -37,39 +37,39 @@ A tela de  login é responsável para autenticar os usuários já cadastrados. E
 ### 3 Tela de produtos disponíveis
 Essa é uma das principais interfaces do sistema. A tela de gestão de estoque apresenta uma tabela com produtos cadastrados, suas quantidades, categorias e status. O usuário pode pequisar, editar ou excluir registros, além de visualizar rapidamente a situação do estoque.
 
-![produtos_cadastrados](docs/images/Tela de Produtos Cadastrados.jpg)
+![produtos_cadastrados](docs/images/Tela de Produtos Cadastrados.jpg).
 
 ### 4 Tela de Cadastrar Produto
 Essa é a interface onde se é possivel realizar o cadastro de um novo produto, disponibilizando opções para inserir detalhes do mesmo.
 
-![cadastro_produtos](docs/images/Tela de Cadastro de Produto.jpg)
+![cadastro_produtos](docs/images/Tela de Cadastro de Produto.jpg).
 
 ### 5 Tela de cadastro de empresas
 Nessa tela são cadastradas as empresas e suas respectivas informações, tais como CNPJ, Nome, Endereço.
 
-![cadastro_empresas](docs/images/Tela Cadastro de Empresa.jpg)
+![cadastro_empresas](docs/images/Tela Cadastro de Empresa.jpg).
 
 ### 6 Tela de registro de movimentações 
 Registro de saída ou entrada de produtos.
 
-![registro_movimentacoes](docs/images/Tela de Registro de Venda.jpg)
+![registro_movimentacoes](docs/images/Tela de Registro de Venda.jpg).
 
 ### 7 Aba geral ou Menu
 Menu para transição das telas.
 
-![aba_geral](docs/images/Tela de Menu.jpg)
+![aba_geral](docs/images/Tela de Menu.jpg).
 
 ### 8 Suporte ao usuário 
 Tela para solicitação de Ajuda, FAC e tutoriais.
-![suporte_ao_usuario](docs/images/Tela de Suporte ao Usuário.jpg)
-![suporte_ao_usuario2](docs/images/Tela de Suporte ao Usuário 2.jpg)
-![faq](docs/images/Tela FAQ.jpg)
+![suporte_ao_usuario](docs/images/Tela de Suporte ao Usuário.jpg).
+![suporte_ao_usuario2](docs/images/Tela de Suporte ao Usuário 2.jpg).
+![faq](docs/images/Tela FAQ.jpg).
 
 
 ### 9 Perfil
 Tela que contém os dados do usuário.
 
-![perfil](docs/images/Tela de Perfil do Usuário.jpg)
+![perfil](docs/images/Tela de Perfil do Usuário.jpg).
 
 São protótipos usados em design de interface para sugerir a estrutura de um site web e seu relacionamentos entre suas páginas. Um wireframe web é uma ilustração semelhante do layout de elementos fundamentais na interface.
  
