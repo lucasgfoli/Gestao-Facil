@@ -14,14 +14,14 @@
 - Correção:  André D'Ascenção, Ryan Barcelos e Leon Ribeiro.
 - Apresentação: Estevão Antunes, Lucas Gabriel, André D'Ascenção, Ryan Barcelos e Leon Ribeiro.
 
-### Sprint 2
+### Sprint 2 (Especificação do público-alvo )
 - _Scrum master_: Estevão Antunes.
 - _Product Owner: Estevão Antunes.
 - Documentação: André D'Ascenção, Estevão Antunes, Lucas Gabriel, Leon Ribeiro, e Ryan Barcelos.
 - Modelagem dos Processos:
 - Revisão: André D'Ascenção, Estevão Antunes, Lucas Gabriel, Leon Ribeiro, e Ryan Barcelos.
 
-### Sprint 3 
+### Sprint 3 (Modelagem dos Processo, Digramatização e Prototipação )
 - _Scrum master_: Estevão Antunes.
 - _Product Owner: Estevão Antunes.
 - Documentação: André D'Ascenção, Estevão Antunes, Lucas Gabriel, Leon Ribeiro, e Ryan Barcelos.
