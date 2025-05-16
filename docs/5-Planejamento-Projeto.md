@@ -14,7 +14,7 @@
 - Correção:  André D'Ascenção, Ryan Barcelos e Leon Ribeiro.
 - Apresentação: Estevão Antunes, Lucas Gabriel, André D'Ascenção, Ryan Barcelos e Leon Ribeiro.
 
-### Sprint 2 (Especificação do público-alvo )
+### Sprint 2 (Detalhamento da Especificação )
 - _Scrum master_: Estevão Antunes.
 - _Product Owner: Estevão Antunes.
 - Documentação: André D'Ascenção, Estevão Antunes, Lucas Gabriel, Leon Ribeiro, e Ryan Barcelos.
@@ -50,7 +50,7 @@ Atualizado em: 21/03/25
 | Ryan        | Objetivo Geral  |    18/02/2025        | 21/02/2025 | ✔️    |   21/02/2025 |
 |Estevão      | Justificativa, Participantes do Processo e Listagem dos Processos |  18/02/2025 | 21/02/2025 | ✔️ | 21/02/2025 |
 
-## Sprint 2
+## Sprint 2 
 
 Atualizado em: 21/03/25
 
