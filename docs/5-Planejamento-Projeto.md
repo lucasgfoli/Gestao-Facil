@@ -107,7 +107,7 @@ Atualizado em: 16/05/2025
 
 | Responsável   | Tarefa/Requisito | Iniciado em    | Prazo      | Status | Terminado em    |
 | :----         | :----            | :----:         | :----:     | :----: | :----:          |
-|               |                  |                |            |        |                 |
+|Estevão        |Criar Home Page   | 19/05/2025     | 23/05/2025 |        |                 |
 |               |                  |                |            |        |                 |
 |               |                  |                |            |        |                 |
 |               |                  |                |            |        |                 |
