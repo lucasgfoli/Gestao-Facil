@@ -6,7 +6,7 @@
 
 > Apresente a divisão de papéis entre os membros do grupo em cada sprint. O desejável é que, em cada sprint, o aluno assuma papéis diferentes na disciplina. Siga o modelo do exemplo abaixo:
 
-### Sprint 1
+### Sprint 1 (Documentação e Apresentação)
 - _Scrum master_: Estevão Antunes.
 - _Product Owner: Estevão Antunes.
 - Documentação: Estevão Antunes, Lucas Gabriel, André D'Ascenção, Ryan Barcelos e Leon Ribeiro.
