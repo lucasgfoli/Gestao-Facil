@@ -6,28 +6,6 @@ O processo de cadastro e login de usuário é o primeiro contato do usuário com
 
 #### Detalhamento das atividades
 
-_Descreva aqui cada uma das propriedades das atividades do processo 1. 
-Devem estar relacionadas com o modelo de processo apresentado anteriormente._
-
-_Os tipos de dados a serem utilizados são:_
-
-_**Caixa de texto -> Nome** - campo texto de uma linha_
-
-_**Caixa de texto -> Email** - campo texto de uma linha_
-
-_**Número de CNPJ** - campo numérico_
-
-_**Número de Telefone** - campo numérico_
-
-_**Data de nascimento** - campo do tipo data (dd-mm-aaaa)_
-
-_**Caixa de texto -> Senha** - campo texto de uma linha_
-
-_**Caixa de texto -> Confirmação de Senha** - campo texto de uma linha_
-
-
-
-
 **Atividade 1 - Acessar seção de cadastro**
 
 | **Campo** | **Tipo** | **Restrições** | **Valor default** |
