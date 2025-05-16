@@ -100,6 +100,19 @@ Atualizado em: 02/05/25
 | Leon | Criação de Logotipo - modelar paleta de cores | 09/04/2025 | 11/04/2025 | ✔️ | 10/04/2025 |
 | Estevão | Diagramação do Modelo ER 4.3.1 e 4.3.2 - Modelo Fisico 4.3.3 | 10/04/2025 | 09/05/2025 | ✔️ | 08/05/2025 |
 
+
+## Sprint 4 (Interface da Solução)
+
+Atualizado em: 16/05/2025
+
+| Responsável   | Tarefa/Requisito | Iniciado em    | Prazo      | Status | Terminado em    |
+| :----         | :----            | :----:         | :----:     | :----: | :----:          |
+|               |                  |                |            |        |                 |
+|               |                  |                |            |        |                 |
+|               |                  |                |            |        |                 |
+|               |                  |                |            |        |                 |
+|               |                  |                |            |        |                 |
+
 Legenda:
 - ✔️: terminado
 - 📝: em execução
