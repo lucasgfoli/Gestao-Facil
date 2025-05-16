@@ -18,16 +18,23 @@
 - _Scrum master_: Estevão Antunes.
 - _Product Owner: Estevão Antunes.
 - Documentação: André D'Ascenção, Estevão Antunes, Lucas Gabriel, Leon Ribeiro, e Ryan Barcelos.
-- Modelagem dos Processos:
+- Modelagem dos Processos: André D'Ascenção, Estevão Antunes, Lucas Gabriel, Leon Ribeiro, e Ryan Barcelos.
 - Revisão: André D'Ascenção, Estevão Antunes, Lucas Gabriel, Leon Ribeiro, e Ryan Barcelos.
 
 ### Sprint 3 (Modelagem dos Processo, Digramatização e Prototipação )
 - _Scrum master_: Estevão Antunes.
 - _Product Owner: Estevão Antunes.
 - Documentação: André D'Ascenção, Estevão Antunes, Lucas Gabriel, Leon Ribeiro, e Ryan Barcelos.
-- Modelagem dos Diagramas: 
+- Modelagem dos Diagramas: André D'Ascenção, Estevão Antunes, Lucas Gabriel, Leon Ribeiro, e Ryan Barcelos.
 - Revisão: André D'Ascenção, Estevão Antunes, Lucas Gabriel, Leon Ribeiro, e Ryan Barcelos.
 
+### Sprint 4 (Desenvolvimento do Sistema )
+- _Scrum master_: Estevão Antunes.
+- _Product Owner: Estevão Antunes.
+- Documentação: André D'Ascenção, Estevão Antunes, Lucas Gabriel, Leon Ribeiro, e Ryan Barcelos.
+- Desenvolvimento das telas: André D'Ascenção, Estevão Antunes, Lucas Gabriel, Leon Ribeiro, e Ryan Barcelos.
+- Revisão: André D'Ascenção, Estevão Antunes, Lucas Gabriel, Leon Ribeiro, e Ryan Barcelos.
+  
 ## 5.1. Quadro de tarefas
 
 > Apresente a divisão de tarefas entre os membros do grupo e o acompanhamento da execução, conforme exemplo abaixo.
