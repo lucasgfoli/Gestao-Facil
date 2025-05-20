@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
 * {
     margin: 0;
     border: 0;
@@ -5,34 +7,94 @@
     box-sizing: border-box;
 }
 
-html
-{
+a {
+    text-decoration: none;
+}
+
+html {
     scroll-behavior: smooth;
 }
 
-body
-{
+body {
     background-color: rgb(80, 160, 235);
-
+    font-family: 'Inter', sans-serif;
 }
 
-/*HEADER*/
-
-header
-{
+/* HEADER */
+header {
     display: flex;
-    background-color: rgba(241, 239, 239, 0.911);
-}
-
-header a
-{
-    text-decoration: none;
     justify-content: space-between;
+    align-items: center;
+    background-color: rgba(241, 239, 239, 0.911);
+    padding: 10px 40px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    max-width: 1200px;         /* Largura máxima do header */
+    margin: 0 auto;            /* Centraliza o header na página */
+    width: 100%;
 }
 
-header button
-{
-    background-color: rgb(224, 207, 128);
-    padding: 15px;
-    border-radius: 20px;
+.logo,
+.autenticacao {
+    flex: 1;
 }
+
+.logo {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.logo img {
+    max-height: 40px;
+    align-self: center;
+}
+
+.links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    flex: 2;
+}
+
+.links > a {
+    color: black;
+    font-weight: 400;
+    font-size: 16px;
+    transition: color 0.2s ease;
+}
+
+.links > a:hover {
+    color: rgb(62, 101, 185);
+}
+
+.autenticacao {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.autenticacao button {
+    background-color: rgba(235, 233, 125, 0.63);
+    color: rgb(62, 101, 185);
+    padding: 10px 20px;
+    margin-left: 15px;
+    border: none;
+    border-radius: 6px;
+    border-bottom: 4px solid transparent;
+    transition: all 0.3s ease;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    text-align: center;
+}
+
+.autenticacao button:hover {
+    background-color: #f4c542;
+    color: rgb(73, 110, 184);
+    border-bottom: 4px solid rgba(158, 157, 105, 0.63);
+}
+
+/*MAIN*/
+
+
+
