@@ -1,5 +1,9 @@
+/* FONTES */
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap');
+
+/* CONFIGURAÇÃO GLOBAL */
 * {
     margin: 0;
     border: 0;
@@ -27,11 +31,10 @@ header {
     align-items: center;
     background-color: rgba(241, 239, 239, 0.911);
     padding: 10px 40px;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-    max-width: 1200px;         /* Largura máxima do header */
-    margin: 0 auto;            /* Centraliza o header na página */
+    box-shadow: 0 7px 5px rgba(0, 0, 0, 0.1);
     width: 100%;
 }
+
 
 .logo,
 .autenticacao {
@@ -41,7 +44,22 @@ header {
 .logo {
     display: flex;
     justify-content: flex-start;
+    transition: color 0.3s ease;
 }
+
+
+.logo h1 {
+    font-family: 'Merriweather', serif;
+    margin-left: 10px;
+    margin-top: 5px;
+    font-size: 22px;
+
+}
+
+.logo:hover {
+    color: rgb(80, 160, 235);
+}
+
 
 .logo img {
     max-height: 40px;
@@ -49,21 +67,21 @@ header {
 }
 
 .links {
+    flex: 2;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 40px;
-    flex: 2;
 }
 
-.links > a {
+.links>a {
     color: black;
     font-weight: 400;
     font-size: 16px;
     transition: color 0.2s ease;
 }
 
-.links > a:hover {
+.links>a:hover {
     color: rgb(62, 101, 185);
 }
 
@@ -73,7 +91,7 @@ header {
     align-items: center;
 }
 
-.autenticacao button {
+.btn {
     background-color: rgba(235, 233, 125, 0.63);
     color: rgb(62, 101, 185);
     padding: 10px 20px;
@@ -81,20 +99,69 @@ header {
     border: none;
     border-radius: 6px;
     border-bottom: 4px solid transparent;
-    transition: all 0.3s ease;
+    font-family: 'Inter', sans-serif;
     font-size: 16px;
     font-weight: 500;
     cursor: pointer;
+    transition: all 0.3s ease;
     text-align: center;
 }
 
-.autenticacao button:hover {
+.btn:hover {
     background-color: #f4c542;
     color: rgb(73, 110, 184);
     border-bottom: 4px solid rgba(158, 157, 105, 0.63);
 }
 
+
 /*MAIN*/
 
+/*ARTIGO APRESENTATIVO*/
 
+.video-apresentativo {
+    position: relative;
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    max-height: 800px;
+    overflow: hidden;
+    position: relative;
+}
 
+.background-video {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.titulo-sobreposto {
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+    font-size: 2rem;
+    font-family: 'Inter', sans-serif;
+    font-weight: 800;
+    padding: 20px;
+    z-index: 1;
+}
+
+.frase-efeito {
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+    text-transform: uppercase;
+
+}
+
+.personalizar-efeito {
+    color: #2B76BE;
+}
+
+/*ARTIGO */
