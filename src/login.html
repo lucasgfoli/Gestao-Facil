@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login | Gestão Fácil</title>
+    <link rel="stylesheet" href="css/login.css">
+    <script src="https://www.gstatic.com/firebasejs/10.7.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.7.1/firebase-auth.js"></script>
+
+
+</head>
+<body>
+    
+
+    <div class="login-container">
+        <form class="login-form" id="loginForm">
+            <img src="img/oldlogo.jpeg" alt="Logo Gestão Fácil" class="logo">
+
+
+            <div class="input-group">
+                <input type="email" id="email" required>
+                <label for="email">Digite seu login</label>
+            </div>
+
+            <div class="input-group">
+                <input type="password" id="password" required>
+                <label for="password">Digite sua senha</label>
+                <a href="#" id="forgotPassword">Esqueci minha senha</a>
+            </div>
+
+            <button type="submit" class="btn-login">Entrar</button>
+
+            <div class="divider">OU</div>
+
+            <button type="button" class="btn-google">
+                <img src="img/google.png" alt="Google">
+                Entrar com o Google
+            </button>
+
+            <p class="signup-text">
+                Ainda não possui uma conta? <a href="cadastroUsuario.html">Cadastre-se</a>
+            </p>
+
+            <p class="error-message" id="errorMsg"></p>
+        </form>
+    </div>
+
+    <script src="js/login.js"></script>
+
+    <body>
+
+    <!-- Seu HTML da tela de login -->
+
+    <!-- Firebase SDK -->
+    <script type="module">
+        import { initializeApp } from "https://www.gstatic.com/firebasejs/11.8.1/firebase-app.js";
+        import { getAuth, GoogleAuthProvider, signInWithPopup } from "https://www.gstatic.com/firebasejs/11.8.1/firebase-auth.js";
+
+        const firebaseConfig = {
+            apiKey: "AIzaSyDQJebLHoFR7x3ZpjH8MMsan487Trp8oxk",
+            authDomain: "gestao-facil-2025.firebaseapp.com",
+            projectId: "gestao-facil-2025",
+            storageBucket: "gestao-facil-2025.firebasestorage.app",
+            messagingSenderId: "1061087512052",
+            appId: "1:1061087512052:web:3396e65e6c9435a24da5a1",
+            measurementId: "G-B5FVCP951R"
+        };
+
+        // Inicializar Firebase
+        const app = initializeApp(firebaseConfig);
+        const auth = getAuth(app);
+        const provider = new GoogleAuthProvider();
+
+        // Login com Google
+        const googleButton = document.querySelector('.btn-google');
+
+        googleButton.addEventListener('click', () => {
+            signInWithPopup(auth, provider)
+                .then((result) => {
+                    const user = result.user;
+                    alert(`Login com Google bem-sucedido! Bem-vindo, ${user.displayName}`);
+                    window.location.href = 'painel.html'; // Redireciona após login
+                })
+                .catch((error) => {
+                    alert('Erro no login com Google: ' + error.message);
+                    console.error(error);
+                });
+        });
+    </script>
+    
+</body>
+</html>

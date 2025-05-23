@@ -1,0 +1,171 @@
+:root {
+    --primaria: #2563EB;
+    --secundaria: #22C55E;
+    --apoio: #F97316;
+    --erro: #EF4444;
+    --fundo: #F9FAFB;
+    --cards: #E5E7EB;
+    --texto-principal: #1F2937;
+    --texto-secundario: #6B7280;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+    background-color: var(--fundo);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.login-container {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.15);
+    width: 100%;
+    max-width: 400px;
+}
+
+.login-container {
+    width: 100%;
+    max-width: 400px;
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.08);
+}
+
+.login-form h1 {
+    text-align: center;
+    color: var(--primaria);
+    margin-bottom: 30px;
+}
+
+.input-group {
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.input-group input {
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid var(--texto-secundario);
+    padding: 10px 0;
+    outline: none;
+    font-size: 1rem;
+}
+
+.input-group label {
+    position: absolute;
+    top: -18px;
+    left: 0;
+    color: var(--texto-secundario);
+    font-size: 0.9rem;
+}
+
+.input-group a {
+    display: block;
+    text-align: right;
+    font-size: 0.85rem;
+    color: var(--texto-secundario);
+    text-decoration: none;
+    margin-top: 5px;
+}
+
+.input-group a:hover {
+    text-decoration: underline;
+}
+
+.btn-login {
+    width: 100%;
+    background-color: var(--primaria);
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 6px;
+    font-weight: 600;
+    cursor: pointer;
+    margin-bottom: 15px;
+}
+
+.btn-login:hover {
+    background-color: #1e4db8;
+}
+
+.divider {
+    text-align: center;
+    margin: 15px 0;
+    color: var(--texto-secundario);
+    font-weight: 600;
+}
+
+.btn-google {
+    width: 100%;
+    background-color: var(--cards);
+    color: var(--texto-principal);
+    padding: 10px;
+    border: none;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.btn-google img {
+    width: 20px;
+    height: 20px;
+}
+
+.btn-google:hover {
+    background-color: #d1d5db;
+}
+
+.signup-text {
+    text-align: center;
+    color: var(--texto-secundario);
+    font-size: 0.9rem;
+}
+
+.signup-text a {
+    color: var(--primaria);
+    text-decoration: none;
+}
+
+.signup-text a:hover {
+    text-decoration: underline;
+}
+
+.error-message {
+    color: var(--erro);
+    text-align: center;
+    margin-top: 10px;
+    height: 18px;
+}
+
+.logo {
+    display: block;
+    margin: 0 auto 30px auto;
+    width: 180px;
+}
+
+body {
+    background-image: url('../img/backgroundBLUR.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
