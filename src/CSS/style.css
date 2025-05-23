@@ -29,9 +29,9 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: rgba(241, 239, 239, 0.911);
+    background-color: rgb(255, 255, 255);
     padding: 10px 40px;
-    box-shadow: 0 7px 5px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.1);
     width: 100%;
 }
 
@@ -91,26 +91,37 @@ header {
     align-items: center;
 }
 
-.btn {
-    background-color: rgba(235, 233, 125, 0.63);
-    color: rgb(62, 101, 185);
-    padding: 10px 20px;
-    margin-left: 15px;
-    border: none;
-    border-radius: 6px;
-    border-bottom: 4px solid transparent;
+.btn-login {
+    background-color: transparent;
+    padding: 10px 18px;
+    margin-right: 40px;
+    border: 1px solid rgba(67, 68, 73, 0.123);
+    border-radius: 2%;
     font-family: 'Inter', sans-serif;
-    font-size: 16px;
-    font-weight: 500;
+    font-size: 15px;
+    font-weight: 400;
     cursor: pointer;
-    transition: all 0.3s ease;
     text-align: center;
+    color: #2B77C0;
 }
 
-.btn:hover {
-    background-color: #f4c542;
-    color: rgb(73, 110, 184);
-    border-bottom: 4px solid rgba(158, 157, 105, 0.63);
+.btn-cadastro
+{
+    background-color: #2B77C0;
+    color: white;
+    padding: 10px 18px;
+    border-radius: 2%;
+    font-size: 15px;
+}
+
+.btn-login:hover {
+    box-shadow: 0px 0.5px 1px  rgb(129, 123, 123);
+    
+}
+
+.btn-cadastro:hover
+{   
+    background-image: linear-gradient(to bottom, #2B77C0, #1c53c9);
 }
 
 
@@ -133,7 +144,7 @@ header {
 
 .background-video {
     display: block;
-    width: 100%;
+    width: 97%;
     height: 100%;
     object-fit: cover;
 }
@@ -164,4 +175,85 @@ header {
     color: #2B76BE;
 }
 
-/*ARTIGO */
+/*ARTIGO SOBRE */
+
+.artigo-sobre {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: stretch;
+    background-color: white;
+    padding: 40px 60px;
+    gap: 60px;
+    box-shadow: 1px 1px 1px rgb(0, 0, 0);
+}
+
+.artigo-sobre h2 {   
+    flex: 1;
+    margin: 0;
+    align-self: center;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 2.5rem;
+    color: rgba(0, 0, 0, 0.74);
+    text-align: right;  
+    line-height: 1.3;
+}
+
+.artigo-sobre p {   
+    flex: 2;
+    font-family: 'Inter', sans-serif;
+    font-size: 1.2rem;  
+    font-weight: 300;
+    line-height: 2.0;
+    color: #1d1c1c;
+    margin: 0;
+    text-align: justify; 
+    
+}
+
+.linha-vertical {
+    width: 4px;
+    height: 350px; 
+    background-color: #1c53c9;
+    flex-shrink: 0;
+}
+
+/*ARTIGO BENEFICIOS*/
+
+.artigo-beneficios
+{   
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 400px 400px 400px;
+    grid-template-rows: 350px 350px 350px;
+    justify-content: center;
+    align-content: center;
+    border: 3px solid blue;
+    gap: 20px;
+}
+
+.itens {
+    background-color: white;
+    border-radius: 3%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.logo-beneficio {
+    width: 90px;
+    height: 90px;
+    margin-bottom: 10px;
+    
+
+}
+
+.titulo-beneficio {
+    font-size: 20px;
+    text-align: center;
+}
+
+

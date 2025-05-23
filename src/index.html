@@ -1,17 +1,19 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-  <link rel="stylesheet" href="CSS/style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Gestão Fácil</title>
+  <link rel="stylesheet" href="CSS/style.css"/>
+  <script src="https://kit.fontawesome.com/bea9082cbd.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
+  <!--CABEÇALHO-->
   <header>
     <div class="logo">
-      <img src="img/logo.png" alt="logo">
+      <img src="img/logo.png" alt="logo" />
       <h1>Gestão Fácil</h1>
     </div>
     <nav class="links">
@@ -21,34 +23,64 @@
       <a href="#">Suporte</a>
     </nav>
     <div class="autenticacao">
-      <a href="#" class="btn">LOGIN</a>
-      <a href="#" class="btn">CADASTRO</a>
+      <a href="#" class="btn-login">Log in</a>
+      <a href="#" class="btn-cadastro">Criar conta</a>
     </div>
-
-
   </header>
 
   <main>
+    <!--ARTIGO APRESENTAÇÃO-->
     <article class="artigo-apresentacao">
       <div class="video-apresentativo">
-        <video loop autoplay muted playsinline class="background-video" src="">
-          <source type="video/mp4">
+        <video loop autoplay muted playsinline class="background-video" src="video/video-apresentativo.mp4">
+          <source type="video/mp4"/>
         </video>
-
         <div class="titulo-sobreposto">
-          <h2 class="frase-efeito"><strong>Gestão <span class="personalizar-efeito">inteligente </span> para
-              negócios<span class="personalizar-efeito"> eficientes</span></strong></h2>
+          <h1 class="frase-efeito">
+            <strong>Gestão
+              <span class="personalizar-efeito">inteligente </span> para
+              negócios<span class="personalizar-efeito">
+                eficientes</span></strong>
+          </h1>
         </div>
       </div>
     </article>
 
-    <article>
+    <!--ARTIGO SOBRE-->
+    <article class="artigo-sobre">
+      <h2>Com Gestão Fácil,<br />o estoque se organiza com um toque.</h2>
+      <div class="linha-vertical"></div>
+      <p>
+        Gestão Fácil é uma plataforma desenvolvida com o objetivo de
+        simplificar a rotina de lojistas, oferecendo controle total e em tempo
+        real sobre entradas, saídas e estoque, direto na palma da mão.<br><br>
+        
+        Nossa missão é tornar a gestão logística acessível, prática e
+        eficiente, por meio de soluções tecnológicas que otimizam o dia a dia
+        de pequenos e médios negócios<br><br>
+        
+        Valorizamos a simplicidade, a agilidade e o controle inteligente,
+        acreditando que uma boa gestão começa com ferramentas fáceis de usar e
+        resultados claros para quem empreende.
+      </p>
+    </article>
 
+    <!--ARTIGO BENEFICIOS-->
+    <article class="artigo-beneficios">
+      <div class="itens">
+        <img class="logo-beneficio" src="img/monitor.png" alt="logo-item-1">
+        <h3 clas="titulo-beneficio">Monitorar</h3>
+      </div>
+      <div class="itens">
+        <img class="logo-beneficio" src="img/boxes.png" alt="logo-item-2">
+        <h3 clas="titulo-beneficio">Organizar</h3>
+      </div>
+      <div class="itens">
+        <img class="logo-beneficio" src="" alt="logo-item-3">
+        <h3 clas="titulo-beneficio">Analisar</h3>
+      </div>
     </article>
   </main>
 
 </body>
-
-<script src="JS/index.js"></script>
-
 </html>
