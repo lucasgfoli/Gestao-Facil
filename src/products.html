@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Produto</title>
+    <link rel="stylesheet" href="/src/CSS/cadastroProdutos.css">
+    <link rel="stylesheet" href="/src/JS/cadastroProdutos.js">
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo">
+            <img src="img/logo.png" alt="logo">
+            <h1>Gestão Fácil</h1>
+        </div>
+        <nav class="links">
+            <a href="index.html">Home</a>
+            <a href="#">Sobre nós</a>
+            <a href="#">Área do cliente</a>
+            <a href="#">Suporte</a>
+        </nav>
+        <div class="autenticacao">
+            <a href="#" class="btn">LOGIN</a>
+            <a href="cadastroUsuario.html" class="btn">CADASTRO</a>
+        </div>
+    </header>
+
+    <div class="formulario-cadastro">
+        <h2>Cadastro de Produto</h2>
+        <form action="#" method="POST">
+            <label for="nomeProduto" class="form-label js-label-nomeProduto">Nome do Produto:</label>
+            <input type="text" id="nomeProduto" name="nomeProduto" class="nome-produto js-nome-produto" required>
+
+            <label for="quantidade" class="form-label js-label-quantidade">Quantidade:</label>
+            <input type="number" id="quantidade" name="quantidade" class="product-quantity js-quantidade" required>
+
+            <label for="fornecedor" class="form-label js-label-fornecedor">Nome do Fornecedor:</label>
+            <input type="text" id="fornecedor" name="fornecedor" class="nome-fornecedor js-fornecedor" required>
+
+            <label for="dataRecebimento" class="form-label js-label-dataRecebimento">Data do Recebimento:</label>
+            <input type="date" id="dataRecebimento" name="dataRecebimento" class="data-recebimento js-data-recebimento" required>
+
+            <label for="dataValidade" class="form-label js-label-dataValidade">Data de Validade:</label>
+            <input type="date" id="dataValidade" name="dataValidade" class="data-validade js-data-validade" required>
+
+            <div class="buttons">
+                <button type="submit" class="submit-button js-submit-button">Cadastrar Produto</button>
+                <button type="button" class="cancel-button js-cancel-button" onclick="window.history.back();">Cancelar</button>
+            </div>
+        </form>
+    </div>
+
+    <script src="cadastroProdutos.js"></script>
+</body>
+</html>
