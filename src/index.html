@@ -18,8 +18,14 @@
     </div>
     <nav class="links">
       <a href="index.html">Home</a>
-      <a href="#">Sobre nós</a>
-      <a href="#">Área do cliente</a>
+      <a href="#sobre-nos">Sobre nós</a>
+      <div class="dropdown">
+        <a href="#" class="dropdown-button">Área do cliente</a>
+        <div class="dropdown-conteudo">
+          <a href="CadastroEmpresa.html">Cadastrar Empresa</a>
+          <a href="products.html">Produtos</a>
+        </div>
+      </div>
       <a href="#">Suporte</a>
     </nav>
     <div class="autenticacao">
@@ -48,7 +54,7 @@
     </article>
 
     <!--ARTIGO SOBRE-->
-    <article class="artigo-sobre">
+    <article class="artigo-sobre" id="sobre-nos">>
       <h2>Com Gestão Fácil,<br />o estoque se organiza com um toque.</h2>
       <div class="linha-vertical"></div>
       <p>
@@ -66,19 +72,27 @@
       </p>
     </article>
 
+    <div class="titulos-transitivos">
+      <h3 class="subtitulo-transitivo">Gestão sem complicação, do jeito que você precisa.</h3>
+      <h2 class="titulo-transitivo">SOLUÇÕES</h2>
+    </div>
     <!--ARTIGO BENEFICIOS-->
     <article class="artigo-beneficios">
+
       <div class="itens">
         <img class="logo-beneficio" src="img/monitor.png" alt="logo-item-1">
-        <h3 clas="titulo-beneficio">Monitorar</h3>
+        <h3 class="titulo-beneficio">Monitorar</h3>
+        <p>Você acompanha em tempo real o desempenho da sua loja. <br><br>Visualize vendas, estoque e fluxo de caixa de forma mais clara e acessível, facilitando decisões rápidas e seguras.</p>
       </div>
       <div class="itens">
         <img class="logo-beneficio" src="img/boxes.png" alt="logo-item-2">
-        <h3 clas="titulo-beneficio">Organizar</h3>
+        <h3 class="titulo-beneficio">Organizar</h3>
+         <p>Centralize todas as informações da sua loja em um só lugar. <br><br>Gerencie produtos, categorias e clientes de forma prática, reduzindo erros e ganhando produtividade.</p>
       </div>
       <div class="itens">
-        <img class="logo-beneficio" src="" alt="logo-item-3">
-        <h3 clas="titulo-beneficio">Analisar</h3>
+        <img class="logo-beneficio" src="img/analysing.png" alt="logo-item-3">
+        <h3 class="titulo-beneficio">Analisar</h3>
+         <p>Gere relatórios automáticos com dados importantes para o seu negócio. <br><br>Analise tendências de vendas, produtos mais procurados e desempenho financeiro para planejar o crescimento da sua loja.</p>
       </div>
     </article>
   </main>
