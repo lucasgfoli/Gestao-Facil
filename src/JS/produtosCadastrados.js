@@ -1,4 +1,4 @@
-import { products } from "./productsData";
+import { products } from "./productsData.js";
 
 let productsHTML = '';
 

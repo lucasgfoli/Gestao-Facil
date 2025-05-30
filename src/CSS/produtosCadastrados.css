@@ -1,7 +1,7 @@
 /* Estrutura geral */
 body {
     background-color: var(--fundo);
-    background-image: url('../img/backgroundBLUR.png');
+    background-image: url('../img/backgoud2.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -111,36 +111,4 @@ header {
 
 .product-spacer {
     flex-grow: 1;
-}
-.products-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 20px;
-}
-
-.product-container {
-    background-color: white;
-    border-radius: 12px;
-    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
-    padding: 16px;
-    display: flex;
-    flex-direction: column;
-    gap: 8px;
-    transition: transform 0.2s ease;
-}
-
-.product-container:hover {
-    transform: scale(1.02);
-}
-
-.product-name {
-    font-weight: bold;
-    color: var(--texto-principal);
-    font-size: 1.1rem;
-}
-
-.product-price {
-    color: var(--primaria);
-    font-weight: 600;
-    font-size: 1rem;
 }
