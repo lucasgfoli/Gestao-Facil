@@ -77,7 +77,7 @@ Atualizado em: 16/05/2025
 |               |                  |                |            |        |                 |
 |               |                  |                |            |        |                 |
 |               |                  |                |            |        |                 |
-|Estevão        |Criar Home Page (HTML CSS) - Criar Script Banco de Dados  | 19/05/2025     | 23/05/2025 |   ❌   |                 |
+|Estevão        |Criar Home Page (HTML CSS) - Criar Script Banco de Dados  | 19/05/2025     | 23/05/2025 |   ❌   | 📝 |
 
 Legenda:
 - ✔️: terminado
