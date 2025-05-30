@@ -35,6 +35,11 @@ products.forEach((product) => {
         Validade: ${product.dateExpiration}
       </div>
 
+      <a href="vendaProduto.html" class="link-primary">
+  Ir para a tela de venda
+</a>
+
+
       <div class="product-spacer"></div>
     </div>
   `;

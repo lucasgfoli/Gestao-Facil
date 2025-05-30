@@ -112,3 +112,9 @@ header {
 .product-spacer {
     flex-grow: 1;
 }
+
+.link-primary{
+    display: flex;
+    justify-content: center;
+    text-decoration: none; 
+}
