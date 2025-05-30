@@ -128,68 +128,69 @@ As referências abaixo irão auxiliá-lo na geração do artefato “Esquema Rel
 #### 4.3.3 Modelo Físico
 
 <code>
- 
--- Criação da tabela Cliente
-CREATE TABLE Cliente (
-    CPF CHAR(11) PRIMARY KEY,
-    nome VARCHAR(100),
-    data_nascimento DATE
+
+CREATE TABLE produto (
+  id_produto int NOT NULL AUTO_INCREMENT,
+  id_fornecedor int DEFAULT NULL,
+  nome varchar(100) NOT NULL,
+  categoria varchar(50) NOT NULL,
+  preco decimal(10,2) NOT NULL,
+  quantidade int NOT NULL,
+  data_validade date NOT NULL,
+  PRIMARY KEY (id_produto),
+  KEY id_fornecedor (id_fornecedor),
+  CONSTRAINT produto_ibfk_1 FOREIGN KEY (id_fornecedor) REFERENCES fornecedor (id_fornecedor)
 );
 
--- Criação da tabela Fornecedor
-CREATE TABLE Fornecedor (
-    id_fornecedor INTEGER PRIMARY KEY,
-    nome_fornecedor VARCHAR(100)
-);
-
--- Criação da tabela Produto
-CREATE TABLE Produto (
-    id_produto INTEGER PRIMARY KEY,
+CREATE TABLE IF NOT EXISTS Produto (
+    id_produto INTEGER PRIMARY KEY NOT NULL AUTO_INCREMENT,
     id_fornecedor INTEGER,
-    nome VARCHAR(100),
-    categoria VARCHAR(50),
-    preco DECIMAL(10, 2),
-    quantidade INTEGER,
-    data_validade DATE,
-    FOREIGN KEY (id_fornecedor) REFERENCES Fornecedor(id_fornecedor)
+    nome VARCHAR(100) NOT NULL,
+    categoria VARCHAR(50) NOT NULL,
+    preco DECIMAL(10 , 2 ) NOT NULL,
+    quantidade INTEGER NOT NULL,
+    data_validade DATE NOT NULL,
+    FOREIGN KEY (id_fornecedor)
+        REFERENCES fornecedor (id_fornecedor)
 );
 
--- Criação da tabela Estoque
-CREATE TABLE Estoque (
-    num_setor INTEGER PRIMARY KEY,
-    coluna INTEGER,
-    corredor INTEGER,
-    prateleira INTEGER
+CREATE TABLE IF NOT EXISTS cliente(
+cpf CHAR(11) PRIMARY KEY NOT NULL,
+nome VARCHAR(100) NOT NULL,
+    data_nascimento DATE NOT NULL
+    
 );
 
--- Criação da tabela Usuario
-CREATE TABLE Usuario (
-    id_usuario INTEGER PRIMARY KEY,
-    nome VARCHAR(100),
-    data_nascimento DATE,
-    telefone VARCHAR(20),
-    email VARCHAR(100),
-    senha VARCHAR(100),
-    cnpj CHAR(14)
+CREATE TABLE IF NOT EXISTS fornecedor(
+id_fornecedor INT PRIMARY KEY NOT NULL AUTO_INCREMENT,
+nome_fornecedor VARCHAR(100) NOT NULL 
 );
 
--- Criação da tabela Chamado
-CREATE TABLE Chamado (
-    id_chamado INTEGER PRIMARY KEY,
+
+CREATE TABLE IF NOT EXISTS estoque(
+num_setor INTEGER NOT NULL PRIMARY KEY,
+    coluna INTEGER NOT NULL,
+    corredor INTEGER NOT NULL,
+    prateleira INTEGER NOT NULL
+);
+
+CREATE TABLE IF NOT EXISTS chamado (
+    id_chamado INTEGER PRIMARY KEY NOT NULL AUTO_INCREMENT,
     id_usuario INTEGER,
-    data_chamado DATE,
-    categoria VARCHAR(50),
-    nome VARCHAR(100),
-    FOREIGN KEY (id_usuario) REFERENCES Usuario(id_usuario)
+    data_chamado DATE NOT NULL,
+    categoria VARCHAR(50) NOT NULL,
+    nome VARCHAR(100) NOT NULL,
+    FOREIGN KEY (id_usuario)
+        REFERENCES usuario (id)
 );
 
--- Criação da tabela Suporte
-CREATE TABLE Suporte (
-    id_suporte INTEGER PRIMARY KEY,
-    id_chamado INTEGER,
-    nome VARCHAR(100),
-    nivel_suporte VARCHAR(50),
-    FOREIGN KEY (id_chamado) REFERENCES Chamado(id_chamado)
+
+CREATE TABLE IF NOT EXISTS suporte (
+id_suporte INTEGER PRIMARY KEY NOT NULL AUTO_INCREMENT,
+id_chamado INTEGER NOT NULL,
+nome VARCHAR(100) NOT NULL,
+nivel_suporte VARCHAR(50) NOT NULL,
+FOREIGN KEY (id_chamado) REFERENCES chamado(id_chamado)
 );
 
 </code>
