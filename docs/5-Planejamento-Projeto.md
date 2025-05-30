@@ -53,17 +53,10 @@ Atualizado em: 30/05/25
 
 | Responsável | Tarefa/Requisito | Iniciado em | Prazo | Status | Terminado em |
 |-------------|------------------|-------------|--------|--------|----------------|
-| Estevão     | Introdução<br>Especificação<br>Personas<br>Histórias de Usuários<br>Modelagem Cadastro e Login<br>Cadastrar Produto<br>Gestão de Estoque | 14/03/2025 | 28/03/2025 | ✔️ | 28/03/2025 |
-| Leon        | Stakeholder Map<br>3.2 TO BE | 14/03/2025 | 28/03/2025 | ✔️ | 28/03/2025 |
-| Lucas       | Apresentação da Contextualização<br>Requisitos RF e RNF<br>Modelagem do Processo de Suporte ao Usuário (descrição e processo)<br>Projeto da Solução<br>Tecnologias Utilizadas<br>Prototipagem das Telas | 14/03/2025 | 28/03/2025 | ✔️ | 28/03/2025 |
-| Ryan        | Apresentação dos Objetivos Gerais<br>Requisitos Funcionais<br>3.1 AS-IS | 14/03/2025 | 28/03/2025 | ✔️ | 28/03/2025 |
-
-
-| Responsável | Tarefa/Requisito | Iniciado em | Prazo | Status | Terminado em |
-| Estevão     | Introdução, Especificação, Personas, Histórias de Usuários, Modelagem Cadastro e Login, Cadastrar Produto, Gestão de Estoque | 14/03/2025 | 28/03/2025 | ✔️ | 28/03/2025 |
-| Leon        | Stakeholder Map, 3.2 TO BE | 14/03/2025 | 28/03/2025 | ✔️ | 28/03/2025 |
-| Lucas       | Apresentação da Contextualização, Requisitos RF e RNF, Modelagem do Processo de Suporte ao Usuário (descrição e processo), Projeto da Solução, Tecnologias Utilizadas, Prototipagem das Telas | 14/03/2025 | 28/03/2025 | ✔️ | 28/03/2025 |
-| Ryan        | Apresentação dos Objetivos Gerais, Requisitos Funcionais, 3.1 AS-IS | 14/03/2025 | 28/03/2025 | ✔️ | 28/03/2025 |
+| Estevão     | Introdução - Especificação<br>Personas - Histórias de Usuários - Modelagem Cadastro e Login - Cadastrar Produto<br>Gestão de Estoque | 14/03/2025 | 28/03/2025 | ✔️ | 28/03/2025 |
+| Leon        | Stakeholder Map - 3.2 TO BE | 14/03/2025 | 28/03/2025 | ✔️ | 28/03/2025 |
+| Lucas       | Apresentação da Contextualização - Requisitos RF e RNF - Modelagem do Processo de Suporte ao Usuário (descrição e processo) - Projeto da Solução<br>Tecnologias Utilizadas - Prototipagem das Telas | 14/03/2025 | 28/03/2025 | ✔️ | 28/03/2025 |
+| Ryan        | Apresentação dos Objetivos Gerais<br>Requisitos Funcionais - 3.1 AS-IS | 14/03/2025 | 28/03/2025 | ✔️ | 28/03/2025 |
 
 ## Sprint 3 
 
