@@ -74,11 +74,10 @@ Atualizado em: 16/05/2025
 
 | Responsável   | Tarefa/Requisito | Iniciado em    | Prazo      | Status | Terminado em    |
 | :----         | :----            | :----:         | :----:     | :----: | :----:          |
-|Estevão        |Criar Home Page (HTML CSS)   | 19/05/2025     | 23/05/2025 |   ❌   |                 |
 |               |                  |                |            |        |                 |
 |               |                  |                |            |        |                 |
-|               |                  |                |            |        |                 |
-|               |                  |                |            |        |                 |
+|Ryan               |Inicío da tela de Suporte ao Usuário e Tela de Venda de Produtos finalizada |   19/05/2025              |    23/05/2025        |   📝     |                 |
+|Estevão        |Criar Home Page (HTML CSS) - Criar Script Banco de Dados  | 19/05/2025     | 23/05/2025 |   📝   | |
 
 Legenda:
 - ✔️: terminado
