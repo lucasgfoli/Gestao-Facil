@@ -5,7 +5,7 @@ export const products = [
     category: "Lembranças",
     price: 25.90,
     quantity: 10,
-    fornecedorName: "Tech Supplies",
+    fornecedorName: "Lembranças.LTDA",
     dateExpiration: "2025-12-31",
     image: "img/lembrança 2.png"
   },
@@ -15,7 +15,7 @@ export const products = [
     category: "Lembranças",
     price: 27.90,
     quantity: 5,
-    fornecedorName: "Keyboards BR",
+    fornecedorName: "Lembranças.LTDA",
     dateExpiration: "2026-03-15",
     image: "img/lembrança 1.png"
   },
@@ -25,7 +25,7 @@ export const products = [
     category: "Lembranças",
     price: 19.90,
     quantity: 3,
-    fornecedorName: "DisplayTech",
+    fornecedorName: "Lembranças.LTDA",
     dateExpiration: "2027-08-10",
     image: "img/chaveiro_minasGerais.png"
   }
