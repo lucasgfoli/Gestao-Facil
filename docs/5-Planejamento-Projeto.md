@@ -106,10 +106,11 @@ Atualizado em: 02/05/25
 | Leon | Criação de Logotipo - modelar paleta de cores | 09/04/2025 | 11/04/2025 | ✔️ | 10/04/2025 |
 | Estevão | Diagramação do Modelo ER 4.3.1 e 4.3.2 - Modelo Fisico 4.3.3 | 10/04/2025 | 09/05/2025 | ✔️ | 08/05/2025 |
 
-##Sprint 2 
+## Sprint 2 
 
 | Responsável   | Tarefa/Requisito | Iniciado em    | Prazo      | Status | Terminado em    |
-| :----         | :----            | :----:         | :----:     | :----: | :----:          |
+| André         |                  |                |            |        |                 |
+| Estevão       |Introdução Especificação - Personas - Histórias de Usuários - Modelagem Cadastro e Login - Cadastrar Produto - Gestão de Estoque |  14/03/2025 | 28/03/2025 | ✔️ | 28/03/2025 |
 | Leon          | StakeHolder Map - 3.2 TO BE | 14/03/2025| 28/03/2025 | ✔️| 28/03/2025 |
 | Lucas         | Apresentação da contextualização - Requisitos RF e RNF - Modelagem do Processo de Suporte ao Usuário (descrição) - Modelagem do Processo de Suporte ao Usuário - Projeto da Solução, Tecnologia Utilizadas, Prototipagem das Telas | 14/03/2025 | 28/03/2025 | ✔️ | 28/03/2025 |
 |               |                  |                |            |        |                 |
