@@ -20,7 +20,7 @@ A arquitetura dos processos do sistema de gestão de estoques foi projetada para
 | **Movimentação de Produtos**| Editar informações do produto, Validar alterações, Atualizar dados no banco de dados                      |
 | **Suporte ao Usuário**      | Acessar seção de suporte, Consultar FAQ, Preencher formulário de solicitação, Analisar solicitação, Responder solicitação, Resolver problema, Fechar chamado, Retorno com feedback |
 
-### 4.2. Protótipos de telas
+### 4.2 Protótipos de telas
 
 validar o fluxo de navegação e facilitar o entendimento das suas funcionalidades e garantir que esteja claro para cada requisito levantado anteriormente.
 
