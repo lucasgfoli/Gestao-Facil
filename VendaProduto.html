@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Gestão de Estoque</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <header>
+    <h1>Gestão de Estoque</h1>
+
+    <div class="logo">
+      <img src="img/logo.png" alt="logo" />
+      <h1>Gestão Fácil</h1>
+    </div>
+    <nav class="links">
+      <a href="index.html">Home</a>
+      <a href="#sobre-nos">Sobre nós</a>
+      <div class="dropdown">
+        <a href="#" class="dropdown-button">Área do cliente</a>
+        <div class="dropdown-conteudo">
+          <a href="CadastroEmpresa.html">Cadastrar Empresa</a>
+          <a href="products.html">Produtos</a>
+        </div>
+      </div>
+      <a href="#">Suporte</a>
+    </nav>
+    <div class="autenticacao">
+      <a href="login.html" class="btn-login">Log in</a>
+      <a href="cadastroUsuario.html" class="btn-cadastro">Criar conta</a>
+  </header>
+
+  <main class="container">
+    <section class="sidebar">
+      <h2>Estoque Atual</h2>
+      <div id="listaEstoque"></div>
+    </section>
+
+    <section class="venda" id="telaVenda">
+      <h2>Venda de Produto</h2>
+      <label for="nomeProdutoVenda">Produto:</label>
+      <input type="text" id="nomeProdutoVenda" placeholder="Nome do Produto" readonly />
+
+      <label for="tipoPagamento">Tipo de Pagamento:</label>
+      <input type="text" id="tipoPagamento" placeholder="Ex: Cartão, Pix, Boleto" />
+
+      <label for="dataPagamento">Data da Venda:</label>
+      <input type="date" id="dataPagamento" />
+
+      <label for="quantidadeVenda">Quantidade Vendida:</label>
+      <input type="number" id="quantidadeVenda" placeholder="Quantidade" min="1" />
+
+      <button id="btnConfirmarVenda">Confirmar Venda</button>
+    </section>
+  </main>
+
+  <script src="ScriptVendaProduto.js"></script>
+</body>
+</html>
