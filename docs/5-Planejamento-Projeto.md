@@ -35,9 +35,9 @@
 - Desenvolvimento das telas: André D'Ascenção, Estevão Antunes, Lucas Gabriel, Leon Ribeiro, e Ryan Barcelos.
 - Revisão: André D'Ascenção, Estevão Antunes, Lucas Gabriel, Leon Ribeiro, e Ryan Barcelos.
   
-## 5.1. Quadro de tarefas
+## Sprint 1 
 
-> Apresente a divisão de tarefas entre os membros do grupo e o acompanhamento da execução, conforme exemplo abaixo.
+Atualizado em: 21/03/25
 
 | Responsável | Tarefa/Requisito                                                               | Iniciado em | Prazo      | Status | Terminado em |
 |-------------|----------------------------------------------------------------------------------|-------------|------------|--------|---------------|
@@ -47,19 +47,17 @@
 | Estevão     | Justificativa, Participantes do Processo, Listagem dos Processos                | 18/02/2025  | 21/02/2025 | ✔️     | 21/02/2025    |
 
 
-## Sprint 1 
-
-Atualizado em: 21/03/25
-
-| Responsável   | Tarefa/Requisito | Iniciado em    | Prazo      | Status | Terminado em    |
-| Leon        | Objetivos    |  18/02/2025      | 21/02/2025  | ✔️     |  21/02/2025  |
-| Lucas        | Contextualização  | 18/02/2025     | 21/02/2025 | ✔️      | 21/02/2025 |
-| Ryan        | Objetivo Geral  |    18/02/2025        | 21/02/2025 | ✔️    |   21/02/2025 |
-|Estevão      | Justificativa, Participantes do Processo e Listagem dos Processos |  18/02/2025 | 21/02/2025 | ✔️ | 21/02/2025 |
-
 ## Sprint 2
 
 Atualizado em: 30/05/25
+
+| Responsável | Tarefa/Requisito | Iniciado em | Prazo | Status | Terminado em |
+|-------------|------------------|-------------|--------|--------|----------------|
+| Estevão     | Introdução<br>Especificação<br>Personas<br>Histórias de Usuários<br>Modelagem Cadastro e Login<br>Cadastrar Produto<br>Gestão de Estoque | 14/03/2025 | 28/03/2025 | ✔️ | 28/03/2025 |
+| Leon        | Stakeholder Map<br>3.2 TO BE | 14/03/2025 | 28/03/2025 | ✔️ | 28/03/2025 |
+| Lucas       | Apresentação da Contextualização<br>Requisitos RF e RNF<br>Modelagem do Processo de Suporte ao Usuário (descrição e processo)<br>Projeto da Solução<br>Tecnologias Utilizadas<br>Prototipagem das Telas | 14/03/2025 | 28/03/2025 | ✔️ | 28/03/2025 |
+| Ryan        | Apresentação dos Objetivos Gerais<br>Requisitos Funcionais<br>3.1 AS-IS | 14/03/2025 | 28/03/2025 | ✔️ | 28/03/2025 |
+
 
 | Responsável | Tarefa/Requisito | Iniciado em | Prazo | Status | Terminado em |
 | Estevão     | Introdução, Especificação, Personas, Histórias de Usuários, Modelagem Cadastro e Login, Cadastrar Produto, Gestão de Estoque | 14/03/2025 | 28/03/2025 | ✔️ | 28/03/2025 |
