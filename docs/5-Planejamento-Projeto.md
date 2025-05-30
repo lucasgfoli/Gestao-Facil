@@ -108,14 +108,14 @@ Atualizado em: 02/05/25
 
 ## Sprint 2 
 
-| Responsável   | Tarefa/Requisito | Iniciado em    | Prazo      | Status | Terminado em    |
-| André         |                  |                |            |        |                 |
-| Estevão       |Introdução Especificação - Personas - Histórias de Usuários - Modelagem Cadastro e Login - Cadastrar Produto - Gestão de Estoque |  14/03/2025 | 28/03/2025 | ✔️ | 28/03/2025 |
-| Leon          | StakeHolder Map - 3.2 TO BE | 14/03/2025| 28/03/2025 | ✔️| 28/03/2025 |
-| Lucas         | Apresentação da contextualização - Requisitos RF e RNF - Modelagem do Processo de Suporte ao Usuário (descrição) - Modelagem do Processo de Suporte ao Usuário - Projeto da Solução, Tecnologia Utilizadas, Prototipagem das Telas | 14/03/2025 | 28/03/2025 | ✔️ | 28/03/2025 |
-|               |                  |                |            |        |                 |
-|               |                  |                |            |        |                 |
-|               |                  |                |            |        |                 |
+| Responsável | Tarefa/Requisito | Iniciado em | Prazo | Status | Terminado em |
+|-------------|------------------|-------------|--------|--------|----------------|
+| André       | *(Sem tarefa atribuída)* | - | - | - | - |
+| Estevão     | Introdução, Especificação, Personas, Histórias de Usuários, Modelagem Cadastro e Login, Cadastrar Produto, Gestão de Estoque | 14/03/2025 | 28/03/2025 | ✔️ | 28/03/2025 |
+| Leon        | Stakeholder Map, 3.2 TO BE | 14/03/2025 | 28/03/2025 | ✔️ | 28/03/2025 |
+| Lucas       | Apresentação da Contextualização, Requisitos RF e RNF, Modelagem do Processo de Suporte ao Usuário (descrição e processo), Projeto da Solução, Tecnologias Utilizadas, Prototipagem das Telas | 14/03/2025 | 28/03/2025 | ✔️ | 28/03/2025 |
+| Ryan        | Apresentação dos Objetivos Gerais, Requisitos Funcionais, 3.1 AS-IS | 14/03/2025 | 28/03/2025 | ✔️ | 28/03/2025 |
+
 
 ## Sprint 4 (Interface da Solução)
 
