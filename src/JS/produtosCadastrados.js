@@ -34,7 +34,7 @@ products.forEach((product) => {
       <div class="product-expiration">
         Validade: ${product.dateExpiration}
       </div>
-      
+
       <div class="product-spacer"></div>
     </div>
   `;
