@@ -39,6 +39,14 @@
 
 > Apresente a divisão de tarefas entre os membros do grupo e o acompanhamento da execução, conforme exemplo abaixo.
 
+| Responsável | Tarefa/Requisito                                                               | Iniciado em | Prazo      | Status | Terminado em |
+|-------------|----------------------------------------------------------------------------------|-------------|------------|--------|---------------|
+| Leon        | Objetivos                                                                       | 18/02/2025  | 21/02/2025 | ✔️     | 21/02/2025    |
+| Lucas       | Contextualização                                                                | 18/02/2025  | 21/02/2025 | ✔️     | 21/02/2025    |
+| Ryan        | Objetivo Geral                                                                  | 18/02/2025  | 21/02/2025 | ✔️     | 21/02/2025    |
+| Estevão     | Justificativa, Participantes do Processo, Listagem dos Processos                | 18/02/2025  | 21/02/2025 | ✔️     | 21/02/2025    |
+
+
 ## Sprint 1 
 
 Atualizado em: 21/03/25
