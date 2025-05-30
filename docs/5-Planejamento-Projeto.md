@@ -111,7 +111,7 @@ Atualizado em: 02/05/25
 | Responsável   | Tarefa/Requisito | Iniciado em    | Prazo      | Status | Terminado em    |
 | :----         | :----            | :----:         | :----:     | :----: | :----:          |
 | Leon          | StakeHolder Map - 3.2 TO BE | 14/03/2025| 28/03/2025 | ✔️| 28/03/2025 |
-| Lucas         | Apresentação da contextualização - Requisitos RF e RNF - Modelagem do Processo de Suporte ao Usuário (descrição) - Modelagem do Processo de Suporte ao Usuário - Projeto da Solução, Tecnologia Utilizadas, Prototipagem das Telas                 |                |            |        |                 |
+| Lucas         | Apresentação da contextualização - Requisitos RF e RNF - Modelagem do Processo de Suporte ao Usuário (descrição) - Modelagem do Processo de Suporte ao Usuário - Projeto da Solução, Tecnologia Utilizadas, Prototipagem das Telas | 14/03/2025 | 28/03/2025 | ✔️ | 28/03/2025 |
 |               |                  |                |            |        |                 |
 |               |                  |                |            |        |                 |
 |               |                  |                |            |        |                 |
