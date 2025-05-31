@@ -1,8 +1,8 @@
-![image](https://github.com/user-attachments/assets/61fd9f61-1747-4500-b432-e8045b53709b)## 4. Projeto da Solução:
+## 4.0 Proposta da Solução
 
 Como proposta de solução, nossa aplicação será desenvolvida como um serviço web, utilizando tecnologias para interface, armazenamento de dados e requisições/respostas do usuário para o sistema. Será utilizada principalmente por comerciantes e estoquistas para realizar o controle de produtos no estoque. Com ela o usuário da aplicação poderá cadastrar novos produtos e seus respectivos dados no estoque, lançar saídas de produto ao realizar uma venda, receber notificações de quando o produto estiver próximo do vencimento ou com baixo estoque.
 
-## 4.1. Arquitetura da solução
+## 4.1 Arquitetura da solução
 
 A arquitetura dos processos do sistema de gestão de estoques foi projetada para pequenas lojas de suvenires, com foco em praticidade e eficiência. Desenvolvido como uma aplicação web utilizando para FrontEnd o JavaScript, HTML, CSS. Serão utilizados também Javascript, Node JS e JSON para BackEnd. O banco de dados que será utilizado é o SQLite. O sistema permite do projeto Gestão Simples o cadastro de produtos, controle de entradas e saídas, notificações automáticas de itens em nível crítico e gerenciamento de usuários com diferentes níveis de acesso. Dessa forma, a solução busca substituir os controles manuais, otimizando a organização do estoque.
  
@@ -20,7 +20,7 @@ A arquitetura dos processos do sistema de gestão de estoques foi projetada para
 | **Movimentação de Produtos**| Editar informações do produto, Validar alterações, Atualizar dados no banco de dados                      |
 | **Suporte ao Usuário**      | Acessar seção de suporte, Consultar FAQ, Preencher formulário de solicitação, Analisar solicitação, Responder solicitação, Resolver problema, Fechar chamado, Retorno com feedback |
 
-### 4.2. Protótipos de telas
+### 4.2 Protótipos de telas
 
 validar o fluxo de navegação e facilitar o entendimento das suas funcionalidades e garantir que esteja claro para cada requisito levantado anteriormente.
 
