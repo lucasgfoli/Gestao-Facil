@@ -5,8 +5,13 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
 
+
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Pinstripe:ital@0;1&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+
 /* CONFIGURAÇÃO GLOBAL */
-* {
+*{  
+    max-width: 100%;
     margin: 0;
     border: 0;
     padding: 0;
@@ -188,6 +193,10 @@ header {
 
 /*MAIN*/
 
+.conteudo_principal
+{
+    position: relative;
+}
 /*ARTIGO APRESENTATIVO*/
 
 .video-apresentativo {
@@ -309,12 +318,12 @@ header {
 .artigo-beneficios
 {   
     margin-top: 50px;
+    margin-bottom: 50px;
     display: grid;
     grid-template-columns: 400px 400px 400px;
-    grid-template-rows: 350px 350px 350px;
+    grid-template-rows: 350px;
     justify-content: center;
     align-content: center;
-    border: 3px solid rgb(209, 36, 13);
     gap: 20px;
     
 }
@@ -358,3 +367,71 @@ header {
     text-align: center;
 }
 
+
+
+
+/*FOOTER*/
+
+
+.rodape
+{   
+    position: relative;
+    background: linear-gradient(359deg,rgba(154, 191, 227, 1) 0%, rgba(196, 214, 233, 1) 12%, rgba(242, 247, 250, 1) 39%, rgba(255, 255, 255, 0.96) 62%);
+
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 50px;
+    
+}
+
+.linha-tracejada
+{
+    width: 70%;
+    border-top: 1px solid rgb(35, 121, 179);
+    margin-bottom: 20px;
+}
+
+.conteudo-footer
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    text-align: center;
+}
+
+.p-footer
+{
+    color: rgb(35, 121, 179);
+    font-family: italic;
+    font-size: small;
+    font-family: "Merriweather", serif;
+    margin-bottom: 0px;
+}
+
+.div-final
+{   
+    font-size: small;
+    opacity: 1;
+    color: rgba(0, 0, 0, 0.815);
+    padding: 0px;
+    width: 200%;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.copyright
+{ 
+    color: gray;
+}
+
+.logo-puc
+{   margin-top: 10px;
+    margin-bottom: 10px;
+    height: 100px;
+    
+}
