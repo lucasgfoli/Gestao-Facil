@@ -368,6 +368,7 @@ header {
 }
 
 
+/*ARTIGO DESENVOLVEDORES*/
 
 
 /*FOOTER*/
@@ -376,8 +377,7 @@ header {
 .rodape
 {   
     position: relative;
-    background: linear-gradient(359deg,rgba(154, 191, 227, 1) 0%, rgba(196, 214, 233, 1) 12%, rgba(242, 247, 250, 1) 39%, rgba(255, 255, 255, 0.96) 62%);
-
+    background-color: white;
     width: 100%;
     display: flex;
     flex-direction: column;
