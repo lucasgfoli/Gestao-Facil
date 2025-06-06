@@ -70,7 +70,7 @@ Atualizado em: 02/05/25
 
 ## Sprint 4
 
-Atualizado em: 16/05/2025
+Atualizado em: 06/06/2025
 
 | Responsável   | Tarefa/Requisito | Iniciado em    | Prazo      | Status | Terminado em    |
 | :----         | :----            | :----:         | :----:     | :----: | :----:          |
