@@ -50,6 +50,7 @@ Com a automatização desse controle, o novo sistema contribuirá significativam
 [PROCESSO 2 - Processo de Cadastro de Produto](./processos/processo-2-Processo%20de%20Cadastro%20de%20Produto.md)<br>
 [PROCESSO 3 - Processo de Gestão de Estoque](./processos/processo-3-Processo%20de%20Gestão%20de%20Estoque.md)<br>
 [PROCESSO 4 - Processo de Suporte ao Usuário](./processos/processo-4-Processo%20de%20Suporte%20ao%20Usuário.md)<br>
+[PROCESSO 5 - Processo de Cadastro de Empresa]()
 
 
 
