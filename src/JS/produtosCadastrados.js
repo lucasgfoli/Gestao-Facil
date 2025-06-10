@@ -36,8 +36,11 @@ products.forEach((product) => {
       </div>
 
       <a href="vendaProduto.html" class="link-primary">
-  Ir para a tela de venda
-</a>
+        Registrar Venda
+      </a>
+      <a href="editarProduto.html?id=${product.id}" class="link-primary">
+        Editar produto
+      </a>
 
 
       <div class="product-spacer"></div>
@@ -46,4 +49,3 @@ products.forEach((product) => {
 });
 
 document.querySelector('.js-product-list').innerHTML = productsHTML;
-

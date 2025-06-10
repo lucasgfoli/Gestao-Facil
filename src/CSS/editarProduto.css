@@ -8,7 +8,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Pinstripe:ital@0;1&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
 
-
 /* CONFIGURAÇÃO GLOBAL */
 *{  
     max-width: 100%;
@@ -18,17 +17,22 @@
     box-sizing: border-box;
 }
 
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #F9FAFB;
+  color: #1F2937;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
 a {
     text-decoration: none;
 }
 
 html {
     scroll-behavior: smooth;
-}
-
-body {
-    background-color: rgb(80, 160, 235);
-    font-family: 'Inter', sans-serif;
 }
 
 /* HEADER */
@@ -190,69 +194,36 @@ header {
     background-image: linear-gradient(to bottom, #2B77C0, #1c53c9);
 }
 
+input, button {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+button {
+  background-color: #2563EB;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  border: none;
+}
 
-.formulario-cadastro {
-    width: 50%;
-    margin: 50px auto;
+.edit-container {
     padding: 20px;
-    background-color: #fff;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-h2 {
-    text-align: center;
-    margin-bottom: 20px;
-}
-
-.form-label {
-    display: block;
-    margin: 10px 0 5px;
-}
-
-/* Campos de entrada */
-.nome-produto,
-.product-quantity,
-.nome-fornecedor,
-.data-recebimento,
-.data-validade {
-    width: 100%;
-    padding: 8px;
-    margin-bottom: 15px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-}
-
-.buttons {
+.titulo {
+    padding-top: 20px;
     display: flex;
-    gap: 10px; /* espaço entre os botões */
-    justify-content: center; /* centraliza os botões horizontalmente */
-    margin-top: 10px;
+    justify-content: center;
+    align-items: center;
+    color: #0d1b3a;
 }
 
-.submit-button,
-.cancel-button {
-    width: 50%;
-    padding: 10px;
-    font-size: 16px;
-    border-radius: 4px;
-    border: none;
-    cursor: pointer;
-    color: white;
+.product-quantity{
+    padding-bottom: 12px;
 }
 
-.submit-button {
-    background-color: #2563EB;
-}
-
-.submit-button:hover {
-    background-color: #1d50c1;
-}
-
-.cancel-button {
-    background-color: #DF7067;
-}
-
-.cancel-button:hover {
-    background-color: #c95e56;
-}
