@@ -13,6 +13,10 @@ O processo de cadastro empresarial envolve o registro das informações essencia
 |----------------------|------------------|----------------------------|-------------------|
 | botão "Cadastrar Empresa" | Botão | obrigatório | default |
 
+| **Comandos** | **Destino** | **Tipo** |
+| --- | --- | --- |
+| CADASTRAR | Inicio do processo 2 | default |
+
 **Atividade 2 - Cadastrar como Empresa**
 | **Campo**            | **Tipo**               | **Restrições**               | **Valor default** |
 | -------------------- | ---------------------- | ---------------------------- | ----------------- |
@@ -20,9 +24,15 @@ O processo de cadastro empresarial envolve o registro das informações essencia
 | e-mail               | Caixa de Texto → Email | formato de e-mail válido     | default           |
 | CNPJ                 | Número de CNPJ         | 14 dígitos numéricos válidos | default           |
 | telefone             | Número de Telefone     | apenas números, com DDD      | default           |
-| senha                | Caixa de Texto → Senha | mínimo de 8 caracteres       | default           |
-| confirmação de senha | Caixa de Texto → Senha | igual à senha                | default           |
 
 | **Comandos** | **Destino** | **Tipo** |
 | --- | --- | --- |
-| CADASTRAR | Fim do Processo 5 | default |
+| CADASTRAR COMO USUÁRIO | Cadastro do Usuário | default |
+| FAÇA LOGIN | Seção de login | default |
+
+**Atividade 3 - Submeter dados**
+
+| **Campo** | **Tipo** | **Restrições** | **Valor default** |
+|----------------------------|---------------------------|--------------------------------------------------------|---------------------------|
+| todos os campos do formulário | Dados do formulário preenchido | devem cumprir todas as restrições de validação individual | preenchidos corretamente  |
+
