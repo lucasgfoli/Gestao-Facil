@@ -36,3 +36,7 @@ O processo de cadastro empresarial envolve o registro das informações essencia
 |----------------------------|---------------------------|--------------------------------------------------------|---------------------------|
 | todos os campos do formulário | Dados do formulário preenchido | devem cumprir todas as restrições de validação individual | preenchidos corretamente  |
 
+| **Comandos** | **Destino** | **Tipo** |
+| --- | --- | --- |
+| CADASTRAR | Fim do processo 5 | default |
+
