@@ -25,11 +25,6 @@ O processo de cadastro empresarial envolve o registro das informações essencia
 | CNPJ                 | Número de CNPJ         | 14 dígitos numéricos válidos | default           |
 | telefone             | Número de Telefone     | apenas números, com DDD      | default           |
 
-| **Comandos** | **Destino** | **Tipo** |
-| --- | --- | --- |
-| CADASTRAR COMO USUÁRIO | Cadastro do Usuário | default |
-| FAÇA LOGIN | Seção de login | default |
-
 **Atividade 3 - Submeter dados**
 
 | **Campo** | **Tipo** | **Restrições** | **Valor default** |
