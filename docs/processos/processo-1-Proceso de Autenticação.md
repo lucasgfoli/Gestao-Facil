@@ -16,7 +16,7 @@ O processo de cadastro e login de usuário é o primeiro contato do usuário com
 |--------------|--------------------|-----------|
 | ACESSAR | Seção de cadastro | default |
 
-**Atividade 2 - Cadastrar como Usuário**
+**Atividade 2 - Cadastrar Usuário**
 | **Campo**            | **Tipo**               | **Restrições**               | **Valor default** |
 | -------------------- | ---------------------- | ---------------------------- | ----------------- |
 | nome                 | Caixa de Texto → Nome  | obrigatório                  | default           |
@@ -32,22 +32,7 @@ O processo de cadastro e login de usuário é o primeiro contato do usuário com
 | CADASTRAR | Fim do Processo 1 | default |
 | ENTRAR | Seção de login | default |
 
-**Atividade 3 - Cadastrar como Empresa**
-| **Campo**            | **Tipo**               | **Restrições**               | **Valor default** |
-| -------------------- | ---------------------- | ---------------------------- | ----------------- |
-| Razão Social         | Caixa de Texto → Nome  | obrigatório                  | default           |
-| e-mail               | Caixa de Texto → Email | formato de e-mail válido     | default           |
-| CNPJ                 | Número de CNPJ         | 14 dígitos numéricos válidos | default           |
-| telefone             | Número de Telefone     | apenas números, com DDD      | default           |
-| senha                | Caixa de Texto → Senha | mínimo de 8 caracteres       | default           |
-| confirmação de senha | Caixa de Texto → Senha | igual à senha                | default           |
-
-| **Comandos** | **Destino** | **Tipo** |
-| --- | --- | --- |
-| CADASTRAR | Fim do Processo 1 | default |
-| ENTRAR | Seção de login | default |
-
-**Atividade 4 - Submeter dados**
+**Atividade 3 - Submeter dados**
 
 | **Campo** | **Tipo** | **Restrições** | **Valor default** |
 |----------------------------|---------------------------|--------------------------------------------------------|---------------------------|
@@ -59,7 +44,7 @@ O processo de cadastro e login de usuário é o primeiro contato do usuário com
 | EXIBIR MENSAGEM | Sucesso ou erro na submissão | default |
 
 
-**Atividade 5 - Acessar Seção de Login**
+**Atividade 4 - Acessar Seção de Login**
 
 | **Campo** | **Tipo** | **Restrições** | **Valor default** |
 |----------------------|------------------|----------------------------|-------------------|
@@ -69,7 +54,7 @@ O processo de cadastro e login de usuário é o primeiro contato do usuário com
 |--------------|-----------------|-----------|
 | ACESSAR | Seção de login | default |
 
-**Atividade 6 - Digitar credenciais**
+**Atividade 5 - Digitar credenciais**
 
 | **Campo** | **Tipo** | **Restrições** | **Valor default** |
 | --- | --- | --- | --- |
