@@ -17,7 +17,7 @@ O processo de cadastro empresarial envolve o registro das informações essencia
 | --- | --- | --- |
 | CADASTRAR | Inicio da atividade 2 | default |
 
-**Atividade 2 - Cadastrar como Empresa**
+**Atividade 2 - Preencher Formulário**
 | **Campo**            | **Tipo**               | **Restrições**               | **Valor default** |
 | -------------------- | ---------------------- | ---------------------------- | ----------------- |
 | Razão Social         | Caixa de Texto → Nome  | obrigatório                  | default           |
