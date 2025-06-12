@@ -1,67 +1,120 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Suporte Chamado</title>
     <link rel="stylesheet" href="CSS/suporteChamado.css">
 </head>
+
 <body>
     <!--CABEÇALHO-->
-  <header>
-    <div class="logo">
-      <img src="img/logo.png" alt="logo" />
-      <h1>Gestão Fácil</h1>
-    </div>
-    <nav class="links">
-      <a href="index.html">Home</a>
-      <a href="#sobre-nos">Sobre nós</a>
-      <div class="dropdown">
-        <a href="#" class="dropdown-button">Área do cliente</a>
-        <div class="dropdown-conteudo">
-          <a href="cadastroEmpresa.html">Cadastrar Empresa</a>
-          <a href="produtosCadastrados.html">Produtos</a>
+    <header>
+        <div class="logo">
+            <img src="img/logo.png" alt="logo" />
+            <h1>Gestão Fácil</h1>
         </div>
-      </div>
-      <a href="SuporteUsuario.html">Suporte</a>
-    </nav>
-    <div class="autenticacao">
-      <a href="login.html" class="btn-login">Log in</a>
-      <a href="cadastroUsuario.html" class="btn-cadastro">Criar conta</a>
-    </div>
-  </header>
-
-  <!--ARTICLE-->
-  <main>
-    <article class="artigo-introdutorio">
-        <div class="div-colorida">
-            <h1 class="titulo-introdutorio">Enviar um ticket</h1>
-                <h2 class="subtitulo-introdutorio">Seja uma dúvida, ou um probleminha bobo ou se seu sistema entrou em pane total, estamos aqui pra te dar uma mão ! <span style='font-size:40px;'>&#128075;</span></h2>
+        <nav class="links">
+            <a href="index.html">Home</a>
+            <a href="#sobre-nos">Sobre nós</a>
+            <div class="dropdown">
+                <a href="#" class="dropdown-button">Área do cliente</a>
+                <div class="dropdown-conteudo">
+                    <a href="cadastroEmpresa.html">Cadastrar Empresa</a>
+                    <a href="produtosCadastrados.html">Produtos</a>
+                </div>
+            </div>
+            <a href="SuporteUsuario.html">Suporte</a>
+        </nav>
+        <div class="autenticacao">
+            <a href="login.html" class="btn-login">Log in</a>
+            <a href="cadastroUsuario.html" class="btn-cadastro">Criar conta</a>
         </div>
-    </article>
-    <article class="artigo-fichario">
-        <h2>Ticket de Suporte</h2>
-       
-          <div class="div-fichario">
-        <label for="nome">1. Seu nome</label>
-        <input type="text" id="nome" placeholder="Digite o seu nome" required>
-    </div>
+    </header>
 
-    <div class="div-fichario">
-        <label for="assunto">2. Escolha um assunto</label>
-        <select id="assunto" required>
-            <option value="">-</option>
-            <option value="duvida">Dúvida</option>
-            <option value="problema">Problema técnico</option>
-            <option value="financeiro">Financeiro</option>
-        </select>
-    </div>
 
-    <div class="div-fichario">
-        <label for="mensagem">3. Descreva o problema ou dúvida</label>
-        <textarea id="mensagem" rows="4" placeholder="Digite aqui..." required></textarea>
-    </div>
-    </article>
-  </main>
+    <main>
+        <!--ARTIGO INTRODUTORIO-->
+        <article class="artigo-introdutorio">
+            <div class="div-colorida">
+                <h1 class="titulo-introdutorio">Enviar um ticket</h1>
+                <h2 class="subtitulo-introdutorio">Seja uma dúvida, ou um probleminha bobo ou se seu sistema entrou em
+                    pane total, estamos aqui pra te dar uma mão ! <span style='font-size:40px;'>&#128075;</span></h2>
+            </div>
+        </article>
+
+        <!--ARTIGO FICHÁRIO-->
+        <article class="artigo-fichario">
+            <h2>Do que precisa ?</h2>
+
+            <div class="div-fichario">
+                <label for="nome">1. Seu nome</label>
+                <input type="text" id="nome" placeholder="Digite o seu nome" required>
+            </div>
+
+
+            <div class="div-fichario">
+                <label for="email">2. Seu e-mail</label>
+                <input type="email" id="email" placeholder="Digite seu e-mail" required>
+            </div>
+
+
+            <div class="div-fichario">
+                <label for="assunto">3. Escolha um assunto</label>
+                <select id="assunto" required>
+                    <option value="">-</option>
+                    <option value="duvida">Dúvida</option>
+                    <option value="problema">Problema técnico</option>
+                    <option value="financeiro">Financeiro</option>
+                </select>
+            </div>
+
+            <div class="div-fichario">
+                <label for="mensagem">4. Descreva o problema ou dúvida</label>
+                <textarea id="mensagem" rows="4" placeholder="Digite aqui..." required></textarea>
+            </div>
+
+            <button class="btn-envio">
+                ENVIAR
+            </button>
+        </article>
+
+
+        <!--ARTIGO DESCRITIVO-->
+
+        <article class="artigo-explicativo">
+            <div class="texto-explicativo">
+                <p>
+                    O sistema de ticket da Gestão Fácil permite que a equipe de suporte analise diretamente suas dúvidas, problemas ou sugestões.<br>
+                    Ao preencher e enviar o formulário, sua solicitação é registrada no sistema e encaminhada para atendimento.<br> Após a análise, a equipe entrará em contato com uma resposta ou solução pelo e-mail informado, garantindo um suporte ágil e eficiente.
+                </p>
+            </div>
+            <img src="img/img-suporte.jpeg" alt="Imagem de suporte">
+        </article>
+
+    </main>
+
+    <!--FOOTER-->
+    <footer class="rodape">
+        </div>
+        <div class="linha-tracejada"></div>
+        <div class="conteudo-footer">
+            <p class="p-footer">
+                O projeto Gestão Fácil foi desenvolvido exclusivamente para fins educativos, como parte de atividades
+                acadêmicas do curso de Análise e Desenvolvimento de Sistemas. Todos os colaboradores participaram com o
+                objetivo de aprendizado, sem qualquer intenção comercial ou lucrativa. Ressaltamos que a 'Gestão Fácil'
+                é uma empresa fictícia, criada apenas como base conceitual para o desenvolvimento deste sistema.
+            </p>
+
+            <div class="div-final">
+                <img class="logo-puc" src="img/logo-puc-removebg-preview.avif" alt="">
+                <p><span class="copyright">© 2025 Copyright:</span> Pontifícia Universidade Católica de Minas Gerais -
+                    Barreiro</p>
+
+            </div>
+        </div>
+    </footer>
 </body>
+
 </html>
