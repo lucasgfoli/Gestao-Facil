@@ -112,9 +112,6 @@ As referências abaixo irão auxiliá-lo na geração do artefato “Modelo ER�
 
 ![Diagrama ER de banco de dados (pé de galinha) (2)](https://github.com/user-attachments/assets/9876ee25-d26b-45b9-b9d3-437b8643608d)
 
-![Exemplo de um modelo relacional](images/modeloRelacional.png "Exemplo de Modelo Relacional.")
----
-
 #### 4.3.3 Modelo Físico
 
 <code>
