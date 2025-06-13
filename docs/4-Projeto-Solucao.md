@@ -89,11 +89,11 @@ _Apresente o modelo de dados por meio de um modelo relacional que contemple todo
 <code>
 
 CREATE TABLE IF NOT EXISTS usuario(
-	id_usuario INTEGER NOT NULL AUTO_INCREMENT,
+    id_usuario INTEGER NOT NULL AUTO_INCREMENT,
     cpnj_usuario INTEGER NOT NULL AUTO_INCREMENT,
     nome VARCHAR(100) NOT NULL,
     data_nascimento DATE NOT NULL,
-   	telefone INTEGER NOT NULL,
+    telefone INTEGER NOT NULL,
     email VARCHAR(50) NOT NULL,
     senha VARCHAR(20) NOT NULL,
     PRIMARY KEY (id_usuario),
@@ -116,7 +116,6 @@ CREATE TABLE IF NOT EXISTS cliente(
     cpf CHAR(11) PRIMARY KEY NOT NULL,
     nome VARCHAR(100) NOT NULL,
     data_nascimento DATE NOT NULL
-    
 );
 
 CREATE TABLE IF NOT EXISTS fornecedor(
@@ -158,7 +157,7 @@ CREATE TABLE IF NOT EXISTS empresa(
     email_empresa VARCHAR(50) NOT NULL,
     telefone_empresa VARCHAR(10),
     endereco VARCHAR(100),
-    FOREING KEY (cnpj_empresa) REFERENCES usuario(id_usuario);
+    FOREING KEY (cnpj_empresa) REFERENCES usuario(id_usuario)
 );
 
 </code>
