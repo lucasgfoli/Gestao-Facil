@@ -9,14 +9,33 @@ const produtoSelecionado = products.find(p => p.id === productId);
 
   // Criar e injetar HTML com os dados do produto
   document.body.innerHTML += `
+
     <main class="container">
       <section class="venda" id="telaVenda">
         <h2>Venda de Produto</h2>
+        
+    <div class="product-sell">
+      <div class="product-container">
+        <label for="tipoPagamento">Informações do Produto:</label>
+        <h3>Produto: ${produtoSelecionado.name}</h3>
+        <p><strong>Categoria:</strong> ${produtoSelecionado.category}</p>
+        <p><strong>Preço:</strong> <p>R$${produtoSelecionado.price.toFixed(2)}</p>
+        <p><strong>Fornecedor:</strong> ${produtoSelecionado.fornecedorName}</p>
+        <p><strong>Validade:</strong> ${produtoSelecionado.dateExpiration}</p>
+        <p><strong>Quantidade atual:</strong> ${produtoSelecionado.quantity}</p>
+        </div>
 
-
+        <div class="client-container">
         <label for="tipoPagamento">Tipo de Pagamento:</label>
-        <input type="text" id="tipoPagamento" placeholder="Ex: Cartão, Pix, Boleto" />
-
+        <select id="tipoPagamento" required>
+        <option value="" disabled selected>Selecione o tipo de pagamento</option>
+        <option value = "credit-card">Cartão de crédito</option>
+        <option value = "debit-card">Cartão de débito</option>
+        <option value = "dinheiro">Dinheiro</option>
+        <option value = "PIX">PIX</option>
+        <option value = "boleto">Boleto Bancário</option>
+        </select>
+  
         <label for="dataPagamento">Data da Venda:</label>
         <input type="date" id="dataPagamento" />
 
@@ -24,6 +43,8 @@ const produtoSelecionado = products.find(p => p.id === productId);
         <input type="number" id="quantidadeVenda" placeholder="Quantidade" min="1" />
 
         <button id="btnConfirmarVenda">Confirmar Venda</button>
+      </div>
+    </div>
       </section>
     </main>
   `;
@@ -47,7 +68,5 @@ const produtoSelecionado = products.find(p => p.id === productId);
     alert(`Venda realizada! Quantidade restante: ${produtoSelecionado.quantity}`);
     window.location.href = "produtosCadastrados.html";
 
-    //<p><strong>Nome atual:</strong> ${produtoSelecionado.name}</p> Nome produto
-    //<p><strong>Quantidade atual:</strong> ${produtoSelecionado.quantity}</p> Quantidade produto
-    //Necessário atualizar estoque
+    
   });

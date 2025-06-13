@@ -264,7 +264,63 @@ header {
 
 /*ARTIGO DÚVIDAS*/
 
+.artigo-duvidas {
+  max-width: 700px;
+  margin: 50px auto;
+  padding: 30px;
+  background-color: #ffffff;
+  border-radius: 12px;
+ 
+  font-family: 'Inter', sans-serif;
+  text-align: center;
+}
 
+.artigo-duvidas h1 {
+margin-bottom: 30px;
+  font-size: 2rem;
+  margin-bottom: 100px;
+  color: #2B77C0;
+}
+
+.faq-item {
+  text-align: left;
+  margin-bottom: 15px;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 10px;
+}
+
+.faq-question {
+  width: 100%;
+  background: none;
+  border: none;
+  font-size: 1.1rem;
+  font-weight: bold;
+  cursor: pointer;
+  padding: 10px 0;
+  color: #333;
+  transition: all 0.3s ease;
+}
+
+.faq-question:hover {
+  color: #2B77C0;
+}
+
+.faq-answer {
+  max-height: 0;
+  overflow: hidden;
+  color: #555;
+  line-height: 1.6;
+  transition: max-height 0.4s ease;
+  padding-left: 10px;
+}
+.faq-item.active .faq-answer {
+  max-height: 200px; 
+}
+
+@keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
 
 /*FOOTER*/
 .rodape

@@ -1,75 +1,129 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Suporte Duvidas</title>
     <link rel="stylesheet" href="CSS/suporteDuvidas.css">
 </head>
+
 <body>
     <!--CABEÇALHO-->
-  <header>
-    <div class="logo">
-      <img src="img/logo.png" alt="logo" />
-      <h1>Gestão Fácil</h1>
-    </div>
-    <nav class="links">
-      <a href="index.html">Home</a>
-      <a href="#sobre-nos">Sobre nós</a>
-      <div class="dropdown">
-        <a href="#" class="dropdown-button">Área do cliente</a>
-        <div class="dropdown-conteudo">
-          <a href="cadastroEmpresa.html">Cadastrar Empresa</a>
-          <a href="produtosCadastrados.html">Produtos</a>
+    <header>
+        <div class="logo">
+            <img src="img/logo.png" alt="logo" />
+            <h1>Gestão Fácil</h1>
         </div>
-      </div>
-      <a href="SuporteUsuario.html">Suporte</a>
-    </nav>
-    <div class="autenticacao">
-      <a href="login.html" class="btn-login">Log in</a>
-      <a href="cadastroUsuario.html" class="btn-cadastro">Criar conta</a>
-    </div>
-  </header>
-
-  <!--MAIN-->
-  <main>
-    
-    <!--Artigo Introdutório-->
-    <article class="artigo-introdutorio">
-        <div class="texto-introdutorio">
-            <h1>❓ Perguntas Frequentes</h1>
-            <p>Nesta seção, reunimos as dúvidas mais comuns sobre o uso da plataforma Gestão Fácil. <br>Se você está com alguma dificuldade ou deseja entender melhor como o sistema funciona, confira abaixo as respostas para as principais questões.</p>
-            <p class="p-btn">Caso sua dúvida não esteja aqui, sinta-se à vontade para abrir um ticket de suporte.</p>
-            <button class="btn-chamado"><a href="suporteChamado.html" target="_blank"></a>Enviar um Ticket</button>
+        <nav class="links">
+            <a href="index.html">Home</a>
+            <a href="#sobre-nos">Sobre nós</a>
+            <div class="dropdown">
+                <a href="#" class="dropdown-button">Área do cliente</a>
+                <div class="dropdown-conteudo">
+                    <a href="cadastroEmpresa.html">Cadastrar Empresa</a>
+                    <a href="produtosCadastrados.html">Produtos</a>
+                </div>
+            </div>
+            <a href="SuporteUsuario.html">Suporte</a>
+        </nav>
+        <div class="autenticacao">
+            <a href="login.html" class="btn-login">Log in</a>
+            <a href="cadastroUsuario.html" class="btn-cadastro">Criar conta</a>
         </div>
-        <img src="img/duvida.png" alt="">
-    </article>
+    </header>
 
-    <article class="artigo-duvidas">
-        <h1></h1>
-        <div>
-            <h2></h2>
-            <p></p>
+    <!--MAIN-->
+    <main>
+
+        <!--Artigo Introdutório-->
+        <article class="artigo-introdutorio">
+            <div class="texto-introdutorio">
+                <h1>❓ Confira Algumas Dúvidas</h1>
+                <p>Nesta seção, reunimos as dúvidas mais comuns sobre o uso da plataforma Gestão Fácil. <br>Se você está
+                    com alguma dificuldade ou deseja entender melhor como o sistema funciona, confira abaixo as
+                    respostas para as principais questões.</p>
+                <p class="p-btn">Caso sua dúvida não esteja aqui, sinta-se à vontade para abrir um ticket de suporte.
+                </p>
+                <a href="suporteChamado.html" target="_blank" class="btn-chamado">Enviar um Ticket</a>
+            </div>
+            <img src="img/duvida.png" alt="">
+        </article>
+
+        <article class="artigo-duvidas">
+            <h1>Perguntas Frequentes</h1>
+
+            <div class="faq-item">
+                <button class="faq-question">Como faço para cadastrar minha empresa?</button>
+                <div class="faq-answer">
+                    <p>Basta acessar a área de cadastro da plataforma Gestão Fácil e preencher o formulário com as
+                        informações da sua empresa. O sistema salvará automaticamente os dados no banco.</p>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <button class="faq-question">Posso editar os dados da minha empresa depois?</button>
+                <div class="faq-answer">
+                    <p>Sim! Após o cadastro, é possível acessar a área administrativa para editar ou atualizar as
+                        informações sempre que necessário.</p>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <button class="faq-question">Como recebo resposta dos meus tickets?</button>
+                <div class="faq-answer">
+                    <p>Você receberá um retorno por e-mail com a resposta do nosso time de suporte em até 24h úteis após
+                        o envio do ticket.</p>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <button class="faq-question">Quais dados são obrigatórios no cadastro?</button>
+                <div class="faq-answer">
+                    <p>Os campos obrigatórios incluem nome da empresa, CNPJ, e-mail e telefone de contato. Esses dados
+                        são essenciais para validar seu registro e garantir a segurança da plataforma.</p>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <button class="faq-question">É possível cadastrar mais de uma loja?</button>
+                <div class="faq-answer">
+                    <p>Sim! A Gestão Fácil permite o cadastro de múltiplas unidades ou filiais dentro da mesma conta,
+                        facilitando a gestão centralizada de estoques e operações.</p>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <button class="faq-question">Como posso recuperar minha senha?</button>
+                <div class="faq-answer">
+                    <p>Basta acessar a tela de login e clicar em “Esqueci minha senha”. Você receberá instruções no
+                        e-mail cadastrado para redefinir sua senha com segurança.</p>
+                </div>
+            </div>
+        </article>
+    </main>
+
+
+    <footer class="rodape">
         </div>
-    </article>
-  </main>
+        <div class="linha-tracejada"></div>
+        <div class="conteudo-footer">
+            <p class="p-footer">
+                O projeto Gestão Fácil foi desenvolvido exclusivamente para fins educativos, como parte de atividades
+                acadêmicas do curso de Análise e Desenvolvimento de Sistemas. Todos os colaboradores participaram com o
+                objetivo de aprendizado, sem qualquer intenção comercial ou lucrativa. Ressaltamos que a 'Gestão Fácil'
+                é uma empresa fictícia, criada apenas como base conceitual para o desenvolvimento deste sistema.
+            </p>
 
+            <div class="div-final">
+                <img class="logo-puc" src="img/logo-puc-removebg-preview.avif" alt="">
+                <p><span class="copyright">© 2025 Copyright:</span> Pontifícia Universidade Católica de Minas Gerais -
+                    Barreiro</p>
 
-  <footer class="rodape">
-  </div>
-  <div class="linha-tracejada"></div>
-  <div class="conteudo-footer">
-    <p class="p-footer">
-      O projeto Gestão Fácil foi desenvolvido exclusivamente para fins educativos, como parte de atividades acadêmicas do curso de Análise e Desenvolvimento de Sistemas. Todos os colaboradores participaram com o objetivo de aprendizado, sem qualquer intenção comercial ou lucrativa. Ressaltamos que a 'Gestão Fácil' é uma empresa fictícia, criada apenas como base conceitual para o desenvolvimento deste sistema.
-    </p>
-
-    <div class="div-final">
-       <img class="logo-puc" src="img/logo-puc-removebg-preview.avif" alt="">
-      <p><span class="copyright">© 2025 Copyright:</span> Pontifícia Universidade Católica de Minas Gerais - Barreiro</p>
-
-    </div>
-  </div>
-</footer>
-
+            </div>
+        </div>
+    </footer>
+    <script src="JS/suporteDuvidas.js"></script>
 </body>
+
 </html>
