@@ -112,18 +112,24 @@ As referências abaixo irão auxiliá-lo na geração do artefato “Modelo ER�
 
 ![Diagrama ER de banco de dados (pé de galinha) (2)](https://github.com/user-attachments/assets/9876ee25-d26b-45b9-b9d3-437b8643608d)
 
-O Esquema Relacional corresponde à representação dos dados em tabelas juntamente com as restrições de integridade e chave primária.
- 
-As referências abaixo irão auxiliá-lo na geração do artefato “Esquema Relacional”.
-
-> - [Criando um modelo relacional - Documentação da IBM](https://www.ibm.com/docs/pt-br/cognos-analytics/10.2.2?topic=designer-creating-relational-model)
-
 ![Exemplo de um modelo relacional](images/modeloRelacional.png "Exemplo de Modelo Relacional.")
 ---
 
 #### 4.3.3 Modelo Físico
 
 <code>
+
+CREATE TABLE IF EXISTS usuario(
+	id_usuario INTEGER NOT NULL AUTO_INCREMENT,
+    cpnj_usuario INTEGER NOT NULL AUTO_INCREMENT,
+    nome VARCHAR(100) NOT NULL,
+    data_nascimento DATE NOT NULL,
+   	telefone INTEGER NOT NULL,
+    email VARCHAR(50) NOT NULL,
+    senha VARCHAR(20) NOT NULL,
+    PRIMARY KEY (id_usuario),
+	   FOREIGN KEY cpnj_usuario REFERENCES empresa(cpnj_empresa);
+);
 
 CREATE TABLE IF NOT EXISTS Produto (
     id_produto INTEGER NOT NULL AUTO_INCREMENT,
@@ -183,7 +189,7 @@ CREATE TABLE IF NOT EXISTS empresa(
     email_empresa VARCHAR(50) NOT NULL,
     telefone_empresa VARCHAR(10),
     endereco VARCHAR(100),
-    FOREING KEY (cnpj_empresa) REFERENCES usuario();
+    FOREING KEY (cnpj_empresa) REFERENCES usuario(id_usuario);
 );
 
 </code>
