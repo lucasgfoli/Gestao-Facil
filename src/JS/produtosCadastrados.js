@@ -4,6 +4,7 @@ let productsHTML = '';
 
 products.forEach((product) => {
   productsHTML += `
+  
     <div class="product-container">
       <div class="product-image-container">
         <img class="product-image" src="${product.image || 'images/default.png'}" alt="${product.name}">
@@ -35,7 +36,7 @@ products.forEach((product) => {
         Validade: ${product.dateExpiration}
       </div>
 
-      <a href="vendaProduto.html" class="link-primary">
+      <a href="vendaProduto.html?id=${product.id}" class="link-primary">
         Registrar Venda
       </a>
       <a href="editarProduto.html?id=${product.id}" class="link-primary">
