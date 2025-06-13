@@ -27,7 +27,7 @@ html {
 }
 
 body {
-    background-color: rgb(80, 160, 235);
+    background-color: rgb(255, 255, 255);
     font-family: 'Inter', sans-serif;
 }
 
@@ -191,184 +191,79 @@ header {
 }
 
 
-/*MAIN*/
-
-.conteudo_principal
-{
-    position: relative;
-}
-/*ARTIGO APRESENTATIVO*/
-
-.video-apresentativo {
-    position: relative;
-    margin-top: 40px;
+.artigo-introdutorio
+{   
+    color: rgb(26, 25, 25);
     display: flex;
-    justify-content: center;
-    align-items: center;
-    position: fixed;
+    flex-direction: row wrap;
     width: 100%;
-    max-height: 800px;
-    overflow: hidden;
-    position: relative;
+    height: 350px;
+    background-color: #A7C7E7;
 }
 
-.background-video {
-    display: block;
-    width: 97%;
-    height: 100%;
-    object-fit: cover;
-}
-
-.titulo-sobreposto {
-
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: white;
-    text-align: center;
-    font-size: 3rem;
-    font-family: 'Inter', sans-serif;
-    font-weight: 800;
-    padding: 20px;
-    z-index: 1;
-}
-
-.frase-efeito {
-    font-size: larger;
-    color: rgb(255, 255, 255);
-    font-weight: 600;
-    text-transform: uppercase;
+.artigo-introdutorio > img
+{   
+   height: auto;
+   margin-left: 150px;
 
 }
 
-.personalizar-efeito {
-    color: #2B76BE;
-}
-
-/*ARTIGO SOBRE */
-
-.artigo-sobre {
+.texto-introdutorio
+{   
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: stretch;
-    background-color: white;
-    padding: 40px 60px;
-    gap: 60px;
-    box-shadow: 1px 1px 1px rgb(0, 0, 0);
-}
-
-.artigo-sobre h2 {   
-    flex: 1;
-    margin: 0;
-    align-self: center;
-    font-family: 'Inter', sans-serif;
-    font-weight: 600;
-    font-size: 2.5rem;
-    color: rgba(0, 0, 0, 0.74);
-    text-align: right;  
-    line-height: 1.3;
-}
-
-.artigo-sobre p {   
-    flex: 2;
-    font-family: 'Inter', sans-serif;
-    font-size: 1.2rem;  
-    font-weight: 300;
-    line-height: 2.0;
-    color: #1d1c1c;
-    margin: 0;
-    text-align: justify; 
-    
-}
-
-.linha-vertical {
-    width: 4px;
-    height: 350px; 
-    background-color: #1c53c9;
-    flex-shrink: 0;
-}
-
-/*DIV TRANSITIVO*/
-
-.titulos-transitivos
-{      
-    font-family: 'Roboto Condensed', sans-serif;
-    margin: 50px 0px 50px 0px;
-    display: flex;
-    flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: start;
+    flex-direction: column;
+    padding: 10px;
+    width: 70%;
+
 }
 
-.subtitulo-transitivo
-{   color: white;
+.texto-introdutorio > h1
+{   font-size: xx-large;
+    margin-left: 30px;
+    margin-bottom: 40px;
+    font-family: 'Inter', sans-serif;
     font-weight: 500;
-    margin-bottom: 10px;
 }
 
-.titulo-transitivo
+.texto-introdutorio > p
 {   
-    font-weight: 800;
-    color: rgb(0, 0, 0);
-}
-/*ARTIGO BENEFICIOS*/
-
-.artigo-beneficios
-{   
-    margin-top: 50px;
-    margin-bottom: 50px;
-    display: grid;
-    grid-template-columns: 400px 400px 400px;
-    grid-template-rows: 350px;
-    justify-content: center;
-    align-content: center;
-    gap: 20px;
-    
+    font-size: larger;
+    margin-left: 50px;
+    text-align: justify;
+    font-family: 'Inter', sans-serif;
+    font-weight: 300;
 }
 
-.itens {
-    box-shadow: 0px 1px 6px rgb(41, 40, 40);
-    background-color: white;
-    border-radius: 2%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: flex-start;
-    padding: 20px;
-    text-align: center;
-
+.texto-introdutorio > .p-btn
+{
+    margin: 30px 0px 0px 50px;
 }
 
-.itens p
-{   
-    font-family: 'Roboto Condensed', sans-serif;
-    font-weight: 400;
-    font-size: large;
-    max-width: 350px;
-
-    
+.btn-chamado {
+    align-self: flex-start;
+    background-color: #2B77C0;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 12px 24px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    display: block;
+    margin: 40px 0 0 50px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
 
-.logo-beneficio {
-    
-    width: 70px;
-    height: 70px;
-    margin-bottom: 10px;
-    
-    
-
+.btn-chamado:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
 }
 
-.titulo-beneficio {
-    font-family: 'Roboto Condense', sans-serif;
-    margin: 10px 0 20px 0;
-    text-align: center;
-}
+/*ARTIGO DÚVIDAS*/
 
-
-/*ARTIGO DESENVOLVEDORES*/
 
 
 /*FOOTER*/
