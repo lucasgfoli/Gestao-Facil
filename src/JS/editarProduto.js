@@ -12,23 +12,35 @@ if (!produtoSelecionado) {
 } else {
   // Criar e injetar HTML com os dados do produto
   document.body.innerHTML += `
-    <main class="edit-container">
+    <main class="container">
       <section class="edit" id="telaEditar">
 
-      <div class="product-info";>
-        <p class= "product-name";><strong>Nome atual:</strong> ${produtoSelecionado.name}</p>
-        <p class= "product-quantity";><strong>Quantidade atual:</strong> ${produtoSelecionado.quantity}</p>
+    <div class="edit-product">
+      <div class="product-container">
+        <label for="productInfo">Informações do Produto:</label>
+          <h3>Produto: ${produtoSelecionado.name}</h3>
+          <p><strong>Categoria:</strong> ${produtoSelecionado.category}</p>
+          <p><strong>Preço:</strong> <p>R$${produtoSelecionado.price.toFixed(2)}</p>
+          <p><strong>Fornecedor:</strong> ${produtoSelecionado.fornecedorName}</p>
+          <p><strong>Validade:</strong> ${produtoSelecionado.dateExpiration}</p>
+          <p><strong>Quantidade atual:</strong> ${produtoSelecionado.quantity}</p>
       </div>
+    
+
+      <div class="client-container">
         <label for="edit-name">Novo nome:</label>
-        <input type="text" id="edit-name" value="${produtoSelecionado.name}"/>
-
+          <input type="text" id="edit-name" value="${produtoSelecionado.name}"/>
         <label for="edit-quantity">Nova quantidade:</label>
-        <input type="number" id="edit-quantity" value="${produtoSelecionado.quantity}" min="1" />
+          <input type="number" id="edit-quantity" value="${produtoSelecionado.quantity}" min="1" />
 
-        <label for="edit-expiration">Nova data de validade:</label>
-        <input type="date" id="edit-expiration" value="${produtoSelecionado.dateExpiration}" />
+        <label for="edit-validade">Nova data de validade:</label>
+          <input type="date" id="edit-expiration" value="${produtoSelecionado.dateExpiration}" />
+        <label for="edit-fornecedor">Nome do fornecedor:</label>
+          <input type="text" id="edit-expiration" value="${produtoSelecionado.fornecedorName}" />
 
-        <button id="btnConfirmarEdicao">Confirmar Edição</button>
+          <button id="btnConfirmarEdicao">Confirmar Edição</button>
+      </div>
+     </div>
       </section>
     </main>
   `;
