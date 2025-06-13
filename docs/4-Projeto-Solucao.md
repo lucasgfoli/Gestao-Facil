@@ -188,7 +188,6 @@ CREATE TABLE IF NOT EXISTS empresa(
     endereco VARCHAR(100),
     FOREING KEY (cnpj_empresa) REFERENCES usuario(id_usuario);
 );
-
 </code>
 
 ### 4.4. Tecnologias
