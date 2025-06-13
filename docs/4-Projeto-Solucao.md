@@ -88,7 +88,7 @@ _Apresente o modelo de dados por meio de um modelo relacional que contemple todo
 
 <code>
 
-CREATE TABLE IF EXISTS usuario(
+CREATE TABLE IF NOT EXISTS usuario(
 	id_usuario INTEGER NOT NULL AUTO_INCREMENT,
     cpnj_usuario INTEGER NOT NULL AUTO_INCREMENT,
     nome VARCHAR(100) NOT NULL,
