@@ -1,258 +1,354 @@
-/* FONTES */
-@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
-
-@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap');
-
-@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
-
-
-@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Pinstripe:ital@0;1&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
-
-
-/* CONFIGURAÇÃO GLOBAL */
-*{  
-    max-width: 100%;
-    margin: 0;
-    border: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-a {
-    text-decoration: none;
-}
-
-html {
-    scroll-behavior: smooth;
+:root {
+  --primaria: #2b50ec;
+  --fundo: #f5f7fa;
+  --texto-principal: #333;
+  --texto-secundario: #555;
 }
 
 body {
-    background-color: rgb(206, 231, 255);
-    font-family: 'Inter', sans-serif;
+  background-color: var(--fundo);
+  background-image: url('../img/background3.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  padding: 20px;
+  overflow-y: auto;
 }
 
-/* HEADER */
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
 header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: rgb(255, 255, 255);
-    padding: 10px 40px;
-    box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.1);
-    width: 100%;
-}
-
-
-.logo,
-.autenticacao {
-    flex: 1;
+  text-align: center;
+  margin-bottom: 40px;
 }
 
 .logo {
-    display: flex;
-    justify-content: flex-start;
-    transition: color 0.3s ease;
+  width: 100px;
+  margin: 0 auto;
 }
-
-
-.logo h1 {
-    font-family: 'Merriweather', serif;
-    margin-left: 10px;
-    margin-top: 5px;
-    font-size: 22px;
-
-}
-
-.logo:hover {
-    color: rgb(80, 160, 235);
-}
-
 
 .logo img {
-    max-height: 40px;
-    align-self: center;
+  width: 100%;
 }
 
-.links {
-    flex: 2;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 40px;
+.logo h1 {
+  margin: 10px 0;
+  color: var(--primaria);
 }
 
-.links>a {
-    color: black;
-    font-weight: 400;
-    font-size: 16px;
-    transition: color 0.2s ease;
+nav.links {
+  margin-top: 10px;
 }
 
-.links>a:hover {
-    color: rgb(62, 101, 185);
+nav a {
+  margin: 0 10px;
+  color: var(--texto-principal);
+  text-decoration: none;
+  font-weight: 500;
 }
 
-.dropdown
-{
-    position: relative;
-    display: inline-block;
-}
-
-.frase-efeito
-{
-    color: black;
-    font-weight: 400;
-    font-size: 16px;
-    transition: color 0.2 ease;
-    text-decoration: none;
-    padding: 10px;
-    display: inline-block;
-}
-
-.dropdown a
-{
-    color: black;
-}
-.dropdown-conteudo
-{   
-    display: none;
-    position: absolute;
-    background-color: white;
-    min-width: 160px;
-    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.1);
-    z-index: 1;
-    flex-direction: column;
-    padding: 10px 0;
-    border-radius: 4px;
-}
-
-.dropdown-conteudo a
-{
-    color: black;
-    padding: 10px 16px;
-    text-decoration: none;
-    display: block;
-    font-size: 14px;
-}
-
-.dropdown-conteudo a:hover
-{
-    background-color: #f1f1f1;
-}
-
-.dropdown:hover .dropdown-conteudo
-{
-    display: block;
-}
-
-.dropdown:hover .dropdown-button
-{
-    color: rgb(62, 101, 185);
-
+nav a:hover {
+  text-decoration: underline;
 }
 
 .autenticacao {
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
+  margin-top: 10px;
 }
 
-.btn-login {
-    background-color: transparent;
-    padding: 10px 18px;
-    margin-right: 40px;
-    border: 1px solid rgba(67, 68, 73, 0.123);
-    border-radius: 2%;
-    font-family: 'Inter', sans-serif;
-    font-size: 15px;
-    font-weight: 400;
-    cursor: pointer;
-    text-align: center;
-    color: #2B77C0;
+.btn-login,
+.btn-cadastro {
+  margin: 5px;
+  padding: 8px 16px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 600;
+  background-color: var(--primaria);
+  color: white;
+  transition: background-color 0.3s ease;
 }
 
-.btn-cadastro
-{
-    background-color: #3d8dd8;
-    color: white;
-    padding: 10px 18px;
-    border-radius: 2%;
-    font-size: 15px;
+.btn-login:hover,
+.btn-cadastro:hover {
+  background-color: #1e4db8;
 }
 
-.btn-login:hover {
-    box-shadow: 0px 0.5px 1px  rgb(129, 123, 123);
-    
+/* Formulário */
+.formulario-card {
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+  padding: 30px;
 }
 
-.btn-cadastro:hover
-{   
-    background-image: linear-gradient(to bottom, #2B77C0, #1c53c9);
+.formulario {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
 }
 
-
-.formulario-cadastro {
-    width: 50%;
-    margin: 50px auto;
-    padding: 20px;
-    background-color: #fff;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-h2 {
-    text-align: center;
-    margin-bottom: 20px;
+.page-title {
+  text-align: center;
+  color: var(--primaria);
+  margin-bottom: 20px;
 }
 
 .form-label {
-    display: block;
-    margin: 10px 0 5px;
+  font-weight: bold;
+  color: var(--texto-principal);
 }
 
-/* Campos de entrada */
-.nome-produto,
-.product-quantity,
-.nome-fornecedor,
-.data-recebimento,
-.data-validade {
-    width: 100%;
-    padding: 8px;
-    margin-bottom: 15px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
+input[type="text"],
+input[type="number"],
+input[type="date"] {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 1rem;
+  width: 100%;
 }
 
 .buttons {
-    display: flex;
-    gap: 10px; /* espaço entre os botões */
-    justify-content: center; /* centraliza os botões horizontalmente */
-    margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
 }
 
 .submit-button,
 .cancel-button {
-    width: 50%;
-    padding: 10px;
-    font-size: 16px;
-    border-radius: 4px;
-    border: none;
-    cursor: pointer;
-    color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
 }
 
 .submit-button {
-    background-color: #2563EB;
+  background-color: var(--primaria);
+  color: white;
 }
 
 .submit-button:hover {
-    background-color: #1d50c1;
+  background-color: #1e4db8;
 }
 
 .cancel-button {
-    background-color: #DF7067;
+  background-color: #ccc;
+  color: #333;
 }
 
 .cancel-button:hover {
-    background-color: #c95e56;
+  background-color: #b0b0b0;
+}
+/* HEADER ESTILIZADO COM LAYOUT FLEX */
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 10px 20px;
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+  margin-bottom: 30px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo img {
+  width: 50px;
+  height: auto;
+}
+
+.logo h1 {
+  font-size: 1.5rem;
+  color: var(--primaria);
+  margin: 0;
+}
+
+nav.links {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+nav.links a {
+  color: var(--texto-principal);
+  text-decoration: none;
+  font-weight: 500;
+  padding: 8px;
+}
+
+nav.links a:hover {
+  text-decoration: underline;
+}
+
+/* Dropdown estilizado */
+.dropdown {
+  position: relative;
+}
+
+.dropdown-button {
+  cursor: pointer;
+}
+
+.dropdown-conteudo {
+  display: none;
+  position: absolute;
+  top: 30px;
+  left: 0;
+  background-color: white;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  border-radius: 8px;
+  padding: 10px;
+  z-index: 10;
+  flex-direction: column;
+  min-width: 180px;
+}
+
+.dropdown:hover .dropdown-conteudo {
+  display: flex;
+}
+
+.dropdown-conteudo a {
+  padding: 6px 12px;
+  color: var(--texto-principal);
+}
+
+.dropdown-conteudo a:hover {
+  background-color: #f0f0f0;
+}
+
+/* Área de login/cadastro */
+.autenticacao {
+  display: flex;
+  gap: 10px;
+}
+
+.btn-login,
+.btn-cadastro {
+  background-color: var(--primaria);
+  color: white;
+  padding: 8px 14px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: background-color 0.3s ease;
+}
+
+.btn-login:hover,
+.btn-cadastro:hover {
+  background-color: #1e4db8;
+}
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 10px 30px;
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+  margin-bottom: 30px;
+}
+
+/* Logo alinhada à esquerda */
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo img {
+  width: 50px;
+  height: 50px;
+  object-fit: contain;
+}
+
+
+/* Navegação centralizada e alinhada */
+nav.links {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+nav.links a {
+  color: var(--texto-principal);
+  text-decoration: none;
+  font-weight: 500;
+  padding: 8px;
+}
+
+nav.links a:hover {
+  text-decoration: underline;
+}
+
+/* Dropdown corrigido */
+.dropdown {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.dropdown-button {
+  cursor: pointer;
+}
+
+.dropdown-conteudo {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: white;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  border-radius: 8px;
+  padding: 10px;
+  z-index: 10;
+  flex-direction: column;
+  min-width: 180px;
+}
+
+.dropdown:hover .dropdown-conteudo {
+  display: flex;
+}
+
+.dropdown-conteudo a {
+  padding: 6px 12px;
+  color: var(--texto-principal);
+}
+
+.dropdown-conteudo a:hover {
+  background-color: #f0f0f0;
+}
+
+/* Botões de autenticação alinhados */
+.autenticacao {
+  display: flex;
+  gap: 10px;
+}
+
+.btn-login,
+.btn-cadastro {
+  background-color: var(--primaria);
+  color: white;
+  padding: 8px 14px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: background-color 0.3s ease;
+}
+
+.btn-login:hover,
+.btn-cadastro:hover {
+  background-color: #1e4db8;
 }
