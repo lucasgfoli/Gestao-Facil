@@ -103,11 +103,6 @@ _Apresente o modelo de dados por meio de um modelo relacional que contemple todo
 
 ![Diagrama Entidade Relacionamento DER drawio](https://github.com/user-attachments/assets/3bdaa877-2895-4359-a4f0-b7cf09f8959d)
 
-As referências abaixo irão auxiliá-lo na geração do artefato “Modelo ER”.
-
-> - [Como fazer um diagrama entidade relacionamento | Lucidchart](https://www.lucidchart.com/pages/pt/como-fazer-um-diagrama-entidade-relacionamento)
-
-
 #### 4.3.2 Esquema Relacional
 
 ![Diagrama ER de banco de dados (pé de galinha) (2)](https://github.com/user-attachments/assets/9876ee25-d26b-45b9-b9d3-437b8643608d)
@@ -188,6 +183,7 @@ CREATE TABLE IF NOT EXISTS empresa(
     endereco VARCHAR(100),
     FOREING KEY (cnpj_empresa) REFERENCES usuario(id_usuario);
 );
+
 </code>
 
 ### 4.4. Tecnologias
