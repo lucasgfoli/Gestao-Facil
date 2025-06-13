@@ -6,10 +6,6 @@ Como proposta de solução, nossa aplicação será desenvolvida como um serviç
 
 A arquitetura dos processos do sistema de gestão de estoques foi projetada para pequenas lojas de suvenires, com foco em praticidade e eficiência. Desenvolvido como uma aplicação web utilizando para FrontEnd o JavaScript, HTML, CSS. Serão utilizados também Javascript, Node JS e JSON para BackEnd. O banco de dados que será utilizado é o SQLite. O sistema permite do projeto Gestão Simples o cadastro de produtos, controle de entradas e saídas, notificações automáticas de itens em nível crítico e gerenciamento de usuários com diferentes níveis de acesso. Dessa forma, a solução busca substituir os controles manuais, otimizando a organização do estoque.
  
- **Exemplo do diagrama de Arquitetura**:
- 
- ![Exemplo de Arquitetura](./images/arquitetura-exemplo.png)
- 
 ## 4.1.1 Processos x tarefas
 
 | **Processos**               | **Tarefas**                                                                                               |
@@ -114,7 +110,7 @@ As referências abaixo irão auxiliá-lo na geração do artefato “Modelo ER�
 
 #### 4.3.2 Esquema Relacional
 
-![Diagrama ER de banco de dados (pé de galinha) (3)](https://github.com/user-attachments/assets/3a87ea2f-d393-4419-87aa-4ac4b2a3a0c2)
+![Diagrama ER de banco de dados (pé de galinha) (2)](https://github.com/user-attachments/assets/9876ee25-d26b-45b9-b9d3-437b8643608d)
 
 O Esquema Relacional corresponde à representação dos dados em tabelas juntamente com as restrições de integridade e chave primária.
  
@@ -129,46 +125,33 @@ As referências abaixo irão auxiliá-lo na geração do artefato “Esquema Rel
 
 <code>
 
-CREATE TABLE produto (
-  id_produto int NOT NULL AUTO_INCREMENT,
-  id_fornecedor int DEFAULT NULL,
-  nome varchar(100) NOT NULL,
-  categoria varchar(50) NOT NULL,
-  preco decimal(10,2) NOT NULL,
-  quantidade int NOT NULL,
-  data_validade date NOT NULL,
-  PRIMARY KEY (id_produto),
-  KEY id_fornecedor (id_fornecedor),
-  CONSTRAINT produto_ibfk_1 FOREIGN KEY (id_fornecedor) REFERENCES fornecedor (id_fornecedor)
-);
-
 CREATE TABLE IF NOT EXISTS Produto (
-    id_produto INTEGER PRIMARY KEY NOT NULL AUTO_INCREMENT,
+    id_produto INTEGER NOT NULL AUTO_INCREMENT,
     id_fornecedor INTEGER,
     nome VARCHAR(100) NOT NULL,
     categoria VARCHAR(50) NOT NULL,
-    preco DECIMAL(10 , 2 ) NOT NULL,
+    preco decimal(10,2) NOT NULL,
     quantidade INTEGER NOT NULL,
     data_validade DATE NOT NULL,
-    FOREIGN KEY (id_fornecedor)
-        REFERENCES fornecedor (id_fornecedor)
+    PRIMAR KEY(id_produto),
+    FOREIGN KEY (id_fornecedor) REFERENCES fornecedor (id_fornecedor)          
 );
 
 CREATE TABLE IF NOT EXISTS cliente(
-cpf CHAR(11) PRIMARY KEY NOT NULL,
-nome VARCHAR(100) NOT NULL,
+    cpf CHAR(11) PRIMARY KEY NOT NULL,
+    nome VARCHAR(100) NOT NULL,
     data_nascimento DATE NOT NULL
     
 );
 
 CREATE TABLE IF NOT EXISTS fornecedor(
-id_fornecedor INT PRIMARY KEY NOT NULL AUTO_INCREMENT,
-nome_fornecedor VARCHAR(100) NOT NULL 
+    id_fornecedor INT PRIMARY KEY NOT NULL AUTO_INCREMENT,
+    nome_fornecedor VARCHAR(100) NOT NULL 
 );
 
 
 CREATE TABLE IF NOT EXISTS estoque(
-num_setor INTEGER NOT NULL PRIMARY KEY,
+    num_setor INTEGER NOT NULL PRIMARY KEY,
     coluna INTEGER NOT NULL,
     corredor INTEGER NOT NULL,
     prateleira INTEGER NOT NULL
@@ -180,80 +163,32 @@ CREATE TABLE IF NOT EXISTS chamado (
     data_chamado DATE NOT NULL,
     categoria VARCHAR(50) NOT NULL,
     nome VARCHAR(100) NOT NULL,
-    FOREIGN KEY (id_usuario)
-        REFERENCES usuario (id)
+    FOREIGN KEY (id_usuario) REFERENCES usuario (id)
 );
 
 
 CREATE TABLE IF NOT EXISTS suporte (
-id_suporte INTEGER PRIMARY KEY NOT NULL AUTO_INCREMENT,
-id_chamado INTEGER NOT NULL,
-nome VARCHAR(100) NOT NULL,
-nivel_suporte VARCHAR(50) NOT NULL,
-FOREIGN KEY (id_chamado) REFERENCES chamado(id_chamado)
+    id_suporte INTEGER PRIMARY KEY NOT NULL AUTO_INCREMENT,
+    id_chamado INTEGER NOT NULL,
+    nome VARCHAR(100) NOT NULL,
+    nivel_suporte VARCHAR(50) NOT NULL,
+    FOREIGN KEY (id_chamado) REFERENCES chamado(id_chamado)
+);
+
+
+CREATE TABLE IF NOT EXISTS empresa(
+    id_empresa INTEGER PRIMARY KEY NOT NULL AUTO_INCREMENT,
+    cpnj_empresa INTEGER NOT NULL,
+    razao_social VARCHAR(30) NOT NULL, 
+    email_empresa VARCHAR(50) NOT NULL,
+    telefone_empresa VARCHAR(10),
+    endereco VARCHAR(100),
+    FOREING KEY (cnpj_empresa) REFERENCES usuario();
 );
 
 </code>
-
-|-----------------------------------------------|
-
-Insira aqui o script de criação das tabelas do banco de dados.
-
-Veja um exemplo:
-
-<code>
-
- -- Criação da tabela Médico
-CREATE TABLE Medico (
-    MedCodigo INTEGER PRIMARY KEY,
-    MedNome VARCHAR(100)
-);
-
-
--- Criação da tabela Paciente
-CREATE TABLE Paciente (
-    PacCodigo INTEGER PRIMARY KEY,
-    PacNome VARCHAR(100)
-);
-
--- Criação da tabela Consulta
-CREATE TABLE Consulta (
-    ConCodigo INTEGER PRIMARY KEY,
-    MedCodigo INTEGER,
-    PacCodigo INTEGER,
-    Data DATE,
-    FOREIGN KEY (MedCodigo) REFERENCES Medico(MedCodigo),
-    FOREIGN KEY (PacCodigo) REFERENCES Paciente(PacCodigo)
-);
-
--- Criação da tabela Medicamento
-CREATE TABLE Medicamento (
-    MdcCodigo INTEGER PRIMARY KEY,
-    MdcNome VARCHAR(100)
-);
-
--- Criação da tabela Prescricao
-CREATE TABLE Prescricao (
-    ConCodigo INTEGER,
-    MdcCodigo INTEGER,
-    Posologia VARCHAR(200),
-    PRIMARY KEY (ConCodigo, MdcCodigo),
-    FOREIGN KEY (ConCodigo) REFERENCES Consulta(ConCodigo),
-    FOREIGN KEY (MdcCodigo) REFERENCES Medicamento(MdcCodigo)
-);
-
-</code>
-
-Este script deverá ser incluído em um arquivo .sql na pasta src\bd.
-
-
-
 
 ### 4.4. Tecnologias
-
-_Descreva qual(is) tecnologias você vai usar para resolver o seu problema, ou seja, implementar a sua solução. Liste todas as tecnologias envolvidas, linguagens a serem utilizadas, serviços web, frameworks, bibliotecas, IDEs de desenvolvimento, e ferramentas._
-
-Apresente também uma figura explicando como as tecnologias estão relacionadas ou como uma interação do usuário com o sistema vai ser conduzida, por onde ela passa até retornar uma resposta ao usuário.
 
 | Dimensão            | Tecnologias                    |
 |---------------------|--------------------------------|
