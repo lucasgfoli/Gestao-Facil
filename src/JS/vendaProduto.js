@@ -16,7 +16,6 @@ const produtoSelecionado = products.find(p => p.id === productId);
         
     <div class="product-sell">
       <div class="product-container">
-        <label for="tipoPagamento">Informações do Produto:</label>
         <h3>Produto: ${produtoSelecionado.name}</h3>
         <p><strong>Categoria:</strong> ${produtoSelecionado.category}</p>
         <p><strong>Preço:</strong> <p>R$${produtoSelecionado.price.toFixed(2)}</p>
@@ -68,5 +67,5 @@ const produtoSelecionado = products.find(p => p.id === productId);
     alert(`Venda realizada! Quantidade restante: ${produtoSelecionado.quantity}`);
     window.location.href = "produtosCadastrados.html";
 
-    
+
   });
