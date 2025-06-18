@@ -22,7 +22,7 @@ const produtoSelecionado = products.find(p => p.id === productId);
         <p><strong>Fornecedor:</strong> ${produtoSelecionado.fornecedorName}</p>
         <p><strong>Validade:</strong> ${produtoSelecionado.dateExpiration}</p>
         <p><strong>Quantidade atual:</strong> ${produtoSelecionado.quantity}</p>
-        </div>
+      </div>
 
         <div class="client-container">
         <label for="tipoPagamento">Tipo de Pagamento:</label>

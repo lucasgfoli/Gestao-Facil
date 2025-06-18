@@ -67,31 +67,8 @@ Tela que contém os dados do usuário.
 
 ![perfil](https://github.com/ICEI-PUC-Minas-PBR-ADS/pbr-ads-2025-1-p2-tiapn-t1-1053100-gestao-facil/blob/801bd9d0dd9bcd7fe3c3f830ab9f3a4195b57759/docs/images/Tela%20de%20Perfil%20do%20Usu%C3%A1rio.jpg).
 
-São protótipos usados em design de interface para sugerir a estrutura de um site web e seu relacionamentos entre suas páginas. Um wireframe web é uma ilustração semelhante do layout de elementos fundamentais na interface.
- 
-> **Links Úteis**:
-> - [Protótipos vs Wireframes](https://www.nngroup.com/videos/prototypes-vs-wireframes-ux-projects/)
-> - [Ferramentas de Wireframes](https://rockcontent.com/blog/wireframes/)
-> - [MarvelApp](https://marvelapp.com/developers/documentation/tutorials/)
-> - [Figma](https://www.figma.com/)
-> - [Adobe XD](https://www.adobe.com/br/products/xd.html#scroll)
-> - [Axure](https://www.axure.com/edu) (Licença Educacional)
-> - [InvisionApp](https://www.invisionapp.com/) (Licença Educacional)
-
-
-## Diagrama de Classes
-
-O diagrama de classes ilustra graficamente como será a estrutura do software, e como cada uma das classes da sua estrutura estarão interligadas. Essas classes servem de modelo para materializar os objetos que executarão na memória.
-
-As referências abaixo irão auxiliá-lo na geração do artefato “Diagrama de Classes”.
-
-> - [Diagramas de Classes - Documentação da IBM](https://www.ibm.com/docs/pt-br/rational-soft-arch/9.6.1?topic=diagrams-class)
-> - [O que é um diagrama de classe UML? | Lucidchart](https://www.lucidchart.com/pages/pt/o-que-e-diagrama-de-classe-uml)
 
 ## Modelo ER
-
-> - [Como fazer um diagrama entidade relacionamento | Lucidchart](https://www.lucidchart.com/pages/pt/como-fazer-um-diagrama-entidade-relacionamento)
-
 
 ### 4.3 Modelo de dados
 
@@ -103,27 +80,25 @@ _Apresente o modelo de dados por meio de um modelo relacional que contemple todo
 
 ![Diagrama Entidade Relacionamento DER drawio](https://github.com/user-attachments/assets/3bdaa877-2895-4359-a4f0-b7cf09f8959d)
 
-As referências abaixo irão auxiliá-lo na geração do artefato “Modelo ER”.
-
-> - [Como fazer um diagrama entidade relacionamento | Lucidchart](https://www.lucidchart.com/pages/pt/como-fazer-um-diagrama-entidade-relacionamento)
-
-
 #### 4.3.2 Esquema Relacional
 
 ![Diagrama ER de banco de dados (pé de galinha) (2)](https://github.com/user-attachments/assets/9876ee25-d26b-45b9-b9d3-437b8643608d)
 
-O Esquema Relacional corresponde à representação dos dados em tabelas juntamente com as restrições de integridade e chave primária.
- 
-As referências abaixo irão auxiliá-lo na geração do artefato “Esquema Relacional”.
-
-> - [Criando um modelo relacional - Documentação da IBM](https://www.ibm.com/docs/pt-br/cognos-analytics/10.2.2?topic=designer-creating-relational-model)
-
-![Exemplo de um modelo relacional](images/modeloRelacional.png "Exemplo de Modelo Relacional.")
----
-
 #### 4.3.3 Modelo Físico
 
 <code>
+
+CREATE TABLE IF NOT EXISTS usuario(
+    id_usuario INTEGER NOT NULL AUTO_INCREMENT,
+    cpnj_usuario INTEGER NOT NULL AUTO_INCREMENT,
+    nome VARCHAR(100) NOT NULL,
+    data_nascimento DATE NOT NULL,
+    telefone INTEGER NOT NULL,
+    email VARCHAR(50) NOT NULL,
+    senha VARCHAR(20) NOT NULL,
+    PRIMARY KEY (id_usuario),
+	   FOREIGN KEY cpnj_usuario REFERENCES empresa(cpnj_empresa);
+);
 
 CREATE TABLE IF NOT EXISTS Produto (
     id_produto INTEGER NOT NULL AUTO_INCREMENT,
@@ -141,7 +116,6 @@ CREATE TABLE IF NOT EXISTS cliente(
     cpf CHAR(11) PRIMARY KEY NOT NULL,
     nome VARCHAR(100) NOT NULL,
     data_nascimento DATE NOT NULL
-    
 );
 
 CREATE TABLE IF NOT EXISTS fornecedor(
@@ -183,7 +157,7 @@ CREATE TABLE IF NOT EXISTS empresa(
     email_empresa VARCHAR(50) NOT NULL,
     telefone_empresa VARCHAR(10),
     endereco VARCHAR(100),
-    FOREING KEY (cnpj_empresa) REFERENCES usuario();
+    FOREING KEY (cnpj_empresa) REFERENCES usuario(id_usuario)
 );
 
 </code>

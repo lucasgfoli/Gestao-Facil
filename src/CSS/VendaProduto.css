@@ -273,7 +273,7 @@ button {
   flex: 1;
   min-width: 300px;
   box-sizing: border-box;
-  height: auto; /* Deixe o conteúdo controlar a altura */
+  height: auto; 
 }
 
 select{

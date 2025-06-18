@@ -269,7 +269,7 @@ textarea {
 
 .artigo-explicativo {
     display: flex;
-    flex-direction: row; /* Garante que imagem fique à direita */
+    flex-direction: row; 
     justify-content: space-between;
     align-items: center;
    background-color: rgb(35, 121, 179);
