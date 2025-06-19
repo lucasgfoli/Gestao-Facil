@@ -36,6 +36,7 @@ conexao.connect(function(erro){
 });
 
 app.use('/produtos', produtosRouter);
+app.use('/empresas', empresasRouter); // <- rota de cadastro de empresa
 
 // Servidor
 app.listen(8080, () => {
