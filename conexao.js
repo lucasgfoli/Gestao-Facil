@@ -12,7 +12,6 @@ import produtosRouter from './routes/produtos.js'
 import cors from 'cors'
 
 
-
 // Carregar variáveis do arquivo .env
 dotenv.config();
 
