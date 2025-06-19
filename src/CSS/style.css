@@ -427,9 +427,44 @@ header {
     color: gray;
 }
 
+.titulo-carrousel
+{   
+    font-size: xx-large;
+    font-family: 'Inter', sans-serif;
+    color: #2B76BE;
+}
+@keyframes slide
+{
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translate(-50%);
+    }
+}
+
 .logo-puc
-{   margin-top: 10px;
+{   margin-top: 0px;
     margin-bottom: 10px;
-    height: 100px;
-    
+    height: 100px;    
+}
+
+.logos
+{
+    overflow: hidden;
+    padding: 60px 0 60px 0 ;
+    background: white;
+    white-space: nowrap;
+}
+
+.logos-slide img
+{
+    height: 40px;
+    margin: 0 40px;
+}
+
+.logos-slide
+{   
+    display: inline-block;
+    animation: 20s slide linear infinite;
 }
