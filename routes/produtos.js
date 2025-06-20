@@ -1,6 +1,6 @@
 // routes/produtos.js
 import express from 'express';
-import conexao from '../conexao.js'; // certifique-se de exportar a conexão do arquivo principal
+import conexao from '../conexao.js'; 
 
 const router = express.Router();
 
