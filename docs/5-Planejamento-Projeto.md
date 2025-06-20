@@ -34,6 +34,13 @@
 - Documentação: André D'Ascenção, Estevão Antunes, Lucas Gabriel, Leon Ribeiro, e Ryan Barcelos.
 - Desenvolvimento das telas: André D'Ascenção, Estevão Antunes, Lucas Gabriel, Leon Ribeiro, e Ryan Barcelos.
 - Revisão: André D'Ascenção, Estevão Antunes, Lucas Gabriel, Leon Ribeiro, e Ryan Barcelos.
+
+### Sprint 5 (Apresentação e Conclusão)
+- _Scrum master_: Estevão Antunes.
+- _Product Owner: Estevão Antunes.
+- Documentação: André D'Ascenção, Estevão Antunes, Lucas Gabriel, Leon Ribeiro, e Ryan Barcelos.
+- Desenvolvimento das telas: André D'Ascenção, Estevão Antunes, Lucas Gabriel, Leon Ribeiro, e Ryan Barcelos.
+- Revisão: André D'Ascenção, Estevão Antunes, Lucas Gabriel, Leon Ribeiro, e Ryan Barcelos.
   
 ## Sprint 1 
 
