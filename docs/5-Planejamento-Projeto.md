@@ -34,6 +34,13 @@
 - Documentação: André D'Ascenção, Estevão Antunes, Lucas Gabriel, Leon Ribeiro, e Ryan Barcelos.
 - Desenvolvimento das telas: André D'Ascenção, Estevão Antunes, Lucas Gabriel, Leon Ribeiro, e Ryan Barcelos.
 - Revisão: André D'Ascenção, Estevão Antunes, Lucas Gabriel, Leon Ribeiro, e Ryan Barcelos.
+
+### Sprint 5 (Apresentação e Conclusão)
+- _Scrum master_: Estevão Antunes.
+- _Product Owner: Estevão Antunes.
+- Documentação: André D'Ascenção, Estevão Antunes, Lucas Gabriel, Leon Ribeiro, e Ryan Barcelos.
+- Desenvolvimento das telas: André D'Ascenção, Estevão Antunes, Lucas Gabriel, Leon Ribeiro, e Ryan Barcelos.
+- Revisão: André D'Ascenção, Estevão Antunes, Lucas Gabriel, Leon Ribeiro, e Ryan Barcelos.
   
 ## Sprint 1 
 
@@ -77,19 +84,23 @@ Atualizado em: 06/06/2025
 |               |                  |                |            |        |                 |
 |Leon            |  Criação da tela de cadastro de produtos e correção de erros anteriores em outras telas - Implementar Banco de Dados                |   19/05/2025              |    23/05/2025           |    📝       |                 |
 |Ryan               |Inicío da tela de Suporte ao Usuário e Tela de Venda de Produtos finalizada - Implementar Banco de Dados |   19/05/2025              |    23/05/2025        |   📝     |                 |
-|Estevão        |Criar Home Page (HTML CSS) - Criar Tela Suporte Navegavel (HTML CSS) - Criar Tela Suporte Ticket (HTML CSS) - Criar Tela Suporte Dúvidas (HTML CSS JS ) - Criar Script Banco de Dados - Implementar Banco de Dados  | 19/05/2025     | 23/05/2025 |   📝   | |
+|Estevão        |Criar Home Page (HTML CSS) - Criar Tela Suporte Navegavel (HTML CSS) - Criar Tela Suporte Ticket (HTML CSS) - Criar Tela Suporte Dúvidas (HTML CSS JS ) - Criar Script Banco de Dados - Implementar Banco de Dados  | 19/05/2025     | 23/05/2025 |  ✔️  | |
 |Lucas         | Tela de Cadastro de Produtos (HTML CSS) - Criar Script Banco de Dados - Tela Edição de Produto (HTML CSS JS) -Criar Script Banco de Dados - Implementar Banco de Dados | 23/05/2025     | 23/05/2025 |   📝   | |
+
+
+## Sprint 5
+
+Atualizado em: 20/06/2025
+
+| Responsável | Tarefa/Requisito                                                               | Iniciado em | Prazo      | Status | Terminado em |
+|-------------|----------------------------------------------------------------------------------|-------------|------------|--------|---------------|
+| Leon        |                                                                        |   |  |      |     |
+| Lucas       |                                                                |  |  |      |     |
+| Ryan        |                                                |   |  |      |     |
+| Estevão     | Preparou Slides Apresentação - Incluiu Carrousel Home (HTML CSS) |19/06/2025|20/06/2025| ✔️ |20/06/2025|
 
 Legenda:
 - ✔️: terminado
 - 📝: em execução
 - ⌛: atrasado
 - ❌: não iniciado
-
-
-
-## Links Úteis
-> - [11 Passos Essenciais para Implantar Scrum no seu Projeto](https://mindmaster.com.br/scrum-11-passos/)
-> - [Scrum em 9 minutos](https://www.youtube.com/watch?v=XfvQWnRgxG0)
-
-
