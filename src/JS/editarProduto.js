@@ -1,67 +1,64 @@
-import { products } from "./productsData.js";
-
-// Obter o ID do produto da URL
 const urlParams = new URLSearchParams(window.location.search);
-const productId = parseInt(urlParams.get('id'));
+const productId = urlParams.get('id');
 
-// Buscar o produto correspondente
-const produtoSelecionado = products.find(p => p.id === productId);
-
-if (!produtoSelecionado) {
-  document.body.innerHTML = '<p>Produto não encontrado.</p>';
-} else {
-  // Criar e injetar HTML com os dados do produto
-  document.body.innerHTML += `
-    <main class="container">
-      <section class="edit" id="telaEditar">
-
-    <div class="edit-product">
-      <div class="product-container">
-        <label for="productInfo">Informações do Produto:</label>
-          <h3>Produto: ${produtoSelecionado.name}</h3>
-          <p><strong>Categoria:</strong> ${produtoSelecionado.category}</p>
-          <p><strong>Preço:</strong> <p>R$${produtoSelecionado.price.toFixed(2)}</p>
-          <p><strong>Fornecedor:</strong> ${produtoSelecionado.fornecedorName}</p>
-          <p><strong>Validade:</strong> ${produtoSelecionado.dateExpiration}</p>
-          <p><strong>Quantidade atual:</strong> ${produtoSelecionado.quantity}</p>
-      </div>
-    
-
-      <div class="client-container">
-        <label for="edit-name">Novo nome:</label>
-          <input type="text" id="edit-name" value="${produtoSelecionado.name}"/>
-        <label for="edit-quantity">Nova quantidade:</label>
-          <input type="number" id="edit-quantity" value="${produtoSelecionado.quantity}" min="1" />
-
-        <label for="edit-validade">Nova data de validade:</label>
-          <input type="date" id="edit-expiration" value="${produtoSelecionado.dateExpiration}" />
-        <label for="edit-fornecedor">Nome do fornecedor:</label>
-          <input type="text" id="edit-expiration" value="${produtoSelecionado.fornecedorName}" />
-
-          <button id="btnConfirmarEdicao">Confirmar Edição</button>
-      </div>
-     </div>
-      </section>
-    </main>
-  `;
-
-  // Aguardar clique no botão e atualizar dados
-  document.getElementById('btnConfirmarEdicao').addEventListener('click', () => {
-    const novoNome = JSON.stringify(document.getElementById('edit-name').value);
-    const novaQuantidade = parseInt(document.getElementById('edit-quantity').value);
-    const novaValidade = document.getElementById('edit-expiration').value;
-
-    if (!novaQuantidade || !novaValidade) {
-      alert("Por favor, preencha todos os campos.");
+// Buscar o produto no backend
+fetch(`http://localhost:8080/produtos/${productId}`)
+  .then(res => res.json())
+  .then(produto => {
+    if (!produto) {
+      document.body.innerHTML = '<p>Produto não encontrado.</p>';
       return;
     }
 
-    // Atualizar os dados no array
-    produtoSelecionado.name = novoNome;
-    produtoSelecionado.quantity = novaQuantidade;
-    produtoSelecionado.dateExpiration = novaValidade;
+    // Preencher os campos visuais
+    document.querySelector('.js-nome-produto').textContent = produto.nome;
+    document.querySelector('.js-categoria').textContent = produto.categoria;
+    document.querySelector('.js-preco').textContent = parseFloat(produto.preco).toFixed(2);
+    document.querySelector('.js-fornecedor').textContent = produto.nome_fornecedor;
+    document.querySelector('.js-data-validade').textContent = produto.data_validade;
+    document.querySelector('.js-quantidade').textContent = produto.quantidade;
 
-    alert("Produto atualizado com sucesso!");
-    window.location.href = "produtosCadastrados.html";
+    // Preencher inputs do formulário
+    document.getElementById('edit-name').value = produto.nome;
+    document.getElementById('edit-category').value = produto.categoria;
+    document.getElementById('edit-price').value = produto.preco;
+    document.getElementById('edit-quantity').value = produto.quantidade;
+    document.getElementById('edit-expiration').value = produto.data_validade;
+    document.getElementById('edit-supplier').value = produto.nome_fornecedor;
+    document.getElementById('edit-image').value = produto.imagem || '';
+    
+    // Envio do PUT
+    document.getElementById('form-edicao').addEventListener('submit', (event) => {
+      event.preventDefault();
+
+      const produtoAtualizado = {
+        nome: document.getElementById('edit-name').value,
+        categoria: document.getElementById('edit-category').value,
+        preco: parseFloat(document.getElementById('edit-price').value),
+        quantidade: parseInt(document.getElementById('edit-quantity').value),
+        data_validade: document.getElementById('edit-expiration').value,
+        nome_fornecedor: document.getElementById('edit-supplier').value,
+        imagem: document.getElementById('edit-image').value
+      };
+
+      fetch(`http://localhost:8080/produtos/${productId}`, {
+        method: 'PUT',
+        headers: {
+          'Content-Type': 'application/json'
+        },
+        body: JSON.stringify(produtoAtualizado)
+      })
+      .then(res => {
+        if (res.ok) {
+          alert('Produto atualizado com sucesso!');
+          window.location.href = 'produtosCadastrados.html';
+        } else {
+          alert('Erro ao atualizar produto.');
+        }
+      });
+    });
+  })
+  .catch(err => {
+    console.error('Erro ao buscar produto:', err);
+    document.body.innerHTML = '<p>Erro ao buscar produto.</p>';
   });
-}

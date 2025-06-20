@@ -1,26 +1,47 @@
 const form = document.querySelector('form');
+
 const productName = document.querySelector('.js-nome-produto');
-const productCategory = document.querySelector('.js-categoria');
 const productQuantity = document.querySelector('.js-quantidade');
-const productPrice = document.querySelector('.js-preco');
 const supplierName = document.querySelector('.js-fornecedor');
 const expirationDate = document.querySelector('.js-data-validade');
+// Campos adicionais (adicione no HTML se quiser)
+const productCategory = document.querySelector('.js-categoria');
+const productPrice = document.querySelector('.js-preco');
 
-console.log('Script carregado e elementos selecionados:', form, productName);
+form.addEventListener('submit', async function(event) {
+  event.preventDefault();
 
-form.addEventListener('submit', function(event) {
-    event.preventDefault(); // Evita o envio padrão e o redirecionamento
+  const produto = {
+    nome: productName.value,
+    quantidade: parseInt(productQuantity.value),
+    nome_fornecedor: supplierName.value,
+    data_validade: expirationDate.value,
+    categoria: productCategory?.value || 'Outros', // valor padrão
+    preco: parseFloat(productPrice?.value) || 0.0,
+    id_fornecedor: 1, // opcionalmente pode ser alterado
+    imagem: null // ou coloque o nome do arquivo, se quiser
+  };
 
-    const produto = {
-        id: Date.now().toString(), // Geração simples de ID único
-        name: productName.value,
-        category: productCategory.value,
-        quantity: parseInt(productQuantity.value),
-        price: parseFloat(productPrice.value),
-        fornecedorName: supplierName.value,
-        dateExpiration: expirationDate.value
-    };
+  try {
+    const response = await fetch('http://localhost:8080/produtos/cadastrar', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json'
+      },
+      body: JSON.stringify(produto)
+    });
 
-    alert('Produto cadastrado com sucesso!\n\n' + JSON.stringify(produto, null, 2));
-    console.log(produto);
+    const resultado = await response.json();
+
+    if (response.ok) {
+      alert('Produto cadastrado com sucesso!');
+      form.reset();
+    } else {
+      alert(`Erro ao cadastrar produto: ${resultado.erro || 'Erro desconhecido'}`);
+    }
+
+  } catch (erro) {
+    console.error('Erro na requisição:', erro);
+    alert('Erro de conexão com o servidor.');
+  }
 });

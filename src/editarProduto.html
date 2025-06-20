@@ -7,8 +7,7 @@
   <link rel="stylesheet" href="CSS/editarProduto.css" />
 </head>
 <body>
-  <!--CABEÇALHO-->
-    <header>
+  <header>
     <div class="logo">
       <img src="img/logo.png" alt="logo" />
       <h1>Gestão Fácil</h1>
@@ -30,9 +29,51 @@
       <a href="cadastroUsuario.html" class="btn-cadastro">Criar conta</a>
     </div>
   </header>
-  
-  <h2 class="titulo">Editar de Produto</h2>
+
+  <h2 class="titulo">Editar Produto</h2>
+
+  <main class="container">
+    <section class="edit" id="telaEditar">
+      <div class="edit-product">
+        <div class="product-container">
+          <label for="productInfo">Informações do Produto:</label>
+          <h3 class="js-nome-produto">Produto:</h3>
+          <p><strong>Categoria:</strong> <span class="js-categoria"></span></p>
+          <p><strong>Preço:</strong> R$<span class="js-preco"></span></p>
+          <p><strong>Fornecedor:</strong> <span class="js-fornecedor"></span></p>
+          <p><strong>Validade:</strong> <span class="js-data-validade"></span></p>
+          <p><strong>Quantidade atual:</strong> <span class="js-quantidade"></span></p>
+        </div>
+
+        <form class="client-container" id="form-edicao">
+          <label for="edit-name">Novo nome:</label>
+          <input type="text" id="edit-name" required />
+
+          <label for="edit-category">Nova categoria:</label>
+          <input type="text" id="edit-category" required />
+
+          <label for="edit-price">Novo preço:</label>
+          <input type="number" id="edit-price" step="0.01" required />
+
+          <label for="edit-quantity">Nova quantidade:</label>
+          <input type="number" id="edit-quantity" min="1" required />
+
+          <label for="edit-expiration">Nova data de validade:</label>
+          <input type="date" id="edit-expiration" required />
+
+          <label for="edit-supplier">Nome do fornecedor:</label>
+          <input type="text" id="edit-supplier" required />
+
+          <label for="edit-image">URL da imagem:</label>
+          <input type="text" id="edit-image" />
+
+          <button type="submit">Confirmar Edição</button>
+        </form>
+      </div>
+    </section>
+  </main>
 
   <script type="module" src="JS/editarProduto.js"></script>
 </body>
 </html>
+ 
