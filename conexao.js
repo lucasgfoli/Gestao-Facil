@@ -1,24 +1,29 @@
 // Importar módulo express
 import express from 'express'
-
 import dotenv from 'dotenv'
+
 // Importar módulo mysql
 import mysql from 'mysql2'
 
-// Importar produtos da rota
+import path from 'path'
+import { fileURLToPath } from 'url'
+
+// Importar as rotas
 import produtosRouter from './routes/produtos.js'
+import usuariosRouter from './routes/usuarios.js';
 
 // Importar cors
 import cors from 'cors'
 
+// Criar app
+const app = express();
 
 // Carregar variáveis do arquivo .env
 dotenv.config();
 
-// Criar app
-const app = express();
 
-app.use(cors());
+app.use(cors())
+app.use(express.json())
 
 // Conexão com o banco de dados usando variáveis do .env
 const conexao = mysql.createConnection({
@@ -35,7 +40,8 @@ conexao.connect(function(erro){
 });
 
 app.use('/produtos', produtosRouter);
-app.use('/empresas', empresasRouter); // <- rota de cadastro de empresa
+app.use('/usuarios', usuariosRouter);
+
 
 // Servidor
 app.listen(8080, () => {
