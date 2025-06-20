@@ -31,131 +31,6 @@ body {
 }
 
 .login-container {
-    background-color: #fff;
-    padding: 40px;
-    border-radius: 12px;
-    box-shadow: 0 0 20px rgba(0,0,0,0.15);
-    width: 100%;
-    max-width: 600px;
-}
-
-.login-form h2 {
-    text-align: center;
-    color: var(--primaria);
-    margin-bottom: 20px;
-}
-
-.logo {
-    display: block;
-    margin: 0 auto 20px auto;
-    width: 160px;
-}
-
-.input-group {
-    position: relative;
-    margin-bottom: 25px;
-    width: 100%;
-}
-
-.input-group input {
-    width: 100%;
-    border: none;
-    border-bottom: 2px solid var(--texto-secundario);
-    padding: 10px 0;
-    outline: none;
-    font-size: 1rem;
-    background-color: transparent;
-}
-
-.input-group label {
-    position: absolute;
-    top: -18px;
-    left: 0;
-    color: var(--texto-secundario);
-    font-size: 0.9rem;
-}
-
-.input-row {
-    display: flex;
-    gap: 20px;
-}
-
-.input-row .input-group {
-    flex: 1;
-}
-
-.btn-login {
-    width: 100%;
-    background-color: var(--primaria);
-    color: white;
-    padding: 12px;
-    border: none;
-    border-radius: 6px;
-    font-weight: 600;
-    cursor: pointer;
-    margin-top: 10px;
-}
-
-.btn-login:hover {
-    background-color: #1e4db8;
-}
-
-.voltar-login {
-    text-align: center;
-    margin-top: 15px;
-    font-size: 0.9rem;
-}
-
-.voltar-login a {
-    color: var(--primaria);
-    text-decoration: none;
-}
-
-.voltar-login a:hover {
-    text-decoration: underline;
-}
-
-.mensagem-feedback {
-    color: var(--secundaria);
-    text-align: center;
-    margin-top: 15px;
-    height: 18px;
-}
-
-.error-message {
-    color: var(--erro);
-    text-align: center;
-    margin-top: 10px;
-    height: 18px;
-}
-
-body {
-    background-image: url('../img/backgroundBLUR.png');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-}
-abody {
-    background-color: var(--fundo);
-    background-image: url('../img/backgroundBLUR.png');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-    padding: 40px;
-    overflow-y: auto;
-}
-
-.login-container {
     background-color: #ffffff;
     padding: 40px;
     border-radius: 16px;
@@ -170,9 +45,9 @@ abody {
     gap: 20px;
 }
 
-.login-form h2, 
-.logo, 
-.voltar-login, 
+.login-form h2,
+.logo,
+.voltar-login,
 .mensagem-feedback {
     grid-column: 1 / -1;
     text-align: center;
@@ -194,7 +69,8 @@ abody {
     position: relative;
 }
 
-.input-group input {
+.input-group input,
+.input-group select {
     width: 100%;
     border: none;
     border-bottom: 2px solid var(--texto-secundario);
@@ -258,8 +134,30 @@ abody {
     height: 18px;
 }
 
+/* 🔥 RESPONSIVIDADE */
+@media (max-width: 1024px) {
+    .login-container {
+        padding: 30px;
+    }
+}
+
 @media (max-width: 768px) {
     .login-form {
         grid-template-columns: 1fr;
+    }
+    .login-container {
+        padding: 25px;
+    }
+}
+
+@media (max-width: 480px) {
+    .login-container {
+        padding: 20px;
+    }
+    .logo {
+        width: 120px;
+    }
+    .btn-login {
+        padding: 10px;
     }
 }
