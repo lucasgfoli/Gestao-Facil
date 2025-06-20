@@ -87,10 +87,10 @@ Atualizado em: 20/06/2025
 
 | Responsável | Tarefa/Requisito                                                               | Iniciado em | Prazo      | Status | Terminado em |
 |-------------|----------------------------------------------------------------------------------|-------------|------------|--------|---------------|
-| Leon        |                                                                        |   |  | ✔     |     |
+| Leon        |                                                                        |   |  |      |     |
 | Lucas       |                                                                |  |  |      |     |
 | Ryan        |                                                |   |  |      |     |
-| Estevão     | Preparou Slides Apresentação - Incluiu Carrousel Home (HTML CSS)            | 19/06/2025  | 20/06/2025  | ✔️ |  20/06/2025|
+| Estevão     | Preparou Slides Apresentação - Incluiu Carrousel Home (HTML CSS) |19/06/2025|20/06/2025| ✔️ |20/06/2025|
 
 Legenda:
 - ✔️: terminado
