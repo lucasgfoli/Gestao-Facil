@@ -4,11 +4,13 @@ const productName = document.querySelector('.js-nome-produto');
 const productQuantity = document.querySelector('.js-quantidade');
 const supplierName = document.querySelector('.js-fornecedor');
 const expirationDate = document.querySelector('.js-data-validade');
+const submitButton = document.querySelector('.submit-button');
 // Campos adicionais (adicione no HTML se quiser)
 const productCategory = document.querySelector('.js-categoria');
 const productPrice = document.querySelector('.js-preco');
 
-form.addEventListener('submit', async function(event) {
+
+submitButton.addEventListener('click', async function(event) {
   event.preventDefault();
 
   const produto = {
@@ -16,10 +18,10 @@ form.addEventListener('submit', async function(event) {
     quantidade: parseInt(productQuantity.value),
     nome_fornecedor: supplierName.value,
     data_validade: expirationDate.value,
-    categoria: productCategory?.value || 'Outros', // valor padrão
+    categoria: productCategory?.value || 'Outros',
     preco: parseFloat(productPrice?.value) || 0.0,
-    id_fornecedor: 1, // opcionalmente pode ser alterado
-    imagem: null // ou coloque o nome do arquivo, se quiser
+    id_fornecedor: 1,
+    imagem: null 
   };
 
   try {
@@ -36,6 +38,7 @@ form.addEventListener('submit', async function(event) {
     if (response.ok) {
       alert('Produto cadastrado com sucesso!');
       form.reset();
+      window.history.back()
     } else {
       alert(`Erro ao cadastrar produto: ${resultado.erro || 'Erro desconhecido'}`);
     }
