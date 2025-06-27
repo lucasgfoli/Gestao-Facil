@@ -1,7 +1,5 @@
 ## 7. Conclusão
 
-<span style="color:red">Pré-requisitos: <a href="6-Interface-Sistema.md"> Projeto da Solução</a></span>
-
 O projeto Gestão Fácil foi desenvolvido com o objetivo de oferecer uma solução prática e eficiente para auxiliar pequenos comércios na organização de suas atividades diárias, especialmente na gestão de estoque, vendas e fluxo de caixa. Apesar de algumas pendências e pontos a serem aprimorados em versões futuras, os resultados foram considerados bastante satisfatórios pela equipe, tendo alcançado os principais objetivos propostos inicialmente.
 
 Durante o desenvolvimento, enfrentamos desafios que contribuíram para o aprimoramento técnico e o fortalecimento do trabalho colaborativo. Cada membro da equipe colaborou com base em seus pontos fortes e conhecimentos atuais, o que enriqueceu a construção do sistema como um todo.
