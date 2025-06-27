@@ -12,7 +12,7 @@ A tela principal da Gestão Fácil, ou landing page, tem como função apresenta
 Além disso, a tela principal direciona o usuário para outras áreas do sistema por meio da navegação, como a seção de login, cadastro, área do cliente e suporte.
 Esta estrutura objetiva á garantir uma experiência inicial positiva, reforçar a credibilidade da solução e facilitar o acesso ás funcionalidades essenciais.
 
-![Tela Home](https://github.com/user-attachments/assets/c42f0988-74e6-4b16-a9ab-0c0a7a85411d)
+![Tela Home](https://github.com/user-attachments/assets/2d151be8-b312-4870-bbb8-a389a740d881)
 
 ## 6.2. Telas do processo 1
 
