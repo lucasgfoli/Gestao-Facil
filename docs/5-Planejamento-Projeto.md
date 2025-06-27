@@ -97,8 +97,7 @@ Atualizado em: 20/06/2025
 | Leon        |                                                                        |   |  |      |     |
 | Lucas       |                                                                |  |  |      |     |
 | Ryan        |                                                |   |  |      |     |
-| Estevão     | Preparou Slides Apresentação - Incluiu Carrousel Home (HTML CSS) |19/06/2025|20/06/2025| ✔️ |20/06/2025|
-
+| Estevão     | Preparou Slides Apresentação - Incluiu Carrousel Home (HTML CSS) - Apresentação do Site - Ajustes na documentação - Conclusão dos tópicos 6 e 8 |19/06/2025|27/06/2025| ✔️ |27/06/2025|
 Legenda:
 - ✔️: terminado
 - 📝: em execução
