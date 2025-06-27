@@ -7,9 +7,16 @@ _Visão geral da interação do usuário por meio das telas do sistema. Apresent
 
 ## 6.1. Tela principal do sistema
 
-_Descrição da tela principal do sistema._
+A tela principal da Gestão Fácil, ou landing page, tem como função apresentar de forma clara e atrativa a proposta do sitstema, sendo como ponto de entrada para os usuários. Ela oferece uma visão geral dos principais recursos envolvidos com o objetivo de demonstrar os benefícios da plataforma logo no primeiro contato.
 
-[`Tela principal do sistema`](images/)
+Além disso, a tela principal direciona o usuário para outras áreas do sistema por meio da navegação, como a seção de login, cadastro, área do cliente e suporte.
+Esta estrutura objetiva á garantir uma experiência inicial positiva, reforçar a credibilidade da solução e facilitar o acesso ás funcionalidades essenciais.
+
+![1](https://github.com/user-attachments/assets/4add4334-2065-488f-9557-711c040b204d)
+
+![2](https://github.com/user-attachments/assets/dc8b119b-dc0f-4faf-aabb-f9cd818b8440)
+
+![3](https://github.com/user-attachments/assets/e05c23b0-28b9-4e7e-ad24-320387a535bb)
 
 
 ## 6.2. Telas do processo 1
