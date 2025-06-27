@@ -36,6 +36,8 @@ A função da tela inicial de cadastro de produto é servir como porta de entrad
 
 ![Tela Inicial de Cadastro de Produto](https://github.com/user-attachments/assets/3cabb9ef-0b82-4f39-b135-73be630ebd80)
 
+## 6.5. Telas do procesoo 4 
+
 A tela de suporte de FAQ apresenta repostas para as dúvidas mais frequentes pelos usuários sobre o uso da plataforma. Essa seção oferece autonomia ao usuário, permitindo que ele resolva questões simples sem precisar abrir um ticket suporte, agilizando o atendimento e promovendo uma melhor experiência possivel na utilização do sistema.
 
 ![Tela Suporte FAQ](https://github.com/user-attachments/assets/9c4efa8c-efed-4c69-bbdd-dc8a67cc4cf4)
@@ -44,13 +46,10 @@ A tela de envio de ticket permite que o usu;ario entre em contato diretamente co
 
 ![Tela de Suporte Ticket](https://github.com/user-attachments/assets/c3c82be9-91e6-444c-9c4c-ebc789cb168d)
 
-## 6.5. Telas do processo 4
-
 A função da da tela de suporte tem como finalidade oferecer aos usuários diferentes formas de contato com a equipe responsável, visando esclarecer dúvidas e resolver problemas técnicos. Nela, é possivel acessar um FAQ com perguntas frequentes e tutoriais, ou abrir um ticket de atendimento para suporte direto com a equipe.
 Além disso, a tela destaca os benefícios de ambos os meios sistemas de suporte que é possivel se ter acesso.
 
 ![Tela Suporte Principal](https://github.com/user-attachments/assets/d0b8f25b-4d32-45ef-a940-4abc29406498)
-
 
 ## 6.6. Telas do processo 5
 
