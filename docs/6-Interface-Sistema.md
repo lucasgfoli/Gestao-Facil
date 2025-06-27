@@ -35,10 +35,20 @@ A função da tela de formulário de cadastro do produto tem como objetivo regis
 
 ![Tela de Cadatro de Produto](https://github.com/user-attachments/assets/b7e5555a-5ef7-4d8e-a174-b2b8560a1cfb)
 
-
+## 6.4. Telas do processo 3
 
 _Descrição da tela relativa à atividade 2._
 
 [`Tela da atividade 2`](images/)
 
+## 6.5. Telas do processo 4
 
+_Descrição da tela relativa à atividade 2._
+
+[`Tela da atividade 2`](images/)
+
+## 6.6. Telas do processo 5
+
+_Descrição da tela relativa à atividade 2._
+
+[`Tela da atividade 2`](images/)
