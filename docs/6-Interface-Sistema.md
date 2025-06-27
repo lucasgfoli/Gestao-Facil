@@ -7,7 +7,7 @@ _Visão geral da interação do usuário por meio das telas do sistema. Apresent
 
 ## 6.1. Tela principal do sistema
 
-A tela principal da Gestão Fácil, ou landing page, tem como função apresentar de forma clara e atrativa a proposta do sitstema, sendo como ponto de entrada para os usuários. Ela oferece uma visão geral dos principais recursos envolvidos com o objetivo de demonstrar os benefícios da plataforma logo no primeiro contato.
+A função da tela principal da Gestão Fácil, ou landing page, tem como objetivo apresentar de forma clara e atrativa a proposta do sitstema, sendo como ponto de entrada para os usuários. Ela oferece uma visão geral dos principais recursos envolvidos com o objetivo de demonstrar os benefícios da plataforma logo no primeiro contato.
 
 Além disso, a tela principal direciona o usuário para outras áreas do sistema por meio da navegação, como a seção de login, cadastro, área do cliente e suporte.
 Esta estrutura objetiva á garantir uma experiência inicial positiva, reforçar a credibilidade da solução e facilitar o acesso ás funcionalidades essenciais.
@@ -26,9 +26,15 @@ A função da tela de cadastro é permitir o registro de novos usuários ao sist
 
 ## 6.3. Telas do processo 2
 
-_Descrição da tela relativa à atividade 1._
+A função da tela de cadastro de produto é servir como porta de entrada para o gerenciamento de produtos no estoque. A partir dela, o usuário pode cadasatrar novos produtos, edita-los e remover como desejar. Essa tela pode ser usada como base para uma listagem futura de produtos cadastrados e organizar as mercadorias de  forma prática.
 
-[`Tela da atividade 1`](images/)
+![Tela Inicial de Cadastro de Produto](https://github.com/user-attachments/assets/3cabb9ef-0b82-4f39-b135-73be630ebd80)
+
+
+
+![Tela de Cadatro de Produto](https://github.com/user-attachments/assets/b7e5555a-5ef7-4d8e-a174-b2b8560a1cfb)
+
+
 
 _Descrição da tela relativa à atividade 2._
 
