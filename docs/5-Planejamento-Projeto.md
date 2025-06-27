@@ -1,10 +1,6 @@
 # 5. Planejamento do Projeto
 
-> Aqui será feito o gerenciamento das tarefas de implementação do projeto.
-
 ## 5.1. Divisão de Papéis
-
-> Apresente a divisão de papéis entre os membros do grupo em cada sprint. O desejável é que, em cada sprint, o aluno assuma papéis diferentes na disciplina. Siga o modelo do exemplo abaixo:
 
 ### Sprint 1 (Documentação e Apresentação)
 - _Scrum master_: Estevão Antunes.
@@ -70,7 +66,7 @@ Atualizado em: 02/05/25
 
 | Responsável | Tarefa/Requisito | Iniciado em | Prazo | Status | Terminado em |
 |-------------|------------------|-------------|--------|--------|----------------|
-| Lucas       | Projeto da solução Tecnologias utilizadas Prototipagem das telas | 10/04/2025 | 09/05/2025 | ✔️ | 09/05/2025 |
+| Lucas       | Projeto da solução, Tecnologias utilizadas, Prototipagem das telas | 10/04/2025 | 09/05/2025 | ✔️ | 09/05/2025 |
 | Leon        | Criação de Logotipo Modelar paleta de cores | 09/04/2025 | 11/04/2025 | ✔️ | 10/04/2025 |
 | Ryan        | Correção Suporte ao Usuário | 09/04/2025 | 11/04/2025 | ✔️ | 10/04/2025 |
 | Estevão     | Diagramação do Modelo ER 4.3.1 e 4.3.2 Modelo Físico 4.3.3 | 10/04/2025 | 09/05/2025 | ✔️ | 08/05/2025 |
@@ -94,12 +90,12 @@ Atualizado em: 20/06/2025
 
 | Responsável | Tarefa/Requisito                                                               | Iniciado em | Prazo      | Status | Terminado em |
 |-------------|----------------------------------------------------------------------------------|-------------|------------|--------|---------------|
-| Leon        |                                                                        |   |  |      |     |
-| Lucas       |                                                                |  |  |      |     |
-| Ryan        |                                                |   |  |      |     |
-| Estevão     | Preparou Slides Apresentação - Incluiu Carrousel Home (HTML CSS) |19/06/2025|20/06/2025| ✔️ |20/06/2025|
+| Leon        | Ajustes nas telas de cadastro de produtos/empresas/login| 19/06/2025 |27/06/2025  |  ✔️    |  25/06/2025   |                                                                        |   |  |      |     |
+| Ryan ||  |  |      |     |
+| Lucas | Implementação BackEnd(Produtos, empresas e usuário) - Apresentação Slide/Aplicação - Ajustes na documentação | 19/06/2025 | 27/06/2025 | ✔️ |27/06/2025|
+| Estevão     | Preparou Slides Apresentação - Incluiu Carrousel Home (HTML CSS) - Apresentação do Site - Ajustes na documentação - Conclusão dos tópicos 6, 7 e 8 |19/06/2025|27/06/2025| ✔️ |27/06/2025|
 
-Legenda:
+
 - ✔️: terminado
 - 📝: em execução
 - ⌛: atrasado

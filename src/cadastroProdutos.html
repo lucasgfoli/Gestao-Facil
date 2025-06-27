@@ -5,12 +5,11 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Cadastro de Produto</title>
-  <link rel="stylesheet" href="CSS/cadastroProdutos.css"/>
+  <link rel="stylesheet" href="CSS/cadastroProdutos.css" />
   <link rel="stylesheet" href="CSS/style.css">
 </head>
 
 <body>
-
   <!--CABEÇALHO-->
   <header>
     <div class="logo">
@@ -38,12 +37,18 @@
   <main class="container">
     <section class="formulario-card">
       <h2 class="page-title">Cadastro de Produto</h2>
-      <form action="#" method="POST" class="formulario">
+      <form action="produtosCadastrados.html" method="POST" class="formulario">
         <label for="nomeProduto" class="form-label">Nome do Produto:</label>
         <input type="text" id="nomeProduto" name="nomeProduto" class="js-nome-produto" required />
-        
+
         <label for="qtdProduto" class="form-label">Quantidade do Produto:</label>
         <input type="number" id="quantidade" name="quantidade" class="js-quantidade" required />
+
+        <label for="categoria">Categoria do Produto:</label>
+        <input type="text" id="categoria" class="js-categoria" name="categoria" />
+
+        <label for="preco">Preço do Produto (R$):</label>
+        <input type="number" step="0.01" id="preco" class="js-preco" name="preco" />
 
         <label for="nomeFornecedor" class="form-label">Fornecedor do Produto:</label>
         <input type="text" id="fornecedor" name="fornecedor" class="js-fornecedor" required />
@@ -62,7 +67,7 @@
     </section>
   </main>
 
-  <script src="cadastroProdutos.js"></script>
+  <script type="module" src="JS/cadastroProdutos.js"></script>
 </body>
 
 </html>
