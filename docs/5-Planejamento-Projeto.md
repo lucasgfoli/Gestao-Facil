@@ -91,8 +91,8 @@ Atualizado em: 20/06/2025
 | Responsável | Tarefa/Requisito                                                               | Iniciado em | Prazo      | Status | Terminado em |
 |-------------|----------------------------------------------------------------------------------|-------------|------------|--------|---------------|
 | Leon        |                                                                        |   |  |      |     |
-| Lucas       |                                                                |  |  |      |     |
-| Ryan        |                                                |   |  |      |     |
+| Ryan ||  |  |      |     |
+| Lucas | Implementação BackEnd(Produtos, empresas e usuário) - Apresentação Slide/Aplicação - Ajustes na documentação | 19/06/2025 | 27/06/2025 | ✔️ |27/06/2025|
 | Estevão     | Preparou Slides Apresentação - Incluiu Carrousel Home (HTML CSS) - Apresentação do Site - Ajustes na documentação - Conclusão dos tópicos 6, 7 e 8 |19/06/2025|27/06/2025| ✔️ |27/06/2025|
 
 
