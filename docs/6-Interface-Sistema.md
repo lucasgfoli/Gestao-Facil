@@ -26,11 +26,12 @@ A função da tela de cadastro é permitir o registro de novos usuários ao sist
 
 ## 6.3. Telas do processo 2
 
-A função da tela de cadastro de produto é servir como porta de entrada para o gerenciamento de produtos no estoque. A partir dela, o usuário pode cadasatrar novos produtos, edita-los e remover como desejar. Essa tela pode ser usada como base para uma listagem futura de produtos cadastrados e organizar as mercadorias de  forma prática.
+A função da tela inicial de cadastro de produto é servir como porta de entrada para o gerenciamento de produtos no estoque. A partir dela, o usuário pode cadasatrar novos produtos, edita-los e remover como desejar. Essa tela pode ser usada como base para uma listagem futura de produtos cadastrados e organizar as mercadorias de  forma prática.
 
 ![Tela Inicial de Cadastro de Produto](https://github.com/user-attachments/assets/3cabb9ef-0b82-4f39-b135-73be630ebd80)
 
 
+A função da tela de formulário de cadastro do produto tem como objetivo registrar de fato os itens no sistema de estoque. Nela, é possivel o usuário pode inserir informações detalhadas do item desejado e registra-lo no controle de entrada da mercadoria e auxiliar a organização do estoque. Assim que regitrado, o produto em questão fica com acesso dispnível na tela anterior, permitindo sempre uma atualização ou exclusão.
 
 ![Tela de Cadatro de Produto](https://github.com/user-attachments/assets/b7e5555a-5ef7-4d8e-a174-b2b8560a1cfb)
 
