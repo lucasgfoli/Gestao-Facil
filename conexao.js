@@ -47,9 +47,9 @@ app.use('/produtos', produtosRouter)
 app.use('/usuarios', usuariosRouter)
 
 // Servidor
-app.listen(8080, () => {
-  console.log('Server rodando na porta 8080')
+app.listen({
+    host: '0.0.0.0',
+    port: process.env.PORT ?? 3333,
 })
 
 export default conexao
-x
