@@ -1,51 +1,55 @@
-// Importar módulo express
+// Importar módulos
 import express from 'express'
 import dotenv from 'dotenv'
-
-// Importar módulo mysql
-import mysql from 'mysql2'
+import pg from 'pg' 
 
 import path from 'path'
 import { fileURLToPath } from 'url'
 
 // Importar as rotas
 import produtosRouter from './routes/produtos.js'
-import usuariosRouter from './routes/usuarios.js';
+import usuariosRouter from './routes/usuarios.js'
 
 // Importar cors
 import cors from 'cors'
 
+// Carregar variáveis de ambiente
+dotenv.config()
+
 // Criar app
-const app = express();
-
-// Carregar variáveis do arquivo .env
-dotenv.config();
-
+const app = express()
 
 app.use(cors())
 app.use(express.json())
 
-// Conexão com o banco de dados usando variáveis do .env
-const conexao = mysql.createConnection({
-    host: process.env.DB_HOST,
-    user: process.env.DB_USER,
-    password: process.env.DB_PASSWORD,
-    database: process.env.DB_NAME
-});
+// Criar conexão com PostgreSQL
+const { Pool } = pg
 
-// Teste de conexão
-conexao.connect(function(erro){
-    if(erro) throw erro;
-    console.log('Conexão efetuada com sucesso!')
-});
+const conexao = new Pool({
+  connectionString: process.env.DATABASE_URL,
+  ssl: {
+    rejectUnauthorized: false 
+  }
+})
 
-app.use('/produtos', produtosRouter);
-app.use('/usuarios', usuariosRouter);
+// Testar conexão
+conexao.connect((erro, cliente, release) => {
+  if (erro) {
+    console.error('Erro ao conectar ao banco:', erro.stack)
+  } else {
+    console.log('Conexão com PostgreSQL (Neon) efetuada com sucesso!')
+    release() // liberar o cliente para o pool
+  }
+})
 
+// Usar rotas
+app.use('/produtos', produtosRouter)
+app.use('/usuarios', usuariosRouter)
 
 // Servidor
 app.listen(8080, () => {
-    console.log('Server rodando na porta 8080')
-});
+  console.log('Server rodando na porta 8080')
+})
 
-export default conexao;
+export default conexao
+x

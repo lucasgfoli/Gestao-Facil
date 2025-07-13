@@ -4,7 +4,7 @@ import conexao from '../conexao.js'
 const router = express.Router()
 
 // Rota para cadastro de empresa
-router.post('/', (req, res) => {
+router.post('/', async (req, res) => {
   const {
     razao_social,
     cnpj,
@@ -25,20 +25,19 @@ router.post('/', (req, res) => {
       email_empresa,
       telefone_empresa,
       endereco
-    ) VALUES (?, ?, ?, ?, ?)
+    ) VALUES ($1, $2, $3, $4, $5)
   `
 
   const valores = [razao_social, cnpj, email, telefone, endereco]
 
-  conexao.query(sql, valores, (erro, resultado) => {
-    if (erro) {
-      console.error('Erro ao cadastrar empresa:', erro)
-      return res.status(500).json({ message: 'Erro no servidor ao cadastrar empresa.' })
-    }
-
+  try {
+    await conexao.query(sql, valores)
     console.log('Empresa cadastrada com sucesso!', valores)
     res.status(201).json({ message: 'Empresa cadastrada com sucesso!' })
-  })
+  } catch (erro) {
+    console.error('Erro ao cadastrar empresa:', erro)
+    res.status(500).json({ message: 'Erro no servidor ao cadastrar empresa.' })
+  }
 })
 
 export default router

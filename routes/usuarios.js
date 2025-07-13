@@ -4,7 +4,7 @@ import conexao from '../conexao.js';
 const router = express.Router();
 
 // Rota POST para cadastrar um usuário
-router.post('/cadastrar', (req, res) => {
+router.post('/cadastrar', async (req, res) => {
   const { cnpj_usuario, nome, dataNascimento, telefone, email, senha } = req.body;
 
   if (!cnpj_usuario || !nome || !dataNascimento || !telefone || !email || !senha) {
@@ -13,17 +13,18 @@ router.post('/cadastrar', (req, res) => {
 
   const sql = `
     INSERT INTO usuario (cnpj_usuario, nome, data_nascimento, telefone, email, senha)
-    VALUES (?, ?, ?, ?, ?, ?)
+    VALUES ($1, $2, $3, $4, $5, $6)
   `;
 
-  conexao.query(sql, [cnpj_usuario, nome, dataNascimento, telefone, email, senha], (erro, resultado) => {
-    if (erro) {
-      console.error('Erro ao cadastrar usuário:', erro);
-      return res.status(500).json({ mensagem: 'Erro ao cadastrar usuário.' });
-    }
+  const valores = [cnpj_usuario, nome, dataNascimento, telefone, email, senha];
 
+  try {
+    await conexao.query(sql, valores);
     res.status(201).json({ mensagem: 'Usuário cadastrado com sucesso!' });
-  });
+  } catch (erro) {
+    console.error('Erro ao cadastrar usuário:', erro);
+    res.status(500).json({ mensagem: 'Erro ao cadastrar usuário.' });
+  }
 });
 
 export default router;

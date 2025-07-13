@@ -4,21 +4,20 @@ import conexao from '../conexao.js';
 const router = express.Router();
 
 // Rota GET para listar todos os produtos
-router.get('/', (req, res) => {
+router.get('/', async (req, res) => {
   const query = 'SELECT * FROM produto';
 
-  conexao.query(query, (erro, resultados) => {
-    if (erro) {
-      console.error('Erro ao buscar produtos:', erro);
-      return res.status(500).json({ erro: 'Erro ao buscar produtos' });
-    }
-     
-    res.status(200).json(resultados);
-  });
+  try {
+    const resultado = await conexao.query(query);
+    res.status(200).json(resultado.rows);
+  } catch (erro) {
+    console.error('Erro ao buscar produtos:', erro);
+    res.status(500).json({ erro: 'Erro ao buscar produtos' });
+  }
 });
 
 // Rota POST para cadastrar um novo produto
-router.post('/cadastrar', (req, res) => {
+router.post('/cadastrar', async (req, res) => {
   const {
     id_fornecedor,
     nome,
@@ -44,7 +43,8 @@ router.post('/cadastrar', (req, res) => {
       data_validade,
       nome_fornecedor,
       imagem
-    ) VALUES (?, ?, ?, ?, ?, ?, ?, ?)
+    ) VALUES ($1, $2, $3, $4, $5, $6, $7, $8)
+    RETURNING id_produto
   `;
 
   const valores = [
@@ -58,18 +58,17 @@ router.post('/cadastrar', (req, res) => {
     imagem || null
   ];
 
-  conexao.query(query, valores, (erro, resultado) => {
-    if (erro) {
-      console.error('Erro ao cadastrar produto:', erro);
-      return res.status(500).json({ erro: 'Erro ao cadastrar produto.' });
-    }
-
-    res.status(201).json({ mensagem: 'Produto cadastrado com sucesso!', id: resultado.insertId });
-  });
+  try {
+    const resultado = await conexao.query(query, valores);
+    res.status(201).json({ mensagem: 'Produto cadastrado com sucesso!', id: resultado.rows[0].id_produto });
+  } catch (erro) {
+    console.error('Erro ao cadastrar produto:', erro);
+    res.status(500).json({ erro: 'Erro ao cadastrar produto.' });
+  }
 });
 
 // Rota PUT para atualizar um produto existente
-router.put('/:id', (req, res) => {
+router.put('/:id', async (req, res) => {
   const { id } = req.params;
   const {
     nome,
@@ -83,14 +82,14 @@ router.put('/:id', (req, res) => {
 
   const query = `
     UPDATE produto SET 
-      nome = ?,
-      categoria = ?,
-      preco = ?,
-      quantidade = ?,
-      data_validade = ?,
-      nome_fornecedor = ?,
-      imagem = ?
-    WHERE id_produto = ?
+      nome = $1,
+      categoria = $2,
+      preco = $3,
+      quantidade = $4,
+      data_validade = $5,
+      nome_fornecedor = $6,
+      imagem = $7
+    WHERE id_produto = $8
   `;
 
   const valores = [
@@ -104,42 +103,41 @@ router.put('/:id', (req, res) => {
     id
   ];
 
-  conexao.query(query, valores, (erro, resultado) => {
-    if (erro) {
-      console.error('Erro ao atualizar produto:', erro);
-      return res.status(500).json({ erro: 'Erro ao atualizar produto.' });
-    }
+  try {
+    const resultado = await conexao.query(query, valores);
 
-    if (resultado.affectedRows === 0) {
+    if (resultado.rowCount === 0) {
       return res.status(404).json({ mensagem: 'Produto não encontrado.' });
     }
 
     res.status(200).json({ mensagem: 'Produto atualizado com sucesso.' });
-  });
+  } catch (erro) {
+    console.error('Erro ao atualizar produto:', erro);
+    res.status(500).json({ erro: 'Erro ao atualizar produto.' });
+  }
 });
 
 // Rota GET para buscar um produto pelo ID
-router.get('/:id', (req, res) => {
+router.get('/:id', async (req, res) => {
   const idProduto = req.params.id;
-  const query = 'SELECT * FROM produto WHERE id_produto = ?';
+  const query = 'SELECT * FROM produto WHERE id_produto = $1';
 
-  conexao.query(query, [idProduto], (erro, resultados) => {
-    if (erro) {
-      console.error('Erro ao buscar produto por ID:', erro);
-      return res.status(500).json({ erro: 'Erro ao buscar produto' });
-    }
+  try {
+    const resultado = await conexao.query(query, [idProduto]);
 
-    if (resultados.length === 0) {
+    if (resultado.rows.length === 0) {
       return res.status(404).json({ erro: 'Produto não encontrado' });
     }
 
-    res.status(200).json(resultados[0]); // envia só o produto
-  });
+    res.status(200).json(resultado.rows[0]);
+  } catch (erro) {
+    console.error('Erro ao buscar produto por ID:', erro);
+    res.status(500).json({ erro: 'Erro ao buscar produto' });
+  }
 });
 
-
 // Atualizar apenas a quantidade de um produto (venda)
-router.put('/:id/quantidade', (req, res) => {
+router.put('/:id/quantidade', async (req, res) => {
   const idProduto = req.params.id;
   const { novaQuantidade } = req.body;
 
@@ -147,18 +145,15 @@ router.put('/:id/quantidade', (req, res) => {
     return res.status(400).json({ erro: 'Nova quantidade não informada' });
   }
 
-  const query = 'UPDATE produto SET quantidade = ? WHERE id_produto = ?';
+  const query = 'UPDATE produto SET quantidade = $1 WHERE id_produto = $2';
 
-  conexao.query(query, [novaQuantidade, idProduto], (erro, resultado) => {
-    if (erro) {
-      console.error('Erro ao atualizar quantidade:', erro);
-      return res.status(500).json({ erro: 'Erro ao atualizar quantidade' });
-    }
-
+  try {
+    await conexao.query(query, [novaQuantidade, idProduto]);
     res.status(200).json({ mensagem: 'Quantidade atualizada com sucesso!' });
-  });
+  } catch (erro) {
+    console.error('Erro ao atualizar quantidade:', erro);
+    res.status(500).json({ erro: 'Erro ao atualizar quantidade' });
+  }
 });
 
-
 export default router;
-
