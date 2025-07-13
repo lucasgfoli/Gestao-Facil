@@ -10,7 +10,7 @@ const productCategory = document.querySelector('.js-categoria');
 const productPrice = document.querySelector('.js-preco');
 
 
-submitButton.addEventListener('click', async function(event) {
+submitButton.addEventListener('click', async function (event) {
   event.preventDefault();
 
   const produto = {
@@ -21,11 +21,11 @@ submitButton.addEventListener('click', async function(event) {
     categoria: productCategory?.value || 'Outros',
     preco: parseFloat(productPrice?.value) || 0.0,
     id_fornecedor: 1,
-    imagem: null 
+    imagem: null
   };
 
   try {
-    const response = await fetch('http://localhost:8080/produtos/cadastrar', {
+    const response = await fetch('https://gestao-facil-1.onrender.com/produto/cadastrar', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json'

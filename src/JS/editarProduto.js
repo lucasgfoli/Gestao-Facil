@@ -2,7 +2,7 @@ const urlParams = new URLSearchParams(window.location.search);
 const productId = urlParams.get('id');
 
 // Buscar o produto no backend
-fetch(`http://localhost:8080/produtos/${productId}`)
+fetch(`https://gestao-facil-1.onrender.com/produto/${productId}`)
   .then(res => res.json())
   .then(produto => {
     if (!produto) {
@@ -26,7 +26,7 @@ fetch(`http://localhost:8080/produtos/${productId}`)
     document.getElementById('edit-expiration').value = produto.data_validade;
     document.getElementById('edit-supplier').value = produto.nome_fornecedor;
     document.getElementById('edit-image').value = produto.imagem || '';
-    
+
     // Envio do PUT
     document.getElementById('form-edicao').addEventListener('submit', (event) => {
       event.preventDefault();
@@ -41,7 +41,7 @@ fetch(`http://localhost:8080/produtos/${productId}`)
         imagem: document.getElementById('edit-image').value
       };
 
-      fetch(`http://localhost:8080/produtos/${productId}`, {
+      fetch(`https://gestao-facil-1.onrender.com/produto/${productId}`, {
         method: 'PUT',
         headers: {
           'Content-Type': 'application/json'

@@ -14,7 +14,7 @@ form.addEventListener('submit', async (event) => {
   };
 
   try {
-    const resposta = await fetch('http://localhost:8080/usuarios/cadastrar', {
+    const resposta = await fetch('https://gestao-facil-1.onrender.com/usuario/cadastrar', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify(dados),

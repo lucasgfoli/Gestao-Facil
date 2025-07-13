@@ -43,8 +43,8 @@ conexao.connect((erro, cliente, release) => {
 })
 
 // Usar rotas
-app.use('/produtos', produtosRouter)
-app.use('/usuarios', usuariosRouter)
+app.use('/produto', produtosRouter)
+app.use('/usuario', usuariosRouter)
 
 // Servidor
 app.listen({
