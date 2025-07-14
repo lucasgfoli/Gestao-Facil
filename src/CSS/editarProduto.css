@@ -231,8 +231,8 @@ button {
   display: flex;
   gap: 10px;
   justify-content: space-between;
-  align-items: stretch; /* ESSENCIAL para os filhos ficarem com a mesma altura */
-  flex-wrap: nowrap; /* impede quebra de linha */
+  align-items: stretch; 
+  flex-wrap: nowrap; 
   margin: 20px auto;
   max-width: 1100px;
   width: 100%;
@@ -251,5 +251,18 @@ button {
   flex: 1;
   min-width: 300px;
   box-sizing: border-box;
-  height: auto; /* Deixe o conteúdo controlar a altura */
+  height: auto; 
+}
+.btn-deletar {
+  background-color: #d9534f;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.btn-deletar:hover {
+  background-color: #c9302c;
 }

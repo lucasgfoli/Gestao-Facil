@@ -48,17 +48,40 @@ fetch(`https://gestao-facil-1.onrender.com/produto/${productId}`)
         },
         body: JSON.stringify(produtoAtualizado)
       })
-      .then(res => {
-        if (res.ok) {
-          alert('Produto atualizado com sucesso!');
-          window.location.href = 'produtosCadastrados.html';
-        } else {
-          alert('Erro ao atualizar produto.');
-        }
-      });
+        .then(res => {
+          if (res.ok) {
+            alert('Produto atualizado com sucesso!');
+            window.location.href = 'produtosCadastrados.html';
+          } else {
+            alert('Erro ao atualizar produto.');
+          }
+        });
     });
+
+    document.getElementById("btn-deletar").addEventListener("click", async () => {
+      const confirmacao = confirm("Tem certeza que deseja deletar este produto?");
+      if (!confirmacao) return;
+
+      try {
+        const resposta = await fetch(`https://gestao-facil-1.onrender.com/produto/${productId}`, {
+          method: "DELETE",
+        });
+
+        if (resposta.ok) {
+          alert("Produto deletado com sucesso.");
+          window.location.href = "produtosCadastrados.html";
+        } else {
+          alert("Erro ao deletar o produto.");
+        }
+      } catch (erro) {
+        console.error("Erro ao deletar:", erro);
+        alert("Erro de conexão ao tentar deletar o produto.");
+      }
+    });
+
   })
   .catch(err => {
     console.error('Erro ao buscar produto:', err);
     document.body.innerHTML = '<p>Erro ao buscar produto.</p>';
   });
+

@@ -1,7 +1,7 @@
 const urlParams = new URLSearchParams(window.location.search);
 const productId = urlParams.get('id');
 
-fetch(`http://localhost:8080/produtos/${productId}`)
+fetch(`https://gestao-facil-1.onrender.com/produto/${productId}`)
   .then(res => res.json())
   .then(produtoSelecionado => {
     if (!produtoSelecionado) {
@@ -63,7 +63,7 @@ fetch(`http://localhost:8080/produtos/${productId}`)
 
       const novaQuantidade = produtoSelecionado.quantidade - quantidadeVenda;
 
-      fetch(`http://localhost:8080/produtos/${productId}/quantidade`, {
+      fetch(`https://gestao-facil-1.onrender.com/produto/${productId}/quantidade`, {
         method: 'PUT',
         headers: {
           'Content-Type': 'application/json'
