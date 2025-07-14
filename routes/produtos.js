@@ -136,23 +136,23 @@ router.get('/:id', async (req, res) => {
   }
 });
 
-// Atualizar apenas a quantidade de um produto (venda)
-router.put('/:id/quantidade', async (req, res) => {
+// Rota DELETE para remover um produto
+router.delete('/:id', async (req, res) => {
   const idProduto = req.params.id;
-  const { novaQuantidade } = req.body;
 
-  if (novaQuantidade === undefined) {
-    return res.status(400).json({ erro: 'Nova quantidade não informada' });
-  }
-
-  const query = 'UPDATE produto SET quantidade = $1 WHERE id_produto = $2';
+  const query = 'DELETE FROM produto WHERE id_produto = $1';
 
   try {
-    await conexao.query(query, [novaQuantidade, idProduto]);
-    res.status(200).json({ mensagem: 'Quantidade atualizada com sucesso!' });
+    const resultado = await conexao.query(query, [idProduto]);
+
+    if (resultado.rowCount === 0) {
+      return res.status(404).json({ mensagem: 'Produto não encontrado.' });
+    }
+
+    res.status(200).json({ mensagem: 'Produto deletado com sucesso.' });
   } catch (erro) {
-    console.error('Erro ao atualizar quantidade:', erro);
-    res.status(500).json({ erro: 'Erro ao atualizar quantidade' });
+    console.error('Erro ao deletar produto:', erro);
+    res.status(500).json({ erro: 'Erro ao deletar produto.' });
   }
 });
 
