@@ -6,29 +6,34 @@ const router = express.Router()
 // Rota para cadastro de empresa
 router.post('/', async (req, res) => {
   const {
-    razao_social,
+    nome,
     cnpj,
     email,
     telefone,
-    endereco
+    endereco,
+    estado,
+    cep,
+    site
   } = req.body
 
-  // Verificação básica dos campos obrigatórios
-  if (!razao_social || !cnpj || !email || !telefone || !endereco) {
+  if (!nome || !cnpj || !email || !telefone || !endereco || !estado || !cep) {
     return res.status(400).json({ message: 'Preencha todos os campos obrigatórios!' })
   }
 
   const sql = `
     INSERT INTO empresas (
-      razao_social,
-      cnpj_empresa,
-      email_empresa,
-      telefone_empresa,
-      endereco
-    ) VALUES ($1, $2, $3, $4, $5)
+      nome,
+      cnpj,
+      email,
+      telefone,
+      endereco,
+      estado,
+      cep,
+      site
+    ) VALUES ($1, $2, $3, $4, $5, $6, $7, $8)
   `
 
-  const valores = [razao_social, cnpj, email, telefone, endereco]
+  const valores = [nome, cnpj, email, telefone, endereco, estado, cep, site]
 
   try {
     await conexao.query(sql, valores)

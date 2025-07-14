@@ -6,6 +6,7 @@ import pg from 'pg'
 // Importar as rotas
 import produtosRouter from './routes/produtos.js'
 import usuariosRouter from './routes/usuarios.js'
+import empresasRouter from './routes/empresas.js'
 
 // Importar cors
 import cors from 'cors'
@@ -43,6 +44,7 @@ conexao.connect((erro, cliente, release) => {
 // Usar rotas
 app.use('/produto', produtosRouter)
 app.use('/usuario', usuariosRouter)
+app.use('/empresas', empresasRouter)
 
 // Servidor
 app.listen({
