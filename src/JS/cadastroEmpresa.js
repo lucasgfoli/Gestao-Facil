@@ -70,7 +70,7 @@ function validarCNPJ(cnpj) {
     let resultado = soma % 11 < 2 ? 0 : 11 - (soma % 11);
     if (resultado !== parseInt(digitos.charAt(0))) return false;
 
-    // Validação do segundo dígito
+
     tamanho += 1;
     numeros = cnpj.substring(0, tamanho);
     soma = 0;
