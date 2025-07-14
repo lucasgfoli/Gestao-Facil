@@ -3,9 +3,6 @@ import express from 'express'
 import dotenv from 'dotenv'
 import pg from 'pg' 
 
-import path from 'path'
-import { fileURLToPath } from 'url'
-
 // Importar as rotas
 import produtosRouter from './routes/produtos.js'
 import usuariosRouter from './routes/usuarios.js'
@@ -38,7 +35,7 @@ conexao.connect((erro, cliente, release) => {
     console.error('Erro ao conectar ao banco:', erro.stack)
   } else {
     console.log('Conexão com PostgreSQL (Neon) efetuada com sucesso!')
-    release() // liberar o cliente para o pool
+    release() 
   }
 })
 
