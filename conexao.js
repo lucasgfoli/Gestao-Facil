@@ -21,6 +21,7 @@ app.use(express.json())
 
 // Criar conexão com PostgreSQL
 const { Pool } = pg
+// const pool = pg.Pool
 
 const conexao = new Pool({
   connectionString: process.env.DATABASE_URL,

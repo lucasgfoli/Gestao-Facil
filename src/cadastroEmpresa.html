@@ -47,11 +47,6 @@
             </div>
 
             <div class="input-group">
-                <input type="text" id="cidade" required>
-                <label for="cidade">Cidade</label>
-            </div>
-
-            <div class="input-group">
                 <label for="estado">Estado</label>
                 <select id="estado" class="js-estado" required>
                     <option value="" disabled selected>Selecione o estado</option>
@@ -103,11 +98,9 @@
         </form>
     </div>
 
-    <!-- JS do Select2 -->
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
 
-    <!-- Inicializa o Select2 -->
     <script>
         $(document).ready(function() {
             $('.js-estado').select2({
