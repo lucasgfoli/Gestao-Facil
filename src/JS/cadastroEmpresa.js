@@ -25,7 +25,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     try {
-      const resposta = await fetch('https://gestao-facil-1.onrender.com/empresa', {
+      const resposta = await fetch('https://gestao-facil-1.onrender.com/empresas', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(dadosEmpresa)

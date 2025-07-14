@@ -1,4 +1,4 @@
-const urlAPI = 'https://gestao-facil-1.onrender.com/empresa'
+const urlAPI = 'https://gestao-facil-1.onrender.com/empresas'
 
 async function listarEmpresas() {
   try {
