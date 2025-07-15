@@ -1,5 +1,11 @@
+document.addEventListener('DOMContentLoaded', () => {
+  
 const urlParams = new URLSearchParams(window.location.search);
 const productId = urlParams.get('id');
+if (!productId) {
+  document.body.innerHTML = '<p>ID do produto não informado na URL.</p>';
+  throw new Error('ID do produto ausente na URL');
+}
 
 // Buscar o produto no backend
 fetch(`https://gestao-facil-1.onrender.com/produto/${productId}`)
@@ -84,4 +90,4 @@ fetch(`https://gestao-facil-1.onrender.com/produto/${productId}`)
     console.error('Erro ao buscar produto:', err);
     document.body.innerHTML = '<p>Erro ao buscar produto.</p>';
   });
-
+})
