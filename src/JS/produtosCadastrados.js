@@ -47,6 +47,7 @@ async function carregarProdutos() {
           <a href="editarProduto.html?id=${product.id_produto}" class="link-primary">
             Editar produto
           </a>
+          <button class="btn-delete" data-id="${product.id_produto}">Deletar produto</button>
 
           <div class="product-spacer"></div>
         </div>
@@ -59,6 +60,35 @@ async function carregarProdutos() {
     console.error('Erro ao carregar produtos', error);
     document.querySelector('.js-product-list').innerHTML = '<p>Erro ao carregar produtos.</p>';
   }
+
+  document.querySelectorAll('.btn-delete').forEach(button => {
+    button.addEventListener('click', async (event) => {
+      const productId = event.target.getAttribute('data-id')
+
+      const confirma = confirm(`Tem certeza que deseja deletar o produto?`)
+
+      if (!confirma) return
+
+      try {
+        const deleteResponse = await fetch(`${API_URL}/${productId}`, {
+          method: 'delete',
+        })
+
+        if (deleteResponse.ok) {
+          alert('Produto deletado com sucesso')
+          carregarProdutos()
+        } else {
+          console.error('Erro ao deletar produto:', error);
+          alert('Erro de conexão.');
+        }
+      } catch(error){
+        console.error('erro ao deletar produto:', error)
+      }
+
+    }
+  
+  )
+  })
 }
 
-carregarProdutos();
+carregarProdutos()
