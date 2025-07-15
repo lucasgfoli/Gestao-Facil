@@ -145,10 +145,6 @@ router.delete('/:id', async (req, res) => {
   try {
     const resultado = await conexao.query(query, [idProduto]);
 
-    if (resultado.rowCount === 0) {
-      return res.status(404).json({ mensagem: 'Produto não encontrado.' });
-    }
-
     res.status(200).json({ mensagem: 'Produto deletado com sucesso.' });
   } catch (erro) {
     console.error('Erro ao deletar produto:', erro);
