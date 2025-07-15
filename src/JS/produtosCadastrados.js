@@ -1,4 +1,4 @@
-const API_URL = 'https://gestao-facil-1.onrender.com/produto';
+const API_URL = 'https://gestao-facil-1.onrender.com/produtos';
 
 async function carregarProdutos() {
   try {
