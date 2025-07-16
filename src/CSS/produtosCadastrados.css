@@ -1,4 +1,3 @@
-/* Estrutura geral */
 body {
     background-color: var(--fundo);
     background-image: url('../img/backgoud2.png');
@@ -113,8 +112,22 @@ header {
     flex-grow: 1;
 }
 
-.link-primary{
+.link-primary {
     display: flex;
     justify-content: center;
-    text-decoration: none; 
+    text-decoration: none;
+}
+
+.btn-delete {
+    border-radius: 8px;
+    color: white;
+    background-color: red;
+    cursor: pointer;
+    border: none;
+    transition: all 0.3s ease;
+}
+
+.btn-delete:hover {
+    background-color: rgb(255, 61, 61); 
+    transform: scale(1.05); 
 }
