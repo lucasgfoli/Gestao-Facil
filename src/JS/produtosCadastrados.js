@@ -1,8 +1,6 @@
-const API_URL = 'https://gestao-facil-1.onrender.com/produto'
-
 async function carregarProdutos() {
   try {
-    const response = await fetch(API_URL)
+    const response = await fetch('https://gestao-facil-1.onrender.com/produto')
     if (!response.ok)
       throw new Error(`Erro ao buscar produtos: ${response.status}`)
 
@@ -70,7 +68,7 @@ async function carregarProdutos() {
       if (!confirma) return
 
       try {
-        const deleteResponse = await fetch(`${API_URL}/${productId}`, {
+        const deleteResponse = await fetch(`${'https://gestao-facil-1.onrender.com/produto'}/${productId}`, {
           method: 'delete',
         })
 
