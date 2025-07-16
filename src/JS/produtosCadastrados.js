@@ -68,7 +68,7 @@ async function carregarProdutos() {
       if (!confirma) return
 
       try {
-        const deleteResponse = await fetch(`${'https://gestao-facil-1.onrender.com/produtos'}/${productId}`, {
+        const deleteResponse = await fetch(`https://gestao-facil-1.onrender.com/produtos/${productId}`, {
           method: 'delete',
         })
 
