@@ -1,12 +1,12 @@
-const API_URL = 'https://gestao-facil-1.onrender.com/produto';
+const API_URL = 'https://gestao-facil-1.onrender.com/produto'
 
 async function carregarProdutos() {
   try {
-    const response = await fetch(API_URL);
+    const response = await fetch(API_URL)
     if (!response.ok)
-      throw new Error(`Erro ao buscar produtos: ${response.status}`);
+      throw new Error(`Erro ao buscar produtos: ${response.status}`)
 
-    const products = await response.json();
+    const products = await response.json()
 
     let productsHTML = '';
 
@@ -51,14 +51,14 @@ async function carregarProdutos() {
 
           <div class="product-spacer"></div>
         </div>
-      `;
-    });
+      `
+    })
 
-    document.querySelector('.js-product-list').innerHTML = productsHTML;
+    document.querySelector('.js-product-list').innerHTML = productsHTML
 
   } catch (error) {
     console.error('Erro ao carregar produtos', error);
-    document.querySelector('.js-product-list').innerHTML = '<p>Erro ao carregar produtos.</p>';
+    document.querySelector('.js-product-list').innerHTML = '<p>Erro ao carregar produtos.</p>'
   }
 
   document.querySelectorAll('.btn-delete').forEach(button => {
@@ -79,8 +79,8 @@ async function carregarProdutos() {
           carregarProdutos()
         } else {
           const errorMsg = await deleteResponse.text()
-          console.error('Erro ao deletar produto:', errorMsg);
-          alert('Erro ao deletar.');
+          console.error('Erro ao deletar produto:', errorMsg)
+          alert('Erro ao deletar.')
         }
       } catch(error){
         console.error('erro ao deletar produto:', error)
