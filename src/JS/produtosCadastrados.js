@@ -1,4 +1,4 @@
-const API_URL = 'https://gestao-facil-1.onrender.com/produtos';
+const API_URL = 'https://gestao-facil-1.onrender.com/produto';
 
 async function carregarProdutos() {
   try {
@@ -78,8 +78,9 @@ async function carregarProdutos() {
           alert('Produto deletado com sucesso')
           carregarProdutos()
         } else {
-          console.error('Erro ao deletar produto:', error);
-          alert('Erro de conexão.');
+          const errorMsg = await deleteResponse.text()
+          console.error('Erro ao deletar produto:', errorMsg);
+          alert('Erro ao deletar.');
         }
       } catch(error){
         console.error('erro ao deletar produto:', error)
